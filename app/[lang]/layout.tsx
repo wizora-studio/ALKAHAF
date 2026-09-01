@@ -12,7 +12,6 @@ import {
 import { Noto_Nastaliq_Urdu } from "next/font/google";
 import "../globals.css";
 import LiveChatWidget from "@/components/ui/live-chat-widget";
-import WhatsappGroupButton from "@/components/ui/whatsapp-group-button";
 import Script from "next/script";
 import { Toaster } from "sonner";
 import { Analytics } from "@vercel/analytics/next";
@@ -185,7 +184,6 @@ export default async function RootLayout({
         </a>
         {children}
         <LiveChatWidget lang={lang} dict={dict} />
-        <WhatsappGroupButton tooltip={dict.navigation.joinGroup} />
         <Toaster position="top-center" richColors />
         <Analytics />
         <SpeedInsights />

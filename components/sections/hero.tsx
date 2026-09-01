@@ -50,7 +50,7 @@ export default function HeroSection({ dict, lang = "en" }: HeroSectionProps) {
           <div className="hidden lg:block lg:col-span-5 xl:col-span-5" />
 
           {/* Right Content Area */}
-          <div className="lg:col-span-7 xl:col-span-7 text-center lg:text-left lg:pl-6 xl:pl-10 lg:translate-x-5">
+          <div className="lg:col-span-7 xl:col-span-7 text-center lg:text-left lg:pl-6 xl:pl-10">
             {/* Bismillah Calligraphy */}
             <motion.div
               initial={{ opacity: 0, y: -15 }}

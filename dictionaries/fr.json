@@ -1,0 +1,631 @@
+{
+  "navigation": {
+    "home": "Accueil",
+    "about": "À propos",
+    "programs": "Programmes",
+    "onlineClasses": "Cours en ligne",
+    "admissions": "Admissions",
+    "contact": "Contact",
+    "enrollNow": "S'inscrire maintenant",
+    "joinGroup": "Rejoindre le groupe"
+  },
+  "common": {
+    "enrollNow": "S'inscrire maintenant",
+    "contactUs": "Contactez-nous",
+    "learnMore": "En savoir plus",
+    "stats": {
+      "students": "200+",
+      "teachers": "15+",
+      "experience": "10+",
+      "classesPerWeek": "120/sem"
+    }
+  },
+  "hero": {
+    "title": "Éducation Coranique Sacrée pour Tous les Âges",
+    "description": "Éducation coranique de confiance pour tous les âges — enfants, adolescents et adultes. Cours interactifs en direct dans le monde entier.",
+    "enrollNow": "S'inscrire maintenant",
+    "contactUs": "Contactez-nous",
+    "admissionsOpen": "Admissions ouvertes – 2026",
+    "ayatTranslation": "\"Et Allah est avec vous et ne vous privera jamais de [la récompense de] vos œuvres.\"",
+    "surahRef": "Sourate Muhammad [47:35]",
+    "online": "En ligne",
+    "physical": "En présentiel",
+    "typedStrings": [
+      "Aisha Academy",
+      "Éducation Coranique",
+      "Études Islamiques",
+      "Formation du Caractère"
+    ],
+    "newsletter": {
+      "title": "Restez informé",
+      "description": "Abonnez-vous à notre newsletter pour les dernières nouvelles, événements et conseils éducatifs.",
+      "placeholder": "Entrez votre adresse e-mail",
+      "button": "S'abonner",
+      "success": "Inscription réussie !",
+      "error": "Échec de l'abonnement. Veuillez réessayer."
+    },
+    "subtitle": "Des cours en ligne flexibles et abordables pour tous les âges",
+    "mainTitle": "Cours de Coran en ligne conçus pour tous les âges",
+    "trialCta": "COMMENCEZ VOTRE ESSAI GRATUIT DE 3 JOURS",
+    "features": [
+      "Cours en direct en ligne",
+      "Professeurs qualifiés",
+      "Horaires flexibles"
+    ]
+  },
+  "stats": {
+    "qualifiedTeachers": "Professeurs Qualifiés",
+    "studentsEnrolled": "Étudiants Inscrits",
+    "yearsExperience": "Années d'Expérience",
+    "onlineClasses": "Cours en Ligne",
+    "impact": "Impact"
+  },
+  "programs": {
+    "title": "Nos Programmes",
+    "subtitle": "Conçu pour les étudiants de tous âges et niveaux, accessible en ligne depuis partout avec des professeurs qualifiés en direct.",
+    "offerings": "Nos Offres",
+    "learnMore": "En savoir plus",
+    "online": {
+      "title": "Cours de Groupe en Ligne",
+      "description": "Sessions interactives en direct depuis chez vous.",
+      "features": [
+        "Horaires Flexibles",
+        "Groupes Lun-Ven",
+        "Professeurs Certifiés"
+      ]
+    },
+    "private": {
+      "title": "Cours en Ligne",
+      "description": "Cours particuliers interactifs avec horaires flexibles.",
+      "features": [
+        "Leçons de 30 min en direct",
+        "Planning Flexible",
+        "Progrès Rapide"
+      ]
+    },
+    "nazra": {
+      "title": "Nazra & Noorani Qaida",
+      "description": "Apprentissage fondamental interactif du Coran pour tous les âges.",
+      "features": [
+        "Tous Âges Bienvenus",
+        "Noorani Qaida",
+        "Tableau Blanc Interactif"
+      ]
+    },
+    "tajweed": {
+      "title": "Coran avec Tajweed",
+      "description": "Maîtrisez les règles exactes de récitation et de prononciation.",
+      "features": [
+        "Tous Âges Bienvenus",
+        "Règles du Tajweed",
+        "Pratique en Direct"
+      ]
+    }
+  },
+  "whyUs": {
+    "title": "Pourquoi Choisir",
+    "highlight": "Aisha Academy ?",
+    "description": "Nous offrons une éducation coranique et islamique de haut niveau, accessible dans le monde entier.",
+    "reasons": [
+      {
+        "title": "Professeurs Qualifiés & Certifiés",
+        "description": "Nos enseignants hommes et femmes sont des savants certifiés (Hafiz & Qari) avec plusieurs années d'expérience."
+      },
+      {
+        "title": "Accompagnement pour Chaque Élève",
+        "description": "Des conseils clairs et un suivi régulier aident chaque élève à progresser en Tajweed et en prononciation à son rythme."
+      },
+      {
+        "title": "Éducation Spirituelle & Morale (Tarbiyah)",
+        "description": "Au-delà de la récitation, nous transmettons les valeurs islamiques, les douas quotidiens et les manières prophétiques."
+      },
+      {
+        "title": "Apprentissage Sécurisé & Privé",
+        "description": "Classes virtuelles sécurisées avec professeures femmes disponibles pour les filles, enfants et sœurs."
+      },
+      {
+        "title": "Horaires Mondiaux Flexibles (24/7)",
+        "description": "Cours disponibles 7 jours sur 7 adaptés aux fuseaux horaires d'Europe, Royaume-Uni, États-Unis, Canada et Australie."
+      }
+    ]
+  },
+  "howWork": {
+    "title": "Comment Ça Marche",
+    "subtitle": "Quatre étapes simples pour commencer à apprendre le Saint Coran en ligne avec Aisha Academy",
+    "step": "Étape",
+    "steps": [
+      {
+        "title": "1. Réserver un Essai Gratuit",
+        "description": "Remplissez le formulaire d'admission rapide et planifiez une séance d'essai gratuite de 30 minutes."
+      },
+      {
+        "title": "2. Cours d'Évaluation Gratuit",
+        "description": "Participez à une démo interactive en direct avec un tuteur expert pour évaluer votre niveau et vos objectifs."
+      },
+      {
+        "title": "3. Choisissez Votre Emploi du Temps",
+        "description": "Sélectionnez les jours et horaires adaptés à votre rythme de vie (2, 3 ou 5 jours par semaine)."
+      },
+      {
+        "title": "4. Démarrez les Cours Réguliers",
+        "description": "Commencez votre apprentissage coranique structuré avec un suivi mensuel personnalisé de vos progrès."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Tarification Simple et Transparente",
+    "subtitle": "Choisissez le forfait adapté à votre famille. Aucun frais caché.",
+    "period": "mois",
+    "perMonth": "/mois",
+    "popular": "Le Plus Populaire",
+    "badge": "Abordable & Flexible",
+    "plans": {
+      "days2": {
+        "name": "2 Jours par Semaine",
+        "price": "25$",
+        "period": "/mois",
+        "description": "Idéal pour débuter et apprendre les bases du Coran à un rythme régulier.",
+        "features": [
+          "2 Jours / Semaine (30 min par session)",
+          "Cours interactifs en ligne en direct",
+          "Noorani Qaida, Coran & Tajweed",
+          "Professeur Homme ou Femme Certifié",
+          "Horaires Flexibles Tous Fuseaux Horaires",
+          "Suivi Mensuel des Progrès"
+        ]
+      },
+      "days3": {
+        "name": "3 Jours par Semaine",
+        "price": "35$",
+        "period": "/mois",
+        "description": "Notre formule la plus populaire pour une progression fluide et rapide.",
+        "features": [
+          "3 Jours / Semaine (30 min par session)",
+          "Cours interactifs en ligne en direct",
+          "Récitation du Coran, Tajweed & Douas",
+          "Choix d'un Enseignant ou Enseignante",
+          "Possibilité de Reprogrammer les Cours",
+          "Rapports de Progrès Réguliers"
+        ]
+      },
+      "days5": {
+        "name": "5 Jours par Semaine",
+        "price": "45$",
+        "period": "/mois",
+        "description": "Formule intensive quotidienne pour une maîtrise accélérée du Coran et Hifz.",
+        "features": [
+          "5 Jours / Semaine (Lundi au Vendredi)",
+          "30 minutes de cours en direct par jour",
+          "Mémorisation (Hifz) & Tajweed Avancé",
+          "Études Islamiques, Hadith & Tarbiyah",
+          "Notes Quotidiennes du Professeur",
+          "Programme Coranique Complet"
+        ]
+      }
+    },
+    "highlight": "Formules Abordables",
+    "description": "Des forfaits d'apprentissage coranique flexibles et accessibles pour les étudiants de tous âges."
+  },
+  "faq": {
+    "title": "Questions Fréquemment Posées",
+    "subtitle": "Tout ce que vous devez savoir sur nos cours en ligne, nos professeurs, nos horaires et nos forfaits.",
+    "tag": "Des Questions ?",
+    "questions": [
+      {
+        "q": "Puis-je choisir les horaires de cours à ma convenance ?",
+        "a": "Oui, absolument. Nos tuteurs sont disponibles 24h/24 et 7j/7 afin que vous puissiez choisir l'horaire qui vous convient le mieux, quel que soit votre fuseau horaire (Royaume-Uni, États-Unis, Canada, Australie, Europe et partout dans le monde)."
+      },
+      {
+        "q": "Avez-vous également des enseignantes femmes ?",
+        "a": "Oui, nous avons des enseignantes qualifiées et certifiées (Qariahs et Hafizas) dédiées aux sœurs et aux jeunes filles."
+      },
+      {
+        "q": "Quelle est la durée de chaque cours ?",
+        "a": "Chaque cours individuel dure environ 30 à 35 minutes d'attention personnalisée. La durée peut être plus longue selon le programme choisi."
+      },
+      {
+        "q": "Puis-je changer d'horaire après avoir choisi un créneau ?",
+        "a": "Oui, nous comprenons que votre emploi du temps puisse évoluer. Vous pouvez demander un ajustement d'horaire en informant votre coordinateur à l'avance."
+      },
+      {
+        "q": "Que se passe-t-il si je dois changer d'horaire ou si je manque un cours ?",
+        "a": "Dans ce cas, envoyez-nous simplement un message sur WhatsApp ou par courriel pour reprogrammer votre séance ou organiser un cours de rattrapage."
+      },
+      {
+        "q": "Proposez-vous des réductions pour les familles et frères/sœurs ?",
+        "a": "Oui, nous offrons une réduction spéciale pour l'inscription de deux membres ou plus d'une même famille."
+      },
+      {
+        "q": "Comment s'effectue le paiement des frais ?",
+        "a": "Nous acceptons les paiements sécurisés par carte bancaire (Visa, MasterCard, Amex) ou virement dans votre devise locale ($ USD, £ GBP, A$ AUD, C$ CAD, € EUR)."
+      },
+      {
+        "q": "Puis-je annuler mon abonnement à tout moment ?",
+        "a": "Vous pouvez annuler ou suspendre votre abonnement à tout moment, sans engagement à long terme ni frais d'annulation."
+      },
+      {
+        "q": "Ai-je besoin d'une copie physique du Coran ?",
+        "a": "Non. Nous fournissons tout le matériel pédagogique (Coran numérique, Noorani Qaida) directement à l'écran avec un surlignage interactif en direct par le professeur."
+      }
+    ]
+  },
+  "cta": {
+    "title": "\"Offrez à votre famille le cadeau du Coran – Inscrivez-vous aujourd'hui\"",
+    "description": "Rejoignez la famille Aisha Academy et commencez votre voyage de foi et de connaissance sacrée.",
+    "enroll": "S'inscrire maintenant",
+    "contact": "Contactez-nous"
+  },
+  "about": {
+    "hero": {
+      "title": "À Propos de l'Académie Aisha",
+      "description": "Nourrir les étudiants de tous âges avec la lumière du Coran et la noblesse du caractère islamique depuis 2015.",
+      "badge": "Depuis 2015",
+      "primaryAction": "Rejoindre l'Académie"
+    },
+    "history": {
+      "title": "Notre Histoire",
+      "p1": "L'Académie Aisha a été fondée pour répondre au besoin mondial d'une éducation coranique de haute qualité. Nous sommes devenus un institut en ligne de premier plan servant des centaines d'étudiants dans le monde entier.",
+      "p2": "Nommée d'après la Mère des Croyants, Aisha (RA), phare de savoir, notre académie s'efforce d'incarner son héritage d'érudition, de compassion et de piété.",
+      "stat": "Années d'Excellence"
+    },
+    "mission": {
+      "title": "Notre Mission",
+      "desc": "Fournir une éducation coranique de haute qualité et accessible qui permet aux étudiants de tous âges de se connecter à leur foi, de comprendre le Saint Livre et d'incarner ses enseignements dans leur vie quotidienne."
+    },
+    "vision": {
+      "title": "Notre Vision",
+      "desc": "Un monde où chaque musulman a la possibilité d'apprendre le Coran avec amour, Tajweed correct et compréhension profonde, bâtissant une fondation solide de foi."
+    },
+    "learningWay": {
+      "title": "Modes d'Apprentissage en Ligne Flexibles",
+      "subtitle": "Une éducation coranique interactive de haute qualité, adaptée à votre style de vie et fuseau horaire.",
+      "online": {
+        "title": "Cours en Ligne en Direct",
+        "desc": "Sessions interactives avec des professeurs qualifiés pour progresser régulièrement en Tajweed.",
+        "action": "Commencer en Ligne"
+      }
+    },
+    "methodology": {
+      "title": "Notre Méthodologie",
+      "subtitle": "Nous combinons la pédagogie islamique traditionnelle avec des outils interactifs modernes pour créer une expérience inspirante.",
+      "items": [
+        {
+          "title": "Tilawah & Tajweed",
+          "desc": "Accent mis sur la prononciation exacte et les points d'articulation (Makharij) dès le premier jour."
+        },
+        {
+          "title": "Formation du Caractère (Tarbiyah)",
+          "desc": "Nous intégrons la Tarbiyah dans chaque leçon, en enseignant le respect, l'honnêteté et les manières prophétiques."
+        },
+        {
+          "title": "Mentors Qualifiés",
+          "desc": "Nos professeurs sont des savants certifiés formés aux méthodes pédagogiques interactives modernes."
+        }
+      ]
+    }
+  },
+  "programsPage": {
+    "hero": {
+      "title": "Nos Programmes",
+      "description": "Une éducation coranique complète adaptée à votre cheminement spirituel. Choisissez le parcours qui correspond à vos objectifs et à votre emploi du temps.",
+      "badge": "Admissions Ouvertes"
+    },
+    "tuition": "Frais de scolarité",
+    "siblingDiscount": "*Réductions disponibles pour frères et sœurs",
+    "joinNow": "S'inscrire maintenant",
+    "programs": [
+      {
+        "id": "tajweed",
+        "title": "Coran avec Tajweed",
+        "price": "Dès 25$",
+        "period": "/mois",
+        "schedule": "2, 3 ou 5 Jours/Semaine",
+        "mode": "100% En Ligne en Direct",
+        "description": "Maîtrisez l'art sacré de la récitation coranique avec une prononciation exacte (Makharij) et les règles du Tajweed.",
+        "features": [
+          "Prononciation correcte (Makharij)",
+          "Règles du Tajweed (Théorie & Pratique)",
+          "Récitation mélodieuse",
+          "Développement de la fluidité"
+        ]
+      },
+      {
+        "id": "hifz",
+        "title": "Programme de Hifz Coranique",
+        "price": "Dès 35$",
+        "period": "/mois",
+        "schedule": "3 ou 5 Jours/Semaine",
+        "mode": "100% En Ligne en Direct",
+        "description": "Une voie dédiée pour devenir un Hafiz du Saint Coran avec révision quotidienne (Sabaq, Sabaqi, Manzil) et suivi mensuel.",
+        "features": [
+          "Plan de mémorisation individualisé",
+          "Révision quotidienne (Muraja'ah)",
+          "Évaluations régulières",
+          "Instructeurs et savants certifiés"
+        ]
+      },
+      {
+        "id": "islamic-studies",
+        "title": "Études Islamiques & Tarbiyah",
+        "price": "Dès 25$",
+        "period": "/mois",
+        "schedule": "Horaires Flexibles",
+        "mode": "100% En Ligne en Direct",
+        "description": "Comprendre le Deen et forger un caractère noble. Un programme complet couvrant la Seerah, le Fiqh et l'Aqeedah.",
+        "features": [
+          "Vie du Prophète (Seerah)",
+          "Fiqh essentiel de l'adoration",
+          "Éthique & Caractère (Tarbiyah)",
+          "Classe numérique interactive"
+        ]
+      },
+      {
+        "id": "arabic",
+        "title": "Langue Arabe Coranique",
+        "price": "Dès 25$",
+        "period": "/mois",
+        "schedule": "2, 3 ou 5 Jours/Semaine",
+        "mode": "100% En Ligne en Direct",
+        "description": "Apprenez la langue du Coran. Découvrez le sens des paroles divines grâce à une méthode progressive et structurée.",
+        "features": [
+          "Vocabulaire coranique",
+          "Grammaire essentielle (Nahu & Sarf)",
+          "Sens mot à mot du Coran",
+          "Compréhension écrite"
+        ]
+      },
+      {
+        "id": "adults",
+        "title": "Programme pour Adultes & Aînés",
+        "price": "Dès 25$",
+        "period": "/mois",
+        "schedule": "Créneaux 24/7 Flexibles",
+        "mode": "100% En Ligne en Direct",
+        "description": "Il n'est jamais trop tard pour apprendre. Des cours en ligne avec des enseignants qualifiés selon votre emploi du temps.",
+        "features": [
+          "Flexibilité horaire totale",
+          "Professeurs qualifiés hommes et femmes",
+          "Programme sur mesure",
+          "Du niveau débutant à avancé"
+        ]
+      }
+    ]
+  },
+  "onlineClasses": {
+    "hero": {
+      "badge": "Apprentissage Mondial en Ligne",
+      "title": "Apprenez le Coran depuis N'importe Où dans le Monde",
+      "subtitle": "En Ligne",
+      "description": "Découvrez une éducation coranique d'excellence pour tous les âges depuis le confort de votre maison. Cours en ligne en direct avec des professeurs certifiés.",
+      "start": "Commencer l'Essai Gratuit",
+      "howItWorks": "Comment Ça Marche"
+    },
+    "howItWorks": {
+      "title": "Comment Fonctionnent les Cours en Ligne",
+      "subtitle": "Nous utilisons des outils modernes pour garantir un apprentissage interactif et efficace.",
+      "steps": [
+        {
+          "title": "1. Cours Vidéo en Direct",
+          "desc": "Connectez-vous avec votre professeur via Zoom ou Google Meet avec partage d'écran pour corriger la prononciation."
+        },
+        {
+          "title": "2. Horaires Flexibles",
+          "desc": "Choisissez les créneaux qui vous conviennent. Nous proposons des cours 24/7 pour convenir à tous les fuseaux horaires."
+        },
+        {
+          "title": "3. Suivi des Progrès",
+          "desc": "Recevez des évaluations mensuelles et des retours détaillés sur la récitation, le Tajweed et la mémorisation."
+        }
+      ]
+    },
+    "benefits": {
+      "title": "Pourquoi Choisir l'Apprentissage en Ligne ?",
+      "quote": "\"Le meilleur d'entre vous est celui qui apprend le Coran et l'enseigne.\"",
+      "items": [
+        {
+          "title": "Confort du Foyer",
+          "desc": "Aucun déplacement ni embouteillage. Un cadre d'apprentissage sécurisé et serein pour votre famille."
+        },
+        {
+          "title": "Accompagnement Personnalisé",
+          "desc": "Des professeurs qualifiés adaptent les leçons au rythme et aux objectifs de chaque élève."
+        },
+        {
+          "title": "Savants Hommes & Femmes Certifiés",
+          "desc": "Apprenez auprès de tuteurs qualifiés avec Ijazah vérifiée et maîtrise approfondie du Tajweed."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Prêt à Commencer Votre Parcours Coranique ?",
+      "description": "Réservez dès aujourd'hui votre séance d'essai gratuite de 30 minutes et découvrez notre pédagogie.",
+      "button": "Réserver un Cours d'Essai Gratuit"
+    }
+  },
+  "footer": {
+    "mission": "Façonner les cœurs et les esprits à la lumière du Coran. Un espace dédié à la croissance spirituelle et à l'apprentissage islamique pour toutes les générations.",
+    "programsTitle": "Nos Programmes",
+    "quickLinksTitle": "Liens Rapides",
+    "stayConnectedTitle": "Restez Connecté",
+    "copyright": "© {year} Aisha Academy. Licencié & Enregistré.",
+    "developedBy": "Développé par",
+    "privacyPolicy": "Politique de Confidentialité",
+    "termsOfService": "Conditions d'Utilisation",
+    "available": "Académie Coranique 100% en Ligne dans le Monde Entier",
+    "social": {
+      "facebook": "https://www.facebook.com/profile.php?id=61573956185952",
+      "instagram": "https://www.instagram.com/academieaisha?igsh=aXJyMTZjZDBqMG90"
+    }
+  },
+  "admissions": {
+    "hero": {
+      "title": "Informations sur les Admissions",
+      "description": "Commencez votre voyage dans le savoir sacré. Nous avons un processus d'admission simple et transparent pour nos cours en direct pour étudiants de tous âges.",
+      "badge": "Tous Âges Bienvenus",
+      "action": "Postuler Maintenant"
+    },
+    "howToEnroll": {
+      "title": "Comment S'inscrire",
+      "subtitle": "Suivez ces étapes simples pour rejoindre notre académie",
+      "steps": [
+        {
+          "title": "1. Soumettre la Candidature",
+          "desc": "Remplissez le formulaire d'admission en ligne ci-dessous avec vos coordonnées."
+        },
+        {
+          "title": "2. Séance d'Essai Gratuite",
+          "desc": "Nous planifions un cours d'essai en direct gratuit de 30 minutes avec un tuteur qualifié."
+        },
+        {
+          "title": "3. Choisir Planning & Forfait",
+          "desc": "Choisissez vos jours préférés et votre forfait mensuel (2, 3 ou 5 jours/semaine)."
+        },
+        {
+          "title": "4. Début des Cours Réguliers",
+          "desc": "Commencez votre apprentissage avec l'accompagnement dédié d'un enseignant ou d'une enseignante."
+        }
+      ]
+    },
+    "form": {
+      "title": "Formulaire d'Admission en Ligne",
+      "description": "Faites le premier pas vers l'excellence coranique. Remplissez le formulaire ci-dessous.",
+      "online": "Cours de Groupe en Ligne",
+      "onlineDesc": "Apprenez en petits groupes interactifs",
+      "private": "Cours en Ligne",
+      "privateDesc": "Leçons interactives en direct avec horaires flexibles",
+      "studentInfo": "Informations sur l'Élève",
+      "fullName": "Nom Complet",
+      "fullNamePlaceholder": "Entrez le nom complet de l'élève",
+      "dob": "Date de Naissance (Optionnel)",
+      "gender": "Genre",
+      "male": "Masculin",
+      "female": "Féminin",
+      "parentInfo": "Informations de Contact",
+      "parentName": "Nom du Parent / Responsable / Contact",
+      "parentNamePlaceholder": "Entrez le nom du contact",
+      "email": "Adresse E-mail",
+      "emailPlaceholder": "email@example.com",
+      "phone": "Numéro de Téléphone / WhatsApp",
+      "phonePlaceholder": "+1 (555) 000-0000",
+      "programSelection": "Programme & Horaires",
+      "program": "Sélectionner le Programme",
+      "preferredDays": "Jours Préférés",
+      "preferredTime": "Créneau Horaire Préféré",
+      "additionalInfo": "Informations Complémentaires",
+      "message": "Questions ou Remarques Spéciales (Optionnel)",
+      "messagePlaceholder": "Parlez-nous de vos objectifs d'apprentissage...",
+      "submit": "Soumettre la Candidature d'Admission",
+      "submitting": "Traitement de la Candidature...",
+      "successTitle": "Candidature Soumise !",
+      "successMessage": "JazakAllah Khair ! Nous avons bien reçu votre candidature. Notre coordinateur vous contactera sur WhatsApp/E-mail sous 24 heures pour planifier votre séance d'essai gratuite.",
+      "errorTitle": "Échec de la Soumission",
+      "errorMessage": "Un problème est survenu lors de la soumission. Veuillez réessayer ou nous contacter directement sur WhatsApp."
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Contactez-Nous",
+      "description": "Nous sommes là pour répondre à vos questions et vous accompagner dans votre parcours coranique.",
+      "badge": "Entrer en Contact"
+    },
+    "info": {
+      "title": "Prendre Contact",
+      "description": "Que vous soyez intéressé par des cours en ligne ou que vous souhaitiez en savoir plus sur notre méthode, notre équipe est prête à vous aider.",
+      "visitCampus": "Académie Mondiale en Ligne",
+      "emailUs": "Envoyez-nous un E-mail",
+      "callWhatsapp": "Appel / WhatsApp",
+      "availableTime": "Disponible 24/7 sur Tous les Fuseaux Horaires",
+      "whatsappMessage": "Assalamu Alaikum, je vous contacte depuis le site web. J'aimerais me renseigner sur vos programmes."
+    },
+    "hours": {
+      "title": "Disponibilité des Cours en Ligne",
+      "liveClasses": "Cours en Direct",
+      "liveClassesVal": "7 Jours sur 7",
+      "timings": "Horaires des Cours",
+      "timingsVal": "Créneaux Flexibles 24/7",
+      "timezones": "Fuseaux Horaires",
+      "timezonesVal": "Royaume-Uni, É.-U., Canada, Australie & Monde Entier"
+    },
+    "form": {
+      "title": "Envoyer un message",
+      "fullName": "Nom Complet",
+      "fullNamePlaceholder": "Abdullah",
+      "phone": "Téléphone",
+      "phonePlaceholder": "+1 (555) 000-0000",
+      "email": "E-mail",
+      "emailPlaceholder": "email@example.com",
+      "inquiryType": "Type de Demande",
+      "message": "Message",
+      "messagePlaceholder": "Écrivez votre message ici...",
+      "submit": "Envoyer le Message",
+      "submitting": "Envoi du Message...",
+      "success": "Message Envoyé !",
+      "successDesc": "Merci ! Nous vous répondrons très rapidement.",
+      "error": "Échec de l'envoi du message. Veuillez réessayer ou nous contacter sur WhatsApp.",
+      "whatsappButtonMessage": "Assalamu Alaikum, je suis intéressé par les cours de l'Académie Aisha."
+    }
+  },
+  "schedulePage": {
+    "title": "Planning des Cours en Ligne 24/7",
+    "description": "Cours en direct programmés selon la convenance de votre famille. Disponibles 7 jours sur 7 sur tous les fuseaux horaires mondiaux.",
+    "badge": "Horaires Flexibles 24/7",
+    "weeklySchedule": "Groupes Hebdomadaires en Ligne",
+    "timing": "Créneau Horaire",
+    "details": "Détails du Programme",
+    "slots": {
+      "morning": {
+        "title": "Groupes du Matin",
+        "timing": "6h00 – 11h00 (Heure Locale)",
+        "desc": "Idéal pour une récitation matinale du Coran avant l'école ou le travail."
+      },
+      "afternoon": {
+        "title": "Groupes de l'Après-Midi",
+        "timing": "13h00 – 17h00 (Heure Locale)",
+        "desc": "Sessions structurées pour enfants et adolescents après l'école."
+      },
+      "evening": {
+        "title": "Groupes du Soir",
+        "timing": "17h00 – 22h00 (Heure Locale)",
+        "desc": "Nos créneaux les plus demandés pour les adultes et l'apprentissage en famille."
+      },
+      "weekend": {
+        "title": "École Intensive du Week-End",
+        "timing": "Créneaux Flexibles Samedi & Dimanche",
+        "desc": "Cours spécialisés couvrant le Hifz, le Tajweed et les Études Islamiques."
+      }
+    },
+    "days": {
+      "monday": "Lundi",
+      "tuesday": "Mardi",
+      "wednesday": "Mercredi",
+      "thursday": "Jeudi",
+      "friday": "Vendredi",
+      "saturday": "Samedi",
+      "sunday": "Dimanche"
+    },
+    "note": "Note : Les cours en ligne peuvent être programmés à tout horaire sur mesure qui vous convient."
+  },
+  "process": {
+    "title": "Comment Ça Marche",
+    "subtitle": "Quatre étapes simples pour commencer à apprendre le Saint Coran en ligne avec Aisha Academy",
+    "step": "Étape",
+    "steps": [
+      {
+        "title": "1. Réserver un Essai Gratuit",
+        "description": "Remplissez le formulaire d'admission rapide et planifiez une séance d'essai gratuite de 30 minutes."
+      },
+      {
+        "title": "2. Cours d'Évaluation Gratuit",
+        "description": "Participez à une démo interactive en direct avec un tuteur expert pour évaluer votre niveau et vos objectifs."
+      },
+      {
+        "title": "3. Choisissez Votre Emploi du Temps",
+        "description": "Sélectionnez les jours et horaires adaptés à votre rythme de vie (2, 3 ou 5 jours par semaine)."
+      },
+      {
+        "title": "4. Démarrez les Cours Réguliers",
+        "description": "Commencez votre apprentissage coranique structuré avec un suivi mensuel personnalisé de vos progrès."
+      }
+    ]
+  }
+}

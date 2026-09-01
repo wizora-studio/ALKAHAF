@@ -1,0 +1,631 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "programs": "Programs",
+    "onlineClasses": "Online Classes",
+    "admissions": "Admissions",
+    "contact": "Contact",
+    "enrollNow": "Enroll Now",
+    "joinGroup": "Join Group"
+  },
+  "common": {
+    "enrollNow": "Enroll Now",
+    "contactUs": "Contact Us",
+    "learnMore": "Learn More",
+    "stats": {
+      "students": "200+",
+      "teachers": "15+",
+      "experience": "10+",
+      "classesPerWeek": "120/wk"
+    }
+  },
+  "hero": {
+    "title": "Sacred Quran Education for All Ages",
+    "description": "Trusted online Quran education for all ages — kids, teens, and adults worldwide. Interactive live classes with qualified teachers.",
+    "enrollNow": "Enroll Now",
+    "contactUs": "Contact Us",
+    "admissionsOpen": "Admissions Open – 2026",
+    "ayatTranslation": "\"And Allah is with you and will never deprive you of [the reward of] your deeds.\"",
+    "surahRef": "Surah Muhammad [47:35]",
+    "online": "Online",
+    "physical": "Physical",
+    "typedStrings": [
+      "Aisha Academy",
+      "Quran Education",
+      "Islamic Studies",
+      "Character Building"
+    ],
+    "newsletter": {
+      "title": "Stay Updated",
+      "description": "Subscribe to our newsletter for the latest news, events, and educational tips.",
+      "placeholder": "Enter your email address",
+      "button": "Subscribe",
+      "success": "Successfully subscribed!",
+      "error": "Failed to subscribe. Please try again."
+    },
+    "subtitle": "Flexible, affordable online classes for every age",
+    "mainTitle": "Online Quran classes specially designed for all ages",
+    "trialCta": "START YOUR FREE 3 DAYS TRIAL",
+    "features": [
+      "Live online lessons",
+      "Qualified teachers",
+      "Flexible scheduling"
+    ]
+  },
+  "stats": {
+    "qualifiedTeachers": "Qualified Teachers",
+    "studentsEnrolled": "Students Enrolled",
+    "yearsExperience": "Years Experience",
+    "onlineClasses": "Online Classes",
+    "impact": "Impact"
+  },
+  "programs": {
+    "title": "Our Programs",
+    "subtitle": "Designed for students of all ages and levels, accessible online from anywhere with live qualified teachers.",
+    "offerings": "Our Offerings",
+    "learnMore": "Learn more",
+    "online": {
+      "title": "Online Group Classes",
+      "description": "Live interactive group sessions from home.",
+      "features": [
+        "Flexible Timings",
+        "Mon-Fri Batches",
+        "Certified Teachers"
+      ]
+    },
+    "private": {
+      "title": "Online Classes",
+      "description": "Live interactive online classes with flexible scheduling.",
+      "features": [
+        "30-min Live Lessons",
+        "Flexible Schedule",
+        "Rapid Progress"
+      ]
+    },
+    "nazra": {
+      "title": "Nazra & Noorani Qaida",
+      "description": "Interactive foundational Quran reading for beginners of all ages.",
+      "features": [
+        "All Ages Welcome",
+        "Noorani Qaida",
+        "Interactive Whiteboard"
+      ]
+    },
+    "tajweed": {
+      "title": "Quran with Tajweed",
+      "description": "Master proper articulation and recitation rules.",
+      "features": [
+        "All Ages Welcome",
+        "Tajweed Rules",
+        "Live Practice"
+      ]
+    }
+  },
+  "whyUs": {
+    "title": "Why Choose",
+    "highlight": "Aisha Academy?",
+    "description": "We provide comprehensive, high-standard Quranic and Islamic education accessible worldwide.",
+    "reasons": [
+      {
+        "title": "Qualified & Certified Teachers",
+        "description": "Our male and female instructors are certified scholars (Hafiz & Qari) with years of teaching experience."
+      },
+      {
+        "title": "Support for Every Learner",
+        "description": "Clear guidance and regular feedback help every student learn Tajweed rules and correct Makharij at their own pace."
+      },
+      {
+        "title": "Character & Spiritual Growth",
+        "description": "Beyond recitation, we nurture Islamic morals, daily Duas, and Sunnah manners (Tarbiyah)."
+      },
+      {
+        "title": "Safe & Private Learning",
+        "description": "Secure online classrooms with dedicated female teachers available for girls, children, and sisters."
+      },
+      {
+        "title": "Flexible Global Timings (24/7)",
+        "description": "Classes available 7 days a week across UK, USA, Canada, Australia & Europe time zones."
+      }
+    ]
+  },
+  "howWork": {
+    "title": "How It Works",
+    "subtitle": "Four simple steps to start learning the Holy Quran online with Aisha Academy",
+    "step": "Step",
+    "steps": [
+      {
+        "title": "1. Book Free Trial",
+        "description": "Fill out the quick admission form and schedule a 30-minute free trial session."
+      },
+      {
+        "title": "2. Free Evaluation Class",
+        "description": "Join a live interactive demo with an expert tutor to assess current level and goals."
+      },
+      {
+        "title": "3. Select Your Schedule",
+        "description": "Choose days and times that fit your family lifestyle (2, 3, or 5 days a week)."
+      },
+      {
+        "title": "4. Begin Regular Classes",
+        "description": "Start your structured Quran learning journey with monthly progress tracking."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Simple, Transparent Pricing",
+    "subtitle": "Choose the plan that fits your family needs. No hidden fees.",
+    "period": "month",
+    "perMonth": "/month",
+    "popular": "Most Popular",
+    "badge": "Affordable & Flexible",
+    "plans": {
+      "days2": {
+        "name": "2 Days a Week",
+        "price": "$25",
+        "period": "/month",
+        "description": "Perfect starting pace for steady foundational Quran learning.",
+        "features": [
+          "2 Days / Week (30 mins per session)",
+          "Live Interactive Online Classes",
+          "Noorani Qaida, Quran & Tajweed",
+          "Male or Female Certified Tutor",
+          "Flexible Schedule Across All Timezones",
+          "Monthly Progress Tracking"
+        ]
+      },
+      "days3": {
+        "name": "3 Days a Week",
+        "price": "$35",
+        "period": "/month",
+        "description": "Our most popular balanced pace for regular Quranic progress.",
+        "features": [
+          "3 Days / Week (30 mins per session)",
+          "Live Interactive Online Classes",
+          "Quran Recitation, Tajweed & Duas",
+          "Choice of Male or Female Teacher",
+          "Flexible Rescheduling Options",
+          "Regular Progress Reports & Feedback"
+        ]
+      },
+      "days5": {
+        "name": "5 Days a Week",
+        "price": "$45",
+        "period": "/month",
+        "description": "Intensive daily classes for rapid Hifz, Nazra & Tajweed mastery.",
+        "features": [
+          "5 Days / Week (Monday to Friday)",
+          "30 Minutes Daily Live Session",
+          "Accelerated Hifz & Tajweed Mastery",
+          "Islamic Studies, Hadith & Tarbiyah",
+          "Daily Teacher Notes & Feedback",
+          "Comprehensive Quranic Learning"
+        ]
+      }
+    },
+    "highlight": "Affordable Plans",
+    "description": "Flexible and affordable Quran learning plans for students of all ages across the globe."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about our online classes, tutors, timings, and payments.",
+    "tag": "Got Questions?",
+    "questions": [
+      {
+        "q": "Can I choose class timing at my own convenience?",
+        "a": "Yes, you can. Our tutors are available 24/7 so you can pick any time as per your convenience across all global time zones (UK, USA, Canada, Australia, Europe & worldwide)."
+      },
+      {
+        "q": "Do you have female tutors as well?",
+        "a": "Yes, we have certified female Quran tutors (Qariahs and Hafizas) who are equally qualified and specialized for sisters and young girls."
+      },
+      {
+        "q": "What is the duration of each class?",
+        "a": "Each class lasts about 30 to 35 minutes of focused instruction. The duration may be longer for some lessons depending on the topics covered."
+      },
+      {
+        "q": "Can I change class timing once I pick up the time?",
+        "a": "Yes, we understand routines can change. You can request a timing adjustment by contacting your coordinator in advance."
+      },
+      {
+        "q": "What if I need to change my class timing for some reason or miss a class?",
+        "a": "In this case, simply message us on WhatsApp or send an email asking to adjust the timing or arrange a makeup class."
+      },
+      {
+        "q": "Do you have family & sibling discounts?",
+        "a": "Yes, there is a special discount for two or more students enrolling from the same family."
+      },
+      {
+        "q": "How do you collect fee?",
+        "a": "We accept secure payment through any Debit/Credit Card (Visa, MasterCard, Amex) or direct bank transfer in your local currency ($ USD, £ GBP, A$ AUD, C$ CAD, € EUR)."
+      },
+      {
+        "q": "Can I cancel my subscription?",
+        "a": "You may cancel or pause your subscription at any time with no long-term contracts and no cancellation fees."
+      },
+      {
+        "q": "Do I need a physical copy of The Quran?",
+        "a": "No. We provide all the course materials such as Digital Quran, Noorani Qaida, and Tajweed exercises. The tutor highlights the passage/line being recited live on the screen so you can follow along seamlessly."
+      }
+    ]
+  },
+  "cta": {
+    "title": "\"Give Your Family the Gift of the Quran – Enroll Today\"",
+    "description": "Join the Aisha Academy family and start your journey of faith and sacred knowledge.",
+    "enroll": "Enroll Now",
+    "contact": "Contact Us"
+  },
+  "about": {
+    "hero": {
+      "title": "About Aisha Academy",
+      "description": "Nurturing students of all ages with the light of the Quran and the beauty of Islamic character since 2015.",
+      "badge": "Since 2015",
+      "primaryAction": "Join our Academy"
+    },
+    "history": {
+      "title": "Our Journey",
+      "p1": "Aisha Academy was founded to meet the global need for high-quality, structured Quranic education. We have grown into a premier online institute serving hundreds of students worldwide.",
+      "p2": "Named after the Mother of Believers, Aisha (RA), a beacon of knowledge, our academy strives to embody her legacy of scholarship, compassion, and piety.",
+      "stat": "Years of Excellence"
+    },
+    "mission": {
+      "title": "Our Mission",
+      "desc": "To provide high-quality, accessible Quranic education that empowers students of all ages to connect with their faith, understand the Holy Book, and embody its teachings in their daily lives."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "desc": "A world where every Muslim has the opportunity to learn the Quran with love, proper Tajweed, and deep understanding, building a strong foundation of faith."
+    },
+    "learningWay": {
+      "title": "Flexible Online Learning Modes",
+      "subtitle": "High-quality, interactive Quran education tailored to your lifestyle and time zone.",
+      "online": {
+        "title": "Live Online Classes",
+        "desc": "Interactive live sessions with qualified teachers for steady progress and Tajweed precision.",
+        "action": "Start Online"
+      }
+    },
+    "methodology": {
+      "title": "Our Methodology",
+      "subtitle": "We combine traditional Islamic pedagogy with modern interactive tools to create an inspiring learning experience.",
+      "items": [
+        {
+          "title": "Tilawah & Tajweed",
+          "desc": "Emphasis on correct pronunciation and articulation points (Makharij) from day one."
+        },
+        {
+          "title": "Character Building",
+          "desc": "We integrate Tarbiyah into every lesson, teaching respect, honesty, and Sunnah manners."
+        },
+        {
+          "title": "Qualified Mentors",
+          "desc": "Our teachers are certified scholars trained in modern engaging pedagogy."
+        }
+      ]
+    }
+  },
+  "programsPage": {
+    "hero": {
+      "title": "Our Programs",
+      "description": "Comprehensive Quranic education tailored to your spiritual journey. Choose the path that fits your goals and schedule.",
+      "badge": "Admissions Open"
+    },
+    "tuition": "Tuition Fee",
+    "siblingDiscount": "*Sibling discounts available",
+    "joinNow": "Enroll Now",
+    "programs": [
+      {
+        "id": "tajweed",
+        "title": "Quran with Tajweed",
+        "price": "From $25",
+        "period": "/month",
+        "schedule": "2, 3 or 5 Days/Week",
+        "mode": "100% Online Live",
+        "description": "Master the art of sacred recitation. Learn to read the Quran with proper pronunciation (Makharij) and Tajweed rules as revealed to Prophet Muhammad (PBUH).",
+        "features": [
+          "Correct Pronunciation (Makharij)",
+          "Rules of Tajweed (Theory & Practice)",
+          "Melodious Recitation",
+          "Fluency & Confidence Building"
+        ]
+      },
+      {
+        "id": "hifz",
+        "title": "Hifz Quran Program",
+        "price": "From $35",
+        "period": "/month",
+        "schedule": "3 or 5 Days/Week",
+        "mode": "100% Online Live",
+        "description": "A dedicated path to becoming a Hafiz of the Holy Quran. Structured memorization with daily revision (Sabaq, Sabaqi, Manzil) and regular assessments.",
+        "features": [
+          "Personalized Memorization Pace",
+          "Daily Revision (Muraja'ah)",
+          "Monthly Progress Tracking",
+          "Certified Quran Scholars"
+        ]
+      },
+      {
+        "id": "islamic-studies",
+        "title": "Islamic Studies & Tarbiyah",
+        "price": "From $25",
+        "period": "/month",
+        "schedule": "Flexible Weekly Schedule",
+        "mode": "100% Online Live",
+        "description": "Understanding the Deen and building beautiful Islamic character. A comprehensive curriculum covering Seerah, Fiqh, Aqeedah, and Islamic History.",
+        "features": [
+          "Life of the Prophet (Seerah)",
+          "Essential Fiqh of Worship",
+          "Islamic Morals & Character (Tarbiyah)",
+          "Interactive Digital Classroom"
+        ]
+      },
+      {
+        "id": "arabic",
+        "title": "Quranic Arabic Language",
+        "price": "From $25",
+        "period": "/month",
+        "schedule": "2, 3 or 5 Days/Week",
+        "mode": "100% Online Live",
+        "description": "Learn the language of the Quran. Unlock the meaning of the divine words through practical grammar, vocabulary, and understanding.",
+        "features": [
+          "Quranic Vocabulary",
+          "Basic Grammar (Nahu & Sarf)",
+          "Word-by-Word Quran Meaning",
+          "Reading Comprehension"
+        ]
+      },
+      {
+        "id": "adults",
+        "title": "Adult & Elder Learning Program",
+        "price": "From $25",
+        "period": "/month",
+        "schedule": "Flexible 24/7 Timings",
+        "mode": "100% Online Live",
+        "description": "It's never too late to learn. Online classes tailored for busy adults wishing to start from Qaida or improve Tajweed recitation.",
+        "features": [
+          "100% Flexible Scheduling",
+          "Qualified Female/Male Tutors",
+          "Tailored Curriculum for Busy Lifestyles",
+          "Beginner to Advanced Recitation"
+        ]
+      }
+    ]
+  },
+  "onlineClasses": {
+    "hero": {
+      "badge": "Global Online Learning",
+      "title": "Learn the Quran from Anywhere in the World",
+      "subtitle": "Online",
+      "description": "Experience high-quality Quranic education from the comfort of your home for all ages. Live, interactive online classes with certified teachers.",
+      "start": "Start Free Trial",
+      "howItWorks": "How It Works"
+    },
+    "howItWorks": {
+      "title": "How Online Classes Work",
+      "subtitle": "We use modern tools to ensure a seamless learning experience that feels just like being in a classroom.",
+      "steps": [
+        {
+          "title": "1. Live Video Classes",
+          "desc": "Connect with your teacher via Zoom or Google Meet. Two-way screen sharing ensures proper pronunciation correction."
+        },
+        {
+          "title": "2. Flexible Schedule",
+          "desc": "Choose timings that work for you. We offer classes 24/7 to accommodate students across all global time zones."
+        },
+        {
+          "title": "3. Progress Tracking",
+          "desc": "Receive monthly assessments and feedback on Tajweed, recitation, and Islamic studies progression."
+        }
+      ]
+    },
+    "benefits": {
+      "title": "Why Choose Online Learning?",
+      "quote": "\"The best among you are those who learn the Quran and teach it.\"",
+      "items": [
+        {
+          "title": "Learn from Home Comfort",
+          "desc": "No travel time or traffic. Safe and convenient learning environment for your family."
+        },
+        {
+          "title": "Personalized Learning Support",
+          "desc": "Qualified teachers adapt lessons to each student's pace and goals."
+        },
+        {
+          "title": "Certified Male & Female Scholars",
+          "desc": "Learn from expert tutors with verified Ijazah and deep knowledge in Tajweed."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to Start Your Quran Journey?",
+      "description": "Book your 30-minute free trial session today and experience our interactive teaching.",
+      "button": "Book Free Trial Class"
+    }
+  },
+  "footer": {
+    "mission": "Shaping hearts and minds in the light of the Qur'an. A dedicated space for spiritual growth and authentic Islamic learning for all generations.",
+    "programsTitle": "Our Programs",
+    "quickLinksTitle": "Quick Links",
+    "stayConnectedTitle": "Stay Connected",
+    "copyright": "© {year} Aisha Academy. Licensed & Registered.",
+    "developedBy": "Developed by",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "available": "100% Online Quran Academy Worldwide",
+    "social": {
+      "facebook": "https://www.facebook.com/profile.php?id=61573956185952",
+      "instagram": "https://www.instagram.com/academieaisha?igsh=aXJyMTZjZDBqMG90"
+    }
+  },
+  "admissions": {
+    "hero": {
+      "title": "Admissions Information",
+      "description": "Begin your journey of sacred knowledge. We have a simple and transparent admission process for our live online classes for students of all ages.",
+      "badge": "All Ages Welcome",
+      "action": "Apply Now"
+    },
+    "howToEnroll": {
+      "title": "How to Enroll",
+      "subtitle": "Follow these simple steps to join our academy",
+      "steps": [
+        {
+          "title": "1. Submit Application",
+          "desc": "Fill out the online admission form below with your details."
+        },
+        {
+          "title": "2. Free Trial Session",
+          "desc": "We schedule a free 30-minute live trial class with a qualified teacher."
+        },
+        {
+          "title": "3. Choose Schedule & Plan",
+          "desc": "Pick your preferred days and monthly plan (2, 3, or 5 days/week)."
+        },
+        {
+          "title": "4. Begin Regular Classes",
+          "desc": "Start learning with dedicated male or female instructor support."
+        }
+      ]
+    },
+    "form": {
+      "title": "Online Admission Form",
+      "description": "Take the first step towards Quranic excellence. Fill out the form below.",
+      "online": "Group Online Classes",
+      "onlineDesc": "Interactive group learning",
+      "private": "Online Classes",
+      "privateDesc": "Live interactive online lessons with flexible scheduling",
+      "studentInfo": "Student Information",
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "Enter student's full name",
+      "dob": "Date of Birth (Optional)",
+      "gender": "Gender",
+      "male": "Male",
+      "female": "Female",
+      "parentInfo": "Contact Information",
+      "parentName": "Parent / Guardian / Contact Name",
+      "parentNamePlaceholder": "Enter contact name",
+      "email": "Email Address",
+      "emailPlaceholder": "email@example.com",
+      "phone": "Phone / WhatsApp Number",
+      "phonePlaceholder": "+1 (555) 000-0000",
+      "programSelection": "Program & Schedule",
+      "program": "Select Program",
+      "preferredDays": "Preferred Days",
+      "preferredTime": "Preferred Time Slot",
+      "additionalInfo": "Additional Information",
+      "message": "Questions or Special Notes (Optional)",
+      "messagePlaceholder": "Tell us about your learning goals...",
+      "submit": "Submit Admission Application",
+      "submitting": "Processing Application...",
+      "successTitle": "Application Submitted!",
+      "successMessage": "JazakAllah Khair! We have received your application. Our academic coordinator will contact you on WhatsApp/Email within 24 hours to schedule your free trial session.",
+      "errorTitle": "Submission Failed",
+      "errorMessage": "There was an issue submitting your application. Please try again or reach us directly on WhatsApp."
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Contact Us",
+      "description": "We are here to answer your questions and help you start your Quranic journey.",
+      "badge": "Get in Touch"
+    },
+    "info": {
+      "title": "Get in Touch",
+      "description": "Whether you are interested in online classes or want to learn more about our methodology, our team is ready to assist you.",
+      "visitCampus": "Online Global Academy",
+      "emailUs": "Email Us",
+      "callWhatsapp": "Call / WhatsApp",
+      "availableTime": "Available 24/7 Across All Time Zones",
+      "whatsappMessage": "Assalamu Alaikum, I am contacting you from the website. I would like to inquire about your programs."
+    },
+    "hours": {
+      "title": "Online Class Availability",
+      "liveClasses": "Live Online Classes",
+      "liveClassesVal": "7 Days a Week",
+      "timings": "Class Timings",
+      "timingsVal": "Flexible 24/7 Slots",
+      "timezones": "Global Time Zones",
+      "timezonesVal": "UK, USA, Canada, Australia & Worldwide"
+    },
+    "form": {
+      "title": "Send a Message",
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "Abdullah",
+      "phone": "Phone",
+      "phonePlaceholder": "+1 (555) 000-0000",
+      "email": "Email",
+      "emailPlaceholder": "email@example.com",
+      "inquiryType": "Inquiry Type",
+      "message": "Message",
+      "messagePlaceholder": "Write your message here...",
+      "submit": "Send Message",
+      "submitting": "Sending Message...",
+      "success": "Message Sent!",
+      "successDesc": "Thank you! We will get back to you shortly.",
+      "error": "Failed to send message. Please try again or message us on WhatsApp.",
+      "whatsappButtonMessage": "Assalamu Alaikum, I am interested in Aisha Academy classes."
+    }
+  },
+  "schedulePage": {
+    "title": "24/7 Global Online Class Schedule",
+    "description": "Live online classes scheduled around your family convenience. Available 7 days a week across UK, USA, Canada, Australia & Europe time zones.",
+    "badge": "Flexible 24/7 Schedule",
+    "weeklySchedule": "Weekly Online Batches",
+    "timing": "Time Slot",
+    "details": "Program Details",
+    "slots": {
+      "morning": {
+        "title": "Morning Batches",
+        "timing": "6:00 AM – 11:00 AM (Your Local Time)",
+        "desc": "Ideal for early Quran recitation and Tajweed lessons before school or work."
+      },
+      "afternoon": {
+        "title": "Afternoon & School Batches",
+        "timing": "1:00 PM – 5:00 PM (Your Local Time)",
+        "desc": "Structured afternoon sessions for kids and teenagers after school."
+      },
+      "evening": {
+        "title": "Evening Prime Batches",
+        "timing": "5:00 PM – 10:00 PM (Your Local Time)",
+        "desc": "Our most popular time slots for busy working adults and family learning."
+      },
+      "weekend": {
+        "title": "Weekend Intensive School",
+        "timing": "Saturday & Sunday Flexible Slots",
+        "desc": "Specialized weekend classes covering Hifz, Tajweed, and Islamic Studies."
+      }
+    },
+    "days": {
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "saturday": "Saturday",
+      "sunday": "Sunday"
+    },
+    "note": "Note: Online classes can be scheduled at any custom time that suits your family."
+  },
+  "process": {
+    "title": "How It Works",
+    "subtitle": "Four simple steps to start learning the Holy Quran online with Aisha Academy",
+    "step": "Step",
+    "steps": [
+      {
+        "title": "1. Book Free Trial",
+        "description": "Fill out the quick admission form and schedule a 30-minute free trial session."
+      },
+      {
+        "title": "2. Free Evaluation Class",
+        "description": "Join a live interactive demo with an expert tutor to assess current level and goals."
+      },
+      {
+        "title": "3. Select Your Schedule",
+        "description": "Choose days and times that fit your family lifestyle (2, 3, or 5 days a week)."
+      },
+      {
+        "title": "4. Begin Regular Classes",
+        "description": "Start your structured Quran learning journey with monthly progress tracking."
+      }
+    ]
+  }
+}

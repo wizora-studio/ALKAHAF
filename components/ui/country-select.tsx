@@ -9,6 +9,7 @@ import {
   findCountryByCode,
   searchCountries,
 } from "@/lib/countries";
+import CountryFlag from "@/components/ui/country-flag";
 
 export interface CountrySelectProps {
   id?: string;
@@ -68,6 +69,17 @@ export default function CountrySelect({
     }
   }, [value]);
 
+  // Handle native form reset
+  useEffect(() => {
+    const form = searchInputRef.current?.closest("form") || dropdownRef.current?.closest("form");
+    if (!form) return;
+    const handleReset = () => {
+      setSelectedCountry(initialCountry);
+    };
+    form.addEventListener("reset", handleReset);
+    return () => form.removeEventListener("reset", handleReset);
+  }, [initialCountry]);
+
   // Click outside to close
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
@@ -123,13 +135,17 @@ export default function CountrySelect({
 
   return (
     <div className={`relative ${className}`} ref={dropdownRef}>
-      {/* Hidden input for form submission */}
+      {/* Hidden/accessible input for form submission & validation */}
       <input
-        type="hidden"
+        type="text"
         id={id}
         name={name}
         value={selectedCountry ? selectedCountry.name : ""}
         required={required}
+        tabIndex={-1}
+        aria-hidden="true"
+        className="sr-only pointer-events-none absolute opacity-0 w-0 h-0"
+        onChange={() => {}}
       />
 
       {/* Trigger Button */}
@@ -144,9 +160,7 @@ export default function CountrySelect({
         <div className="flex items-center gap-3 truncate">
           {selectedCountry ? (
             <>
-              <span className="text-xl leading-none" role="img" aria-label={selectedCountry.name}>
-                {selectedCountry.flag}
-              </span>
+              <CountryFlag country={selectedCountry} />
               <span className="text-gray-900 dark:text-gray-100 font-medium truncate">
                 {selectedCountry.name}
               </span>
@@ -213,7 +227,7 @@ export default function CountrySelect({
                     }`}
                   >
                     <div className="flex items-center gap-2.5 truncate">
-                      <span className="text-lg leading-none">{country.flag}</span>
+                      <CountryFlag country={country} />
                       <span className="truncate">{country.name}</span>
                     </div>
                     {selectedCountry?.code === country.code && (
@@ -244,7 +258,7 @@ export default function CountrySelect({
                   }`}
                 >
                   <div className="flex items-center gap-2.5 truncate">
-                    <span className="text-lg leading-none">{country.flag}</span>
+                    <CountryFlag country={country} />
                     <span className="truncate">{country.name}</span>
                   </div>
                   {selectedCountry?.code === country.code && (

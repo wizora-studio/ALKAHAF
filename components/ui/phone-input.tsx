@@ -9,6 +9,7 @@ import {
   findCountryByCode,
   searchCountries,
 } from "@/lib/countries";
+import CountryFlag from "@/components/ui/country-flag";
 
 export interface PhoneInputProps {
   id?: string;
@@ -86,6 +87,18 @@ export default function PhoneInput({
       setPhoneNumber(value);
     }
   }, [value]);
+
+  // Handle native form reset
+  useEffect(() => {
+    const form = phoneInputRef.current?.form;
+    if (!form) return;
+    const handleReset = () => {
+      setPhoneNumber("");
+      setSelectedCountry(initialCountry);
+    };
+    form.addEventListener("reset", handleReset);
+    return () => form.removeEventListener("reset", handleReset);
+  }, [initialCountry]);
 
   // Click outside to close dropdown
   useEffect(() => {
@@ -187,9 +200,7 @@ export default function PhoneInput({
           aria-expanded={isOpen}
           title={`Selected country: ${selectedCountry.name} (${selectedCountry.dialCode})`}
         >
-          <span className="text-xl leading-none" role="img" aria-label={selectedCountry.name}>
-            {selectedCountry.flag}
-          </span>
+          <CountryFlag country={selectedCountry} />
           <span className="text-sm font-semibold text-gray-700 dark:text-gray-200 font-mono">
             {selectedCountry.dialCode}
           </span>
@@ -261,7 +272,7 @@ export default function PhoneInput({
                     }`}
                   >
                     <div className="flex items-center gap-2.5 truncate">
-                      <span className="text-lg leading-none">{country.flag}</span>
+                      <CountryFlag country={country} />
                       <span className="truncate">{country.name}</span>
                     </div>
                     <div className="flex items-center gap-2 shrink-0">
@@ -298,7 +309,7 @@ export default function PhoneInput({
                   }`}
                 >
                   <div className="flex items-center gap-2.5 truncate">
-                    <span className="text-lg leading-none">{country.flag}</span>
+                    <CountryFlag country={country} />
                     <span className="truncate">{country.name}</span>
                   </div>
                   <div className="flex items-center gap-2 shrink-0">

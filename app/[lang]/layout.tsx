@@ -99,28 +99,32 @@ export async function generateMetadata({
       locale: isEn ? "en_US" : "fr_CA",
       url: "https://alkahafacademy.com",
       title: isEn
-        ? "Al Kahaf Academy | Leading Online Quran & Islamic Institute"
-        : "Al Kahaf Academy | Institut Coranique et Islamique en Ligne de Premier Plan",
+        ? "Online Quran Classes | Register Now - Al Kahaf Academy"
+        : "Cours de Coran en Ligne | Inscrivez-vous - Al Kahaf Academy",
       description: isEn
-        ? "Expert Quran and Islamic studies for kids. Nurturing young hearts with the light of the Quran since 2015."
-        : "Études coraniques et islamiques expertes pour les enfants. Nourrir les jeunes cœurs avec la lumière du Coran depuis 2015.",
+        ? "Online Quran classes are specially designed for beginners and all ages. Learn Tilawah, Tajweed, and Islamic studies from qualified teachers. 3 Days Free Trial!"
+        : "Cours de Coran en ligne spécialement conçus pour tous les âges. Apprenez le Tajweed et la Tilawah avec des professeurs qualifiés. 3 jours d'essai gratuit !",
       siteName: "Al Kahaf Academy",
       images: [
         {
-          url: "/images/img3.jpg",
+          url: "https://alkahafacademy.com/images/og-preview.jpg",
+          secureUrl: "https://alkahafacademy.com/images/og-preview.jpg",
           width: 1200,
           height: 630,
-          alt: "Al Kahaf Academy Students",
+          type: "image/jpeg",
+          alt: "Online Quran Classes | Register Now - Al Kahaf Academy",
         },
       ],
     },
     twitter: {
       card: "summary_large_image",
-      title: "Al Kahaf Academy | Young Hearts with the Quran",
+      title: isEn
+        ? "Online Quran Classes | Register Now - Al Kahaf Academy"
+        : "Cours de Coran en Ligne | Inscrivez-vous - Al Kahaf Academy",
       description: isEn
-        ? "Trusted Online Quran education for children and adults. Interactive live classes available globally."
-        : "Éducation coranique en ligne de confiance pour enfants et adultes. Cours interactifs en direct disponibles dans le monde entier.",
-      images: ["/images/img3.jpg"],
+        ? "Online Quran classes are specially designed for beginners and all ages. Learn Tilawah, Tajweed, and Islamic studies from qualified teachers. 3 Days Free Trial!"
+        : "Cours de Coran en ligne spécialement conçus pour tous les âges. Apprenez le Tajweed et la Tilawah avec des professeurs qualifiés. 3 jours d'essai gratuit !",
+      images: ["https://alkahafacademy.com/images/og-preview.jpg"],
     },
     robots: {
       index: true,
@@ -176,6 +180,7 @@ export default async function RootLayout({
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="theme-color" content="#C5A059" />
+        <link rel="image_src" href="https://alkahafacademy.com/images/og-preview.jpg" />
         <meta name="google-site-verification" content="AE2s4AgJTX7lAEZn6Cu9bWGr7VniZFCMO11qAkDjuXg" />
         <Script
           async

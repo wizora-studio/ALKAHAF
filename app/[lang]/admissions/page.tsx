@@ -89,7 +89,7 @@ export default async function AdmissionsPage({
       <PricingPlans dict={dict.pricing} />
 
       {/* Form Section */}
-      <AdmissionsForm dict={dict.admissions.form} />
+      <AdmissionsForm dict={dict.admissions.form} lang={lang} />
 
       <FAQSection dict={dict.faq} />
       <ContactForm dict={dict.contact} />

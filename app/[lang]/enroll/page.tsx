@@ -29,7 +29,7 @@ export default async function EnrollPage({
         badge={{ text: dict.admissions.hero.badge, icon: CheckCircle }}
       />
 
-      <AdmissionsForm dict={dict.admissions.form} />
+      <AdmissionsForm dict={dict.admissions.form} lang={lang} />
 
       <FAQSection dict={dict.faq} />
 

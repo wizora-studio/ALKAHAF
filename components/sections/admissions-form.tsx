@@ -124,9 +124,9 @@ export default function AdmissionsForm({ dict }: { dict: any }) {
                       required
                       className="w-full px-4 py-3 rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-900 focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none transition-all appearance-none text-gray-700 dark:text-gray-200"
                     >
-                      <option value="">{dict.genderLabel}</option>
-                      <option value="male">{dict.male}</option>
-                      <option value="female">{dict.female}</option>
+                      <option value="">{dict.genderLabel || "Select Gender"}</option>
+                      <option value="male">{dict.male || "Male"}</option>
+                      <option value="female">{dict.female || "Female"}</option>
                     </select>
                     <ChevronDown className="absolute right-4 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-500 pointer-events-none" />
                   </div>
@@ -235,13 +235,13 @@ export default function AdmissionsForm({ dict }: { dict: any }) {
                       required
                       className="w-full px-4 py-3 rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-900 focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none transition-all appearance-none text-gray-700 dark:text-gray-200"
                     >
-                      <option value="">{dict.chooseProgram}</option>
-                      <option value="nazra">{dict.nazra}</option>
-                      <option value="hifz">{dict.hifz}</option>
-                      <option value="tajweed">{dict.tajweed}</option>
-                      <option value="arabic">{dict.arabic}</option>
+                      <option value="">{dict.chooseProgram || "Choose a Program"}</option>
+                      <option value="nazra">{dict.nazra || "Noorani Qaida / Nazra"}</option>
+                      <option value="hifz">{dict.hifz || "Quran Memorization (Hifz)"}</option>
+                      <option value="tajweed">{dict.tajweed || "Quran with Tajweed"}</option>
+                      <option value="arabic">{dict.arabic || "Arabic Language"}</option>
                       <option value="islamic_studies">
-                        {dict.islamicStudies}
+                        {dict.islamicStudies || "Islamic Studies"}
                       </option>
                     </select>
                     <ChevronDown className="absolute right-4 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-500 pointer-events-none" />
@@ -253,7 +253,7 @@ export default function AdmissionsForm({ dict }: { dict: any }) {
                     htmlFor="preferredDays"
                     className="text-sm font-medium text-gray-700 dark:text-gray-300"
                   >
-                    {dict.preferredDays}
+                    {dict.preferredDays || "Preferred Days"}
                   </label>
                   <div className="relative">
                     <select
@@ -262,9 +262,9 @@ export default function AdmissionsForm({ dict }: { dict: any }) {
                       required
                       className="w-full px-4 py-3 rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-900 focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none transition-all appearance-none text-gray-700 dark:text-gray-200"
                     >
-                      <option value="weekdays">{dict.weekdays}</option>
-                      <option value="weekend">{dict.weekends}</option>
-                      <option value="flexible">{dict.flexible}</option>
+                      <option value="weekdays">{dict.weekdays || "Weekdays (Mon - Fri)"}</option>
+                      <option value="weekend">{dict.weekends || "Weekends (Sat - Sun)"}</option>
+                      <option value="flexible">{dict.flexible || "Flexible Schedule"}</option>
                     </select>
                     <ChevronDown className="absolute right-4 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-500 pointer-events-none" />
                   </div>
@@ -275,7 +275,7 @@ export default function AdmissionsForm({ dict }: { dict: any }) {
                     htmlFor="preferredTime"
                     className="text-sm font-medium text-gray-700 dark:text-gray-300"
                   >
-                    {dict.preferredTime}
+                    {dict.preferredTime || "Preferred Time Slot"}
                   </label>
                   <div className="relative">
                     <select
@@ -284,9 +284,9 @@ export default function AdmissionsForm({ dict }: { dict: any }) {
                       required
                       className="w-full px-4 py-3 rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-900 focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none transition-all appearance-none text-gray-700 dark:text-gray-200"
                     >
-                      <option value="morning">{dict.morning}</option>
-                      <option value="afternoon">{dict.afternoon}</option>
-                      <option value="evening">{dict.evening}</option>
+                      <option value="morning">{dict.morning || "Morning"}</option>
+                      <option value="afternoon">{dict.afternoon || "Afternoon"}</option>
+                      <option value="evening">{dict.evening || "Evening"}</option>
                     </select>
                     <ChevronDown className="absolute right-4 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-500 pointer-events-none" />
                   </div>

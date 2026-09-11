@@ -555,6 +555,13 @@
       "email": "E-mail",
       "emailPlaceholder": "email@example.com",
       "inquiryType": "Type de Demande",
+      "inquiryPlaceholder": "Sélectionnez le type de demande",
+      "inquiryOptions": {
+        "general": "Demande Générale",
+        "admissions": "Admissions & Inscription",
+        "online": "Cours de Coran en Ligne",
+        "programs": "Programmes & Cours"
+      },
       "message": "Message",
       "messagePlaceholder": "Écrivez votre message ici...",
       "submit": "Envoyer le Message",

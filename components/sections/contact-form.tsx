@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { Mail, Phone, MapPin, Clock, Send, Loader2, Globe } from "lucide-react";
+import { Mail, Phone, MapPin, Clock, Send, Loader2, Globe, ChevronDown } from "lucide-react";
 import { sendContactEmail } from "@/app/actions/send-email";
 import { toast } from "sonner";
 
@@ -195,24 +195,34 @@ export default function ContactForm({ dict }: { dict: any }) {
                   htmlFor="inquiry"
                   className="text-sm font-medium text-[#2D1C13]"
                 >
-                  {form.inquiryType}
+                  {form.inquiryType || "Inquiry Type"}
                 </label>
-                <select
-                  id="inquiry"
-                  name="inquiry"
-                  required
-                  className="w-full px-4 py-3 rounded-xl border border-[#EAE3D6] focus:ring-2 focus:ring-[#C5A059]/20 focus:border-[#C5A059] outline-none transition-all bg-[#FAF7F2] text-[#2D1C13]"
-                >
-                  <option value="General Inquiry">
-                    {form.inquiryOptions?.general}
-                  </option>
-                  <option value="Admissions">
-                    {form.inquiryOptions?.admissions}
-                  </option>
-                  <option value="Online Classes">
-                    {form.inquiryOptions?.online || "Group Online Classes"}
-                  </option>
-                </select>
+                <div className="relative">
+                  <select
+                    id="inquiry"
+                    name="inquiry"
+                    required
+                    defaultValue=""
+                    className="w-full px-4 py-3 rounded-xl border border-[#EAE3D6] focus:ring-2 focus:ring-[#C5A059]/20 focus:border-[#C5A059] outline-none transition-all bg-[#FAF7F2] text-[#2D1C13] appearance-none pr-10 cursor-pointer"
+                  >
+                    <option value="" disabled>
+                      {form.inquiryPlaceholder || "Select Inquiry Type"}
+                    </option>
+                    <option value="General Inquiry">
+                      {form.inquiryOptions?.general || "General Inquiry"}
+                    </option>
+                    <option value="Admissions">
+                      {form.inquiryOptions?.admissions || "Admissions & Enrollment"}
+                    </option>
+                    <option value="Online Classes">
+                      {form.inquiryOptions?.online || "Online Quran Classes"}
+                    </option>
+                    <option value="Programs">
+                      {form.inquiryOptions?.programs || "Programs & Courses"}
+                    </option>
+                  </select>
+                  <ChevronDown className="absolute right-4 top-1/2 -translate-y-1/2 w-4 h-4 text-[#7A685B] pointer-events-none" />
+                </div>
               </div>
               <div className="space-y-2">
                 <label

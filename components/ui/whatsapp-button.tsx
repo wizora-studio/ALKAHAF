@@ -17,7 +17,7 @@ export default function WhatsappButton({
 
   return (
     <motion.a
-      href={`https://wa.me/15145627711?text=${encodedMessage}`}
+      href={`https://wa.me/923222597066?text=${encodedMessage}`}
       target="_blank"
       rel="noopener noreferrer"
       initial={{ opacity: 0, scale: 0.8 }}

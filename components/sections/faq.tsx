@@ -197,7 +197,7 @@ export default function FAQSection({ dict }: { dict: any }) {
               </p>
             </div>
             <a
-              href="https://wa.me/15145627711?text=Assalamu%20Alaikum%20Al Kahaf Academy!%20I%20have%20a%20question%20regarding%20your%20online%20Quran%20classes."
+              href="https://wa.me/923222597066?text=Assalamu%20Alaikum%20Al%20Kahaf%20Academy!%20I%20have%20a%20question%20regarding%20your%20online%20Quran%20classes."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold text-xs sm:text-sm transition-all shadow-md active:scale-95 shrink-0"

@@ -93,7 +93,7 @@ export default function ContactForm({ dict }: { dict: any }) {
                   </h3>
                   <p className="text-sm text-[#5C4A3E]">
                     <a
-                      href={`https://wa.me/15145627711?text=${encodeURIComponent(
+                      href={`https://wa.me/923222597066?text=${encodeURIComponent(
                         info.whatsappMessage ||
                           "Assalamu Alaikum, I am contacting you from the website.",
                       )}`}
@@ -101,7 +101,7 @@ export default function ContactForm({ dict }: { dict: any }) {
                       rel="noopener noreferrer"
                       className="hover:text-[#C5A059] transition-colors font-bold"
                     >
-                      +1 (514) 562-7711
+                      +92 322 2597066
                     </a>
                   </p>
                   <p className="text-xs text-[#7A685B] mt-1 font-medium">

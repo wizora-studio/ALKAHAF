@@ -55,7 +55,7 @@ export default function LiveChatWidget({
         : `Assalamu Alaikum Al Kahaf Academy!\n\n${topicText}\n\nPlease provide me details and schedule a free trial.`;
     }
 
-    const waUrl = `https://wa.me/15145627711?text=${encodeURIComponent(message)}`;
+    const waUrl = `https://wa.me/923222597066?text=${encodeURIComponent(message)}`;
     window.open(waUrl, "_blank");
     setIsOpen(false);
   };

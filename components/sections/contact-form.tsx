@@ -1,8 +1,9 @@
 "use client";
 import React, { useState } from "react";
-import { Mail, Phone, MapPin, Clock, Send, Loader2, Globe, ChevronDown } from "lucide-react";
+import { Phone, MapPin, Clock, Send, Loader2, Globe, ChevronDown } from "lucide-react";
 import { sendContactEmail } from "@/app/actions/send-email";
 import { toast } from "sonner";
+import PhoneInput from "@/components/ui/phone-input";
 
 export default function ContactForm({ dict }: { dict: any }) {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -60,25 +61,6 @@ export default function ContactForm({ dict }: { dict: any }) {
                     Live Online Classes
                     <br />
                     Worldwide Access across all Time Zones
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-5 p-4 rounded-2xl bg-white border border-[#EAE3D6] shadow-sm">
-                <div className="w-12 h-12 bg-[#FAF5EC] border border-[#C5A059]/30 rounded-xl flex items-center justify-center text-[#C5A059] shrink-0">
-                  <Mail className="w-6 h-6" />
-                </div>
-                <div>
-                  <h3 className="font-bold text-lg text-[#2D1C13] mb-1">
-                    {info.emailUs}
-                  </h3>
-                  <p className="text-sm text-[#5C4A3E]">
-                    <a
-                      href="mailto:info@alkahafacademy.com"
-                      className="hover:text-[#C5A059] transition-colors"
-                    >
-                      info@alkahafacademy.com
-                    </a>
                   </p>
                 </div>
               </div>
@@ -164,31 +146,13 @@ export default function ContactForm({ dict }: { dict: any }) {
                   >
                     {form.phone}
                   </label>
-                  <input
-                    type="tel"
+                  <PhoneInput
                     id="phone"
                     name="phone"
                     required
-                    className="w-full px-4 py-3 rounded-xl border border-[#EAE3D6] focus:ring-2 focus:ring-[#C5A059]/20 focus:border-[#C5A059] outline-none transition-all bg-[#FAF7F2] text-[#2D1C13]"
                     placeholder={form.phonePlaceholder}
                   />
                 </div>
-              </div>
-              <div className="space-y-2">
-                <label
-                  htmlFor="email"
-                  className="text-sm font-medium text-[#2D1C13]"
-                >
-                  {form.email}
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  required
-                  className="w-full px-4 py-3 rounded-xl border border-[#EAE3D6] focus:ring-2 focus:ring-[#C5A059]/20 focus:border-[#C5A059] outline-none transition-all bg-[#FAF7F2] text-[#2D1C13]"
-                  placeholder={form.emailPlaceholder}
-                />
               </div>
               <div className="space-y-2">
                 <label

@@ -7,7 +7,7 @@ import WhyUs from "@/components/sections/why-us";
 import CtaBanner from "@/components/sections/cta-banner";
 import FAQSection from "@/components/sections/faq";
 import StatCounter from "@/components/sections/counter";
-import ProcessFlow from "@/components/sections/ProcessFlow";
+import ThreeStepsAway from "@/components/sections/ThreeStepsAway";
 import Newsletter from "@/components/sections/newsletter";
 // import GoogleMap from "@/components/sections/googlemap";
 import PricingPlans from "@/components/sections/PricingPlans";
@@ -53,7 +53,7 @@ export default async function Page({
 
       <ProgramsOverview dict={dict.programs} />
       <WhyUs dict={dict.whyUs} />
-      <ProcessFlow dict={dict.process} />
+      <ThreeStepsAway lang={lang} dict={dict} />
       <PricingPlans dict={dict.pricing} />
       <CtaBanner dict={dict.cta} />
       <FAQSection dict={dict.faq} />

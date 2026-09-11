@@ -2,7 +2,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { Globe } from "lucide-react";
+import { Globe, Phone } from "lucide-react";
 
 interface FooterProps {
   lang?: string;
@@ -166,20 +166,15 @@ const Footer: React.FC<FooterProps> = ({ lang: propLang, dict }) => {
                 </span>
               </li>
               <li className="flex items-center gap-3">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="w-5 h-5 text-[#C5A059] shrink-0"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
+                <Phone className="w-5 h-5 text-[#C5A059] shrink-0" />
+                <a
+                  href="https://wa.me/923222597066"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-[#C5A059] transition-colors font-medium"
                 >
-                  <rect width="20" height="16" x="2" y="4" rx="2" />
-                  <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
-                </svg>
-                <span>info@alkahafacademy.com</span>
+                  +92 322 2597066
+                </a>
               </li>
             </ul>
             <div className="pt-2">

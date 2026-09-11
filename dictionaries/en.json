@@ -152,6 +152,24 @@
       }
     ]
   },
+  "threeSteps": {
+    "title": "You Are Only 3 Steps Away!",
+    "steps": [
+      {
+        "title": "One click registration",
+        "description": "Register yourself or register your child with us today and take your first free trial classes. Simply fill out the form or chat now. No credit card required. It is as simple as ABC."
+      },
+      {
+        "title": "Schedule free trial",
+        "description": "Upon receiving your registration, we will contact you back to set a convenient time for you and give you an overview of our online Quran classes process."
+      },
+      {
+        "title": "Start taking your first class",
+        "description": "After you are satisfied, you can make a payment as we discussed in the trial session. Start taking your first online class with one of our Quran Teacher."
+      }
+    ],
+    "button": "TAKE YOUR FIRST STEP NOW"
+  },
   "pricing": {
     "title": "Simple, Transparent Pricing",
     "subtitle": "Choose the plan that fits your family needs. No hidden fees.",
@@ -517,7 +535,7 @@
       "submit": "Submit Admission Application",
       "submitting": "Processing Application...",
       "successTitle": "Application Submitted!",
-      "successMessage": "JazakAllah Khair! We have received your application. Our academic coordinator will contact you on WhatsApp/Email within 24 hours to schedule your free trial session.",
+      "successMessage": "JazakAllah Khair! We have received your application. Our academic coordinator will contact you on WhatsApp within 24 hours to schedule your free trial session.",
       "errorTitle": "Submission Failed",
       "errorMessage": "There was an issue submitting your application. Please try again or reach us directly on WhatsApp."
     }

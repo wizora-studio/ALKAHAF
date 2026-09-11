@@ -73,7 +73,7 @@ export async function sendEnrollmentEmail(formData: FormData) {
   const age = formData.get("age") as string;
   const gender = formData.get("gender") as string;
   const parentName = formData.get("parentName") as string;
-  const email = formData.get("email") as string;
+  const email = (formData.get("email") as string) || "N/A";
   const phone = formData.get("phone") as string;
   const city = formData.get("city") as string;
   const course = formData.get("course") as string;
@@ -151,7 +151,7 @@ export async function sendEnrollmentEmail(formData: FormData) {
 
 export async function sendContactEmail(formData: FormData) {
   const name = formData.get("name") as string;
-  const email = formData.get("email") as string;
+  const email = (formData.get("email") as string) || "N/A";
   const phone = formData.get("phone") as string;
   const inquiry = formData.get("inquiry") as string;
   const message = formData.get("message") as string;

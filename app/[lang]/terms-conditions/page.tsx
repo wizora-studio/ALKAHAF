@@ -118,12 +118,14 @@ export default async function TermsConditions({
             </h2>
             <p>
               Any questions about these Terms & Conditions should be addressed
-              to us at:{" "}
+              to us via WhatsApp at:{" "}
               <a
-                href="mailto:info@alkahafacademy.com"
-                className="text-primary hover:underline"
+                href="https://wa.me/923222597066"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:underline font-semibold"
               >
-                info@alkahafacademy.com
+                +92 322 2597066
               </a>
             </p>
           </div>

@@ -4,28 +4,32 @@ import React, { useState } from "react";
 import { Check, ChevronDown, Monitor, MapPin, Loader2 } from "lucide-react";
 import { sendEnrollmentEmail } from "@/app/actions/send-email";
 import { toast } from "sonner";
+import PhoneInput from "@/components/ui/phone-input";
+import CountrySelect from "@/components/ui/country-select";
 
 export default function AdmissionsForm({ dict }: { dict: any }) {
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [selectedCountryCode, setSelectedCountryCode] = useState("US");
 
   async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
     setIsSubmitting(true);
 
-    const formData = new FormData(event.currentTarget);
+    const formElement = event.currentTarget;
+    const formData = new FormData(formElement);
     formData.append("learningMode", "online");
     formData.append("classType", "online");
 
     try {
       const result = await sendEnrollmentEmail(formData);
       if (result.success) {
-        toast.success(dict.success);
-        (event.target as HTMLFormElement).reset();
+        toast.success(dict.success || dict.successMessage || "Application Submitted Successfully!");
+        formElement.reset();
       } else {
-        toast.error(result.error || dict.error);
+        toast.error(result.error || dict.error || dict.errorMessage || "Submission Failed");
       }
     } catch (error) {
-      toast.error(dict.error);
+      toast.error(dict.error || dict.errorMessage || "An unexpected error occurred");
     } finally {
       setIsSubmitting(false);
     }
@@ -74,7 +78,7 @@ export default function AdmissionsForm({ dict }: { dict: any }) {
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-primary/10 text-primary text-sm font-bold">
                   1
                 </span>
-                {dict.studentInfo}
+                {dict.studentInfo || "Student Information"}
               </h3>
 
               <div className="grid sm:grid-cols-2 gap-6">
@@ -83,7 +87,7 @@ export default function AdmissionsForm({ dict }: { dict: any }) {
                     htmlFor="studentName"
                     className="text-sm font-medium text-gray-700 dark:text-gray-300"
                   >
-                    {dict.fullName}
+                    {dict.fullName || "Full Name"}
                   </label>
                   <input
                     type="text"
@@ -91,7 +95,7 @@ export default function AdmissionsForm({ dict }: { dict: any }) {
                     name="studentName"
                     required
                     className="w-full px-4 py-3 rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-900 focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none transition-all placeholder:text-gray-400"
-                    placeholder={dict.fullNamePlaceholder}
+                    placeholder={dict.fullNamePlaceholder || "Enter student's full name"}
                   />
                 </div>
                 <div className="space-y-2">
@@ -99,15 +103,17 @@ export default function AdmissionsForm({ dict }: { dict: any }) {
                     htmlFor="age"
                     className="text-sm font-medium text-gray-700 dark:text-gray-300"
                   >
-                    {dict.age}
+                    {dict.age || "Age"}
                   </label>
                   <input
                     type="number"
                     id="age"
                     name="age"
+                    min="3"
+                    max="100"
                     required
                     className="w-full px-4 py-3 rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-900 focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none transition-all placeholder:text-gray-400"
-                    placeholder={dict.agePlaceholder}
+                    placeholder={dict.agePlaceholder || "Enter student's age"}
                   />
                 </div>
                 <div className="space-y-2">
@@ -115,7 +121,7 @@ export default function AdmissionsForm({ dict }: { dict: any }) {
                     htmlFor="gender"
                     className="text-sm font-medium text-gray-700 dark:text-gray-300"
                   >
-                    {dict.gender}
+                    {dict.gender || "Gender"}
                   </label>
                   <div className="relative">
                     <select
@@ -134,13 +140,13 @@ export default function AdmissionsForm({ dict }: { dict: any }) {
               </div>
             </div>
 
-            {/* Parent Information */}
+            {/* Parent / Contact Information */}
             <div className="space-y-6">
               <h3 className="text-xl font-bold text-gray-900 dark:text-white flex items-center gap-2">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-primary/10 text-primary text-sm font-bold">
                   2
                 </span>
-                {dict.parentInfo}
+                {dict.parentInfo || "Contact Information"}
               </h3>
 
               <div className="grid sm:grid-cols-2 gap-6">
@@ -149,7 +155,7 @@ export default function AdmissionsForm({ dict }: { dict: any }) {
                     htmlFor="parentName"
                     className="text-sm font-medium text-gray-700 dark:text-gray-300"
                   >
-                    {dict.parentName}
+                    {dict.parentName || "Parent / Guardian / Contact Name"}
                   </label>
                   <input
                     type="text"
@@ -157,47 +163,52 @@ export default function AdmissionsForm({ dict }: { dict: any }) {
                     name="parentName"
                     required
                     className="w-full px-4 py-3 rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-900 focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none transition-all placeholder:text-gray-400"
-                    placeholder={dict.parentNamePlaceholder}
+                    placeholder={dict.parentNamePlaceholder || "Enter contact name"}
                   />
                 </div>
-                <div className="space-y-2">
-                  <label
-                    htmlFor="email"
-                    className="text-sm font-medium text-gray-700 dark:text-gray-300"
-                  >
-                    {dict.email}
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    required
-                    className="w-full px-4 py-3 rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-900 focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none transition-all placeholder:text-gray-400"
-                    placeholder={dict.emailPlaceholder}
-                  />
-                </div>
+
                 <div className="space-y-2">
                   <label
                     htmlFor="phone"
                     className="text-sm font-medium text-gray-700 dark:text-gray-300"
                   >
-                    {dict.phone}
+                    {dict.phone || "Phone / WhatsApp Number"}
                   </label>
-                  <input
-                    type="tel"
+                  <PhoneInput
                     id="phone"
                     name="phone"
                     required
-                    className="w-full px-4 py-3 rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-900 focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none transition-all placeholder:text-gray-400"
+                    selectedCountryCode={selectedCountryCode}
+                    onCountryChange={(c) => setSelectedCountryCode(c.code)}
                     placeholder={dict.phonePlaceholder}
+                    searchPlaceholder={dict.searchCountryPlaceholder || "Search country or code..."}
                   />
                 </div>
+
+                <div className="space-y-2">
+                  <label
+                    htmlFor="country"
+                    className="text-sm font-medium text-gray-700 dark:text-gray-300"
+                  >
+                    {dict.country || "Country"}
+                  </label>
+                  <CountrySelect
+                    id="country"
+                    name="country"
+                    required
+                    value={selectedCountryCode}
+                    onCountryChange={(c) => setSelectedCountryCode(c.code)}
+                    placeholder={dict.countryPlaceholder || "Select Country"}
+                    searchPlaceholder={dict.searchCountryPlaceholder || "Search country..."}
+                  />
+                </div>
+
                 <div className="space-y-2">
                   <label
                     htmlFor="city"
                     className="text-sm font-medium text-gray-700 dark:text-gray-300"
                   >
-                    {dict.city}
+                    {dict.city || "City"}
                   </label>
                   <input
                     type="text"
@@ -205,7 +216,7 @@ export default function AdmissionsForm({ dict }: { dict: any }) {
                     name="city"
                     required
                     className="w-full px-4 py-3 rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-900 focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none transition-all placeholder:text-gray-400"
-                    placeholder={dict.cityPlaceholder}
+                    placeholder={dict.cityPlaceholder || "Enter your city"}
                   />
                 </div>
               </div>
@@ -217,16 +228,16 @@ export default function AdmissionsForm({ dict }: { dict: any }) {
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-primary/10 text-primary text-sm font-bold">
                   3
                 </span>
-                {dict.courseInfo} ({dict.online || "Online Classes"})
+                {dict.courseInfo || dict.programSelection || "Program & Schedule"} ({dict.online || "Online Classes"})
               </h3>
 
               <div className="grid sm:grid-cols-2 gap-6">
                 <div className="space-y-2 sm:col-span-2">
                   <label
-                    htmlFor="course"
+                    htmlFor="program"
                     className="text-sm font-medium text-gray-700 dark:text-gray-300"
                   >
-                    {dict.selectProgram}
+                    {dict.selectProgram || dict.program || "Select Program"}
                   </label>
                   <div className="relative">
                     <select
@@ -299,14 +310,14 @@ export default function AdmissionsForm({ dict }: { dict: any }) {
                 htmlFor="message"
                 className="text-sm font-medium text-gray-700 dark:text-gray-300"
               >
-                {dict.notes}
+                {dict.notes || dict.message || "Questions or Special Notes (Optional)"}
               </label>
               <textarea
                 id="message"
                 name="message"
                 rows={4}
                 className="w-full px-4 py-3 rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-900 focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none transition-all placeholder:text-gray-400 resize-none"
-                placeholder={dict.notesPlaceholder}
+                placeholder={dict.notesPlaceholder || dict.messagePlaceholder || "Tell us about your learning goals..."}
               ></textarea>
             </div>
 
@@ -318,16 +329,16 @@ export default function AdmissionsForm({ dict }: { dict: any }) {
               {isSubmitting ? (
                 <>
                   <Loader2 className="w-5 h-5 animate-spin" />
-                  <span>{dict.sending}</span>
+                  <span>{dict.sending || dict.submitting || "Processing Application..."}</span>
                 </>
               ) : (
                 <>
-                  <span>{dict.submit}</span>
+                  <span>{dict.submit || "Submit Admission Application"}</span>
                   <Check className="w-5 h-5" />
                 </>
               )}
             </button>
-            <p className="text-center text-sm text-gray-500">{dict.confMsg}</p>
+            <p className="text-center text-sm text-gray-500">{dict.confMsg || "Your information is protected. We will never share your details."}</p>
           </form>
         </div>
       </div>

@@ -152,6 +152,24 @@
       }
     ]
   },
+  "threeSteps": {
+    "title": "Vous n'êtes qu'à 3 étapes !",
+    "steps": [
+      {
+        "title": "Inscription en un clic",
+        "description": "Inscrivez-vous ou inscrivez votre enfant dès aujourd'hui et profitez de vos premiers cours d'essai gratuits. Remplissez simplement le formulaire ou discutez avec nous. Aucune carte bancaire requise. C'est aussi simple que bonjour."
+      },
+      {
+        "title": "Planifiez votre essai gratuit",
+        "description": "Dès réception de votre inscription, nous vous contacterons pour fixer un horaire qui vous convient et vous donner un aperçu du déroulement de nos cours de Coran en ligne."
+      },
+      {
+        "title": "Commencez votre premier cours",
+        "description": "Une fois pleinement satisfait, vous pourrez effectuer le règlement convenu lors de la séance d'essai. Commencez votre premier cours de Coran en ligne avec l'un de nos professeurs qualifiés."
+      }
+    ],
+    "button": "FAITES LE PREMIER PAS DÈS MAINTENANT"
+  },
   "pricing": {
     "title": "Tarification Simple et Transparente",
     "subtitle": "Choisissez le forfait adapté à votre famille. Aucun frais caché.",
@@ -517,7 +535,7 @@
       "submit": "Soumettre la Candidature d'Admission",
       "submitting": "Traitement de la Candidature...",
       "successTitle": "Candidature Soumise !",
-      "successMessage": "JazakAllah Khair ! Nous avons bien reçu votre candidature. Notre coordinateur vous contactera sur WhatsApp/E-mail sous 24 heures pour planifier votre séance d'essai gratuite.",
+      "successMessage": "JazakAllah Khair ! Nous avons bien reçu votre candidature. Notre coordinateur vous contactera sur WhatsApp sous 24 heures pour planifier votre séance d'essai gratuite.",
       "errorTitle": "Échec de la Soumission",
       "errorMessage": "Un problème est survenu lors de la soumission. Veuillez réessayer ou nous contacter directement sur WhatsApp."
     }

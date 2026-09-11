@@ -118,12 +118,14 @@ export default async function PrivacyPolicy({
             </h2>
             <p>
               If you have any questions about this privacy policy or our privacy
-              practices, please contact us at:{" "}
+              practices, please contact us via WhatsApp at:{" "}
               <a
-                href="mailto:info@alkahafacademy.com"
-                className="text-primary hover:underline"
+                href="https://wa.me/923222597066"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:underline font-semibold"
               >
-                info@alkahafacademy.com
+                +92 322 2597066
               </a>
             </p>
           </div>

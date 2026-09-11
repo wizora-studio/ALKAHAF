@@ -44,10 +44,10 @@ export default async function Page({
       <StatCounter
         dict={dict.stats}
         counts={{
-          students: totalStudents,
+          students: totalStudents && totalStudents > 50 ? totalStudents : 50,
           teachers: 15,
           classes: 120,
-          experience: 10,
+          experience: 20,
         }}
       />
 

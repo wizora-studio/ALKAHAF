@@ -14,9 +14,9 @@
     "contactUs": "Contact Us",
     "learnMore": "Learn More",
     "stats": {
-      "students": "200+",
+      "students": "50+",
       "teachers": "15+",
-      "experience": "10+",
+      "experience": "20+",
       "classesPerWeek": "120/wk"
     }
   },
@@ -447,7 +447,7 @@
     "programsTitle": "Our Programs",
     "quickLinksTitle": "Quick Links",
     "stayConnectedTitle": "Stay Connected",
-    "copyright": "© {year} Al Kahaf Academy. Licensed & Registered.",
+    "copyright": "© Al Kahaf Academy. Licensed & Registered.",
     "developedBy": "Developed by",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service",

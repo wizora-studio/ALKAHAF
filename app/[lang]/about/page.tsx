@@ -61,7 +61,7 @@ export default async function AboutPage({
               </div>
               <div className="absolute -bottom-8 -left-8 bg-white dark:bg-card p-6 rounded-2xl shadow-xl max-w-xs">
                 <p className="font-serif text-4xl text-primary font-bold mb-1">
-                  10+
+                  20+
                 </p>
                 <p className="text-sm text-muted-foreground uppercase tracking-wide">
                   {dict.about.history.stat}

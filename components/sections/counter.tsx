@@ -98,14 +98,14 @@ export const StatCounter: React.FC<{
           />
           <StatItem
             icon={<BookOpen className="h-8 w-8" />}
-            value={counts?.students || 0}
+            value={counts?.students || 50}
             label={dict.studentsEnrolled}
             delay={0.2}
             suffix="+"
           />
           <StatItem
             icon={<Award className="h-8 w-8" />}
-            value={counts?.experience || 10}
+            value={counts?.experience || 20}
             label={dict.yearsExperience}
             delay={0.3}
             suffix="+"

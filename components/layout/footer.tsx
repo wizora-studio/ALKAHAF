@@ -22,7 +22,7 @@ const Footer: React.FC<FooterProps> = ({ lang: propLang, dict }) => {
     programsTitle: "Our Programs",
     quickLinksTitle: "Quick Links",
     stayConnectedTitle: "Stay Connected",
-    copyright: "© {year} Al Kahaf Academy. Licensed & Registered.",
+    copyright: "© Al Kahaf Academy. Licensed & Registered.",
     developedBy: "Developed by",
     privacyPolicy: "Privacy Policy",
     termsOfService: "Terms of Service",
@@ -193,10 +193,9 @@ const Footer: React.FC<FooterProps> = ({ lang: propLang, dict }) => {
         <div className="pt-8 flex flex-col items-center gap-4 text-sm text-[#7A685B]">
           <div className="w-full flex flex-col md:flex-row justify-between items-center gap-4">
             <p>
-              {footerDict.copyright.replace(
-                "{year}",
-                new Date().getFullYear().toString(),
-              )}
+              {footerDict.copyright
+                .replace("{year} ", "")
+                .replace("{year}", "")}
             </p>
             <div className="flex gap-6">
               <Link

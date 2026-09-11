@@ -38,26 +38,29 @@ const Navbar: React.FC<NavbarProps> = ({ lang = "en", dict }) => {
 
   return (
     <header className="relative w-full z-50 bg-[#FCFBF8] border-b border-[#EAE3D6]">
-      <nav className="mx-auto lg:max-w-[1400px] w-full px-5 sm:px-10 md:px-12 lg:px-6">
+      <nav className="mx-auto lg:max-w-[1400px] w-full px-4 sm:px-10 md:px-12 lg:px-6">
         <div className="flex h-20 items-center justify-between">
           {/* LOGO */}
           <Link
             href={getLocalizedHref("/")}
-            className="relative flex items-center py-1"
+            className="relative flex items-center gap-2.5 sm:gap-3 py-1 group shrink-0"
           >
             <span className="absolute -inset-2 rounded-full bg-[#C5A059]/15 blur-xl"></span>
             <Image
-              src="/images/alkahaf-logo.png"
+              src="/images/alkahaf-emblem.png"
               alt="Al Kahaf Academy"
-              width={200}
-              height={200}
+              width={60}
+              height={60}
               priority
-              className="relative h-16 sm:h-20 w-auto object-contain"
+              className="relative h-11 sm:h-14 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
             />
+            <span className="font-serif font-bold text-base sm:text-lg md:text-xl lg:text-xl xl:text-2xl text-[#2D1C13] tracking-tight whitespace-nowrap">
+              Al Kahaf Academy
+            </span>
           </Link>
 
           {/* DESKTOP MENU */}
-          <ul className="hidden lg:flex gap-6 items-center text-[#2D1C13] font-medium">
+          <ul className="hidden lg:flex gap-4 xl:gap-6 items-center text-[#2D1C13] font-medium">
             {[
               [navigation.home, "/"],
               [navigation.about, "/about"],

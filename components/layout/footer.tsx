@@ -55,7 +55,7 @@ const Footer: React.FC<FooterProps> = ({ lang: propLang, dict }) => {
                 width={200}
                 height={200}
                 priority
-                className="relative h-20 w-auto object-contain"
+                className="relative h-24 w-auto object-contain"
               />
             </Link>
             <p className="text-[#5C4A3E] max-w-sm font-sans leading-relaxed">

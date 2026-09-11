@@ -136,6 +136,19 @@ export async function generateMetadata({
     verification: {
       google: "tuAS_SdU7pnZuwUBr0LQwfqP7Et_c_cVf39FkR8a0lo",
     },
+    icons: {
+      icon: [
+        { url: "/favicon.ico", sizes: "any" },
+        { url: "/favicon-32x32.png", type: "image/png", sizes: "32x32" },
+        { url: "/favicon-16x16.png", type: "image/png", sizes: "16x16" },
+        { url: "/images/alkahaf-emblem.png", type: "image/png", sizes: "192x192" },
+      ],
+      apple: [
+        { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+      ],
+      shortcut: "/favicon.ico",
+    },
+    manifest: "/site.webmanifest",
   };
 }
 
@@ -157,6 +170,12 @@ export default async function RootLayout({
       suppressHydrationWarning
     >
       <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32" />
+        <link rel="icon" href="/favicon-16x16.png" type="image/png" sizes="16x16" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
+        <link rel="manifest" href="/site.webmanifest" />
+        <meta name="theme-color" content="#C5A059" />
         <meta name="google-site-verification" content="AE2s4AgJTX7lAEZn6Cu9bWGr7VniZFCMO11qAkDjuXg" />
         <Script
           async

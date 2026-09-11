@@ -5,6 +5,17 @@ import { Toaster } from "sonner";
 
 export const metadata = {
   title: "Admin Panel — Al Kahaf Academy",
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon-32x32.png", type: "image/png", sizes: "32x32" },
+      { url: "/images/alkahaf-emblem.png", type: "image/png", sizes: "192x192" },
+    ],
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+    ],
+    shortcut: "/favicon.ico",
+  },
 };
 
 export default async function AdminLayout({
@@ -25,6 +36,11 @@ export default async function AdminLayout({
   if (!user) {
     return (
       <html lang="en">
+        <head>
+          <link rel="icon" href="/favicon.ico" sizes="any" />
+          <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32" />
+          <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
+        </head>
         <body>
           {children}
           <Toaster richColors position="top-right" />
@@ -35,6 +51,11 @@ export default async function AdminLayout({
 
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
+      </head>
       <body>
         <AdminDashboardShell userEmail={user.email || ""}>
           {children}

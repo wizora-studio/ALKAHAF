@@ -1,0 +1,21 @@
+{
+  "name": "Al Kahaf Academy",
+  "short_name": "Al Kahaf",
+  "description": "Leading Quran and Islamic Institute",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FCFBF8",
+  "theme_color": "#C5A059",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

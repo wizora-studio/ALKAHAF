@@ -57,12 +57,12 @@ export default function AdminSidebar({
         <div className="p-6 border-b border-white/10 flex flex-col items-center relative">
           <Link href="/admin" onClick={onClose} className="block transform hover:scale-105 transition-transform duration-200">
             <Image
-              src="/images/logo-bg-re.png"
+              src="/images/alkahaf-logo.png"
               alt="Al Kahaf Academy Logo"
               width={160}
-              height={127}
+              height={50}
+              className="h-10 w-auto object-contain"
               priority
-              className="w-32 h-auto mx-auto object-contain"
             />
           </Link>
           <p className="text-amber-200/40 text-[10px] uppercase tracking-widest mt-2 font-medium text-center">

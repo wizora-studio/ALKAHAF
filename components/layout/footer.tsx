@@ -50,10 +50,10 @@ const Footer: React.FC<FooterProps> = ({ lang: propLang, dict }) => {
             >
               <span className="absolute -inset-2 rounded-full bg-[#C5A059]/15 blur-xl"></span>
               <Image
-                src="/images/logo-bg-re.png"
-                alt="Logo"
-                width={160}
-                height={127}
+                src="/images/alkahaf-logo.png"
+                alt="Al Kahaf Academy"
+                width={200}
+                height={200}
                 priority
                 className="relative h-20 w-auto object-contain"
               />

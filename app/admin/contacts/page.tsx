@@ -1,5 +1,6 @@
 import { createAdminClient } from "@/utils/supabase/admin";
 import ContactsClient from "./ContactsClient";
+export const dynamic = "force-dynamic";
 
 export default async function ContactsPage() {
   const supabase = await createAdminClient();

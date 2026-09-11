@@ -47,12 +47,12 @@ const Navbar: React.FC<NavbarProps> = ({ lang = "en", dict }) => {
           >
             <span className="absolute -inset-2 rounded-full bg-[#C5A059]/15 blur-xl"></span>
             <Image
-              src="/images/logo-bg-re.png"
+              src="/images/alkahaf-logo.png"
               alt="Al Kahaf Academy"
-              width={160}
-              height={127}
+              width={200}
+              height={200}
               priority
-              className="relative h-14 sm:h-16 w-auto object-contain"
+              className="relative h-16 sm:h-20 w-auto object-contain"
             />
           </Link>
 

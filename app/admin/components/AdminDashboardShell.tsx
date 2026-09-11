@@ -27,11 +27,12 @@ export default function AdminDashboardShell({
       <header className="lg:hidden h-16 bg-[#1a0a05] text-white px-4 flex items-center justify-between sticky top-0 z-40 shadow-md">
         <Link href="/admin" className="flex items-center gap-2">
           <Image
-            src="/images/logo-bg-re.png"
+            src="/images/alkahaf-logo.png"
             alt="Al Kahaf Academy Logo"
             width={120}
-            height={95}
-            className="h-10 w-auto object-contain"
+            height={40}
+            className="h-8 w-auto object-contain"
+            priority
           />
         </Link>
         <button

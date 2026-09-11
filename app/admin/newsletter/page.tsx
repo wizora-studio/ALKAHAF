@@ -1,5 +1,6 @@
 import { createAdminClient } from "@/utils/supabase/admin";
 import NewsletterClient from "./NewsletterClient";
+export const dynamic = "force-dynamic";
 
 export default async function NewsletterPage() {
   const supabase = await createAdminClient();

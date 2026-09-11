@@ -75,7 +75,13 @@ export async function sendEnrollmentEmail(formData: FormData) {
   const phone = formData.get("phone") as string;
   const age = formData.get("age") as string;
   const gender = formData.get("gender") as string;
-  const city = formData.get("city") as string;
+  const country = (formData.get("country") as string) || "";
+  const city = (formData.get("city") as string) || "";
+  const locationCombined = country
+    ? city
+      ? `${city}, ${country}`
+      : country
+    : city;
   const program = formData.get("program") as string;
   const learningMode = formData.get("learningMode") as string;
   const preferredDays = formData.get("preferredDays") as string;
@@ -85,6 +91,8 @@ export async function sendEnrollmentEmail(formData: FormData) {
   console.log("--- NEW ENROLLMENT ATTEMPT ---");
   console.log("Student:", studentName);
   console.log("Parent:", parentName);
+  console.log("Phone:", phone);
+  console.log("Country:", country);
   console.log("Program:", program);
 
   try {
@@ -101,7 +109,7 @@ export async function sendEnrollmentEmail(formData: FormData) {
         phone,
         age: parseInt(age) || null,
         gender,
-        city,
+        city: locationCombined,
         program,
         preferred_days: preferredDays,
         preferred_time: preferredTime,
@@ -134,7 +142,8 @@ export async function sendEnrollmentEmail(formData: FormData) {
           { label: "Parent Name", value: parentName },
           { label: "Email", value: email },
           { label: "Phone", value: phone },
-          { label: "City", value: city },
+          { label: "Country", value: country || "N/A" },
+          { label: "City", value: city || "N/A" },
           { label: "Learning Mode", value: learningMode },
           { label: "Program", value: program },
           { label: "Preferred Days", value: preferredDays },

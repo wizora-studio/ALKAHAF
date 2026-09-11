@@ -48,7 +48,7 @@ const Navbar: React.FC<NavbarProps> = ({ lang = "en", dict }) => {
             <span className="absolute -inset-2 rounded-full bg-[#C5A059]/15 blur-xl"></span>
             <Image
               src="/images/logo-bg-re.png"
-              alt="Aisha Academy"
+              alt="Al Kahaf Academy"
               width={160}
               height={127}
               priority

@@ -11,7 +11,7 @@ interface TypedHeadingProps {
 }
 
 const TypedHeading: React.FC<TypedHeadingProps> = ({
-  strings = ["Aisha Academy", "Quran Education", "Islamic Studies"],
+  strings = ["Al Kahaf Academy", "Quran Education", "Islamic Studies"],
   onComplete,
   loop = true,
 }) => {

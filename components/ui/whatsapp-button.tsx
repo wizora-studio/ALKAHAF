@@ -12,7 +12,7 @@ export default function WhatsappButton({
 }) {
   const encodedMessage = encodeURIComponent(
     message ||
-      "Assalamu Alaikum, I visited your website and I am interested in Aisha Academy. Could you please provide more details?",
+      "Assalamu Alaikum, I visited your website and I am interested in Al Kahaf Academy. Could you please provide more details?",
   );
 
   return (

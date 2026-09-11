@@ -22,7 +22,7 @@ const Footer: React.FC<FooterProps> = ({ lang: propLang, dict }) => {
     programsTitle: "Our Programs",
     quickLinksTitle: "Quick Links",
     stayConnectedTitle: "Stay Connected",
-    copyright: "© {year} Aisha Academy. Licensed & Registered.",
+    copyright: "© {year} Al Kahaf Academy. Licensed & Registered.",
     developedBy: "Developed by",
     privacyPolicy: "Privacy Policy",
     termsOfService: "Terms of Service",
@@ -179,7 +179,7 @@ const Footer: React.FC<FooterProps> = ({ lang: propLang, dict }) => {
                   <rect width="20" height="16" x="2" y="4" rx="2" />
                   <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
                 </svg>
-                <span>info@aisha-academy.com</span>
+                <span>info@alkahafacademy.com</span>
               </li>
             </ul>
             <div className="pt-2">

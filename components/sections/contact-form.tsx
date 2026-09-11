@@ -74,10 +74,10 @@ export default function ContactForm({ dict }: { dict: any }) {
                   </h3>
                   <p className="text-sm text-[#5C4A3E]">
                     <a
-                      href="mailto:info@aisha-academy.com"
+                      href="mailto:info@alkahafacademy.com"
                       className="hover:text-[#C5A059] transition-colors"
                     >
-                      info@aisha-academy.com
+                      info@alkahafacademy.com
                     </a>
                   </p>
                 </div>

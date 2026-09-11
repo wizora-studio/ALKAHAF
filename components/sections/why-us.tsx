@@ -72,7 +72,7 @@ export default function WhyUs({ dict }: { dict: any }) {
             <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-xl border-4 border-white bg-white z-10 transform transition-transform hover:scale-[1.01] duration-500">
               <Image
                 src="/images/online-quran-students.jpg"
-                alt="Aisha Academy - Excellence in Quranic Education"
+                alt="Al Kahaf Academy - Excellence in Quranic Education"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
                 className="object-cover"

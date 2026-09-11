@@ -58,7 +58,7 @@ export default function AdminSidebar({
           <Link href="/admin" onClick={onClose} className="block transform hover:scale-105 transition-transform duration-200">
             <Image
               src="/images/logo-bg-re.png"
-              alt="Aisha Academy Logo"
+              alt="Al Kahaf Academy Logo"
               width={160}
               height={127}
               priority

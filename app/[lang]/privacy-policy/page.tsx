@@ -38,7 +38,7 @@ export default async function PrivacyPolicy({
               1. Introduction
             </h2>
             <p>
-              Welcome to Aisha Academy (“us”, “we”, or “our”). We respect your
+              Welcome to Al Kahaf Academy (“us”, “we”, or “our”). We respect your
               privacy and are committed to protecting your personal data. This
               privacy policy will inform you as to how we look after your
               personal data when you visit our website (regardless of where you
@@ -120,10 +120,10 @@ export default async function PrivacyPolicy({
               If you have any questions about this privacy policy or our privacy
               practices, please contact us at:{" "}
               <a
-                href="mailto:info@aisha-academy.com"
+                href="mailto:info@alkahafacademy.com"
                 className="text-primary hover:underline"
               >
-                info@aisha-academy.com
+                info@alkahafacademy.com
               </a>
             </p>
           </div>

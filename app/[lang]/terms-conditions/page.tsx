@@ -49,7 +49,7 @@ export default async function TermsConditions({
               2. Educational Services
             </h2>
             <p>
-              Aisha Academy provides Qur&apos;anic and Islamic education
+              Al Kahaf Academy provides Qur&apos;anic and Islamic education
               services online through live interactive sessions. We commit to providing
               qualified teachers and a structured curriculum. However, student
               progress depends on individual effort, attendance, and practice.
@@ -102,7 +102,7 @@ export default async function TermsConditions({
               6. Limitation of Liability
             </h2>
             <p>
-              Aisha Academy shall not be liable for any indirect, incidental,
+              Al Kahaf Academy shall not be liable for any indirect, incidental,
               special, consequential or punitive damages, or any loss of profits
               or revenues, whether incurred directly or indirectly, or any loss
               of data, use, goodwill, or other intangible losses, resulting from
@@ -120,10 +120,10 @@ export default async function TermsConditions({
               Any questions about these Terms & Conditions should be addressed
               to us at:{" "}
               <a
-                href="mailto:info@aisha-academy.com"
+                href="mailto:info@alkahafacademy.com"
                 className="text-primary hover:underline"
               >
-                info@aisha-academy.com
+                info@alkahafacademy.com
               </a>
             </p>
           </div>

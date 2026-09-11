@@ -43,7 +43,7 @@ export default async function AboutPage({
           href: "/admissions",
         }}
         imageSrc="/images/physical-learning-man.png"
-        imageAlt="About Aisha Academy"
+        imageAlt="About Al Kahaf Academy"
       />
 
       {/* History & Story */}

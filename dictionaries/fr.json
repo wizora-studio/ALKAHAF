@@ -31,7 +31,7 @@
     "online": "En ligne",
     "physical": "En présentiel",
     "typedStrings": [
-      "Aisha Academy",
+      "Al Kahaf Academy",
       "Éducation Coranique",
       "Études Islamiques",
       "Formation du Caractère"
@@ -104,7 +104,7 @@
   },
   "whyUs": {
     "title": "Pourquoi Choisir",
-    "highlight": "Aisha Academy ?",
+    "highlight": "Al Kahaf Academy ?",
     "description": "Nous offrons une éducation coranique et islamique de haut niveau, accessible dans le monde entier.",
     "reasons": [
       {
@@ -131,7 +131,7 @@
   },
   "howWork": {
     "title": "Comment Ça Marche",
-    "subtitle": "Quatre étapes simples pour commencer à apprendre le Saint Coran en ligne avec Aisha Academy",
+    "subtitle": "Quatre étapes simples pour commencer à apprendre le Saint Coran en ligne avec Al Kahaf Academy",
     "step": "Étape",
     "steps": [
       {
@@ -251,21 +251,21 @@
   },
   "cta": {
     "title": "\"Offrez à votre famille le cadeau du Coran – Inscrivez-vous aujourd'hui\"",
-    "description": "Rejoignez la famille Aisha Academy et commencez votre voyage de foi et de connaissance sacrée.",
+    "description": "Rejoignez la famille Al Kahaf Academy et commencez votre voyage de foi et de connaissance sacrée.",
     "enroll": "S'inscrire maintenant",
     "contact": "Contactez-nous"
   },
   "about": {
     "hero": {
-      "title": "À Propos de l'Académie Aisha",
+      "title": "À Propos de l'Académie Al Kahaf",
       "description": "Nourrir les étudiants de tous âges avec la lumière du Coran et la noblesse du caractère islamique depuis 2015.",
       "badge": "Depuis 2015",
       "primaryAction": "Rejoindre l'Académie"
     },
     "history": {
       "title": "Notre Histoire",
-      "p1": "L'Académie Aisha a été fondée pour répondre au besoin mondial d'une éducation coranique de haute qualité. Nous sommes devenus un institut en ligne de premier plan servant des centaines d'étudiants dans le monde entier.",
-      "p2": "Nommée d'après la Mère des Croyants, Aisha (RA), phare de savoir, notre académie s'efforce d'incarner son héritage d'érudition, de compassion et de piété.",
+      "p1": "L'Académie Al Kahaf a été fondée pour répondre au besoin mondial d'une éducation coranique de haute qualité. Nous sommes devenus un institut en ligne de premier plan servant des centaines d'étudiants dans le monde entier.",
+      "p2": "Nommée d'après la Mère des Croyants, Al Kahaf Academy (RA), phare de savoir, notre académie s'efforce d'incarner son héritage d'érudition, de compassion et de piété.",
       "stat": "Années d'Excellence"
     },
     "mission": {
@@ -447,14 +447,14 @@
     "programsTitle": "Nos Programmes",
     "quickLinksTitle": "Liens Rapides",
     "stayConnectedTitle": "Restez Connecté",
-    "copyright": "© {year} Aisha Academy. Licencié & Enregistré.",
+    "copyright": "© {year} Al Kahaf Academy. Licencié & Enregistré.",
     "developedBy": "Développé par",
     "privacyPolicy": "Politique de Confidentialité",
     "termsOfService": "Conditions d'Utilisation",
     "available": "Académie Coranique 100% en Ligne dans le Monde Entier",
     "social": {
       "facebook": "https://www.facebook.com/profile.php?id=61573956185952",
-      "instagram": "https://www.instagram.com/academieaisha?igsh=aXJyMTZjZDBqMG90"
+      "instagram": "https://www.instagram.com/academiealkahafacademy?igsh=aXJyMTZjZDBqMG90"
     }
   },
   "admissions": {
@@ -562,7 +562,7 @@
       "success": "Message Envoyé !",
       "successDesc": "Merci ! Nous vous répondrons très rapidement.",
       "error": "Échec de l'envoi du message. Veuillez réessayer ou nous contacter sur WhatsApp.",
-      "whatsappButtonMessage": "Assalamu Alaikum, je suis intéressé par les cours de l'Académie Aisha."
+      "whatsappButtonMessage": "Assalamu Alaikum, je suis intéressé par les cours de l'Académie Al Kahaf."
     }
   },
   "schedulePage": {
@@ -607,7 +607,7 @@
   },
   "process": {
     "title": "Comment Ça Marche",
-    "subtitle": "Quatre étapes simples pour commencer à apprendre le Saint Coran en ligne avec Aisha Academy",
+    "subtitle": "Quatre étapes simples pour commencer à apprendre le Saint Coran en ligne avec Al Kahaf Academy",
     "step": "Étape",
     "steps": [
       {

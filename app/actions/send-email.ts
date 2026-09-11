@@ -5,7 +5,7 @@ import { createClient } from "@/utils/supabase/server";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 const adminEmail =
-  process.env.NEXT_PUBLIC_ADMIN_EMAIL || "info@aisha-academy.com";
+  process.env.NEXT_PUBLIC_ADMIN_EMAIL || "info@alkahafacademy.com";
 
 function generateEmailHtml(
   title: string,
@@ -38,7 +38,7 @@ function generateEmailHtml(
                 <!-- Header -->
                 <tr>
                   <td style="background-color: #7c2d12; padding: 30px; text-align: center;">
-                    <h1 style="color: #ffffff; margin: 0; font-size: 24px;">Aisha Academy</h1>
+                    <h1 style="color: #ffffff; margin: 0; font-size: 24px;">Al Kahaf Academy</h1>
                   </td>
                 </tr>
                 <!-- Body -->
@@ -53,12 +53,12 @@ function generateEmailHtml(
                 <!-- Footer -->
                 <tr>
                   <td style="background-color: #f8fafc; padding: 20px; text-align: center; color: #718096; font-size: 14px;">
-                    ${footer || "This is an automated notification from Aisha Academy Website."}
+                    ${footer || "This is an automated notification from Al Kahaf Academy Website."}
                   </td>
                 </tr>
               </table>
               <div style="margin-top: 20px; text-align: center; color: #a0aec0; font-size: 12px;">
-                &copy; ${new Date().getFullYear()} Aisha Academy. All rights reserved.
+                &copy; ${new Date().getFullYear()} Al Kahaf Academy. All rights reserved.
               </div>
             </td>
           </tr>
@@ -122,7 +122,7 @@ export async function sendEnrollmentEmail(formData: FormData) {
     // 2. Send Email via Resend
     console.log("Attempting to send email via Resend to:", adminEmail);
     const { data, error } = await resend.emails.send({
-      from: "Aisha Academy <admissions@aisha-academy.com>",
+      from: "Al Kahaf Academy <admissions@alkahafacademy.com>",
       to: adminEmail,
       subject: `New Enrollment Application: ${studentName}`,
       html: generateEmailHtml(
@@ -195,7 +195,7 @@ export async function sendContactEmail(formData: FormData) {
     // 2. Send Email via Resend
     console.log("Attempting to send contact email to:", adminEmail);
     const { data, error } = await resend.emails.send({
-      from: "Aisha Academy Contact <info@aisha-academy.com>",
+      from: "Al Kahaf Academy Contact <info@alkahafacademy.com>",
       to: adminEmail,
       subject: `New Contact Inquiry: ${inquiry} from ${name}`,
       html: generateEmailHtml(
@@ -256,13 +256,13 @@ export async function subscribeNewsletter(formData: FormData) {
     // 2. Send Notification Email to Admin
     console.log("Attempting to send newsletter notification to:", adminEmail);
     const { data, error } = await resend.emails.send({
-      from: "Aisha Academy Newsletter <info@aisha-academy.com>",
+      from: "Al Kahaf Academy Newsletter <info@alkahafacademy.com>",
       to: adminEmail,
       subject: `New Newsletter Subscriber: ${email}`,
       html: generateEmailHtml(
         "New Newsletter Subscription",
         [{ label: "Email", value: email }],
-        "A new user has subscribed to the Aisha Academy newsletter. This email has been recorded in the database.",
+        "A new user has subscribed to the Al Kahaf Academy newsletter. This email has been recorded in the database.",
       ),
     });
 

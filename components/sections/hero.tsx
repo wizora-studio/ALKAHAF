@@ -27,7 +27,7 @@ export default function HeroSection({ dict, lang = "en" }: HeroSectionProps) {
       <div className="absolute inset-0 z-0 pointer-events-none select-none">
         <Image
           src="/images/aisha-hero-mandala-banner.webp"
-          alt="Aisha Academy Islamic Mandala Background"
+          alt="Al Kahaf Academy Islamic Mandala Background"
           fill
           priority
           quality={100}

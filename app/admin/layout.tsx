@@ -4,7 +4,7 @@ import AdminDashboardShell from "./components/AdminDashboardShell";
 import { Toaster } from "sonner";
 
 export const metadata = {
-  title: "Admin Panel — Aisha Academy",
+  title: "Admin Panel — Al Kahaf Academy",
 };
 
 export default async function AdminLayout({

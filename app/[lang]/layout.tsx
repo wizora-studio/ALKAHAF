@@ -72,12 +72,12 @@ export async function generateMetadata({
   const isEn = lang === "en";
 
   return {
-    metadataBase: new URL("https://aisha-academy.com"),
+    metadataBase: new URL("https://alkahafacademy.com"),
     title: {
       default: isEn
-        ? "Aisha Academy | Leading Quran & Islamic Institute in Montreal"
-        : "Aisha Academy | Institut Coranique et Islamique de Premier Plan à Montréal",
-      template: "%s | Aisha Academy",
+        ? "Al Kahaf Academy | Leading Quran & Islamic Institute in Montreal"
+        : "Al Kahaf Academy | Institut Coranique et Islamique de Premier Plan à Montréal",
+      template: "%s | Al Kahaf Academy",
     },
     description: isEn
       ? "Trusted Online Quran education for children and adults worldwide. Live classes focusing on Tilawah, Tajweed, and character building (Tarbiyah)."
@@ -88,35 +88,35 @@ export async function generateMetadata({
       "Learn Quran online",
       "Tajweed for children",
       "Live Islamic education",
-      "Aisha Academy",
+      "Al Kahaf Academy",
       "Online Quran hifz",
       "Arabic classes for kids",
     ],
-    authors: [{ name: "Aisha Academy" }],
-    creator: "Aisha Academy",
+    authors: [{ name: "Al Kahaf Academy" }],
+    creator: "Al Kahaf Academy",
     openGraph: {
       type: "website",
       locale: isEn ? "en_US" : "fr_CA",
-      url: "https://aisha-academy.com",
+      url: "https://alkahafacademy.com",
       title: isEn
-        ? "Aisha Academy | Leading Online Quran & Islamic Institute"
-        : "Aisha Academy | Institut Coranique et Islamique en Ligne de Premier Plan",
+        ? "Al Kahaf Academy | Leading Online Quran & Islamic Institute"
+        : "Al Kahaf Academy | Institut Coranique et Islamique en Ligne de Premier Plan",
       description: isEn
         ? "Expert Quran and Islamic studies for kids. Nurturing young hearts with the light of the Quran since 2015."
         : "Études coraniques et islamiques expertes pour les enfants. Nourrir les jeunes cœurs avec la lumière du Coran depuis 2015.",
-      siteName: "Aisha Academy",
+      siteName: "Al Kahaf Academy",
       images: [
         {
           url: "/images/img3.jpg",
           width: 1200,
           height: 630,
-          alt: "Aisha Academy Students",
+          alt: "Al Kahaf Academy Students",
         },
       ],
     },
     twitter: {
       card: "summary_large_image",
-      title: "Aisha Academy | Young Hearts with the Quran",
+      title: "Al Kahaf Academy | Young Hearts with the Quran",
       description: isEn
         ? "Trusted Online Quran education for children and adults. Interactive live classes available globally."
         : "Éducation coranique en ligne de confiance pour enfants et adultes. Cours interactifs en direct disponibles dans le monde entier.",

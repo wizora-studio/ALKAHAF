@@ -47,12 +47,12 @@ export default function LiveChatWidget({
     let message = "";
     if (studentName) {
       message = isFrench
-        ? `Assalamu Alaikum Aisha Academy!\n\nJe m'appelle *${studentName}*.\n${topicText}\n\nMerci de me donner les informations pour démarrer.`
-        : `Assalamu Alaikum Aisha Academy!\n\nMy name is *${studentName}*.\n${topicText}\n\nPlease provide me details to get started.`;
+        ? `Assalamu Alaikum Al Kahaf Academy!\n\nJe m'appelle *${studentName}*.\n${topicText}\n\nMerci de me donner les informations pour démarrer.`
+        : `Assalamu Alaikum Al Kahaf Academy!\n\nMy name is *${studentName}*.\n${topicText}\n\nPlease provide me details to get started.`;
     } else {
       message = isFrench
-        ? `Assalamu Alaikum Aisha Academy!\n\n${topicText}\n\nMerci de me donner les informations pour démarrer.`
-        : `Assalamu Alaikum Aisha Academy!\n\n${topicText}\n\nPlease provide me details and schedule a free trial.`;
+        ? `Assalamu Alaikum Al Kahaf Academy!\n\n${topicText}\n\nMerci de me donner les informations pour démarrer.`
+        : `Assalamu Alaikum Al Kahaf Academy!\n\n${topicText}\n\nPlease provide me details and schedule a free trial.`;
     }
 
     const waUrl = `https://wa.me/15145627711?text=${encodeURIComponent(message)}`;

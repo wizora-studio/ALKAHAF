@@ -28,7 +28,7 @@ export default function AdminDashboardShell({
         <Link href="/admin" className="flex items-center gap-2">
           <Image
             src="/images/logo-bg-re.png"
-            alt="Aisha Academy Logo"
+            alt="Al Kahaf Academy Logo"
             width={120}
             height={95}
             className="h-10 w-auto object-contain"

@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/admin/", "/api/"], // Protecting sensitive or internal routes
     },
-    sitemap: "https://aisha-academy.com/sitemap.xml",
+    sitemap: "https://alkahafacademy.com/sitemap.xml",
   };
 }

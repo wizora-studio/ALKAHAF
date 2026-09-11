@@ -37,7 +37,7 @@ export default function GoogleMap({ dict }: { dict: any }) {
           {/* Location Overlay Card */}
           <div className="absolute bottom-8 left-8 right-8 sm:left-auto sm:right-8 sm:w-80 bg-white/90 dark:bg-gray-900/90 backdrop-blur-xl p-6 rounded-3xl border border-white/20 shadow-2xl z-20">
             <h3 className="text-xl font-bold text-primary mb-2 font-serif">
-              Aisha Academy
+              Al Kahaf Academy
             </h3>
             <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed mb-4">
               4640 Rue de Salaberry,

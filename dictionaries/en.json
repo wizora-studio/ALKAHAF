@@ -31,7 +31,7 @@
     "online": "Online",
     "physical": "Physical",
     "typedStrings": [
-      "Aisha Academy",
+      "Al Kahaf Academy",
       "Quran Education",
       "Islamic Studies",
       "Character Building"
@@ -104,7 +104,7 @@
   },
   "whyUs": {
     "title": "Why Choose",
-    "highlight": "Aisha Academy?",
+    "highlight": "Al Kahaf Academy?",
     "description": "We provide comprehensive, high-standard Quranic and Islamic education accessible worldwide.",
     "reasons": [
       {
@@ -131,7 +131,7 @@
   },
   "howWork": {
     "title": "How It Works",
-    "subtitle": "Four simple steps to start learning the Holy Quran online with Aisha Academy",
+    "subtitle": "Four simple steps to start learning the Holy Quran online with Al Kahaf Academy",
     "step": "Step",
     "steps": [
       {
@@ -251,21 +251,21 @@
   },
   "cta": {
     "title": "\"Give Your Family the Gift of the Quran – Enroll Today\"",
-    "description": "Join the Aisha Academy family and start your journey of faith and sacred knowledge.",
+    "description": "Join the Al Kahaf Academy family and start your journey of faith and sacred knowledge.",
     "enroll": "Enroll Now",
     "contact": "Contact Us"
   },
   "about": {
     "hero": {
-      "title": "About Aisha Academy",
+      "title": "About Al Kahaf Academy",
       "description": "Nurturing students of all ages with the light of the Quran and the beauty of Islamic character since 2015.",
       "badge": "Since 2015",
       "primaryAction": "Join our Academy"
     },
     "history": {
       "title": "Our Journey",
-      "p1": "Aisha Academy was founded to meet the global need for high-quality, structured Quranic education. We have grown into a premier online institute serving hundreds of students worldwide.",
-      "p2": "Named after the Mother of Believers, Aisha (RA), a beacon of knowledge, our academy strives to embody her legacy of scholarship, compassion, and piety.",
+      "p1": "Al Kahaf Academy was founded to meet the global need for high-quality, structured Quranic education. We have grown into a premier online institute serving hundreds of students worldwide.",
+      "p2": "Named after the Mother of Believers, Al Kahaf Academy (RA), a beacon of knowledge, our academy strives to embody her legacy of scholarship, compassion, and piety.",
       "stat": "Years of Excellence"
     },
     "mission": {
@@ -447,14 +447,14 @@
     "programsTitle": "Our Programs",
     "quickLinksTitle": "Quick Links",
     "stayConnectedTitle": "Stay Connected",
-    "copyright": "© {year} Aisha Academy. Licensed & Registered.",
+    "copyright": "© {year} Al Kahaf Academy. Licensed & Registered.",
     "developedBy": "Developed by",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service",
     "available": "100% Online Quran Academy Worldwide",
     "social": {
       "facebook": "https://www.facebook.com/profile.php?id=61573956185952",
-      "instagram": "https://www.instagram.com/academieaisha?igsh=aXJyMTZjZDBqMG90"
+      "instagram": "https://www.instagram.com/academiealkahafacademy?igsh=aXJyMTZjZDBqMG90"
     }
   },
   "admissions": {
@@ -562,7 +562,7 @@
       "success": "Message Sent!",
       "successDesc": "Thank you! We will get back to you shortly.",
       "error": "Failed to send message. Please try again or message us on WhatsApp.",
-      "whatsappButtonMessage": "Assalamu Alaikum, I am interested in Aisha Academy classes."
+      "whatsappButtonMessage": "Assalamu Alaikum, I am interested in Al Kahaf Academy classes."
     }
   },
   "schedulePage": {
@@ -607,7 +607,7 @@
   },
   "process": {
     "title": "How It Works",
-    "subtitle": "Four simple steps to start learning the Holy Quran online with Aisha Academy",
+    "subtitle": "Four simple steps to start learning the Holy Quran online with Al Kahaf Academy",
     "step": "Step",
     "steps": [
       {

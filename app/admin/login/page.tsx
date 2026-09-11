@@ -41,7 +41,7 @@ export default function AdminLoginPage() {
           <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-amber-500/10 border border-amber-500/20 mb-4">
             <BookOpen className="w-8 h-8 text-amber-400" />
           </div>
-          <h1 className="text-2xl font-bold text-white">Aisha Academy</h1>
+          <h1 className="text-2xl font-bold text-white">Al Kahaf Academy</h1>
           <p className="text-amber-200/60 text-sm mt-1">Admin Portal</p>
         </div>
 
@@ -60,7 +60,7 @@ export default function AdminLoginPage() {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
-                placeholder="admin@aisha-academy.com"
+                placeholder="admin@alkahafacademy.com"
                 className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-amber-500/40 focus:border-amber-500/40 transition-all"
               />
             </div>
@@ -110,7 +110,7 @@ export default function AdminLoginPage() {
         </div>
 
         <p className="text-center text-gray-600 text-xs mt-6">
-          © {new Date().getFullYear()} Aisha Academy. Authorized access only.
+          © {new Date().getFullYear()} Al Kahaf Academy. Authorized access only.
         </p>
       </div>
     </div>

@@ -30,7 +30,7 @@ export default function HeroSection({ dict, lang = "en" }: HeroSectionProps) {
           alt="Al Kahaf Academy Royal Islamic Arch Background"
           fill
           priority
-          quality={95}
+          quality={100}
           sizes="100vw"
           className="object-cover object-left"
         />

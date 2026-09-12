@@ -40,8 +40,30 @@ export default function HeroSection({ dict, lang = "en" }: HeroSectionProps) {
 
       <div className="relative z-10 w-full max-w-[1400px] mx-auto px-5 sm:px-8 md:px-12 lg:px-16 py-10 lg:py-14">
         <div className="grid lg:grid-cols-12 items-center">
-          {/* Left spacer for the curved Islamic mandala artwork */}
-          <div className="hidden lg:block lg:col-span-4 xl:col-span-4" />
+          {/* Left panel — Majestic Holy Quran on Rehal inside the curved mandala */}
+          <div className="hidden lg:flex lg:col-span-4 xl:col-span-4 items-center justify-center relative">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9, y: 15 }}
+              animate={{ opacity: 1, scale: 1, y: 0 }}
+              transition={{ duration: 0.8, ease: "easeOut", delay: 0.15 }}
+              className="relative flex items-center justify-center"
+            >
+              {/* Soft Golden Spiritual Halo behind the Quran */}
+              <div className="absolute w-[280px] h-[280px] xl:w-[340px] xl:h-[340px] rounded-full bg-[#C5A059]/20 blur-[50px] pointer-events-none -z-10" />
+
+              {/* Photorealistic Holy Quran on Carved Rehal */}
+              <div className="relative w-[300px] h-[270px] xl:w-[370px] xl:h-[335px] filter drop-shadow-[0_15px_30px_rgba(45,28,19,0.35)]">
+                <Image
+                  src="/images/quran-hero.png"
+                  alt="Holy Quran on Handcrafted Rehal Stand"
+                  fill
+                  priority
+                  quality={95}
+                  className="object-contain"
+                />
+              </div>
+            </motion.div>
+          </div>
 
           {/* Right Content Column — centered text */}
           <div className="lg:col-span-8 xl:col-span-8 text-center flex flex-col items-center justify-center">

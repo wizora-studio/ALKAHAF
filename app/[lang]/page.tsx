@@ -51,7 +51,7 @@ export default async function Page({
         }}
       />
 
-      <ProgramsOverview dict={dict.programs} />
+      <ProgramsOverview dict={dict.programs} lang={lang} />
       <WhyUs dict={dict.whyUs} />
       <ThreeStepsAway lang={lang} dict={dict} />
       <PricingPlans dict={dict.pricing} />

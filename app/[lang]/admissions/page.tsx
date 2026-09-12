@@ -26,8 +26,8 @@ export default async function AdmissionsPage({
       <PagesHero
         title={dict.admissions.hero.title}
         description={dict.admissions.hero.description}
-        imageSrc="/images/physical-learning-man.png"
-        imageAlt="Boys and girls learning Quran"
+        imageSrc="/images/boy-quran-admissions.jpg"
+        imageAlt="Young student holding the Holy Quran"
         badge={{ text: dict.admissions.hero.badge, icon: CheckCircle }}
         primaryAction={{
           text: dict.admissions.hero.action,

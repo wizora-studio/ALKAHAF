@@ -69,11 +69,12 @@ export default function WhyUs({ dict }: { dict: any }) {
             <div className="absolute -top-10 -right-10 w-32 h-32 bg-[#C5A059]/10 rounded-full blur-3xl"></div>
             <div className="absolute -bottom-10 -left-10 w-32 h-32 bg-[#C5A059]/10 rounded-full blur-3xl"></div>
 
-            <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-xl border-4 border-white bg-white z-10 transform transition-transform hover:scale-[1.01] duration-500">
+            <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-[0_15px_40px_rgba(45,28,19,0.12)] border-4 border-white bg-white z-10 transform transition-transform hover:scale-[1.01] duration-500">
               <Image
-                src="/images/online-quran-students.jpg"
-                alt="Al Kahaf Academy - Excellence in Quranic Education"
+                src="/images/why-us-quran.jpg"
+                alt="Holy Quran on Rehal in a Serene Islamic Sanctuary - Al Kahaf Academy"
                 fill
+                quality={95}
                 sizes="(max-width: 768px) 100vw, 50vw"
                 className="object-cover"
               />

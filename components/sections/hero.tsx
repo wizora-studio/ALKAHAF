@@ -23,25 +23,27 @@ export default function HeroSection({ dict, lang = "en" }: HeroSectionProps) {
 
   return (
     <section className="relative w-full min-h-[520px] lg:min-h-[600px] bg-[#FCFBF8] border-b border-[#EAE3D6] overflow-hidden flex items-center">
-      {/* Background Banner Image with Left Mandala Curve */}
+      {/* Background Banner Image with Royal Islamic Arch & Golden Mandala */}
       <div className="absolute inset-0 z-0 pointer-events-none select-none">
         <Image
-          src="/images/aisha-hero-mandala-banner.webp"
-          alt="Al Kahaf Academy Islamic Mandala Background"
+          src="/images/islamic-hero-banner.jpg"
+          alt="Al Kahaf Academy Royal Islamic Arch Background"
           fill
           priority
-          quality={100}
+          quality={95}
           sizes="100vw"
-          className="object-cover object-left lg:object-center"
+          className="object-cover object-left"
         />
+        {/* Soft atmospheric gradient blend towards right content */}
+        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-transparent to-[#FCFBF8]/90 hidden md:block" />
         {/* Responsive soft overlay on mobile */}
-        <div className="absolute inset-0 bg-[#FCFBF8]/85 sm:bg-[#FCFBF8]/50 lg:bg-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#FCFBF8]/30 via-[#FCFBF8]/75 to-[#FCFBF8]/95 md:hidden" />
       </div>
 
       <div className="relative z-10 w-full max-w-[1400px] mx-auto px-5 sm:px-8 md:px-12 lg:px-16 py-10 lg:py-14">
-        <div className="grid lg:grid-cols-12 items-center">
-          {/* Left panel — Majestic Holy Quran on Rehal inside the curved mandala */}
-          <div className="hidden lg:flex lg:col-span-4 xl:col-span-4 items-center justify-center relative">
+        <div className="grid md:grid-cols-12 lg:grid-cols-12 items-center gap-6 lg:gap-0">
+          {/* Left panel — Majestic Holy Quran on Rehal inside the Royal Islamic Arch */}
+          <div className="hidden md:flex md:col-span-5 lg:col-span-5 items-center justify-center relative">
             <motion.div
               initial={{ opacity: 0, scale: 0.9, y: 15 }}
               animate={{ opacity: 1, scale: 1, y: 0 }}
@@ -49,16 +51,16 @@ export default function HeroSection({ dict, lang = "en" }: HeroSectionProps) {
               className="relative flex items-center justify-center"
             >
               {/* Soft Golden Spiritual Halo behind the Quran */}
-              <div className="absolute w-[280px] h-[280px] xl:w-[340px] xl:h-[340px] rounded-full bg-[#C5A059]/20 blur-[50px] pointer-events-none -z-10" />
+              <div className="absolute w-[260px] h-[260px] lg:w-[300px] lg:h-[300px] xl:w-[350px] xl:h-[350px] rounded-full bg-[#C5A059]/25 blur-[50px] pointer-events-none -z-10" />
 
               {/* Photorealistic Holy Quran on Carved Rehal */}
-              <div className="relative w-[300px] h-[270px] xl:w-[370px] xl:h-[335px] filter drop-shadow-[0_15px_30px_rgba(45,28,19,0.35)]">
+              <div className="relative w-[280px] h-[250px] lg:w-[320px] lg:h-[290px] xl:w-[380px] xl:h-[340px] filter drop-shadow-[0_15px_30px_rgba(45,28,19,0.35)]">
                 <Image
                   src="/images/quran-hero.png"
                   alt="Holy Quran on Handcrafted Rehal Stand"
                   fill
                   priority
-                  quality={95}
+                  quality={100}
                   className="object-contain"
                 />
               </div>
@@ -66,7 +68,7 @@ export default function HeroSection({ dict, lang = "en" }: HeroSectionProps) {
           </div>
 
           {/* Right Content Column — centered text */}
-          <div className="lg:col-span-8 xl:col-span-8 text-center flex flex-col items-center justify-center">
+          <div className="md:col-span-7 lg:col-span-7 text-center flex flex-col items-center justify-center">
             {/* Bismillah Calligraphy — GOLD & PROMINENT */}
             <motion.div
               initial={{ opacity: 0, y: -12 }}

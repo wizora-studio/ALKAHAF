@@ -96,19 +96,6 @@ export default function UltraHero({ dict, lang = "en" }: UltraHeroProps) {
           {/* Right Column — Royal Content & Typography */}
           <div className="md:col-span-6 lg:col-span-7 flex flex-col items-center md:items-start text-center md:text-left">
             
-            {/* Royal Edition Badge */}
-            <motion.div
-              initial={{ opacity: 0, y: -15 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
-              className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-gradient-to-r from-[#C5A059]/20 via-[#F5D88C]/15 to-transparent border border-[#C5A059]/40 mb-5 backdrop-blur-sm"
-            >
-              <Sparkles className="w-4 h-4 text-[#F5D88C] animate-pulse" />
-              <span className="text-xs font-semibold tracking-wider uppercase text-[#F5D88C]">
-                👑 Royal Edition • 3D Ultra Experience
-              </span>
-            </motion.div>
-
             {/* Shimmering Bismillah Calligraphy */}
             <motion.div
               initial={{ opacity: 0, scale: 0.95 }}

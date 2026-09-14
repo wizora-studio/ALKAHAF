@@ -16,6 +16,7 @@ import Script from "next/script";
 import { Toaster } from "sonner";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { UltraModeProvider } from "@/components/context/ultra-mode-context";
 
 const playfair = Playfair_Display({
   variable: "--font-playfair",
@@ -206,8 +207,10 @@ export default async function RootLayout({
         >
           Skip to content
         </a>
-        {children}
-        <LiveChatWidget lang={lang} dict={dict} />
+        <UltraModeProvider>
+          {children}
+          <LiveChatWidget lang={lang} dict={dict} />
+        </UltraModeProvider>
         <Toaster position="top-center" richColors />
         <Analytics />
         <SpeedInsights />

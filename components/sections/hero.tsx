@@ -26,7 +26,7 @@ export default function HeroSection({ dict, lang = "en" }: HeroSectionProps) {
       {/* Background Banner Image with Royal Islamic Arch & Golden Mandala */}
       <div className="absolute inset-0 z-0 pointer-events-none select-none">
         <Image
-          src="/images/islamic-hero-banner.jpg"
+          src="/images/islamic-hero-banner-light.jpg"
           alt="Al Kahaf Academy Royal Islamic Arch Background"
           fill
           priority
@@ -35,7 +35,7 @@ export default function HeroSection({ dict, lang = "en" }: HeroSectionProps) {
           className="object-cover object-left"
         />
         {/* Soft atmospheric gradient blend towards right content */}
-        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-transparent to-[#FCFBF8]/90 hidden md:block" />
+        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-transparent to-[#FCFBF8]/95 hidden md:block" />
         {/* Responsive soft overlay on mobile */}
         <div className="absolute inset-0 bg-gradient-to-b from-[#FCFBF8]/30 via-[#FCFBF8]/75 to-[#FCFBF8]/95 md:hidden" />
       </div>
@@ -51,7 +51,7 @@ export default function HeroSection({ dict, lang = "en" }: HeroSectionProps) {
               className="relative flex items-center justify-center"
             >
               {/* Soft Golden Spiritual Halo behind the Quran */}
-              <div className="absolute w-[260px] h-[260px] lg:w-[300px] lg:h-[300px] xl:w-[350px] xl:h-[350px] rounded-full bg-[#C5A059]/25 blur-[50px] pointer-events-none -z-10" />
+              <div className="absolute w-[260px] h-[260px] lg:w-[300px] lg:h-[300px] xl:w-[350px] xl:h-[350px] rounded-full bg-[#C5A059]/10 blur-[40px] pointer-events-none -z-10" />
 
               {/* Photorealistic Holy Quran on Carved Rehal */}
               <div className="relative w-[280px] h-[250px] lg:w-[320px] lg:h-[290px] xl:w-[380px] xl:h-[340px] filter drop-shadow-[0_15px_30px_rgba(45,28,19,0.35)]">

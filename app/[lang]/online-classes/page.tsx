@@ -53,7 +53,7 @@ export default async function OnlineClassesPage({
           <div className="relative">
             <div className="aspect-video rounded-3xl overflow-hidden shadow-2xl border-4 border-white relative group bg-white">
               <Image
-                src="/images/online-quran-students.jpg"
+                src="/images/online-quran-students-fair.jpg"
                 alt="Muslim boy and girl learning Quran online on laptop"
                 fill
                 priority
@@ -179,7 +179,7 @@ export default async function OnlineClassesPage({
             </div>
             <div className="relative h-[500px] rounded-3xl overflow-hidden shadow-xl border border-[#EAE3D6]">
               <Image
-                src="/images/online-quran-students.jpg"
+                src="/images/online-quran-students-fair.jpg"
                 alt="Muslim students learning Quran online on laptop"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"

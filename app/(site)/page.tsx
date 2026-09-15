@@ -5,13 +5,8 @@ import HomeContent from "@/components/sections/HomeContent";
 import { getDictionary } from "@/lib/dictionary";
 import { createClient } from "@/utils/supabase/server";
 
-export default async function Page({
-  params,
-}: {
-  params: Promise<{ lang: string }>;
-}) {
-  const { lang } = await params;
-  const dict = await getDictionary(lang as any);
+export default async function Page() {
+  const dict = await getDictionary();
   let totalStudents = 0;
   try {
     const supabase = await createClient();
@@ -29,9 +24,9 @@ export default async function Page({
       id="main-content"
       className="bg-white dark:bg-gray-950 overflow-hidden"
     >
-      <Navbar lang={lang} dict={dict} />
-      <HomeContent dict={dict} lang={lang} totalStudents={totalStudents} />
-      <Footer lang={lang} dict={dict} />
+      <Navbar dict={dict} />
+      <HomeContent dict={dict} lang="en" totalStudents={totalStudents} />
+      <Footer dict={dict} />
     </main>
   );
 }

@@ -5,21 +5,12 @@ import Script from "next/script";
 import Link from "next/link";
 import { FaGoogle } from "react-icons/fa";
 
-const Testimonials = ({ lang }: { lang: string }) => {
-  const titles: any = {
-    en: {
-      title: "What Parents Say",
-      subtitle: "Join hundreds of happy families",
-      button: "Write a Review on Google",
-    },
-    fr: {
-      title: "Ce que disent les parents",
-      subtitle: "Rejoignez des centaines de familles heureuses",
-      button: "Écrire un avis sur Google",
-    },
+const Testimonials = () => {
+  const currentStrings = {
+    title: "What Parents Say",
+    subtitle: "Join hundreds of happy families",
+    button: "Write a Review on Google",
   };
-
-  const currentStrings = titles[lang] || titles.en;
 
   return (
     <section className="py-24 bg-white dark:bg-gray-900 overflow-hidden relative">

@@ -9,17 +9,12 @@ import Newsletter from "@/components/sections/newsletter";
 import { getDictionary } from "@/lib/dictionary";
 import GoogleMap from "@/components/sections/googlemap";
 
-export default async function ContactPage({
-  params,
-}: {
-  params: Promise<{ lang: string }>;
-}) {
-  const { lang } = await params;
-  const dict = await getDictionary(lang as any);
+export default async function ContactPage() {
+  const dict = await getDictionary();
 
   return (
     <main className="bg-white dark:bg-gray-950 overflow-hidden min-h-screen">
-      <Navbar lang={lang} dict={dict} />
+      <Navbar dict={dict} />
 
       <PagesHero
         title={dict.contact.hero.title}
@@ -32,8 +27,8 @@ export default async function ContactPage({
 
       <FAQSection dict={dict.faq} />
 
-      <Newsletter dict={dict} lang={lang} />
-      <Footer lang={lang} dict={dict} />
+      <Newsletter dict={dict} lang="en" />
+      <Footer dict={dict} />
     </main>
   );
 }

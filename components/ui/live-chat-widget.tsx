@@ -12,29 +12,22 @@ export default function LiveChatWidget({
   lang?: string;
   dict?: any;
 }) {
-  const isFrench = lang === "fr";
   const [isOpen, setIsOpen] = useState(false);
   const [name, setName] = useState("");
   const [selectedTopic, setSelectedTopic] = useState<string>("");
 
   const quickTopics = [
     {
-      label: isFrench ? "📖 Cours d'essai gratuit" : "📖 Book Free Trial",
-      text: isFrench
-        ? "J'aimerais réserver une séance d'essai gratuite de 30 minutes."
-        : "I would like to book a 30-minute free trial class for my child.",
+      label: "📖 Book Free Trial",
+      text: "I would like to book a 30-minute free trial class for my child.",
     },
     {
-      label: isFrench ? "💳 Forfaits & Tarifs" : "💳 Fee Plans ($25, $35, $45)",
-      text: isFrench
-        ? "J'aimerais avoir plus de détails sur vos forfaits et tarifs ($25, $35, $45)."
-        : "I would like to inquire about your course fee plans ($25, $35, $45).",
+      label: "💳 Fee Plans ($25, $35, $45)",
+      text: "I would like to inquire about your course fee plans ($25, $35, $45).",
     },
     {
-      label: isFrench ? "⏰ Horaires Flexibles" : "⏰ Flexible Timings",
-      text: isFrench
-        ? "Quels sont les créneaux horaires disponibles selon notre fuseau horaire ?"
-        : "What flexible class timings are available for our time zone?",
+      label: "⏰ Flexible Timings",
+      text: "What flexible class timings are available for our time zone?",
     },
   ];
 
@@ -42,17 +35,13 @@ export default function LiveChatWidget({
     if (e) e.preventDefault();
 
     const studentName = name.trim();
-    const topicText = selectedTopic || (isFrench ? "Je souhaite m'inscrire aux cours de Coran en ligne." : "I am interested in online Quran classes and would like more details.");
+    const topicText = selectedTopic || "I am interested in online Quran classes and would like more details.";
 
     let message = "";
     if (studentName) {
-      message = isFrench
-        ? `Assalamu Alaikum Al Kahaf Academy!\n\nJe m'appelle *${studentName}*.\n${topicText}\n\nMerci de me donner les informations pour démarrer.`
-        : `Assalamu Alaikum Al Kahaf Academy!\n\nMy name is *${studentName}*.\n${topicText}\n\nPlease provide me details to get started.`;
+      message = `Assalamu Alaikum Al Kahaf Academy!\n\nMy name is *${studentName}*.\n${topicText}\n\nPlease provide me details to get started.`;
     } else {
-      message = isFrench
-        ? `Assalamu Alaikum Al Kahaf Academy!\n\n${topicText}\n\nMerci de me donner les informations pour démarrer.`
-        : `Assalamu Alaikum Al Kahaf Academy!\n\n${topicText}\n\nPlease provide me details and schedule a free trial.`;
+      message = `Assalamu Alaikum Al Kahaf Academy!\n\n${topicText}\n\nPlease provide me details and schedule a free trial.`;
     }
 
     const waUrl = `https://wa.me/923222597066?text=${encodeURIComponent(message)}`;
@@ -103,7 +92,7 @@ export default function LiveChatWidget({
                 <div className="flex items-center gap-2">
                   <FaWhatsapp className="w-5 h-5 text-white" />
                   <span className="text-xs font-bold uppercase tracking-wider text-emerald-100">
-                    {isFrench ? "Support WhatsApp 24/7" : "WhatsApp Live Support"}
+                    WhatsApp Live Support
                   </span>
                 </div>
                 <button
@@ -116,14 +105,10 @@ export default function LiveChatWidget({
               </div>
 
               <h3 className="text-lg font-serif font-bold leading-snug">
-                {isFrench
-                  ? "Discutez en direct avec nous sur WhatsApp"
-                  : "Chat directly with us on WhatsApp"}
+                Chat directly with us on WhatsApp
               </h3>
               <p className="text-xs text-white/90 mt-1 font-medium">
-                {isFrench
-                  ? "Entrez votre nom pour démarrer instantanément la discussion :"
-                  : "Enter your name to start chat with our coordinator:"}
+                Enter your name to start chat with our coordinator:
               </p>
             </div>
 
@@ -133,14 +118,14 @@ export default function LiveChatWidget({
               <div className="space-y-1.5">
                 <label className="block text-xs font-bold text-[#2D1C13] flex items-center gap-1.5">
                   <User className="w-3.5 h-3.5 text-[#C5A059]" />
-                  <span>{isFrench ? "Votre Nom" : "Your Name"}</span>
+                  <span>Your Name</span>
                 </label>
                 <input
                   type="text"
                   autoFocus
                   value={name}
                   onChange={(e) => setName(e.target.value)}
-                  placeholder={isFrench ? "ex: Frère / Sœur Fatima" : "e.g. Abdullah, Sister Fatima"}
+                  placeholder="e.g. Abdullah, Sister Fatima"
                   className="w-full px-4 py-3 rounded-xl text-sm bg-white border border-[#EAE3D6] focus:outline-none focus:border-[#25D366] focus:ring-2 focus:ring-[#25D366]/20 transition-all text-[#2D1C13] shadow-sm font-medium"
                 />
               </div>
@@ -148,7 +133,7 @@ export default function LiveChatWidget({
               {/* Quick Topic Chips */}
               <div className="space-y-1.5 pt-1">
                 <label className="block text-[11px] font-bold text-[#7A685B] uppercase tracking-wider">
-                  {isFrench ? "Sujet de votre demande (optionnel)" : "Topic (Optional)"}
+                  Topic (Optional)
                 </label>
                 <div className="flex flex-col gap-1.5">
                   {quickTopics.map((topic, i) => (
@@ -181,7 +166,7 @@ export default function LiveChatWidget({
                 className="w-full py-3.5 rounded-xl bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold text-sm shadow-[0_4px_15px_rgba(37,211,102,0.35)] transition-all flex items-center justify-center gap-2 active:scale-95 cursor-pointer mt-2"
               >
                 <FaWhatsapp className="w-5 h-5" />
-                <span>{isFrench ? "Démarrer sur WhatsApp" : "Start Chat on WhatsApp"}</span>
+                <span>Start Chat on WhatsApp</span>
                 <Send className="w-3.5 h-3.5 ml-1" />
               </button>
             </form>

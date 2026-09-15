@@ -25,8 +25,6 @@ export default function AdmissionsForm({
     phone: string;
   } | null>(null);
 
-  const isFr = lang === "fr" || dict?.fullName?.includes("Nom");
-
   async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
     setIsSubmitting(true);
@@ -49,28 +47,28 @@ export default function AdmissionsForm({
     const message = (formData.get("message") as string)?.trim() || "";
 
     const genderLabels: Record<string, string> = {
-      male: dict.male || (isFr ? "Masculin" : "Male"),
-      female: dict.female || (isFr ? "Féminin" : "Female"),
+      male: dict?.male || "Male",
+      female: dict?.female || "Female",
     };
 
     const programLabels: Record<string, string> = {
-      nazra: dict.nazra || (isFr ? "Noorani Qaida / Nazra" : "Noorani Qaida / Nazra"),
-      hifz: dict.hifz || (isFr ? "Mémorisation du Coran (Hifz)" : "Quran Memorization (Hifz)"),
-      tajweed: dict.tajweed || (isFr ? "Coran avec Tajweed" : "Quran with Tajweed"),
-      arabic: dict.arabic || (isFr ? "Langue Arabe" : "Arabic Language"),
-      islamic_studies: dict.islamicStudies || (isFr ? "Études Islamiques" : "Islamic Studies"),
+      nazra: dict?.nazra || "Noorani Qaida / Nazra",
+      hifz: dict?.hifz || "Quran Memorization (Hifz)",
+      tajweed: dict?.tajweed || "Quran with Tajweed",
+      arabic: dict?.arabic || "Arabic Language",
+      islamic_studies: dict?.islamicStudies || "Islamic Studies",
     };
 
     const daysLabels: Record<string, string> = {
-      weekdays: dict.weekdays || (isFr ? "En semaine (Lun - Ven)" : "Weekdays (Mon - Fri)"),
-      weekend: dict.weekends || (isFr ? "Week-end (Sam - Dim)" : "Weekends (Sat - Sun)"),
-      flexible: dict.flexible || (isFr ? "Horaires Flexibles" : "Flexible Schedule"),
+      weekdays: dict?.weekdays || "Weekdays (Mon - Fri)",
+      weekend: dict?.weekends || "Weekends (Sat - Sun)",
+      flexible: dict?.flexible || "Flexible Schedule",
     };
 
     const timeLabels: Record<string, string> = {
-      morning: dict.morning || (isFr ? "Matin" : "Morning"),
-      afternoon: dict.afternoon || (isFr ? "Après-midi" : "Afternoon"),
-      evening: dict.evening || (isFr ? "Soir" : "Evening"),
+      morning: dict?.morning || "Morning",
+      afternoon: dict?.afternoon || "Afternoon",
+      evening: dict?.evening || "Evening",
     };
 
     const genderDisplay = genderLabels[genderKey] || genderKey;
@@ -79,27 +77,7 @@ export default function AdmissionsForm({
     const timeDisplay = timeLabels[preferredTimeKey] || preferredTimeKey;
     const locationDisplay = [city, country].filter(Boolean).join(", ");
 
-    const whatsappMessage = isFr
-      ? `*Nouvelle Demande d'Admission - Al Kahaf Academy*
-━━━━━━━━━━━━━━━━━━━━━━
-👤 *Informations sur l'Élève :*
-• *Nom :* ${studentName}
-• *Âge :* ${age} ans
-• *Genre :* ${genderDisplay}
-
-👨‍👩‍👧 *Contact :*
-• *Parent / Responsable :* ${parentName}
-• *Téléphone / WhatsApp :* ${phone}
-• *Localisation :* ${locationDisplay || "Non précisé"}
-
-📖 *Programme & Horaires :*
-• *Programme :* ${programDisplay}
-• *Jours Préférés :* ${daysDisplay}
-• *Créneau Horaire :* ${timeDisplay}
-• *Mode :* En ligne (Online)
-
-${message ? `💬 *Remarques :*\n${message}\n━━━━━━━━━━━━━━━━━━━━━━\n` : "━━━━━━━━━━━━━━━━━━━━━━\n"}Assalamu Alaikum Al Kahaf Academy, je viens de soumettre ma candidature en ligne. Merci de planifier mes 3 jours d'essai gratuit.`
-      : `*New Admission Application - Al Kahaf Academy*
+    const whatsappMessage = `*New Admission Application - Al Kahaf Academy*
 ━━━━━━━━━━━━━━━━━━━━━━
 👤 *Student Information:*
 • *Name:* ${studentName}
@@ -142,25 +120,13 @@ ${message ? `💬 *Notes / Questions :*\n${message}\n━━━━━━━━━
     try {
       const result = await sendEnrollmentEmail(formData);
       if (result.success) {
-        toast.success(
-          isFr
-            ? "Candidature enregistrée ! Redirection vers WhatsApp..."
-            : "Application submitted! Opening WhatsApp...",
-        );
+        toast.success("Application submitted! Opening WhatsApp...");
         formElement.reset();
       } else {
-        toast.info(
-          isFr
-            ? "Candidature prête ! Veuillez envoyer le message sur WhatsApp."
-            : "Application ready! Please send the message on WhatsApp.",
-        );
+        toast.info("Application ready! Please send the message on WhatsApp.");
       }
     } catch (error) {
-      toast.info(
-        isFr
-          ? "Candidature prête ! Veuillez envoyer le message sur WhatsApp."
-          : "Application ready! Please send the message on WhatsApp.",
-      );
+      toast.info("Application ready! Please send the message on WhatsApp.");
     } finally {
       setIsSubmitting(false);
     }
@@ -210,31 +176,29 @@ ${message ? `💬 *Notes / Questions :*\n${message}\n━━━━━━━━━
 
               <div className="space-y-2">
                 <h3 className="text-2xl sm:text-3xl font-bold font-serif text-gray-900 dark:text-white">
-                  {isFr ? "Candidature Enregistrée avec Succès !" : "Application Submitted Successfully!"}
+                  Application Submitted Successfully!
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300 max-w-lg mx-auto text-base">
-                  {isFr
-                    ? `Merci ! Les informations d'admission pour ${submittedData.studentName} ont été préparées pour WhatsApp.`
-                    : `Thank you! Admission details for ${submittedData.studentName} have been prepared for WhatsApp.`}
+                  Thank you! Admission details for {submittedData.studentName} have been prepared for WhatsApp.
                 </p>
               </div>
 
               {/* Admission summary card */}
               <div className="max-w-md mx-auto p-5 rounded-2xl bg-gray-50 dark:bg-gray-900/60 border border-gray-200 dark:border-gray-700 text-left text-sm space-y-2.5 shadow-sm">
                 <div className="flex justify-between items-center py-1 border-b border-gray-100 dark:border-gray-800">
-                  <span className="text-gray-500 dark:text-gray-400">{isFr ? "Élève :" : "Student:"}</span>
+                  <span className="text-gray-500 dark:text-gray-400">Student:</span>
                   <span className="font-bold text-gray-900 dark:text-white">{submittedData.studentName}</span>
                 </div>
                 <div className="flex justify-between items-center py-1 border-b border-gray-100 dark:border-gray-800">
-                  <span className="text-gray-500 dark:text-gray-400">{isFr ? "Programme :" : "Program:"}</span>
+                  <span className="text-gray-500 dark:text-gray-400">Program:</span>
                   <span className="font-bold text-gray-900 dark:text-white">{submittedData.program}</span>
                 </div>
                 <div className="flex justify-between items-center py-1 border-b border-gray-100 dark:border-gray-800">
-                  <span className="text-gray-500 dark:text-gray-400">{isFr ? "Parent / Contact :" : "Parent / Contact:"}</span>
+                  <span className="text-gray-500 dark:text-gray-400">Parent / Contact:</span>
                   <span className="font-semibold text-gray-900 dark:text-white">{submittedData.parentName}</span>
                 </div>
                 <div className="flex justify-between items-center py-1">
-                  <span className="text-gray-500 dark:text-gray-400">{isFr ? "Téléphone :" : "Phone:"}</span>
+                  <span className="text-gray-500 dark:text-gray-400">Phone:</span>
                   <span className="font-semibold text-gray-900 dark:text-white">{submittedData.phone}</span>
                 </div>
               </div>
@@ -248,12 +212,10 @@ ${message ? `💬 *Notes / Questions :*\n${message}\n━━━━━━━━━
                   className="w-full py-4 px-6 bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold rounded-xl shadow-lg shadow-[#25D366]/30 transition-all transform hover:-translate-y-0.5 active:scale-95 flex items-center justify-center gap-3 text-base sm:text-lg cursor-pointer"
                 >
                   <FaWhatsapp className="w-6 h-6" />
-                  <span>{isFr ? "Envoyer les détails sur WhatsApp" : "Send Details on WhatsApp"}</span>
+                  <span>Send Details on WhatsApp</span>
                 </a>
                 <p className="text-xs text-gray-500 dark:text-gray-400">
-                  {isFr
-                    ? "Si WhatsApp ne s'est pas ouvert automatiquement, cliquez sur le bouton ci-dessus pour envoyer vos informations au +92 322 2597066."
-                    : "If WhatsApp did not open automatically, click the button above to send your details to +92 322 2597066."}
+                  If WhatsApp did not open automatically, click the button above to send your details to +92 322 2597066.
                 </p>
               </div>
 
@@ -263,7 +225,7 @@ ${message ? `💬 *Notes / Questions :*\n${message}\n━━━━━━━━━
                   onClick={() => setSubmittedData(null)}
                   className="text-sm font-semibold text-primary hover:underline cursor-pointer"
                 >
-                  {isFr ? "← Remplir une nouvelle candidature" : "← Submit another application"}
+                  ← Submit another application
                 </button>
               </div>
             </div>
@@ -527,11 +489,11 @@ ${message ? `💬 *Notes / Questions :*\n${message}\n━━━━━━━━━
                 {isSubmitting ? (
                   <>
                     <Loader2 className="w-5 h-5 animate-spin" />
-                    <span>{dict.sending || dict.submitting || (isFr ? "Traitement de la Candidature..." : "Processing Application...")}</span>
+                    <span>{dict?.sending || dict?.submitting || "Processing Application..."}</span>
                   </>
                 ) : (
                   <>
-                    <span>{dict.submit || (isFr ? "Soumettre la Candidature d'Admission" : "Submit Admission Application")}</span>
+                    <span>{dict?.submit || "Submit Admission Application"}</span>
                     <Check className="w-5 h-5" />
                   </>
                 )}
@@ -540,15 +502,13 @@ ${message ? `💬 *Notes / Questions :*\n${message}\n━━━━━━━━━
               <p className="text-center text-xs sm:text-sm text-gray-500 dark:text-gray-400 flex items-center justify-center gap-2 font-medium">
                 <FaWhatsapp className="w-4 h-4 text-[#25D366] shrink-0" />
                 <span>
-                  {isFr
-                    ? "Après soumission, votre candidature sera transmise sur WhatsApp pour planifier vos 3 jours d'essai gratuit."
-                    : "Upon submission, your details will be sent to WhatsApp to schedule your 3-day free trial."}
+                  Upon submission, your details will be sent to WhatsApp to schedule your 3-day free trial.
                 </span>
               </p>
             </div>
 
             <p className="text-center text-xs text-gray-400 dark:text-gray-500">
-              {dict.confMsg || (isFr ? "Vos informations sont protégées. Nous ne partagerons jamais vos coordonnées." : "Your information is protected. We will never share your details.")}
+              {dict?.confMsg || "Your information is protected. We will never share your details."}
             </p>
           </form>
           )}

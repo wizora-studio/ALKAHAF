@@ -2,17 +2,7 @@ import { type NextRequest, NextResponse } from "next/server";
 import { updateSession } from "@/utils/supabase/middleware";
 import { createServerClient } from "@supabase/ssr";
 
-const locales = ["fr", "en"];
-const defaultLocale = "en";
 
-function getLocale(request: NextRequest) {
-  const { pathname } = request.nextUrl;
-  const pathnameHasLocale = locales.some(
-    (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`,
-  );
-  if (pathnameHasLocale) return null;
-  return defaultLocale;
-}
 
 async function getSupabaseUser(request: NextRequest) {
   const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
@@ -66,12 +56,17 @@ export async function middleware(request: NextRequest) {
     return await updateSession(request);
   }
 
-  // ── Locale Routing ────────────────────────────────────────────
-  const locale = getLocale(request);
-  if (locale) {
-    return NextResponse.redirect(
-      new URL(`/${locale}${pathname === "/" ? "" : pathname}`, request.url),
-    );
+  // ── Redirect legacy /fr and /en URLs to root clean URLs ───────
+  if (
+    pathname === "/fr" ||
+    pathname === "/en" ||
+    pathname.startsWith("/fr/") ||
+    pathname.startsWith("/en/")
+  ) {
+    const cleanPath = pathname.replace(/^\/(?:fr|en)(\/|$)/, "/") || "/";
+    const targetUrl = new URL(cleanPath, request.url);
+    targetUrl.search = request.nextUrl.search;
+    return NextResponse.redirect(targetUrl, 308);
   }
 
   return await updateSession(request);

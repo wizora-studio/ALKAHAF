@@ -8,17 +8,12 @@ import AdmissionsForm from "@/components/sections/admissions-form";
 import Newsletter from "@/components/sections/newsletter";
 import { CheckCircle } from "lucide-react";
 
-export default async function EnrollPage({
-  params,
-}: {
-  params: Promise<{ lang: string }>;
-}) {
-  const { lang } = await params;
-  const dict = await getDictionary(lang as any);
+export default async function EnrollPage() {
+  const dict = await getDictionary();
 
   return (
     <main className="bg-white dark:bg-gray-950 overflow-hidden min-h-screen">
-      <Navbar lang={lang} dict={dict} />
+      <Navbar dict={dict} />
 
       {/* Spacer for fixed header if needed, but AdmissionsForm has padding */}
       <PagesHero
@@ -29,12 +24,12 @@ export default async function EnrollPage({
         badge={{ text: dict.admissions.hero.badge, icon: CheckCircle }}
       />
 
-      <AdmissionsForm dict={dict.admissions.form} lang={lang} />
+      <AdmissionsForm dict={dict.admissions.form} lang="en" />
 
       <FAQSection dict={dict.faq} />
 
-      <Newsletter dict={dict} lang={lang} />
-      <Footer lang={lang} dict={dict} />
+      <Newsletter dict={dict} lang="en" />
+      <Footer dict={dict} />
     </main>
   );
 }

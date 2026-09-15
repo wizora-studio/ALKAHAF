@@ -9,17 +9,12 @@ import Newsletter from "@/components/sections/newsletter";
 import { Monitor, Video, Globe, Clock, ShieldCheck } from "lucide-react";
 import { getDictionary } from "@/lib/dictionary";
 
-export default async function OnlineClassesPage({
-  params,
-}: {
-  params: Promise<{ lang: string }>;
-}) {
-  const { lang } = await params;
-  const dict = await getDictionary(lang as any);
+export default async function OnlineClassesPage() {
+  const dict = await getDictionary();
 
   return (
     <main className="bg-background min-h-screen">
-      <Navbar lang={lang} dict={dict} />
+      <Navbar dict={dict} />
 
       {/* Hero Section */}
       <section className="relative py-16 md:py-20 bg-gradient-to-br from-[#FCFBF8] via-[#FAF7F2] to-[#F5F0E6] border-b border-[#EAE3D6] overflow-hidden">
@@ -215,8 +210,8 @@ export default async function OnlineClassesPage({
 
       <FAQSection dict={dict.faq} />
       <ContactForm dict={dict.contact} />
-      <Newsletter dict={dict} lang={lang} />
-      <Footer lang={lang} dict={dict} />
+      <Newsletter dict={dict} lang="en" />
+      <Footer dict={dict} />
     </main>
   );
 }

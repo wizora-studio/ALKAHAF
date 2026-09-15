@@ -10,17 +10,12 @@ import { CheckCircle, FileText, CreditCard, GraduationCap } from "lucide-react";
 import PricingPlans from "@/components/sections/PricingPlans";
 import ContactForm from "@/components/sections/contact-form";
 
-export default async function AdmissionsPage({
-  params,
-}: {
-  params: Promise<{ lang: string }>;
-}) {
-  const { lang } = await params;
-  const dict = await getDictionary(lang as any);
+export default async function AdmissionsPage() {
+  const dict = await getDictionary();
 
   return (
     <main className="bg-background min-h-screen">
-      <Navbar lang={lang} dict={dict} />
+      <Navbar dict={dict} />
 
       {/* Header */}
       <PagesHero
@@ -89,12 +84,12 @@ export default async function AdmissionsPage({
       <PricingPlans dict={dict.pricing} />
 
       {/* Form Section */}
-      <AdmissionsForm dict={dict.admissions.form} lang={lang} />
+      <AdmissionsForm dict={dict.admissions.form} lang="en" />
 
       <FAQSection dict={dict.faq} />
       <ContactForm dict={dict.contact} />
-      <Newsletter dict={dict} lang={lang} />
-      <Footer lang={lang} dict={dict} />
+      <Newsletter dict={dict} lang="en" />
+      <Footer dict={dict} />
     </main>
   );
 }

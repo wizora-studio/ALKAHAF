@@ -121,23 +121,11 @@ export default function UltraHero({ dict, lang = "en" }: UltraHeroProps) {
               transition={{ duration: 0.7, delay: 0.2 }}
               className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-serif font-bold tracking-tight leading-[1.12] mb-4 text-white"
             >
-              {isEn ? (
-                <>
-                  Connect Your Heart to the{" "}
-                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FBF5B7] via-[#E4C882] to-[#B38728] drop-shadow-[0_2px_10px_rgba(218,165,32,0.4)]">
-                    Divine Light
-                  </span>{" "}
-                  of the Holy Quran
-                </>
-              ) : (
-                <>
-                  Connectez Votre Cœur à la{" "}
-                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FBF5B7] via-[#E4C882] to-[#B38728]">
-                    Lumière Divine
-                  </span>{" "}
-                  du Saint Coran
-                </>
-              )}
+              Connect Your Heart to the{" "}
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FBF5B7] via-[#E4C882] to-[#B38728] drop-shadow-[0_2px_10px_rgba(218,165,32,0.4)]">
+                Divine Light
+              </span>{" "}
+              of the Holy Quran
             </motion.h1>
 
             {/* Subtitle */}
@@ -147,9 +135,7 @@ export default function UltraHero({ dict, lang = "en" }: UltraHeroProps) {
               transition={{ duration: 0.7, delay: 0.3 }}
               className="text-base sm:text-lg text-[#C8D7CE] font-sans max-w-xl mb-8 leading-relaxed"
             >
-              {isEn
-                ? "Immerse your family in personalized 1-on-1 Quranic learning with world-certified Azhari scholars. Master Tajweed, memorization, and Arabic from the comfort of your home."
-                : "Offrez à votre famille un apprentissage coranique d'excellence avec des érudits certifiés d'Al-Azhar. Maîtrisez le Tajweed et la mémorisation chez vous."}
+              Immerse your family in personalized 1-on-1 Quranic learning with world-certified Azhari scholars. Master Tajweed, memorization, and Arabic from the comfort of your home.
             </motion.p>
 
             {/* Ultra CTA Buttons */}
@@ -160,18 +146,18 @@ export default function UltraHero({ dict, lang = "en" }: UltraHeroProps) {
               className="flex flex-wrap items-center justify-center md:justify-start gap-4 mb-10 w-full"
             >
               <Link
-                href={`/${lang}/admissions`}
+                href="/admissions"
                 className="group relative inline-flex items-center justify-center gap-2.5 px-8 py-4 rounded-full font-bold text-base text-[#1A1206] bg-gradient-to-r from-[#E5C378] via-[#FDF3B8] to-[#D4AF37] shadow-[0_0_25px_rgba(212,175,55,0.5)] hover:shadow-[0_0_35px_rgba(212,175,55,0.8)] hover:scale-105 active:scale-95 transition-all duration-300"
               >
-                <span>{dict?.trialCta || (isEn ? "START 3-DAY FREE TRIAL" : "COMMENCER L'ESSAI GRATUIT")}</span>
+                <span>{dict?.trialCta || "START 3-DAY FREE TRIAL"}</span>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
 
               <Link
-                href={`/${lang}/online-classes`}
+                href="/online-classes"
                 className="inline-flex items-center justify-center px-7 py-4 rounded-full font-semibold text-base text-[#F5D88C] bg-white/5 hover:bg-white/10 border border-[#C5A059]/40 hover:border-[#C5A059] backdrop-blur-md transition-all duration-300 hover:scale-102"
               >
-                {isEn ? "Explore Interactive Classes" : "Découvrir les Cours"}
+                Explore Interactive Classes
               </Link>
             </motion.div>
 

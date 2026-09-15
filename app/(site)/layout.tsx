@@ -64,25 +64,15 @@ export const notoNastaliq = Noto_Nastaliq_Urdu({
   variable: "--font-noto-nastaliq",
 });
 
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ lang: string }>;
-}): Promise<Metadata> {
-  const { lang } = await params;
-  const isEn = lang === "en";
-
+export async function generateMetadata(): Promise<Metadata> {
   return {
     metadataBase: new URL("https://alkahafacademy.com"),
     title: {
-      default: isEn
-        ? "Al Kahaf Academy | Leading Quran & Islamic Institute in Montreal"
-        : "Al Kahaf Academy | Institut Coranique et Islamique de Premier Plan à Montréal",
+      default: "Al Kahaf Academy | Leading Quran & Islamic Institute in Montreal",
       template: "%s | Al Kahaf Academy",
     },
-    description: isEn
-      ? "Trusted Online Quran education for children and adults worldwide. Live classes focusing on Tilawah, Tajweed, and character building (Tarbiyah)."
-      : "Éducation coranique de confiance en ligne pour les enfants et les adultes dans le monde entier. Cours en direct axés sur la Tilawah, le Tajweed et la formation du caractère (Tarbiyah).",
+    description:
+      "Trusted Online Quran education for children and adults worldwide. Live classes focusing on Tilawah, Tajweed, and character building (Tarbiyah).",
     keywords: [
       "Online Quran classes",
       "Online Quran Academy",
@@ -97,14 +87,11 @@ export async function generateMetadata({
     creator: "Al Kahaf Academy",
     openGraph: {
       type: "website",
-      locale: isEn ? "en_US" : "fr_CA",
+      locale: "en_US",
       url: "https://alkahafacademy.com",
-      title: isEn
-        ? "Online Quran Classes | Register Now - Al Kahaf Academy"
-        : "Cours de Coran en Ligne | Inscrivez-vous - Al Kahaf Academy",
-      description: isEn
-        ? "Online Quran classes are specially designed for beginners and all ages. Learn Tilawah, Tajweed, and Islamic studies from qualified teachers. 3 Days Free Trial!"
-        : "Cours de Coran en ligne spécialement conçus pour tous les âges. Apprenez le Tajweed et la Tilawah avec des professeurs qualifiés. 3 jours d'essai gratuit !",
+      title: "Online Quran Classes | Register Now - Al Kahaf Academy",
+      description:
+        "Online Quran classes are specially designed for beginners and all ages. Learn Tilawah, Tajweed, and Islamic studies from qualified teachers. 3 Days Free Trial!",
       siteName: "Al Kahaf Academy",
       images: [
         {
@@ -119,12 +106,9 @@ export async function generateMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      title: isEn
-        ? "Online Quran Classes | Register Now - Al Kahaf Academy"
-        : "Cours de Coran en Ligne | Inscrivez-vous - Al Kahaf Academy",
-      description: isEn
-        ? "Online Quran classes are specially designed for beginners and all ages. Learn Tilawah, Tajweed, and Islamic studies from qualified teachers. 3 Days Free Trial!"
-        : "Cours de Coran en ligne spécialement conçus pour tous les âges. Apprenez le Tajweed et la Tilawah avec des professeurs qualifiés. 3 jours d'essai gratuit !",
+      title: "Online Quran Classes | Register Now - Al Kahaf Academy",
+      description:
+        "Online Quran classes are specially designed for beginners and all ages. Learn Tilawah, Tajweed, and Islamic studies from qualified teachers. 3 Days Free Trial!",
       images: ["https://alkahafacademy.com/images/og-preview.jpg"],
     },
     robots: {
@@ -159,18 +143,15 @@ export async function generateMetadata({
 
 export default async function RootLayout({
   children,
-  params,
 }: {
   children: React.ReactNode;
-  params: Promise<{ lang: string }>;
 }) {
-  const { lang } = await params;
   const { getDictionary } = await import("@/lib/dictionary");
-  const dict = await getDictionary(lang as any);
+  const dict = await getDictionary();
 
   return (
     <html
-      lang={lang || "en"}
+      lang="en"
       className={`${notoNastaliq.variable}`}
       suppressHydrationWarning
     >
@@ -209,7 +190,7 @@ export default async function RootLayout({
         </a>
         <UltraModeProvider>
           {children}
-          <LiveChatWidget lang={lang} dict={dict} />
+          <LiveChatWidget dict={dict} />
         </UltraModeProvider>
         <Toaster position="top-center" richColors />
         <Analytics />

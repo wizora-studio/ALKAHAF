@@ -3,17 +3,12 @@ import Navbar from "@/components/layout/header";
 import Footer from "@/components/layout/footer";
 import { getDictionary } from "@/lib/dictionary";
 
-export default async function PrivacyPolicy({
-  params,
-}: {
-  params: Promise<{ lang: string }>;
-}) {
-  const { lang } = await params;
-  const dict = await getDictionary(lang as any);
+export default async function PrivacyPolicy() {
+  const dict = await getDictionary();
 
   return (
     <main className="bg-white dark:bg-gray-950 overflow-hidden min-h-screen">
-      <Navbar lang={lang} dict={dict} />
+      <Navbar dict={dict} />
 
       <section className="pt-32 pb-16 bg-gray-50 dark:bg-gray-900 border-b border-gray-100 dark:border-gray-800">
         <div className="max-w-4xl mx-auto px-5 sm:px-10">
@@ -132,7 +127,7 @@ export default async function PrivacyPolicy({
         </div>
       </section>
 
-      <Footer lang={lang} dict={dict} />
+      <Footer dict={dict} />
     </main>
   );
 }

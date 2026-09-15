@@ -13,9 +13,7 @@ const Footer: React.FC<FooterProps> = ({ lang: propLang, dict }) => {
   const pathname = usePathname();
   const lang = propLang || pathname.split("/")[1] || "en";
 
-  const getLocalizedHref = (href: string) => {
-    return `/${lang}${href === "/" ? "" : href}`;
-  };
+  const getLocalizedHref = (href: string) => href;
 
   const footerDict = dict?.footer || {
     mission: "Shaping hearts and minds in the light of the Qur'an.",

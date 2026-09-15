@@ -9,34 +9,28 @@ import ContactForm from "@/components/sections/contact-form";
 import Newsletter from "@/components/sections/newsletter";
 import { getDictionary } from "@/lib/dictionary";
 
-export default async function ProgramsPage({
-  params,
-}: {
-  params: Promise<{ lang: string }>;
-}) {
-  const { lang } = await params;
-  const isEn = lang === "en";
-  const dict = await getDictionary(lang as any);
+export default async function ProgramsPage() {
+  const dict = await getDictionary();
 
   return (
     <main className="bg-[#FCFBF8] text-[#2D1C13] overflow-hidden min-h-screen font-sans selection:bg-[#C5A059] selection:text-white">
-      <Navbar lang={lang} dict={dict} />
+      <Navbar dict={dict} />
 
       <PagesHero
         title={dict.programsPage.hero.title}
         description={dict.programsPage.hero.description}
-        imageSrc="/images/program-hero-man.png"
+        imageSrc="/images/islamic-academy-hall.jpg"
         badge={{
-          text: isEn ? "100% Online Worldwide" : "100% En Ligne Mondial",
+          text: "100% Online Worldwide",
           icon: Globe,
         }}
         primaryAction={{
-          text: isEn ? "Book Free Trial" : "Réserver un Essai Gratuit",
-          href: `/${lang}/admissions`,
+          text: "Book Free Trial",
+          href: "/admissions",
         }}
         secondaryAction={{
-          text: isEn ? "View Fee Plans" : "Voir les Tarifs",
-          href: `/${lang}#pricing`,
+          text: "View Fee Plans",
+          href: "/pricing",
         }}
       />
 
@@ -52,7 +46,7 @@ export default async function ProgramsPage({
               <div className="w-full lg:w-2/3 space-y-6">
                 <div className="flex flex-wrap gap-3">
                   <span className="px-4 py-1.5 rounded-full text-xs sm:text-sm font-bold bg-[#FAF5EC] text-[#9F7A38] border border-[#C5A059]/30 flex items-center gap-2">
-                    <Users className="w-4 h-4 text-[#C5A059]" /> {isEn ? "All Ages Welcome (Kids & Adults)" : "Tous Âges Bienvenus (Enfants & Adultes)"}
+                    <Users className="w-4 h-4 text-[#C5A059]" /> All Ages Welcome (Kids & Adults)
                   </span>
                   <span className="px-4 py-1.5 rounded-full text-xs sm:text-sm font-bold bg-[#FAF7F2] text-[#2D1C13] border border-[#EAE3D6] flex items-center gap-2">
                     <Monitor className="w-4 h-4 text-[#C5A059]" /> {program.mode}
@@ -103,7 +97,7 @@ export default async function ProgramsPage({
                     <span className="text-[#7A685B] font-medium text-sm">{program.period}</span>
                   </div>
                   <Link
-                    href={`/${lang}/admissions`}
+                    href="/admissions"
                     className="inline-flex items-center justify-center gap-2 w-full py-3.5 md:py-4 rounded-xl font-bold text-white text-center transition-all shadow-[0_4px_14px_rgba(197,160,89,0.35)] hover:shadow-lg hover:-translate-y-0.5 active:scale-[0.98] bg-[#C5A059] hover:bg-[#B38F46] focus:outline-none"
                   >
                     <span>{dict.programsPage.joinNow}</span>
@@ -121,8 +115,8 @@ export default async function ProgramsPage({
 
       <FAQSection dict={dict.faq} />
       <ContactForm dict={dict.contact} />
-      <Newsletter dict={dict} lang={lang} />
-      <Footer lang={lang} dict={dict} />
+      <Newsletter dict={dict} lang="en" />
+      <Footer dict={dict} />
     </main>
   );
 }

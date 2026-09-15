@@ -15,17 +15,12 @@ export const metadata: Metadata = {
 
 import { getDictionary } from "@/lib/dictionary";
 
-export default async function PricingPage({
-  params,
-}: {
-  params: Promise<{ lang: string }>;
-}) {
-  const { lang } = await params;
-  const dict = await getDictionary(lang as any);
+export default async function PricingPage() {
+  const dict = await getDictionary();
 
   return (
     <main className="bg-white dark:bg-gray-950 overflow-hidden min-h-screen">
-      <Navbar lang={lang} dict={dict} />
+      <Navbar dict={dict} />
 
       <section className="py-14 md:py-16 bg-gray-50 dark:bg-gray-900 relative overflow-hidden">
         <div className="absolute top-0 right-1/4 w-96 h-96 bg-primary/5 rounded-full blur-[100px] -translate-y-1/2 pointer-events-none"></div>
@@ -44,8 +39,8 @@ export default async function PricingPage({
 
       <FAQSection dict={dict.faq} />
       <ContactForm dict={dict.contact} />
-      <Newsletter dict={dict} lang={lang} />
-      <Footer lang={lang} dict={dict} />
+      <Newsletter dict={dict} lang="en" />
+      <Footer dict={dict} />
     </main>
   );
 }

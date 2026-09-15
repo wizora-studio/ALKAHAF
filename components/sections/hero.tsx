@@ -94,16 +94,9 @@ export default function HeroSection({ dict, lang = "en" }: HeroSectionProps) {
               transition={{ duration: 0.65, delay: 0.1 }}
               className="text-3xl sm:text-4xl md:text-[42px] lg:text-[46px] xl:text-[50px] font-serif font-bold text-[#2D1C13] leading-[1.14] tracking-tight mb-3 sm:mb-4 max-w-2xl"
             >
-              {isEn ? (
-                <>
-                  Online Quran classes specially{" "}
-                  <br className="hidden sm:inline" />
-                  designed for all ages
-                </>
-              ) : (
-                hero.mainTitle ||
-                "Cours de Coran en ligne conçus pour tous les âges"
-              )}
+              Online Quran classes specially{" "}
+              <br className="hidden sm:inline" />
+              designed for all ages
             </motion.h1>
 
             {/* Subtitle */}
@@ -113,10 +106,7 @@ export default function HeroSection({ dict, lang = "en" }: HeroSectionProps) {
               transition={{ duration: 0.65, delay: 0.2 }}
               className="text-sm sm:text-base md:text-lg font-sans font-medium text-[#5C4A3E] mb-7 sm:mb-8"
             >
-              {isEn
-                ? "Flexible, affordable online classes for every age"
-                : hero.subtitle ||
-                  "Des cours particuliers en direct, flexibles et abordables"}
+              Flexible, affordable online classes for every age
             </motion.p>
 
             {/* Action Buttons — matching reference exactly */}
@@ -127,19 +117,13 @@ export default function HeroSection({ dict, lang = "en" }: HeroSectionProps) {
               className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-5 mb-10 w-full sm:w-auto"
             >
               <Link
-                href={`/${lang}/admissions`}
+                href="/admissions"
                 className="w-full sm:w-auto min-w-[210px] text-center px-8 py-3.5 sm:py-4 rounded-full bg-[#BA9955] hover:bg-[#A88744] text-white font-extrabold text-xs sm:text-[13px] tracking-wider uppercase transition-all duration-300 shadow-[0_6px_20px_rgba(186,153,85,0.35)] hover:shadow-[0_8px_25px_rgba(186,153,85,0.5)] hover:-translate-y-0.5 active:translate-y-0"
               >
-                {isEn ? (
-                  <>
-                    START YOUR FREE <br className="sm:inline" /> 3 DAYS TRIAL
-                  </>
-                ) : (
-                  "COMMENCER L'ESSAI GRATUIT DE 3 JOURS"
-                )}
+                START YOUR FREE <br className="sm:inline" /> 3 DAYS TRIAL
               </Link>
               <Link
-                href={`/${lang}/contact`}
+                href="/contact"
                 className="w-full sm:w-auto min-w-[170px] text-center px-8 py-3.5 sm:py-4 rounded-full bg-white hover:bg-[#FAF7F2] text-[#2D1C13] border-2 border-[#D4C9B4] font-bold text-sm sm:text-base transition-all duration-300 shadow-sm hover:shadow hover:-translate-y-0.5"
               >
                 {hero.contactUs || "Contact Us"}

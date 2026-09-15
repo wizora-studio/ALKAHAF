@@ -21,17 +21,12 @@ import Newsletter from "@/components/sections/newsletter";
 
 import { getDictionary } from "@/lib/dictionary";
 
-export default async function AboutPage({
-  params,
-}: {
-  params: Promise<{ lang: string }>;
-}) {
-  const { lang } = await params;
-  const dict = await getDictionary(lang as any);
+export default async function AboutPage() {
+  const dict = await getDictionary();
 
   return (
     <main className="bg-white dark:bg-gray-950 overflow-hidden min-h-screen">
-      <Navbar lang={lang} dict={dict} />
+      <Navbar dict={dict} />
 
       {/* Hero */}
       <PagesHero
@@ -42,7 +37,7 @@ export default async function AboutPage({
           text: dict.about.hero.primaryAction,
           href: "/admissions",
         }}
-        imageSrc="/images/physical-learning-man.png"
+        imageSrc="/images/islamic-academy-hall.jpg"
         imageAlt="About Al Kahaf Academy"
       />
 
@@ -53,7 +48,7 @@ export default async function AboutPage({
             <div className="relative">
               <div className="aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl rotate-2 border-4 border-white/50">
                 <Image
-                  src="/images/physical-learning-man.png"
+                  src="/images/islamic-history-quran.jpg"
                   alt="Our History"
                   fill
                   className="object-cover"
@@ -136,8 +131,8 @@ export default async function AboutPage({
           <div className="grid md:grid-cols-2 gap-8">
             <div className="group relative overflow-hidden rounded-3xl aspect-[16/9] shadow-lg">
               <Image
-                src="/images/physical-learning.png"
-                alt="Online Classes"
+                src="/images/islamic-academy-hall.jpg"
+                alt="Al Kahaf Academy Hall"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-700"
               />
@@ -161,8 +156,8 @@ export default async function AboutPage({
             </div>
             <div className="group relative overflow-hidden rounded-3xl aspect-[16/9] shadow-lg">
               <Image
-                src="/images/online-learning.png"
-                alt="Online Group Learning"
+                src="/images/islamic-history-quran.jpg"
+                alt="Holy Quran on Rehal"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-700"
               />
@@ -235,8 +230,8 @@ export default async function AboutPage({
       {/* FAQ & Contact */}
       <FAQSection dict={dict.faq} />
       <ContactForm dict={dict.contact} />
-      <Newsletter dict={dict} lang={lang} />
-      <Footer lang={lang} dict={dict} />
+      <Newsletter dict={dict} lang="en" />
+      <Footer dict={dict} />
     </main>
   );
 }

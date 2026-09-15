@@ -3,7 +3,7 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import Image from "next/image";
-import { Menu, X, Globe } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { usePathname } from "next/navigation";
 import { useUltraMode } from "@/components/context/ultra-mode-context";
 
@@ -27,16 +27,7 @@ const Navbar: React.FC<NavbarProps> = ({ lang = "en", dict }) => {
     enrollNow: "Enroll Now",
   };
 
-  const getLocalizedHref = (href: string) => {
-    return `/${lang}${href === "/" ? "" : href}`;
-  };
-
-  const toggleLanguage = () => {
-    const newLang = lang === "fr" ? "en" : "fr";
-    const segments = pathname.split("/");
-    segments[1] = newLang;
-    return segments.join("/");
-  };
+  const getLocalizedHref = (href: string) => href;
 
   return (
     <header
@@ -117,19 +108,6 @@ const Navbar: React.FC<NavbarProps> = ({ lang = "en", dict }) => {
               T
             </button>
 
-            {/* Language Switcher */}
-            <Link
-              href={toggleLanguage()}
-              className={`flex items-center gap-2 font-medium px-3 py-1.5 rounded-full border transition ${
-                isUltraMode
-                  ? "border-[#C5A059]/40 bg-[#0B1E17] text-[#E2ECE6] hover:text-[#F5D88C]"
-                  : "border-[#EAE3D6] bg-[#FAF7F2] hover:bg-[#F5F1E8] text-[#2D1C13] hover:text-[#C5A059]"
-              }`}
-            >
-              <Globe className="w-4 h-4 text-[#C5A059]" />
-              <span className="text-xs font-bold">{lang === "fr" ? "EN" : "FR"}</span>
-            </Link>
-
             {/* DESKTOP CTA */}
             <Link
               href={getLocalizedHref("/admissions")}
@@ -158,18 +136,6 @@ const Navbar: React.FC<NavbarProps> = ({ lang = "en", dict }) => {
             >
               T
             </button>
-
-            <Link
-              href={toggleLanguage()}
-              className={`flex items-center gap-1.5 font-medium px-3 py-1 rounded-full border transition ${
-                isUltraMode
-                  ? "border-[#C5A059]/40 bg-[#0B1E17] text-[#E2ECE6]"
-                  : "border-[#EAE3D6] bg-[#FAF7F2] text-[#2D1C13]"
-              }`}
-            >
-              <Globe className="w-4 h-4 text-[#C5A059]" />
-              <span className="text-xs font-bold">{lang === "fr" ? "EN" : "FR"}</span>
-            </Link>
 
             <button
               onClick={() => setOpenNavbar(!openNavbar)}

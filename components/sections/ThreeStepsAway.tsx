@@ -33,9 +33,7 @@ export default function ThreeStepsAway({ lang = "en", dict }: ThreeStepsProps) {
     button: "TAKE YOUR FIRST STEP NOW",
   };
 
-  const getLocalizedHref = (href: string) => {
-    return `/${lang}${href === "/" ? "" : href}`;
-  };
+  const getLocalizedHref = (href: string) => href;
 
   const stepIcons = [
     <MousePointerClick key="click" className="w-7 h-7" />,
@@ -59,7 +57,7 @@ export default function ThreeStepsAway({ lang = "en", dict }: ThreeStepsProps) {
           className="text-center mb-14 sm:mb-18"
         >
           <span className="inline-flex items-center gap-1.5 py-1 px-4 rounded-full bg-[#C5A059]/15 text-[#9F7A38] text-xs sm:text-sm font-semibold border border-[#C5A059]/30 tracking-wider uppercase mb-4">
-            {lang === "fr" ? "Processus Simple" : "Simple & Fast Process"}
+            Simple & Fast Process
           </span>
 
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-[#2D1C13] tracking-tight">
@@ -68,12 +66,6 @@ export default function ThreeStepsAway({ lang = "en", dict }: ThreeStepsProps) {
                 {t.title.split("3 Steps")[0]}
                 <span className="text-[#C5A059] italic">3 Steps</span>
                 {t.title.split("3 Steps")[1]}
-              </>
-            ) : t.title.includes("3 étapes") ? (
-              <>
-                {t.title.split("3 étapes")[0]}
-                <span className="text-[#C5A059] italic">3 étapes</span>
-                {t.title.split("3 étapes")[1]}
               </>
             ) : (
               t.title

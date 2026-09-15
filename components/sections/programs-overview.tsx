@@ -10,35 +10,33 @@ interface ProgramsOverviewProps {
   lang?: string;
 }
 
-export default function ProgramsOverview({ dict, lang = "en" }: ProgramsOverviewProps) {
-  const isFr = dict?.offerings?.toLowerCase().includes("offre") || lang === "fr";
-
+export default function ProgramsOverview({ dict }: ProgramsOverviewProps) {
   const programs = [
     {
-      ...(dict.nazra || dict.programs?.[0]),
+      ...(dict?.nazra || dict?.programs?.[0]),
       icon: <BookOpen className="w-7 h-7" />,
-      badge: isFr ? "Fondation" : "Foundation",
+      badge: "Foundation",
       popular: false,
       link: "/programs#foundation",
     },
     {
-      ...(dict.tajweed || dict.programs?.[1]),
+      ...(dict?.tajweed || dict?.programs?.[1]),
       icon: <Sparkles className="w-7 h-7" />,
-      badge: isFr ? "Le Plus Populaire" : "Most Popular",
+      badge: "Most Popular",
       popular: true,
       link: "/programs#tajweed",
     },
     {
-      ...(dict.online || dict.programs?.[2]),
+      ...(dict?.online || dict?.programs?.[2]),
       icon: <Users className="w-7 h-7" />,
-      badge: isFr ? "Interactif" : "Group Interactive",
+      badge: "Group Interactive",
       popular: false,
       link: "/online-classes",
     },
     {
-      ...(dict.private || dict.programs?.[3]),
+      ...(dict?.private || dict?.programs?.[3]),
       icon: <GraduationCap className="w-7 h-7" />,
-      badge: isFr ? "Flexible" : "1-on-1 Flexible",
+      badge: "1-on-1 Flexible",
       popular: false,
       link: "/online-classes",
     },

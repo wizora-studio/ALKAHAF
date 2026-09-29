@@ -20,6 +20,22 @@ import ContactForm from "@/components/sections/contact-form";
 import Newsletter from "@/components/sections/newsletter";
 
 import { getDictionary } from "@/lib/dictionary";
+import { Breadcrumbs, ENTITY_STATEMENT } from "@/components/seo/JsonLd";
+import { buildPageMetadata } from "@/lib/seo-metadata";
+
+export const metadata: Metadata = buildPageMetadata({
+  title: "About Al Kahaf Academy — Mission, Vision & Official Identity",
+  description:
+    "Al Kahaf Academy — online Quran and Islamic education for children and adults — official website: www.alkahafacademy.com. Learn about our mission, teaching methodology, and certified tutors since 2015.",
+  path: "/about",
+  keywords: [
+    "Al Kahaf Academy",
+    "alkahafacademy",
+    "About Al Kahaf Academy",
+    "Online Quran Academy",
+    "Online Islamic education",
+  ],
+});
 
 export default async function AboutPage() {
   const dict = await getDictionary();
@@ -27,6 +43,7 @@ export default async function AboutPage() {
   return (
     <main className="bg-white dark:bg-gray-950 overflow-hidden min-h-screen">
       <Navbar dict={dict} />
+      <Breadcrumbs items={[{ name: "About Us", href: "/about" }]} />
 
       {/* Hero */}
       <PagesHero
@@ -49,14 +66,15 @@ export default async function AboutPage() {
               <div className="aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl rotate-2 border-4 border-white/50">
                 <Image
                   src="/images/islamic-history-quran.jpg"
-                  alt="Our History"
+                  alt="Our History at Al Kahaf Academy"
                   fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
                   className="object-cover"
                 />
               </div>
               <div className="absolute -bottom-8 -left-8 bg-white dark:bg-card p-6 rounded-2xl shadow-xl max-w-xs">
                 <p className="font-serif text-4xl text-primary font-bold mb-1">
-                  20+
+                  10+
                 </p>
                 <p className="text-sm text-muted-foreground uppercase tracking-wide">
                   {dict.about.history.stat}
@@ -73,12 +91,32 @@ export default async function AboutPage() {
               <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
                 {dict.about.history.p2}
               </p>
-              <div className="pt-4">
+              <div className="p-5 rounded-2xl bg-[#FAF7F2] border border-[#EAE3D6] text-sm text-[#2D1C13] space-y-2">
+                <p className="font-bold text-[#9F7A38] uppercase tracking-wider text-xs">
+                  Official Identity &amp; Service Scope
+                </p>
+                <p className="font-medium leading-relaxed">
+                  {ENTITY_STATEMENT} We operate as a 100% online global academy serving families across the UK, USA, Canada, Australia, Europe, and worldwide with live 1-on-1 classes via Zoom and Google Meet.
+                </p>
+              </div>
+              <div className="pt-2 flex flex-wrap gap-6">
                 <Link
                   href="/admissions"
                   className="text-accent font-bold hover:underline flex items-center gap-2"
                 >
                   {dict.about.hero.primaryAction} <Users className="w-4 h-4" />
+                </Link>
+                <Link
+                  href="/teachers"
+                  className="text-primary font-bold hover:underline flex items-center gap-2"
+                >
+                  Meet Our Teachers &amp; Safeguarding Policy
+                </Link>
+                <Link
+                  href="/courses"
+                  className="text-primary font-bold hover:underline flex items-center gap-2"
+                >
+                  Explore All Courses
                 </Link>
               </div>
             </div>
@@ -134,6 +172,7 @@ export default async function AboutPage() {
                 src="/images/islamic-academy-hall.jpg"
                 alt="Al Kahaf Academy Hall"
                 fill
+                sizes="(max-width: 768px) 100vw, 50vw"
                 className="object-cover group-hover:scale-105 transition-transform duration-700"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex flex-col justify-end p-8">
@@ -159,6 +198,7 @@ export default async function AboutPage() {
                 src="/images/islamic-history-quran.jpg"
                 alt="Holy Quran on Rehal"
                 fill
+                sizes="(max-width: 768px) 100vw, 50vw"
                 className="object-cover group-hover:scale-105 transition-transform duration-700"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex flex-col justify-end p-8">

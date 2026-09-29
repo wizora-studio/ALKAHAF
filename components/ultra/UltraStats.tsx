@@ -35,9 +35,9 @@ export default function UltraStats({ dict, counts }: UltraStatsProps) {
     },
     {
       label: dict?.experience || "Years of Heritage",
-      value: counts?.experience ? `${counts.experience}+` : "20+",
+      value: counts?.experience ? `${counts.experience}+` : "10+",
       icon: Award,
-      highlight: "Trusted Excellence",
+      highlight: "Since 2015",
     },
   ];
 

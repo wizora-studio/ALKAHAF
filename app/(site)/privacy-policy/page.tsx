@@ -1,7 +1,17 @@
 import React from "react";
+import { Metadata } from "next";
 import Navbar from "@/components/layout/header";
 import Footer from "@/components/layout/footer";
 import { getDictionary } from "@/lib/dictionary";
+import { Breadcrumbs } from "@/components/seo/JsonLd";
+import { buildPageMetadata } from "@/lib/seo-metadata";
+
+export const metadata: Metadata = buildPageMetadata({
+  title: "Privacy Policy",
+  description:
+    "Al Kahaf Academy's privacy policy. Learn how we collect, use, and safeguard your personal information when using our online Quran education services at www.alkahafacademy.com.",
+  path: "/privacy-policy",
+});
 
 export default async function PrivacyPolicy() {
   const dict = await getDictionary();
@@ -9,6 +19,7 @@ export default async function PrivacyPolicy() {
   return (
     <main className="bg-white dark:bg-gray-950 overflow-hidden min-h-screen">
       <Navbar dict={dict} />
+      <Breadcrumbs items={[{ name: "Privacy Policy", href: "/privacy-policy" }]} />
 
       <section className="pt-32 pb-16 bg-gray-50 dark:bg-gray-900 border-b border-gray-100 dark:border-gray-800">
         <div className="max-w-4xl mx-auto px-5 sm:px-10">

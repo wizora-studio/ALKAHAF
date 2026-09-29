@@ -1,4 +1,5 @@
 import React from "react";
+import { Metadata } from "next";
 import Navbar from "@/components/layout/header";
 import Footer from "@/components/layout/footer";
 import Link from "next/link";
@@ -8,6 +9,22 @@ import ContactForm from "@/components/sections/contact-form";
 import Newsletter from "@/components/sections/newsletter";
 import { Monitor, Video, Globe, Clock, ShieldCheck } from "lucide-react";
 import { getDictionary } from "@/lib/dictionary";
+import { Breadcrumbs } from "@/components/seo/JsonLd";
+import { buildPageMetadata } from "@/lib/seo-metadata";
+
+export const metadata: Metadata = buildPageMetadata({
+  title: "Online Quran Classes — Live 1-on-1 Sessions Worldwide",
+  description:
+    "Join live 1-on-1 online Quran classes with certified male and female teachers via Zoom and Google Meet. Flexible 24/7 scheduling for kids and adults worldwide.",
+  path: "/online-classes",
+  keywords: [
+    "Online Quran classes",
+    "1-on-1 Quran classes online",
+    "Zoom Quran classes",
+    "Online Quran tutor",
+    "Al Kahaf Academy online classes",
+  ],
+});
 
 export default async function OnlineClassesPage() {
   const dict = await getDictionary();
@@ -15,6 +32,7 @@ export default async function OnlineClassesPage() {
   return (
     <main className="bg-background min-h-screen">
       <Navbar dict={dict} />
+      <Breadcrumbs items={[{ name: "Online Classes", href: "/online-classes" }]} />
 
       {/* Hero Section */}
       <section className="relative py-16 md:py-20 bg-gradient-to-br from-[#FCFBF8] via-[#FAF7F2] to-[#F5F0E6] border-b border-[#EAE3D6] overflow-hidden">

@@ -23,7 +23,7 @@ const StatItem: React.FC<StatItemProps> = ({
   const ref = React.useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.1 });
 
-  const spring = useSpring(0, {
+  const spring = useSpring(value, {
     mass: 1,
     stiffness: 100,
     damping: 30,
@@ -105,7 +105,7 @@ export const StatCounter: React.FC<{
           />
           <StatItem
             icon={<Award className="h-8 w-8" />}
-            value={counts?.experience || 20}
+            value={counts?.experience || 10}
             label={dict.yearsExperience}
             delay={0.3}
             suffix="+"

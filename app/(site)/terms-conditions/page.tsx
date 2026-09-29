@@ -1,13 +1,24 @@
 import React from "react";
+import { Metadata } from "next";
 import Navbar from "@/components/layout/header";
 import Footer from "@/components/layout/footer";
 import { getDictionary } from "@/lib/dictionary";
+import { Breadcrumbs } from "@/components/seo/JsonLd";
+import { buildPageMetadata } from "@/lib/seo-metadata";
+
+export const metadata: Metadata = buildPageMetadata({
+  title: "Terms & Conditions",
+  description:
+    "Terms and conditions for using Al Kahaf Academy's online Quran education services at www.alkahafacademy.com. Read about enrollment, tuition fees, attendance, and policies.",
+  path: "/terms-conditions",
+});
 
 export default async function TermsConditions() {
   const dict = await getDictionary();
   return (
     <main className="bg-white dark:bg-gray-950 overflow-hidden min-h-screen">
       <Navbar dict={dict} />
+      <Breadcrumbs items={[{ name: "Terms & Conditions", href: "/terms-conditions" }]} />
 
       <section className="pt-32 pb-16 bg-gray-50 dark:bg-gray-900 border-b border-gray-100 dark:border-gray-800">
         <div className="max-w-4xl mx-auto px-5 sm:px-10">

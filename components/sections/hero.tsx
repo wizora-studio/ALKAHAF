@@ -30,7 +30,7 @@ export default function HeroSection({ dict, lang = "en" }: HeroSectionProps) {
           alt="Al Kahaf Academy Royal Islamic Arch Background"
           fill
           priority
-          quality={100}
+          quality={85}
           sizes="100vw"
           className="object-cover object-left"
         />
@@ -60,7 +60,8 @@ export default function HeroSection({ dict, lang = "en" }: HeroSectionProps) {
                   alt="Holy Quran on Handcrafted Rehal Stand"
                   fill
                   priority
-                  quality={100}
+                  quality={85}
+                  sizes="(max-width: 768px) 1px, (max-width: 1024px) 320px, 380px"
                   className="object-contain"
                 />
               </div>
@@ -82,6 +83,7 @@ export default function HeroSection({ dict, lang = "en" }: HeroSectionProps) {
                   alt="Bismillah ir-Rahman ir-Rahim"
                   fill
                   priority
+                  sizes="(max-width: 640px) 260px, (max-width: 768px) 320px, 420px"
                   className="object-contain object-center"
                 />
               </div>

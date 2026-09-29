@@ -16,100 +16,112 @@ import Script from "next/script";
 import { Toaster } from "sonner";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { OrganizationJsonLd } from "@/components/seo/JsonLd";
 import { UltraModeProvider } from "@/components/context/ultra-mode-context";
 
 const playfair = Playfair_Display({
   variable: "--font-playfair",
   subsets: ["latin"],
+  display: "swap",
 });
 
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
+  preload: false,
 });
 
 const amiri = Amiri({
   variable: "--font-amiri",
   subsets: ["arabic"],
   weight: ["400", "700"],
+  preload: false,
 });
 
 const scheherazade = Scheherazade_New({
   variable: "--font-scheherazade",
   subsets: ["arabic"],
   weight: ["400", "700"],
+  preload: false,
 });
 
 const lateef = Lateef({
   variable: "--font-lateef",
   subsets: ["arabic"],
   weight: ["400", "700"],
+  preload: false,
 });
 
 const notoNaskh = Noto_Naskh_Arabic({
   variable: "--font-noto-naskh",
   subsets: ["arabic"],
   weight: ["400", "700"],
+  preload: false,
 });
 
 const poppins = Poppins({
   variable: "--font-poppins",
-  subsets: ["latin"], // Poppins supports Latin
+  subsets: ["latin"],
   weight: ["400", "600", "700"],
+  display: "swap",
 });
 
 export const notoNastaliq = Noto_Nastaliq_Urdu({
   subsets: ["arabic"],
   weight: ["400", "700"],
   variable: "--font-noto-nastaliq",
+  preload: false,
 });
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
-    metadataBase: new URL("https://alkahafacademy.com"),
+    metadataBase: new URL("https://www.alkahafacademy.com"),
     title: {
-      default: "Al Kahaf Academy | Leading Quran & Islamic Institute in Montreal",
+      default: "Al Kahaf Academy | Online Quran & Islamic Education Worldwide",
       template: "%s | Al Kahaf Academy",
     },
     description:
-      "Trusted Online Quran education for children and adults worldwide. Live classes focusing on Tilawah, Tajweed, and character building (Tarbiyah).",
+      "Al Kahaf Academy — online Quran and Islamic education for children and adults — official website: www.alkahafacademy.com. Live 1-on-1 Tajweed, Hifz, Noorani Qaida, Arabic, and Islamic Studies classes worldwide.",
     keywords: [
+      "Al Kahaf Academy",
+      "alkahafacademy",
       "Online Quran classes",
       "Online Quran Academy",
       "Learn Quran online",
-      "Tajweed for children",
-      "Live Islamic education",
-      "Al Kahaf Academy",
-      "Online Quran hifz",
-      "Arabic classes for kids",
+      "Online Tajweed classes",
+      "Online Hifz classes",
+      "Noorani Qaida online",
+      "Female Quran teacher online",
+      "Quranic Arabic online",
+      "Islamic studies for kids online",
     ],
-    authors: [{ name: "Al Kahaf Academy" }],
+    authors: [{ name: "Al Kahaf Academy", url: "https://www.alkahafacademy.com" }],
     creator: "Al Kahaf Academy",
     openGraph: {
       type: "website",
       locale: "en_US",
-      url: "https://alkahafacademy.com",
-      title: "Online Quran Classes | Register Now - Al Kahaf Academy",
+      url: "https://www.alkahafacademy.com",
+      title: "Al Kahaf Academy | Online Quran & Islamic Education Worldwide",
       description:
-        "Online Quran classes are specially designed for beginners and all ages. Learn Tilawah, Tajweed, and Islamic studies from qualified teachers. 3 Days Free Trial!",
+        "Al Kahaf Academy — online Quran and Islamic education for children and adults — official website: www.alkahafacademy.com. Start with a 3-Day Free Trial!",
       siteName: "Al Kahaf Academy",
       images: [
         {
-          url: "https://alkahafacademy.com/images/og-preview.jpg",
-          secureUrl: "https://alkahafacademy.com/images/og-preview.jpg",
+          url: "https://www.alkahafacademy.com/images/og-preview.jpg",
+          secureUrl: "https://www.alkahafacademy.com/images/og-preview.jpg",
           width: 1200,
           height: 630,
           type: "image/jpeg",
-          alt: "Online Quran Classes | Register Now - Al Kahaf Academy",
+          alt: "Al Kahaf Academy — Online Quran & Islamic Education Worldwide",
         },
       ],
     },
     twitter: {
       card: "summary_large_image",
-      title: "Online Quran Classes | Register Now - Al Kahaf Academy",
+      title: "Al Kahaf Academy | Online Quran & Islamic Education Worldwide",
       description:
-        "Online Quran classes are specially designed for beginners and all ages. Learn Tilawah, Tajweed, and Islamic studies from qualified teachers. 3 Days Free Trial!",
-      images: ["https://alkahafacademy.com/images/og-preview.jpg"],
+        "Al Kahaf Academy — online Quran and Islamic education for children and adults — official website: www.alkahafacademy.com. Start with a 3-Day Free Trial!",
+      images: ["https://www.alkahafacademy.com/images/og-preview.jpg"],
     },
     robots: {
       index: true,
@@ -138,6 +150,9 @@ export async function generateMetadata(): Promise<Metadata> {
       shortcut: "/favicon.ico",
     },
     manifest: "/site.webmanifest",
+    alternates: {
+      canonical: "https://www.alkahafacademy.com",
+    },
   };
 }
 
@@ -162,7 +177,7 @@ export default async function RootLayout({
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="theme-color" content="#C5A059" />
-        <link rel="image_src" href="https://alkahafacademy.com/images/og-preview.jpg" />
+        <link rel="image_src" href="https://www.alkahafacademy.com/images/og-preview.jpg" />
         <meta name="google-site-verification" content="AE2s4AgJTX7lAEZn6Cu9bWGr7VniZFCMO11qAkDjuXg" />
         <Script
           async
@@ -177,6 +192,7 @@ export default async function RootLayout({
             gtag('config', 'G-9283Z62J9W');
           `}
         </Script>
+        <OrganizationJsonLd />
       </head>
       <body
         className={`${playfair.variable} ${inter.variable} ${amiri.variable} ${scheherazade.variable} ${lateef.variable} ${notoNaskh.variable} ${poppins.variable} font-sans antialiased`}

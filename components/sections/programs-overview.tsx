@@ -17,14 +17,14 @@ export default function ProgramsOverview({ dict }: ProgramsOverviewProps) {
       icon: <BookOpen className="w-7 h-7" />,
       badge: "Foundation",
       popular: false,
-      link: "/programs#foundation",
+      link: "/courses/noorani-qaida",
     },
     {
       ...(dict?.tajweed || dict?.programs?.[1]),
       icon: <Sparkles className="w-7 h-7" />,
       badge: "Most Popular",
       popular: true,
-      link: "/programs#tajweed",
+      link: "/courses/tajweed",
     },
     {
       ...(dict?.online || dict?.programs?.[2]),

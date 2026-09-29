@@ -1,4 +1,5 @@
 import React from "react";
+import { Metadata } from "next";
 import Navbar from "@/components/layout/header";
 import { getDictionary } from "@/lib/dictionary";
 import Footer from "@/components/layout/footer";
@@ -9,6 +10,21 @@ import PagesHero from "@/components/sections/pageshero";
 import { CheckCircle, FileText, CreditCard, GraduationCap } from "lucide-react";
 import PricingPlans from "@/components/sections/PricingPlans";
 import ContactForm from "@/components/sections/contact-form";
+import { Breadcrumbs } from "@/components/seo/JsonLd";
+import { buildPageMetadata } from "@/lib/seo-metadata";
+
+export const metadata: Metadata = buildPageMetadata({
+  title: "Admissions — Enroll for Online Quran Classes & Free Trial",
+  description:
+    "Apply for Al Kahaf Academy's online Quran classes. Simple 4-step enrollment process with a 3-day free trial. Flexible 24/7 scheduling for kids and adults worldwide.",
+  path: "/admissions",
+  keywords: [
+    "Online Quran admissions",
+    "Enroll online Quran classes",
+    "Free Quran trial class",
+    "Al Kahaf Academy admissions",
+  ],
+});
 
 export default async function AdmissionsPage() {
   const dict = await getDictionary();
@@ -16,6 +32,7 @@ export default async function AdmissionsPage() {
   return (
     <main className="bg-background min-h-screen">
       <Navbar dict={dict} />
+      <Breadcrumbs items={[{ name: "Admissions", href: "/admissions" }]} />
 
       {/* Header */}
       <PagesHero

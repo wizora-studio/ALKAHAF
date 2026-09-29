@@ -16,7 +16,7 @@
     "stats": {
       "students": "50+",
       "teachers": "15+",
-      "experience": "20+",
+      "experience": "10+",
       "classesPerWeek": "120/wk"
     }
   },
@@ -282,9 +282,9 @@
     },
     "history": {
       "title": "Our Journey",
-      "p1": "Al Kahaf Academy was founded to meet the global need for high-quality, structured Quranic education. We have grown into a premier online institute serving hundreds of students worldwide.",
-      "p2": "Inspired by the light of the Quran and the Sunnah, Al Kahaf Academy is a beacon of knowledge, striving to embody a legacy of scholarship, compassion, and piety.",
-      "stat": "Years of Excellence"
+      "p1": "Al Kahaf Academy — online Quran and Islamic education for children and adults — official website: www.alkahafacademy.com. Founded in 2015 to meet the global need for high-quality, structured Quranic education, we serve students across the UK, USA, Canada, Australia, Europe, and worldwide through live 1-on-1 and interactive online classes.",
+      "p2": "Inspired by the light of the Quran and the Sunnah, Al Kahaf Academy is an independent global online Quran academy striving to embody a legacy of authentic Tajweed scholarship, compassion, and Islamic Tarbiyah.",
+      "stat": "Years of Excellence (Since 2015)"
     },
     "mission": {
       "title": "Our Mission",
@@ -461,7 +461,7 @@
     }
   },
   "footer": {
-    "mission": "Shaping hearts and minds in the light of the Qur'an. A dedicated space for spiritual growth and authentic Islamic learning for all generations.",
+    "mission": "Al Kahaf Academy — online Quran and Islamic education for children and adults — official website: www.alkahafacademy.com. Shaping hearts and minds in the light of the Qur'an since 2015.",
     "programsTitle": "Our Programs",
     "quickLinksTitle": "Quick Links",
     "stayConnectedTitle": "Stay Connected",

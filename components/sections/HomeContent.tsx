@@ -38,7 +38,7 @@ export default function HomeContent({ dict, lang, totalStudents }: HomeContentPr
               students: totalStudents && totalStudents > 50 ? totalStudents : 50,
               teachers: 15,
               classes: 120,
-              experience: 20,
+              experience: 10,
             }}
           />
         </>
@@ -51,7 +51,7 @@ export default function HomeContent({ dict, lang, totalStudents }: HomeContentPr
               students: totalStudents && totalStudents > 50 ? totalStudents : 50,
               teachers: 15,
               classes: 120,
-              experience: 20,
+              experience: 10,
             }}
           />
         </>

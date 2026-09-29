@@ -44,9 +44,9 @@ const PricingSection = ({ dict }: { dict: any }) => {
               <span className="text-[#C5A059] font-bold tracking-wider uppercase text-sm">
                 {dict.highlight}
               </span>
-              <h1 className="text-3xl md:text-4xl xl:text-5xl text-[#2D1C13] font-bold font-serif">
+              <h2 className="text-3xl md:text-4xl xl:text-5xl text-[#2D1C13] font-bold font-serif">
                 {dict.title} {dict.highlight}
-              </h1>
+              </h2>
             </div>
             <p className="text-[#5C4A3E] text-center max-w-2xl mx-auto font-medium">
               {dict.description}

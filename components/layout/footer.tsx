@@ -16,7 +16,8 @@ const Footer: React.FC<FooterProps> = ({ lang: propLang, dict }) => {
   const getLocalizedHref = (href: string) => href;
 
   const footerDict = dict?.footer || {
-    mission: "Shaping hearts and minds in the light of the Qur'an.",
+    mission:
+      "Al Kahaf Academy — online Quran and Islamic education for children and adults — official website: www.alkahafacademy.com. Shaping hearts and minds in the light of the Qur'an since 2015.",
     programsTitle: "Our Programs",
     quickLinksTitle: "Quick Links",
     stayConnectedTitle: "Stay Connected",
@@ -24,7 +25,11 @@ const Footer: React.FC<FooterProps> = ({ lang: propLang, dict }) => {
     developedBy: "Developed by",
     privacyPolicy: "Privacy Policy",
     termsOfService: "Terms of Service",
-    available: "100% Online Quran Academy",
+    available: "100% Online Quran Academy Worldwide",
+    social: {
+      facebook: "https://www.facebook.com/profile.php?id=61573956185952",
+      instagram: "https://www.instagram.com/academiealkahafacademy",
+    },
   };
 
   return (
@@ -49,16 +54,41 @@ const Footer: React.FC<FooterProps> = ({ lang: propLang, dict }) => {
               <span className="absolute -inset-2 rounded-full bg-[#C5A059]/15 blur-xl"></span>
               <Image
                 src="/images/alkahaf-logo.png"
-                alt="Al Kahaf Academy"
+                alt="Al Kahaf Academy — Online Quran & Islamic Education"
                 width={200}
                 height={200}
-                priority
                 className="relative h-24 w-auto object-contain"
               />
             </Link>
-            <p className="text-[#5C4A3E] max-w-sm font-sans leading-relaxed">
+            <p className="text-[#5C4A3E] max-w-sm font-sans text-sm leading-relaxed">
               {footerDict.mission}
             </p>
+            <div className="flex items-center gap-3 pt-1">
+              <a
+                href={
+                  footerDict.social?.facebook ||
+                  "https://www.facebook.com/profile.php?id=61573956185952"
+                }
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Al Kahaf Academy Official Facebook Page"
+                className="px-3.5 py-1.5 rounded-full bg-white border border-[#EAE3D6] text-xs font-bold text-[#2D1C13] hover:border-[#C5A059] hover:text-[#C5A059] transition-colors"
+              >
+                Facebook
+              </a>
+              <a
+                href={
+                  footerDict.social?.instagram ||
+                  "https://www.instagram.com/academiealkahafacademy"
+                }
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Al Kahaf Academy Official Instagram Profile"
+                className="px-3.5 py-1.5 rounded-full bg-white border border-[#EAE3D6] text-xs font-bold text-[#2D1C13] hover:border-[#C5A059] hover:text-[#C5A059] transition-colors"
+              >
+                Instagram
+              </a>
+            </div>
           </div>
 
           {/* Programs */}
@@ -66,44 +96,59 @@ const Footer: React.FC<FooterProps> = ({ lang: propLang, dict }) => {
             <h4 className="text-lg font-bold text-[#2D1C13] font-serif tracking-wide">
               {footerDict.programsTitle}
             </h4>
-            <ul className="space-y-3 text-[#5C4A3E] font-sans">
+            <ul className="space-y-3 text-[#5C4A3E] font-sans text-sm">
               <li>
                 <Link
-                  href={getLocalizedHref("/programs")}
+                  href={getLocalizedHref("/courses/noorani-qaida")}
                   className="hover:text-[#C5A059] transition-colors flex items-center gap-2"
                 >
                   <span className="w-1.5 h-1.5 rounded-full bg-[#C5A059]"></span>
-                  {dict?.programsPage?.programs?.[1]?.title ||
-                    "Quran with Tajweed"}
+                  Noorani Qaida &amp; Nazra Online
                 </Link>
               </li>
               <li>
                 <Link
-                  href={getLocalizedHref("/programs")}
+                  href={getLocalizedHref("/courses/tajweed")}
                   className="hover:text-[#C5A059] transition-colors flex items-center gap-2"
                 >
                   <span className="w-1.5 h-1.5 rounded-full bg-[#C5A059]"></span>
-                  {dict?.programsPage?.programs?.[2]?.title || "Hifz Program"}
+                  Online Quran with Tajweed
                 </Link>
               </li>
               <li>
                 <Link
-                  href={getLocalizedHref("/programs")}
+                  href={getLocalizedHref("/courses/hifz")}
                   className="hover:text-[#C5A059] transition-colors flex items-center gap-2"
                 >
                   <span className="w-1.5 h-1.5 rounded-full bg-[#C5A059]"></span>
-                  {dict?.programsPage?.programs?.[3]?.title ||
-                    "Islamic Studies"}
+                  Online Hifz Quran Program
                 </Link>
               </li>
               <li>
                 <Link
-                  href={getLocalizedHref("/programs")}
+                  href={getLocalizedHref("/courses/islamic-studies")}
                   className="hover:text-[#C5A059] transition-colors flex items-center gap-2"
                 >
                   <span className="w-1.5 h-1.5 rounded-full bg-[#C5A059]"></span>
-                  {dict?.programsPage?.programs?.[4]?.title ||
-                    "Arabic Language"}
+                  Islamic Studies &amp; Tarbiyah
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={getLocalizedHref("/courses/arabic")}
+                  className="hover:text-[#C5A059] transition-colors flex items-center gap-2"
+                >
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#C5A059]"></span>
+                  Quranic Arabic Language
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={getLocalizedHref("/courses/adults")}
+                  className="hover:text-[#C5A059] transition-colors flex items-center gap-2"
+                >
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#C5A059]"></span>
+                  Adult &amp; Sisters Quran Classes
                 </Link>
               </li>
             </ul>
@@ -114,7 +159,23 @@ const Footer: React.FC<FooterProps> = ({ lang: propLang, dict }) => {
             <h4 className="text-lg font-bold text-[#2D1C13] font-serif tracking-wide">
               {footerDict.quickLinksTitle}
             </h4>
-            <ul className="space-y-3 text-[#5C4A3E] font-sans">
+            <ul className="space-y-2.5 text-[#5C4A3E] font-sans text-sm">
+              <li>
+                <Link
+                  href={getLocalizedHref("/courses")}
+                  className="hover:text-[#C5A059] transition-colors"
+                >
+                  All Courses
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={getLocalizedHref("/programs")}
+                  className="hover:text-[#C5A059] transition-colors"
+                >
+                  {dict?.navigation?.programs || "Programs"}
+                </Link>
+              </li>
               <li>
                 <Link
                   href={getLocalizedHref("/online-classes")}
@@ -125,10 +186,50 @@ const Footer: React.FC<FooterProps> = ({ lang: propLang, dict }) => {
               </li>
               <li>
                 <Link
-                  href={getLocalizedHref("/programs")}
+                  href={getLocalizedHref("/teachers")}
                   className="hover:text-[#C5A059] transition-colors"
                 >
-                  {dict?.navigation?.programs || "Programs"}
+                  Our Teachers &amp; Methodology
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={getLocalizedHref("/pricing")}
+                  className="hover:text-[#C5A059] transition-colors"
+                >
+                  Pricing &amp; Fee Plans
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={getLocalizedHref("/schedule")}
+                  className="hover:text-[#C5A059] transition-colors"
+                >
+                  24/7 Class Schedule
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={getLocalizedHref("/free-trial")}
+                  className="hover:text-[#C5A059] transition-colors"
+                >
+                  Free 3-Day Trial
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={getLocalizedHref("/faq")}
+                  className="hover:text-[#C5A059] transition-colors"
+                >
+                  Frequently Asked Questions
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={getLocalizedHref("/blog")}
+                  className="hover:text-[#C5A059] transition-colors"
+                >
+                  Quran Learning Guides &amp; Blog
                 </Link>
               </li>
               <li>
@@ -160,7 +261,7 @@ const Footer: React.FC<FooterProps> = ({ lang: propLang, dict }) => {
                 <Globe className="w-5 h-5 text-[#C5A059] shrink-0 mt-0.5" />
                 <span>
                   Worldwide Live Online Classes
-                  <br /> Available 24/7 Globally
+                  <br /> Available 24/7 Globally (UK, USA, Canada, Australia &amp; Europe)
                 </span>
               </li>
               <li className="flex items-center gap-3">
@@ -171,13 +272,13 @@ const Footer: React.FC<FooterProps> = ({ lang: propLang, dict }) => {
                   rel="noopener noreferrer"
                   className="hover:text-[#C5A059] transition-colors font-medium"
                 >
-                  +92 322 2597066
+                  +92 322 2597066 (WhatsApp 24/7)
                 </a>
               </li>
             </ul>
             <div className="pt-2">
               <span className="inline-block px-3 py-1 rounded-full bg-[#C5A059]/15 border border-[#C5A059]/30 text-[#9F7A38] text-xs font-semibold">
-                {footerDict.available}
+                Official Site: www.alkahafacademy.com
               </span>
             </div>
           </div>

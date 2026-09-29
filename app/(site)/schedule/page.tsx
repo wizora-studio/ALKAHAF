@@ -1,4 +1,5 @@
 import React from "react";
+import { Metadata } from "next";
 import Navbar from "@/components/layout/header";
 import Footer from "@/components/layout/footer";
 import FAQSection from "@/components/sections/faq";
@@ -6,6 +7,21 @@ import { Clock, Calendar, Globe, Sparkles } from "lucide-react";
 import Newsletter from "@/components/sections/newsletter";
 import ContactForm from "@/components/sections/contact-form";
 import { getDictionary } from "@/lib/dictionary";
+import { Breadcrumbs } from "@/components/seo/JsonLd";
+import { buildPageMetadata } from "@/lib/seo-metadata";
+
+export const metadata: Metadata = buildPageMetadata({
+  title: "Class Schedule — Flexible 24/7 Online Quran Class Timings",
+  description:
+    "View Al Kahaf Academy's 24/7 global online class schedule. Flexible morning, afternoon, evening, and weekend slots across UK, USA, Canada, Australia & Europe time zones.",
+  path: "/schedule",
+  keywords: [
+    "Online Quran class schedule",
+    "Flexible Quran class timings",
+    "Weekend Quran classes online",
+    "Al Kahaf Academy schedule",
+  ],
+});
 
 export default async function SchedulePage() {
   const dict = await getDictionary();
@@ -13,6 +29,7 @@ export default async function SchedulePage() {
   return (
     <main className="bg-[#FCFBF8] min-h-screen">
       <Navbar dict={dict} />
+      <Breadcrumbs items={[{ name: "Class Schedule", href: "/schedule" }]} />
 
       <section className="py-16 md:py-20 bg-gradient-to-br from-[#FCFBF8] via-[#FAF7F2] to-[#F5F0E6] border-b border-[#EAE3D6]">
         <div className="mx-auto lg:max-w-7xl px-5 sm:px-10 md:px-12 lg:px-5 text-center">

@@ -157,9 +157,9 @@ export default function ProgramsOverview({ dict }: ProgramsOverviewProps) {
               <Link
                 href={program.link}
                 className="mt-6 inline-flex items-center justify-between w-full py-2.5 px-4 rounded-xl bg-[#FAF5EC]/80 group-hover:bg-[#C5A059] text-[#9F7A38] group-hover:text-white border border-[#C5A059]/25 group-hover:border-[#C5A059] text-xs sm:text-sm font-bold transition-all duration-300 shadow-2xs"
-                aria-label={`${dict.learnMore || "Learn more"} about ${program.title}`}
+                aria-label={`Explore ${program.title} course at Al Kahaf Academy`}
               >
-                <span>{dict.learnMore || "Learn more"}</span>
+                <span>Explore {program.shortTitle || program.title}</span>
                 <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
               </Link>
             </motion.div>

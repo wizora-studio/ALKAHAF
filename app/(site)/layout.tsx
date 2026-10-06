@@ -81,7 +81,7 @@ export async function generateMetadata(): Promise<Metadata> {
       template: "%s | Al Kahaf Academy",
     },
     description:
-      "Al Kahaf Academy — online Quran and Islamic education for children and adults — official website: www.alkahafacademy.com. Live 1-on-1 Tajweed, Hifz, Noorani Qaida, Arabic, and Islamic Studies classes worldwide.",
+      "Al Kahaf Academy — live 1-on-1 online Quran classes (Tajweed, Hifz, Noorani Qaida, Arabic & Islamic Studies) for kids & adults worldwide. Official website: www.alkahafacademy.com.",
     keywords: [
       "Al Kahaf Academy",
       "alkahafacademy",
@@ -178,7 +178,6 @@ export default async function RootLayout({
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="theme-color" content="#C5A059" />
         <link rel="image_src" href="https://www.alkahafacademy.com/images/og-preview.jpg" />
-        <meta name="google-site-verification" content="AE2s4AgJTX7lAEZn6Cu9bWGr7VniZFCMO11qAkDjuXg" />
         <Script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-9283Z62J9W"

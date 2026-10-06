@@ -248,6 +248,14 @@ const Footer: React.FC<FooterProps> = ({ lang: propLang, dict }) => {
                   {dict?.navigation?.contact || "Contact"}
                 </Link>
               </li>
+              <li>
+                <Link
+                  href={getLocalizedHref("/enroll")}
+                  className="hover:text-[#C5A059] transition-colors"
+                >
+                  Enroll Now
+                </Link>
+              </li>
             </ul>
           </div>
 

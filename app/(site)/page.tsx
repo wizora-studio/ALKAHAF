@@ -13,7 +13,7 @@ export const revalidate = 3600;
 export const metadata: Metadata = buildPageMetadata({
   title: "Al Kahaf Academy | Online Quran & Islamic Education Worldwide",
   description:
-    "Al Kahaf Academy — online Quran and Islamic education for children and adults — official website: www.alkahafacademy.com. Live 1-on-1 Tajweed, Hifz, Noorani Qaida, Arabic, and Islamic Studies classes worldwide.",
+    "Al Kahaf Academy — live 1-on-1 online Quran classes (Tajweed, Hifz, Noorani Qaida, Arabic & Islamic Studies) for kids & adults worldwide. Start with a 3-day free trial.",
   path: "/",
   keywords: [
     "Al Kahaf Academy",

@@ -25,7 +25,7 @@ import {
 export const metadata: Metadata = buildPageMetadata({
   title: "Online Quran & Islamic Courses — Noorani Qaida, Tajweed, Hifz & Arabic",
   description:
-    "Browse all online Quran and Islamic courses at Al Kahaf Academy: Noorani Qaida for beginners, Quran with Tajweed, Hifz memorization, Islamic Studies, Quranic Arabic, and Adult classes.",
+    "Explore 6 online Quran & Islamic courses at Al Kahaf Academy: Noorani Qaida, Tajweed, Hifz memorization, Islamic Studies, Quranic Arabic, and adult classes.",
   path: "/courses",
   keywords: [
     "Online Quran courses",

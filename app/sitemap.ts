@@ -48,7 +48,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return allRoutes.map((route) => ({
     url: `${baseUrl}${route.path}`,
-    lastModified: new Date(route.lastModified ?? "2025-09-28"),
+    lastModified: new Date(route.lastModified ?? "2026-10-06"),
     changeFrequency: route.changeFrequency,
     priority: route.priority,
   }));

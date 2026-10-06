@@ -26,7 +26,7 @@ import { buildPageMetadata } from "@/lib/seo-metadata";
 export const metadata: Metadata = buildPageMetadata({
   title: "About Al Kahaf Academy — Mission, Vision & Official Identity",
   description:
-    "Al Kahaf Academy — online Quran and Islamic education for children and adults — official website: www.alkahafacademy.com. Learn about our mission, teaching methodology, and certified tutors since 2015.",
+    "Established since 2015, Al Kahaf Academy delivers live 1-on-1 online Quran & Islamic education worldwide. Learn about our mission, certified tutors & teaching methodology.",
   path: "/about",
   keywords: [
     "Al Kahaf Academy",

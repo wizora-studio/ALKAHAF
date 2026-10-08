@@ -6,8 +6,8 @@ const securityHeaders = [
     value: "nosniff",
   },
   {
-    key: "X-Frame-Options",
-    value: "SAMEORIGIN",
+    key: "Content-Security-Policy",
+    value: "frame-ancestors 'self' https://wizora.studio https://*.wizora.studio https://wizorastudio.com https://*.wizorastudio.com http://localhost:*",
   },
   {
     key: "X-XSS-Protection",

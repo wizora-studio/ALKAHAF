@@ -129,6 +129,16 @@ const FAQ_CATEGORIES: FaqCategory[] = [
           "Yes. Families enrolling two or more siblings—or students taking multiple weekly tracks—receive custom family tuition discounts.",
       },
       {
+        question: "What is the duration of each class?",
+        answer:
+          "Classes are available in 30-minute (half hour) or 1-hour sessions of focused 1-on-1 instruction, depending on your preferred schedule and learning plan.",
+      },
+      {
+        question: "How do you collect fee?",
+        answer:
+          "We accept secure payment through any Debit/Credit Card (Visa, MasterCard, Amex), direct bank transfer in your local currency ($ USD, £ GBP, A$ AUD, C$ CAD, € EUR), or any money transfer app like MoneyGram, Western Union, and Remitly.",
+      },
+      {
         question: "What happens if a student misses a scheduled class?",
         answer:
           "With advance notice to our academic coordinator, missed classes can be rescheduled for a make-up slot during the week or weekend.",

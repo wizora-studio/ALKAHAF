@@ -59,7 +59,7 @@ export const COURSES_DATA: CourseDetail[] = [
     prerequisites:
       "None. No prior knowledge of the Arabic alphabet or reading is required.",
     durationAndFormat: {
-      sessionLength: "30 to 35 minutes per live session",
+      sessionLength: "30 minutes or 1 hour per session",
       frequency: "2, 3, or 5 days per week (flexible 24/7 slots)",
       mode: "Live 1-on-1 Online Class via Zoom or Google Meet",
       startingPrice: "From $25/month",
@@ -156,7 +156,7 @@ export const COURSES_DATA: CourseDetail[] = [
     prerequisites:
       "Basic familiarity with Arabic letters and vowel signs (or completion of Noorani Qaida). Beginners can start with Noorani Qaida first.",
     durationAndFormat: {
-      sessionLength: "30 to 45 minutes per live session",
+      sessionLength: "30 minutes or 1 hour per session",
       frequency: "2, 3, or 5 days per week",
       mode: "100% Online Live 1-on-1 via Zoom or Google Meet",
       startingPrice: "From $25/month",
@@ -253,7 +253,7 @@ export const COURSES_DATA: CourseDetail[] = [
     prerequisites:
       "Ability to read the Quran fluently with basic Tajweed rules (Nazra). Students needing reading fluency start with our Tajweed track first.",
     durationAndFormat: {
-      sessionLength: "30 to 45 minutes per live session",
+      sessionLength: "30 minutes or 1 hour per session",
       frequency: "3 or 5 days per week recommended for steady retention",
       mode: "100% Online Live 1-on-1 via Zoom or Google Meet",
       startingPrice: "From $35/month",
@@ -341,7 +341,7 @@ export const COURSES_DATA: CourseDetail[] = [
     prerequisites:
       "Basic ability to read Arabic script with vowels (Noorani Qaida level or above).",
     durationAndFormat: {
-      sessionLength: "30 to 45 minutes per live session",
+      sessionLength: "30 minutes or 1 hour per session",
       frequency: "2, 3, or 5 days per week",
       mode: "100% Online Live 1-on-1 via Zoom or Google Meet",
       startingPrice: "From $25/month",

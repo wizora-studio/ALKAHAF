@@ -86,7 +86,7 @@ export default async function ProgramsPage() {
                 </div>
                 <div className="flex items-center gap-2">
                   <Clock className="w-4 h-4 text-[#C5A059]" />
-                  30-35 min / Live 1-on-1 Class
+                  30 min or 1 hour / Live 1-on-1 Class
                 </div>
               </div>
 
@@ -174,7 +174,7 @@ export default async function ProgramsPage() {
                   </div>
                   <div className="flex items-center gap-2">
                     <Clock className="w-4 h-4 text-[#C5A059]" />
-                    30-45 min / Live Online Class
+                    30 min or 1 hour / Live Online Class
                   </div>
                 </div>
 

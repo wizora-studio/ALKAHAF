@@ -25,14 +25,13 @@ import {
 export const metadata: Metadata = buildPageMetadata({
   title: "Online Quran & Islamic Courses — Noorani Qaida, Tajweed, Hifz & Arabic",
   description:
-    "Explore 6 online Quran & Islamic courses at Al Kahaf Academy: Noorani Qaida, Tajweed, Hifz memorization, Islamic Studies, Quranic Arabic, and adult classes.",
+    "Explore online Quran and Arabic courses at Al Kahaf Academy: Noorani Qaida for beginners, Quran with Tajweed, Hifz memorization, and Quranic Arabic.",
   path: "/courses",
   keywords: [
     "Online Quran courses",
     "Noorani Qaida course online",
     "Online Tajweed course",
     "Online Hifz course",
-    "Islamic studies course for kids",
     "Quranic Arabic course",
     "Al Kahaf Academy courses",
   ],
@@ -52,7 +51,7 @@ export default async function CoursesHubPage() {
         imageSrc="/images/islamic-academy-hall.jpg"
         imageAlt="Online Quran and Islamic Courses at Al Kahaf Academy"
         badge={{
-          text: "6 Core Learning Tracks • All Ages",
+          text: "4 Core Learning Tracks • All Ages",
           icon: BookOpen,
         }}
         primaryAction={{

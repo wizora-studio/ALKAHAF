@@ -131,7 +131,7 @@ export const COURSES_DATA: CourseDetail[] = [
           "No physical book is required. Your tutor shares a high-definition digital Noorani Qaida on screen during every class and provides PDF practice materials for home review.",
       },
     ],
-    relatedCourses: ["tajweed", "islamic-studies", "adults"],
+    relatedCourses: ["tajweed", "hifz", "arabic"],
     relatedGuideSlug: "noorani-qaida-vs-quran-reading",
     relatedGuideTitle: "Noorani Qaida vs. Quran Reading (Nazra): Where Should Beginners Start?",
   },
@@ -316,101 +316,9 @@ export const COURSES_DATA: CourseDetail[] = [
           "Absolutely. Many adult learners enroll to memorize Juz Amma, Surah Al-Baqarah, Surah Al-Kahf, or Surah Yaseen at a comfortable pace.",
       },
     ],
-    relatedCourses: ["tajweed", "islamic-studies", "arabic"],
+    relatedCourses: ["noorani-qaida", "tajweed", "arabic"],
     relatedGuideSlug: "how-long-to-memorize-quran",
     relatedGuideTitle: "How Long Does It Take to Memorize the Quran (Hifz) Online?",
-  },
-  {
-    slug: "islamic-studies",
-    title: "Online Islamic Studies & Tarbiyah Course for Kids, Teens & Families",
-    shortTitle: "Islamic Studies & Tarbiyah",
-    metaTitle: "Online Islamic Studies & Tarbiyah Classes for Kids & Teens",
-    metaDescription:
-      "Comprehensive online Islamic Studies and Tarbiyah classes at Al Kahaf Academy. Learn Salah, Duas, Seerah, Aqeedah, Fiqh, and Islamic manners with qualified teachers.",
-    heroBadge: "Character & Deen • Kids, Teens & Families",
-    heroSubtitle:
-      "Nurture authentic Islamic knowledge, daily Sunnah habits, Salah perfection, and noble character (Tarbiyah) in an engaging online environment.",
-    overview:
-      "Beyond reciting the Quran, Muslim children and youth growing up in the UK, USA, Canada, Australia, Europe, and worldwide need a clear, loving understanding of their faith. Our Islamic Studies & Tarbiyah program covers essential Aqeedah (beliefs), Fiqh of Salah and purification, prophetic Seerah, daily Masnoon Duas, Hadith, and practical Islamic manners.",
-    whoIsItFor: [
-      "Muslim children and teenagers living in Western or global communities",
-      "Parents who want structured Islamic Tarbiyah alongside Quran recitation",
-      "New Muslims and adults seeking a clear foundation in Salah, Wudu, and essential Fiqh",
-      "Students who want interactive lessons on the Life of Prophet Muhammad (PBUH)",
-    ],
-    prerequisites:
-      "None. Lessons are taught in clear English (with Urdu/Arabic support available) and adapted by age group.",
-    durationAndFormat: {
-      sessionLength: "30 to 45 minutes per live session",
-      frequency: "2, 3, or 5 days per week (can be combined with Quran classes)",
-      mode: "100% Online Live via Zoom or Google Meet",
-      startingPrice: "From $25/month",
-      priceNumber: "25",
-    },
-    learningOutcomes: [
-      "Understand the Five Pillars of Islam and Six Articles of Faith (Aqeedah) with clarity",
-      "Perform Wudu and the 5 daily obligatory prayers (Salah) accurately with meaning",
-      "Memorize and apply essential daily Masnoon Duas and short Prophetic Hadiths",
-      "Draw real-life lessons from the Seerah of Prophet Muhammad (PBUH) and the Companions",
-      "Practice Islamic etiquette (Adab) towards parents, teachers, neighbors, and society",
-    ],
-    curriculum: [
-      {
-        moduleNumber: "Module 1",
-        title: "Aqeedah (Foundations of Faith) & Knowing Allah",
-        topics: [
-          "The Six Articles of Faith explained for young minds and adults",
-          "Understanding Allah's Beautiful Names (Asma ul-Husna)",
-          "Love for the Quran and the Sunnah in daily life",
-        ],
-      },
-      {
-        moduleNumber: "Module 2",
-        title: "Fiqh of Taharah (Purification) & Salah (Prayer)",
-        topics: [
-          "Step-by-step Wudu, Ghusl, and Tayammum rules",
-          "Complete Salah training: positions, recitations, Tashahhud, and Duas",
-          "Understanding Ramadan fasting, Zakat basics, and Eid traditions",
-        ],
-      },
-      {
-        moduleNumber: "Module 3",
-        title: "Prophetic Seerah & Stories of the Prophets",
-        topics: [
-          "Life of Prophet Muhammad (PBUH) in Makkah and Madinah",
-          "Inspiring stories of the Prophets mentioned in the Holy Quran",
-          "Lives of the Rightly Guided Caliphs and noble Companions",
-        ],
-      },
-      {
-        moduleNumber: "Module 4",
-        title: "Daily Masnoon Duas, Hadith & Islamic Tarbiyah (Manners)",
-        topics: [
-          "40 essential daily Duas (waking, eating, traveling, entering mosque/home)",
-          "Short authentic Hadiths on honesty, kindness, patience, and gratitude",
-          "Respecting parents, digital responsibility, and building Muslim identity",
-        ],
-      },
-    ],
-    teacherApproach:
-      "Teachers weave storytelling, interactive Q&A, and practical application into every class so students don't just memorize facts—they love practicing their Deen.",
-    safeguardingNote:
-      "Curriculum is age-appropriate, compassionate, and aligned with mainstream Sunni scholarship, with full parent visibility.",
-    faqs: [
-      {
-        question: "Can Islamic Studies be combined with regular Quran Tajweed classes?",
-        answer:
-          "Yes! Many families dedicate 20 minutes of each session to Quran recitation/Tajweed and 10–15 minutes to Islamic Studies, Duas, and Salah training.",
-      },
-      {
-        question: "What language is used to teach Islamic Studies?",
-        answer:
-          "Classes are primarily taught in fluent English so children and teens in the UK, USA, Canada, Australia, and Europe can ask questions comfortably. Urdu and Arabic explanations are also available.",
-      },
-    ],
-    relatedCourses: ["noorani-qaida", "tajweed", "arabic"],
-    relatedGuideSlug: "how-online-quran-classes-work",
-    relatedGuideTitle: "How 1-on-1 Online Quran Classes Work for Kids and Adults",
   },
   {
     slug: "arabic",
@@ -500,97 +408,9 @@ export const COURSES_DATA: CourseDetail[] = [
           "No prior grammar knowledge is needed. As long as you can read basic Arabic letters and vowels, our teachers guide you step by step from beginner level.",
       },
     ],
-    relatedCourses: ["tajweed", "hifz", "islamic-studies"],
+    relatedCourses: ["noorani-qaida", "tajweed", "hifz"],
     relatedGuideSlug: "how-to-learn-quran-with-tajweed",
     relatedGuideTitle: "How to Learn Quran with Tajweed Online: A Step-by-Step Guide",
-  },
-  {
-    slug: "adults",
-    title: "Online Quran Classes for Adults & Sisters — Private 1-on-1 Learning",
-    shortTitle: "Adult & Sisters Program",
-    metaTitle: "Online Quran Classes for Adults & Sisters — 1-on-1 Flexible Timings",
-    metaDescription:
-      "Private 1-on-1 online Quran classes for adults, working professionals, and sisters at Al Kahaf Academy. Learn Qaida, Tajweed, Hifz, or Islamic Studies with male or female tutors.",
-    heroBadge: "Private 1-on-1 • Flexible 24/7 Schedule",
-    heroSubtitle:
-      "It is never too late to connect with the Book of Allah. Confidential, judgment-free 1-on-1 online classes designed around busy adult work and family schedules.",
-    overview:
-      "Many adults wish to improve their Quran recitation, correct their Tajweed, or learn to read Arabic from the beginning, but feel hesitant to join group classes. Our Adult & Elder Learning Program provides 100% private, one-on-one online sessions with compassionate male scholars for brothers and certified female tutors (Qariahs & Hafizas) for sisters.",
-    whoIsItFor: [
-      "Working professionals and parents needing early morning, late evening, or weekend slots",
-      "Sisters seeking a dedicated, certified female Quran tutor in a private 1-on-1 setting",
-      "Adult beginners and reverts starting from Noorani Qaida in a supportive environment",
-      "Elders and lifelong learners wanting to refine Tajweed or memorize selected Surahs",
-    ],
-    prerequisites:
-      "None. Your curriculum is 100% customized during your free evaluation session—from absolute beginner Qaida to advanced Tajweed and Hifz.",
-    durationAndFormat: {
-      sessionLength: "30 to 45 minutes per live session",
-      frequency: "2, 3, or 5 days per week (with easy rescheduling)",
-      mode: "Private 1-on-1 Online via Zoom or Google Meet",
-      startingPrice: "From $25/month",
-      priceNumber: "25",
-    },
-    learningOutcomes: [
-      "Learn in a 100% confidential, judgment-free 1-on-1 classroom at your own comfort level",
-      "Build accurate Makharij and Tajweed habits without feeling rushed",
-      "Perfect the recitation of Surah Al-Fatihah and Surahs recited in daily Salah",
-      "Understand essential meanings, Duas, and practical Fiqh relevant to everyday life",
-      "Maintain consistent spiritual progress with flexible makeup classes when work or travel arises",
-    ],
-    curriculum: [
-      {
-        moduleNumber: "Track A",
-        title: "Foundation Track (For Adult Beginners & Reverts)",
-        topics: [
-          "Accelerated adult-friendly Noorani Qaida and Arabic phonetics",
-          "Reading short Surahs and perfecting daily Salah recitations",
-          "Essential Fiqh of purification, prayer, and daily adhkar",
-        ],
-      },
-      {
-        moduleNumber: "Track B",
-        title: "Tajweed Correction & Fluent Tilawah Track",
-        topics: [
-          "Identifying and correcting long-standing pronunciation habits",
-          "Practical application of Noon/Meem Sakinah, Madd, and Waqf rules",
-          "Guided Mushaf completion with Tarteeel and confidence",
-        ],
-      },
-      {
-        moduleNumber: "Track C",
-        title: "Part-Time Adult Hifz & Quranic Comprehension Track",
-        topics: [
-          "Memorizing Juz Amma, Surah Al-Mulk, Surah Yaseen, and Surah Al-Kahf",
-          "Structured revision plans designed for busy work schedules",
-          "Word-by-word meaning and reflection on memorized Surahs",
-        ],
-      },
-    ],
-    teacherApproach:
-      "Our instructors treat adult learners with the utmost respect, patience, and encouragement. Sessions are scheduled around your time zone with flexible rescheduling whenever needed.",
-    safeguardingNote:
-      "Sisters are taught exclusively by qualified female teachers in private 1-on-1 online sessions.",
-    faqs: [
-      {
-        question: "Are the classes really 1-on-1, or will I be placed in a group?",
-        answer:
-          "All adult classes are strictly 1-on-1 between you and your tutor, ensuring complete privacy and personalized pacing.",
-      },
-      {
-        question: "What if my work schedule changes or I have to travel?",
-        answer:
-          "We offer full scheduling flexibility. Simply message your coordinator on WhatsApp in advance to adjust your slot or arrange a makeup session.",
-      },
-      {
-        question: "Do you have female teachers for sisters?",
-        answer:
-          "Yes, we have a dedicated team of certified female Qariahs and Hafizas available 24/7 for sisters.",
-      },
-    ],
-    relatedCourses: ["noorani-qaida", "tajweed", "arabic"],
-    relatedGuideSlug: "how-to-choose-a-quran-teacher",
-    relatedGuideTitle: "How to Choose a Qualified Online Quran Teacher (Male & Female Tutors)",
   },
 ];
 

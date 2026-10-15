@@ -363,21 +363,6 @@
         ]
       },
       {
-        "id": "islamic-studies",
-        "title": "Islamic Studies & Tarbiyah",
-        "price": "From $25",
-        "period": "/month",
-        "schedule": "Flexible Weekly Schedule",
-        "mode": "100% Online Live",
-        "description": "Understanding the Deen and building beautiful Islamic character. A comprehensive curriculum covering Seerah, Fiqh, Aqeedah, and Islamic History.",
-        "features": [
-          "Life of the Prophet (Seerah)",
-          "Essential Fiqh of Worship",
-          "Islamic Morals & Character (Tarbiyah)",
-          "Interactive Digital Classroom"
-        ]
-      },
-      {
         "id": "arabic",
         "title": "Quranic Arabic Language",
         "price": "From $25",
@@ -390,21 +375,6 @@
           "Basic Grammar (Nahu & Sarf)",
           "Word-by-Word Quran Meaning",
           "Reading Comprehension"
-        ]
-      },
-      {
-        "id": "adults",
-        "title": "Adult & Elder Learning Program",
-        "price": "From $25",
-        "period": "/month",
-        "schedule": "Flexible 24/7 Timings",
-        "mode": "100% Online Live",
-        "description": "It's never too late to learn. Online classes tailored for busy adults wishing to start from Qaida or improve Tajweed recitation.",
-        "features": [
-          "100% Flexible Scheduling",
-          "Qualified Female/Male Tutors",
-          "Tailored Curriculum for Busy Lifestyles",
-          "Beginner to Advanced Recitation"
         ]
       }
     ]

@@ -233,8 +233,8 @@ export const BLOG_POSTS: BlogPostData[] = [
     authorRole: "Student Success & Academic Coordination",
     reviewerName: "Director of Online Learning, Al Kahaf Academy",
     image: "/images/islamic-academy-hall.jpg",
-    relatedCourseSlug: "islamic-studies",
-    relatedCourseTitle: "Islamic Studies, Salah & Tarbiyah Course",
+    relatedCourseSlug: "noorani-qaida",
+    relatedCourseTitle: "Foundational Noorani Qaida Online Course",
     keyTakeaways: [
       "Every lesson is 100% live and 1-on-1—your child never sits waiting in a crowded group call.",
       "Teachers share digital Qaida, Mushaf, and Tarbiyah slides directly on screen so you don't need to buy physical textbooks.",
@@ -294,8 +294,8 @@ export const BLOG_POSTS: BlogPostData[] = [
     authorRole: "Faculty Vetting & Quality Assurance",
     reviewerName: "Head of Faculty Standards, Al Kahaf Academy",
     image: "/images/islamic-academy-hall.jpg",
-    relatedCourseSlug: "adults",
-    relatedCourseTitle: "Online Quran Classes for Adults & Sisters",
+    relatedCourseSlug: "tajweed",
+    relatedCourseTitle: "Online Quran Recitation with Tajweed Course",
     keyTakeaways: [
       "Look for formal Tajweed/Qira'at or Hifz certification rather than informal reading ability.",
       "Verify that the tutor explains pronunciation adjustments in clear, encouraging English.",

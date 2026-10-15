@@ -126,29 +126,11 @@ const Footer: React.FC<FooterProps> = ({ lang: propLang, dict }) => {
               </li>
               <li>
                 <Link
-                  href={getLocalizedHref("/courses/islamic-studies")}
-                  className="hover:text-[#C5A059] transition-colors flex items-center gap-2"
-                >
-                  <span className="w-1.5 h-1.5 rounded-full bg-[#C5A059]"></span>
-                  Islamic Studies &amp; Tarbiyah
-                </Link>
-              </li>
-              <li>
-                <Link
                   href={getLocalizedHref("/courses/arabic")}
                   className="hover:text-[#C5A059] transition-colors flex items-center gap-2"
                 >
                   <span className="w-1.5 h-1.5 rounded-full bg-[#C5A059]"></span>
                   Quranic Arabic Language
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href={getLocalizedHref("/courses/adults")}
-                  className="hover:text-[#C5A059] transition-colors flex items-center gap-2"
-                >
-                  <span className="w-1.5 h-1.5 rounded-full bg-[#C5A059]"></span>
-                  Adult &amp; Sisters Quran Classes
                 </Link>
               </li>
             </ul>

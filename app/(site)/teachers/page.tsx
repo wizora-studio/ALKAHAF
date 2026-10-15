@@ -216,10 +216,7 @@ export default async function TeachersPage() {
                 Female Quran Tutors (Qariahs &amp; Hafizas)
               </h3>
               <p className="text-sm text-[#5C4A3E] leading-relaxed">
-                Dedicated female scholars providing a comfortable, private 1-on-1 learning space for sisters, mothers, and young girls in our{" "}
-                <Link href="/courses/adults" className="text-[#9F7A38] font-bold hover:underline">
-                  Adult &amp; Sisters program
-                </Link>.
+                Dedicated female scholars providing a comfortable, private 1-on-1 learning space for sisters, mothers, and young girls in our online Quran programs.
               </p>
             </div>
 

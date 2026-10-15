@@ -381,7 +381,7 @@ export default async function CourseDetailPage({
               href="/courses"
               className="text-sm font-bold text-[#9F7A38] hover:underline"
             >
-              View All 6 Courses →
+              View All Courses →
             </Link>
           </div>
 

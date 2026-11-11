@@ -527,6 +527,170 @@ export const BLOG_POSTS: BlogPostData[] = [
       },
     ],
   },
+  {
+    slug: "tajweed-rules-for-beginners",
+    title:
+      "Tajweed Rules for Beginners: A Simple List to Start Reading Correctly",
+    seoTitle:
+      "Tajweed Rules for Beginners — A Simple List to Start Reading Correctly",
+    metaDescription:
+      "Learn the essential Tajweed rules for beginners in plain English: Makharij, Noon Sakinah, Meem Sakinah, Qalqalah, Madd, Ghunnah, and heavy vs. light letters — with simple examples and a daily practice plan.",
+    excerpt:
+      "Tajweed is not a long list of complicated names to memorize. It is a small set of practical rules that tell your tongue where each letter comes from and how long each sound lasts. Here they are, in plain English, in the order you should learn them.",
+    category: "Tajweed & Recitation",
+    readTime: "8 min read",
+    datePublished: "2026-11-12",
+    dateModified: "2026-11-12",
+    authorName: "Al Kahaf Academic Council",
+    authorRole: "Senior Tajweed & Qira'at Department",
+    reviewerName: "Head of Tajweed Studies, Al Kahaf Academy",
+    image: "/images/quran-rehal-still-life.jpg",
+    relatedCourseSlug: "tajweed",
+    relatedCourseTitle: "Online Quran Recitation with Tajweed Course",
+    keyTakeaways: [
+      "Start with Makharij — knowing where each letter comes from — before worrying about advanced rule names.",
+      "The four Noon Sakinah rules (Izhar, Idgham, Iqlab, Ikhfa) cover most of the nasal sounds you will meet on every page.",
+      "Qalqalah, Madd, and Ghunnah are all about timing: a small bounce, a counted stretch, and a two-count nasal sound.",
+      "Fifteen minutes of slow, daily practice with a teacher listening corrects mistakes far faster than one long weekly session alone.",
+    ],
+    sections: [
+      {
+        heading: "1. What Is Tajweed, in Simple Words?",
+        paragraphs: [
+          "Tajweed means giving every letter of the Quran its proper sound — pronouncing it from the right place in the mouth or throat, and holding it for the right length of time. It is not about singing or showing off a beautiful voice. It is about reading the words of Allah correctly, so that no letter is swapped for another and no meaning is accidentally changed.",
+          "A beginner does not need to learn every rule at once. In our 1-on-1 Tajweed classes, students learn one rule family at a time, practise it on short Surahs from Juz Amma, and only move on once the rule feels natural. This post follows that same order — start at rule 1 and work down the list.",
+        ],
+      },
+      {
+        heading: "2. Makharij — Where Each Letter Comes From",
+        paragraphs: [
+          "Every Arabic letter is produced at a specific point called a Makhraj (articulation point). There are 17 of them, spread across the throat, the tongue, the lips, and the nasal passage. This is the first rule family to learn, because almost every other Tajweed rule depends on it.",
+          "A few pairs that beginners mix up most often: ح (Haa, deep in the throat) with ه (haa, a light breath); ع (Ayn, mid-throat) with ء (Hamzah, a short stop); and ص (Saad, heavy) with س (Seen, light). A teacher listening live can hear the difference in a second and show you exactly where your tongue or throat should be — this is why Tajweed is best learned with a teacher, not from a book alone.",
+        ],
+        bullets: [
+          "Throat letters: ء (Hamzah), ه (Haa), ع (Ayn), ح (Haa), غ (Ghayn), خ (Khaa) — these six also decide the Izhar rule below.",
+          "Tongue letters: most of the alphabet, including ق (Qaf, back of the tongue), ك (Kaf), ج (Jeem), ش (Sheen), and the tip-of-tongue letters ت, د, ط, ن, ر, ل.",
+          "Lip letters: ب (Baa), م (Meem), و (Waw), ف (Faa) — formed with the lips, sometimes with the teeth.",
+          "Nasal passage: the Ghunnah sound, which appears in the Noon and Meem rules below.",
+        ],
+      },
+      {
+        heading: "3. Noon Sakinah & Tanween — Four Rules for One Sound",
+        paragraphs: [
+          "A Noon with a Sukoon (نْ) and the Tanween sounds (ـً, ـٍ, ـٌ) follow the same four rules, depending on the letter that comes after them. Learn these four and you will handle a large share of all Tajweed on any page:",
+        ],
+        bullets: [
+          "Izhar (clear pronunciation): When a throat letter follows (ء, ه, ع, ح, غ, خ), pronounce the Noon clearly, with no nasal hiding — for example, مِنْ عِلْمٍ (min 'ilmin).",
+          "Idgham (merging): When one of the six letters ي, ر, م, ل, و, ن follows, the Noon merges into the next letter. With م and ن the nasal sound stays; with ل and ر it disappears.",
+          "Iqlab (converting): When a ب (Baa) follows, the Noon sound changes into a Meem sound, held with a light nasal tone — for example, مِنْ بَعْدِ (mim ba'di).",
+          "Ikhfa (hiding): When any of the remaining fifteen letters follows, the Noon is pronounced in a hidden, nasal way, held for about two counts.",
+        ],
+      },
+      {
+        heading: "4. Meem Sakinah — Three Simple Rules",
+        paragraphs: [
+          "A Meem with a Sukoon (مْ) has only three rules, which makes it one of the easiest rule families to master:",
+        ],
+        bullets: [
+          "Ikhfa Shafawi (lip hiding): Before a ب (Baa), hide the Meem with a light nasal sound, for about two counts.",
+          "Idgham Shafawi (lip merging): Before another م (Meem), merge the two Meems into one doubled Meem sound, also held for two counts.",
+          "Izhar Shafawi (lip clarity): Before any other letter, pronounce the Meem clearly and plainly, with no hiding and no extra nasal sound.",
+        ],
+      },
+      {
+        heading: "5. Qalqalah — The Five Echoing Letters",
+        paragraphs: [
+          "Five letters — ق, ط, ب, ج, د, remembered by the word قُطْبُ جَد (Qutb Jad) — make a small, natural echo or bounce when they carry a Sukoon, or when you stop on them at the end of a word. Do not add a full vowel after them; the echo is a quick bounce, not a new syllable.",
+          "A common beginner mistake is to skip the bounce entirely, so that ق sounds like ك, or ط sounds like ت. Practise stopping on these letters slowly — for example, at the end of Surah Al-Ikhlas — and let the echo happen naturally instead of forcing it.",
+        ],
+      },
+      {
+        heading: "6. Madd — How Long to Stretch a Sound",
+        paragraphs: [
+          "Madd means elongation: stretching a vowel sound for a counted length. The basic rule, Madd Tabee'i (natural Madd), stretches the long vowels (ا, و, ي) for two counts — about the time it takes to say two short beats. Most other Madd rules are extensions of this one:",
+        ],
+        bullets: [
+          "Madd Tabee'i (natural): Two counts — the default stretch for Alif, Waw, and Ya after a matching short vowel.",
+          "Madd Muttasil and Madd Munfasil: Four or five counts, when a Hamzah follows the Madd letter in the same word or the next word.",
+          "Madd Lazim: Six counts, the longest stretch, when a Sukoon or Shaddah follows the Madd letter.",
+          "Madd Aarid (stopping Madd): Two, four, or six counts when you stop on a word that ends with a Madd letter.",
+        ],
+      },
+      {
+        heading: "7. Ghunnah — The Nasal Sound Held for Two Counts",
+        paragraphs: [
+          "Ghunnah is the nasal sound that comes from the nose. Whenever you see a Noon or Meem with a Shaddah (نّ or مّ), hold that nasal sound for two steady counts before moving on. The same two-count Ghunnah applies in Ikhfa, Iqlab, and Idgham with Ghunnah.",
+          "Beginners usually rush this rule. A helpful trick is to count silently — one, two — while the nasal sound continues. With a teacher listening, you will quickly learn what a full two counts feels like, and it will soon become automatic.",
+        ],
+      },
+      {
+        heading: "8. Heavy and Light Letters — Tafkheem and Tarqeeq",
+        paragraphs: [
+          "Seven letters are pronounced heavy (Tafkheem), with the back of the tongue raised: خ, ص, ض, غ, ط, ق, ظ — remembered by the phrase خُصَّ ضَغْطٍ قِظْ. All other letters are pronounced light (Tarqeeq) by default.",
+          "The letter ر (Raa) is special because it changes: it is heavy when it carries a Fatha or Damma, and light when it carries a Kasra. Mixing up heavy and light pairs — like reading ط as ت, or ص as س — is one of the most common beginner errors, and it is fixed by practising the tongue position for each pair with a teacher.",
+        ],
+      },
+      {
+        heading: "9. Waqf — How to Stop and Start Correctly",
+        paragraphs: [
+          "When you stop at the end of an Ayah or at a stop sign in the Mushaf, the final short vowel becomes a Sukoon — you stop cleanly, without adding a sound. If the word ends with a Tanween Fatha (ـً), it becomes a short Alif sound instead.",
+          "Do not stop in the middle of a phrase in a way that changes the meaning, and do not restart from the stopped word itself — go back a word or two so the sentence flows naturally. Colour-coded Tajweed Mushafs mark the recommended stopping points, which makes this rule much easier to follow as a beginner.",
+        ],
+      },
+      {
+        heading: "10. A Simple Daily Practice Plan",
+        paragraphs: [
+          "Rules only become recitation when they are practised slowly, every day. A plan that works for most beginners — children and adults — looks like this:",
+        ],
+        bullets: [
+          "Warm up (2 minutes): Read the Arabic alphabet slowly, paying attention to the throat and heavy letters.",
+          "One rule at a time (10 minutes): Read a short passage from Juz Amma and apply only the rule you are learning this week.",
+          "Listen and repeat (5 minutes): Listen to a clear Qari reciting the same passage, then repeat it line by line, copying the timing.",
+          "Read to a teacher (10 minutes): In a live class, your teacher hears exactly which rules you apply well and which ones need more work — this is the step that makes the difference.",
+        ],
+      },
+      {
+        heading: "11. Common Beginner Mistakes to Avoid",
+        paragraphs: [
+          "Most beginners make the same handful of mistakes. Knowing them in advance makes them much easier to catch:",
+        ],
+        bullets: [
+          "Stretching short vowels: Holding a Fatha, Kasra, or Damma too long so it turns into a Madd letter.",
+          "Skipping the Qalqalah bounce: Reading ق like ك, or ط like ت, when the letter carries a Sukoon.",
+          "Rushing the Ghunnah: Cutting the nasal sound short instead of holding it for two counts.",
+          "Reading too fast: Speed hides mistakes. Slow, measured reading (Tarteel) is how correct habits are built.",
+          "Trying to learn every rule in one week: Learn one rule family, practise it until it feels natural, then add the next.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Do I need to learn Tajweed before I start reading the Quran?",
+        answer:
+          "No. If you can read Arabic letters and simple words — for example, after finishing Noorani Qaida — you can start reading the Quran right away and learn Tajweed rules one at a time as you read. Tajweed improves your reading step by step; it is not a test you must pass first.",
+      },
+      {
+        question: "How long does it take to learn basic Tajweed?",
+        answer:
+          "With 3 to 5 live classes per week, most beginners apply the core rules confidently within 3 to 6 months. Full fluency takes longer, but you will notice your reading becoming clearer within the first few weeks of guided practice.",
+      },
+      {
+        question: "Can children learn Tajweed rules?",
+        answer:
+          "Yes. Children usually learn Tajweed by listening and repeating rather than by memorizing rule names. Our kids' classes introduce one rule at a time through short Surahs, and parents receive monthly progress notes on which rules their child has mastered.",
+      },
+      {
+        question: "Do I need to speak Arabic to learn Tajweed?",
+        answer:
+          "No. Tajweed is about the sounds of the letters, not about understanding Arabic grammar. Our teachers explain every rule in clear English, so students in the USA, UK, Canada, and Australia learn Tajweed without speaking conversational Arabic.",
+      },
+      {
+        question: "Which Tajweed rule should I learn first?",
+        answer:
+          "Start with Makharij — the articulation points of the letters. Once you can tell the throat letters apart and pronounce the heavy letters correctly, the Noon Sakinah, Qalqalah, and Madd rules become much easier to apply.",
+      },
+    ],
+  },
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPostData | undefined {

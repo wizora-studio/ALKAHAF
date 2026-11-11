@@ -14,13 +14,20 @@ interface UltraStatsProps {
 }
 
 export default function UltraStats({ dict, counts }: UltraStatsProps) {
+  // The students tile is only shown when a real enrollment count is
+  // available. When the count query fails (0), it is omitted rather than
+  // showing a made-up fallback number.
   const stats = [
-    {
-      label: dict?.students || "Active Students",
-      value: counts?.students ? `${counts.students}+` : "500+",
-      icon: Users,
-      highlight: "Global Enrolled",
-    },
+    ...(counts?.students
+      ? [
+          {
+            label: dict?.students || "Active Students",
+            value: `${counts.students}+`,
+            icon: Users,
+            highlight: "Global Enrolled",
+          },
+        ]
+      : []),
     {
       label: dict?.teachers || "Sanad Certified Scholars",
       value: counts?.teachers ? `${counts.teachers}+` : "15+",

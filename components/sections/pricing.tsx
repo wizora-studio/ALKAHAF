@@ -143,7 +143,7 @@ function PriceCard({
       </ul>
 
       <Link
-        href="/enroll"
+        href="/admissions"
         className={`block w-full py-3 rounded-xl font-bold text-center transition-all shadow-md active:scale-95 ${
           highlight
             ? "bg-[#C5A059] text-white hover:bg-[#B38F46] hover:shadow-lg shadow-[0_4px_14px_rgba(197,160,89,0.35)]"

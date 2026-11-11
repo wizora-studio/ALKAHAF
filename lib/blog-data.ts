@@ -395,6 +395,138 @@ export const BLOG_POSTS: BlogPostData[] = [
       },
     ],
   },
+  {
+    slug: "quran-classes-for-sisters-with-female-teacher",
+    title:
+      "Quran Classes for Sisters with a Female Teacher: A Complete Guide",
+    seoTitle:
+      "Quran Classes for Sisters with a Female Teacher — Al Kahaf Academy",
+    metaDescription:
+      "Live 1-on-1 online Quran classes for sisters with certified female teachers (Qariahs & Hafizas). Private, comfortable learning for girls and women of all ages.",
+    excerpt:
+      "For many sisters, learning with a qualified female teacher makes all the difference. Here is how private 1-on-1 classes with a certified Qariah work — and how to choose the right teacher for your daughter or yourself.",
+    category: "Sisters & Female Teachers",
+    readTime: "6 min read",
+    datePublished: "2026-11-11",
+    dateModified: "2026-11-11",
+    authorName: "Al Kahaf Academic Council",
+    authorRole: "Sisters' Learning & Female Faculty Division",
+    reviewerName: "Senior Qariah Supervisor, Al Kahaf Academy",
+    image: "/images/islamic-academy-hall.jpg",
+    relatedCourseSlug: "tajweed",
+    relatedCourseTitle: "Online Quran Recitation with Tajweed Course",
+    keyTakeaways: [
+      "Sisters can request a certified female teacher (Qariah or Hafiza) for every class, at no extra step in the admission process.",
+      "Live 1-on-1 lessons keep the classroom private — there are no group strangers in the session, and parents may observe at any time.",
+      "A free 30-minute trial class lets a sister or parent meet the teacher first and agree the schedule before enrolling.",
+    ],
+    sections: [
+      {
+        heading: "1. Why Many Sisters Prefer a Female Quran Teacher",
+        paragraphs: [
+          "For girls, teenagers, and adult sisters, learning the Quran with a female teacher often feels more comfortable and relaxed. A student who feels at ease asks more questions, repeats a verse without hesitation, and stays consistent with her lessons.",
+          "At Al Kahaf Academy, our female faculty includes certified Qariahs and Hafizas who teach the same structured curriculum as our male teachers — Noorani Qaida, Nazra, Tajweed, Hifz, and Quranic Arabic — in live 1-on-1 classes over Zoom or Google Meet.",
+        ],
+      },
+      {
+        heading: "2. How a 1-on-1 Class with a Female Teacher Works",
+        paragraphs: [
+          "Every class is a private session between the student and her teacher. There is no group audience, no camera pressure beyond the lesson itself, and the teacher adapts the pace to the student's level — whether she is a complete beginner or returning to the Quran after years away:",
+        ],
+        bullets: [
+          "Free trial class: A 30-minute live session to meet the teacher, check the student's current level, and agree on class days and times.",
+          "Personal schedule: Classes run 2, 3, or 5 days per week in 30-minute or 1-hour sessions, at any hour that suits the family — including evenings and weekends.",
+          "Lesson format: The teacher shares a digital Mushaf or Noorani Qaida on screen, listens to the student's recitation, and corrects pronunciation gently in real time.",
+          "Progress updates: Parents and adult students receive monthly progress notes covering reading fluency, Tajweed application, and next goals.",
+        ],
+      },
+      {
+        heading: "3. How to Choose the Right Female Teacher",
+        paragraphs: [
+          "When you apply, tell our coordinator the student's age, current level, and learning goal — for example, finishing Noorani Qaida, improving Tajweed, or starting Hifz. We match the student with a female teacher whose experience fits that goal, and the trial class confirms the match before any payment.",
+          "If the fit is not right after the trial, you can request a different female teacher. The aim is a teacher the student trusts and looks forward to learning with, because consistency matters more than speed in Quranic learning.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Can my daughter learn only with a female teacher?",
+        answer:
+          "Yes. When you enrol, simply request a female teacher and your daughter's classes will be taught by a certified Qariah or Hafiza. Parents are welcome to observe every session.",
+      },
+      {
+        question: "Are female teachers available for adult sisters as well?",
+        answer:
+          "Yes. Our female faculty teaches sisters of all ages — from young girls to adult learners and reverts — at beginner, intermediate, and advanced levels, including Tajweed and Hifz.",
+      },
+    ],
+  },
+  {
+    slug: "how-to-teach-kids-noorani-qaida-at-home",
+    title:
+      "How to Teach Kids Noorani Qaida at Home: A Parent's Step-by-Step Guide",
+    seoTitle:
+      "How to Teach Kids Noorani Qaida at Home — Parent's Guide",
+    metaDescription:
+      "A practical parent's guide to teaching Noorani Qaida at home: short daily practice, letter sounds, joining rules, and when to bring in a qualified tutor.",
+    excerpt:
+      "You do not need to be a scholar to help your child start Noorani Qaida at home. Short, patient daily practice — plus a qualified tutor when needed — builds a confident young reader.",
+    category: "Beginner Foundations",
+    readTime: "7 min read",
+    datePublished: "2026-11-11",
+    dateModified: "2026-11-11",
+    authorName: "Al Kahaf Academic Council",
+    authorRole: "Foundational Qaida & Early Learners Division",
+    reviewerName: "Senior Curriculum Coordinator, Al Kahaf Academy",
+    image: "/images/quran-rehal-still-life.jpg",
+    relatedCourseSlug: "noorani-qaida",
+    relatedCourseTitle: "Foundational Noorani Qaida Online Course",
+    keyTakeaways: [
+      "Keep home practice short and daily — 10 to 15 minutes of focused revision beats one long weekly session for young children.",
+      "Teach one Qaida concept at a time, in order: letter sounds, joined forms, vowels, then simple words.",
+      "A qualified tutor in a free trial class can check your child's level and correct pronunciation habits early, before they become fixed.",
+    ],
+    sections: [
+      {
+        heading: "1. Start with Letter Sounds, Not Letter Names",
+        paragraphs: [
+          "Noorani Qaida begins with the sounds of the 29 Arabic letters, not their names. Sit with your child for 10 to 15 minutes a day and practise a small set of letters at a time — pointing at each letter, saying its sound clearly, and letting your child repeat it back.",
+          "Use the Qaida page itself rather than flashcards alone, so your child learns to recognise each letter in its printed form. Praise every correct attempt; at this age, confidence matters as much as accuracy.",
+        ],
+      },
+      {
+        heading: "2. Follow the Qaida's Order, One Step at a Time",
+        paragraphs: [
+          "The Qaida is arranged so each lesson prepares the next one. Resist the urge to skip ahead to full words before the foundations are firm:",
+        ],
+        bullets: [
+          "Step 1 — Single letters: Recognise and pronounce each letter on its own, including the heavy and light pairs such as س and ص.",
+          "Step 2 — Joined forms: Practise the same letters at the beginning, middle, and end of words, where their shapes change.",
+          "Step 3 — Short vowels: Add Fatha, Kasra, and Damma, keeping each vowel short and crisp without stretching it.",
+          "Step 4 — Sukoon and joining: Read simple joined words slowly, then short phrases from the Qaida's later lessons.",
+        ],
+      },
+      {
+        heading: "3. When to Bring in a Qualified Tutor",
+        paragraphs: [
+          "Parents can take a child a long way with patient daily practice, but a trained teacher hears mistakes a parent may miss — especially the throat letters (ح, ع) and the heavy letters (ص, ط, ق). A tutor also keeps the pace steady so the child finishes the Qaida instead of stalling halfway.",
+          "A good moment to involve a tutor is when your child knows the letter sounds but struggles to join words, or when practice at home has become a daily struggle. In our free 30-minute trial class, a tutor assesses your child's exact level and shows you a simple home-practice plan that matches it.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "What age should my child start Noorani Qaida?",
+        answer:
+          "Children can begin as early as age 4 or 5. For 4-to-6-year-olds, keep sessions short — around 10 to 15 minutes of home practice plus a 30-minute tutor-led class — and use plenty of repetition and encouragement.",
+      },
+      {
+        question: "How long does it take a child to finish Noorani Qaida?",
+        answer:
+          "With 3 to 5 classes per week, most children complete Noorani Qaida in 3 to 6 months depending on age and practice consistency, after which they begin reading Juz Amma.",
+      },
+    ],
+  },
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPostData | undefined {

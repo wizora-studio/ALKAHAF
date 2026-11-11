@@ -15,7 +15,8 @@ export default function HeroSection({ dict, lang = "en" }: HeroSectionProps) {
   const isEn = lang === "en";
 
   const hero = dict || {
-    mainTitle: "Online Quran classes specially designed for all ages",
+    mainTitle:
+      "Online Quran Classes for Kids & Adults, Live 1-on-1 with Certified Teachers",
     subtitle: "Flexible, affordable online classes for every age",
     trialCta: "START YOUR FREE 3 DAYS TRIAL",
     contactUs: "Contact Us",
@@ -96,9 +97,9 @@ export default function HeroSection({ dict, lang = "en" }: HeroSectionProps) {
               transition={{ duration: 0.65, delay: 0.1 }}
               className="text-3xl sm:text-4xl md:text-[42px] lg:text-[46px] xl:text-[50px] font-serif font-bold text-[#2D1C13] leading-[1.14] tracking-tight mb-3 sm:mb-4 max-w-2xl"
             >
-              Online Quran classes specially{" "}
+              Online Quran Classes for Kids & Adults,{" "}
               <br className="hidden sm:inline" />
-              designed for all ages
+              Live 1-on-1 with Certified Teachers
             </motion.h1>
 
             {/* Subtitle */}
@@ -131,6 +132,36 @@ export default function HeroSection({ dict, lang = "en" }: HeroSectionProps) {
                 {hero.contactUs || "Contact Us"}
               </Link>
             </motion.div>
+
+            {/* Audience links — kids, sisters, adults */}
+            <motion.p
+              initial={{ opacity: 0, y: 15 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.65, delay: 0.35 }}
+              className="text-xs sm:text-sm font-semibold text-[#5C4A3E] mb-8"
+            >
+              Classes for{" "}
+              <Link
+                href="/quran-classes-for-kids"
+                className="text-[#9F7A38] underline underline-offset-2 hover:text-[#C5A059]"
+              >
+                Kids
+              </Link>
+              {" · "}
+              <Link
+                href="/quran-classes-for-sisters"
+                className="text-[#9F7A38] underline underline-offset-2 hover:text-[#C5A059]"
+              >
+                Sisters
+              </Link>
+              {" · "}
+              <Link
+                href="/quran-classes-for-adults"
+                className="text-[#9F7A38] underline underline-offset-2 hover:text-[#C5A059]"
+              >
+                Adults
+              </Link>
+            </motion.p>
 
             {/* Trust Badges Row with Dividers */}
             <motion.div

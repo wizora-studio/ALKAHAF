@@ -113,7 +113,7 @@ export default async function BlogIndexPage() {
                     <span className="font-semibold text-[#2D1C13]">{post.authorName}</span>
                     <span className="inline-flex items-center gap-1">
                       <Calendar className="w-3.5 h-3.5 text-[#C5A059]" />
-                      {post.dateModified}
+                      {post.datePublished}
                     </span>
                   </div>
 

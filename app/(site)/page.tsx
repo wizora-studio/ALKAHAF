@@ -10,23 +10,31 @@ import { buildPageMetadata } from "@/lib/seo-metadata";
 
 export const revalidate = 3600;
 
-export const metadata: Metadata = buildPageMetadata({
-  title: "Al Kahaf Academy | Online Quran & Islamic Education Worldwide",
-  description:
-    "Al Kahaf Academy — live 1-on-1 online Quran classes (Tajweed, Hifz, Noorani Qaida, Arabic & Islamic Studies) for kids & adults worldwide. Start with a 3-day free trial.",
-  path: "/",
-  keywords: [
-    "Al Kahaf Academy",
-    "alkahafacademy",
-    "online Quran classes",
-    "online Quran academy",
-    "learn Quran online",
-    "online Tajweed classes",
-    "online Hifz classes",
-    "Noorani Qaida online",
-    "female Quran teacher online",
-  ],
-});
+export const metadata: Metadata = {
+  ...buildPageMetadata({
+    title: "Online Quran Classes for Kids & Adults | Al Kahaf Academy",
+    description:
+      "Live 1-on-1 online Quran classes with Tajweed, Hifz & Noorani Qaida. Certified male & female teachers, flexible 24/7 timings. Start a free 3-day trial.",
+    path: "/",
+    keywords: [
+      "Al Kahaf Academy",
+      "alkahafacademy",
+      "online Quran classes",
+      "online Quran academy",
+      "learn Quran online",
+      "online Tajweed classes",
+      "online Hifz classes",
+      "Noorani Qaida online",
+      "female Quran teacher online",
+    ],
+  }),
+  // Absolute title: the layout title template ("%s | Al Kahaf Academy")
+  // would otherwise append the brand a second time. This renders exactly
+  // the title above, with no duplication.
+  title: {
+    absolute: "Online Quran Classes for Kids & Adults | Al Kahaf Academy",
+  },
+};
 
 export default async function Page() {
   const dict = await getDictionary();

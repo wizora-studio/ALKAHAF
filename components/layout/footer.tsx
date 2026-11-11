@@ -44,7 +44,7 @@ const Footer: React.FC<FooterProps> = ({ lang: propLang, dict }) => {
       ></div>
 
       <div className="relative z-10 max-w-[1400px] mx-auto px-5 sm:px-10 md:px-12 lg:px-5">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-16 pb-16 border-b border-[#EAE3D6]">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-12 lg:gap-10 pb-16 border-b border-[#EAE3D6]">
           {/* Brand & Mission */}
           <div className="space-y-6">
             <Link
@@ -131,6 +131,114 @@ const Footer: React.FC<FooterProps> = ({ lang: propLang, dict }) => {
                 >
                   <span className="w-1.5 h-1.5 rounded-full bg-[#C5A059]"></span>
                   Quranic Arabic Language
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Classes in Your Country */}
+          <div className="space-y-6">
+            <h4 className="text-lg font-bold text-[#2D1C13] font-serif tracking-wide">
+              Classes in Your Country
+            </h4>
+            <ul className="space-y-3 text-[#5C4A3E] font-sans text-sm">
+              <li>
+                <Link
+                  href={getLocalizedHref("/online-quran-classes-uk")}
+                  className="hover:text-[#C5A059] transition-colors flex items-center gap-2"
+                >
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#C5A059]"></span>
+                  Online Quran Classes UK
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={getLocalizedHref("/online-quran-classes-usa")}
+                  className="hover:text-[#C5A059] transition-colors flex items-center gap-2"
+                >
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#C5A059]"></span>
+                  Online Quran Classes USA
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={getLocalizedHref("/online-quran-classes-canada")}
+                  className="hover:text-[#C5A059] transition-colors flex items-center gap-2"
+                >
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#C5A059]"></span>
+                  Online Quran Classes Canada
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={getLocalizedHref("/online-quran-classes-australia")}
+                  className="hover:text-[#C5A059] transition-colors flex items-center gap-2"
+                >
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#C5A059]"></span>
+                  Online Quran Classes Australia
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={getLocalizedHref("/online-quran-classes-europe")}
+                  className="hover:text-[#C5A059] transition-colors flex items-center gap-2"
+                >
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#C5A059]"></span>
+                  Online Quran Classes Europe
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={getLocalizedHref("/online-quran-classes-germany")}
+                  className="hover:text-[#C5A059] transition-colors flex items-center gap-2"
+                >
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#C5A059]"></span>
+                  Online Quran Classes Germany
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={getLocalizedHref("/online-quran-classes-france")}
+                  className="hover:text-[#C5A059] transition-colors flex items-center gap-2"
+                >
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#C5A059]"></span>
+                  Online Quran Classes France
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Who We Teach */}
+          <div className="space-y-6">
+            <h4 className="text-lg font-bold text-[#2D1C13] font-serif tracking-wide">
+              Who We Teach
+            </h4>
+            <ul className="space-y-3 text-[#5C4A3E] font-sans text-sm">
+              <li>
+                <Link
+                  href={getLocalizedHref("/quran-classes-for-kids")}
+                  className="hover:text-[#C5A059] transition-colors flex items-center gap-2"
+                >
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#C5A059]"></span>
+                  Quran Classes for Kids
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={getLocalizedHref("/quran-classes-for-sisters")}
+                  className="hover:text-[#C5A059] transition-colors flex items-center gap-2"
+                >
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#C5A059]"></span>
+                  Quran Classes for Sisters
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={getLocalizedHref("/quran-classes-for-adults")}
+                  className="hover:text-[#C5A059] transition-colors flex items-center gap-2"
+                >
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#C5A059]"></span>
+                  Quran Classes for Adults
                 </Link>
               </li>
             </ul>
@@ -232,7 +340,7 @@ const Footer: React.FC<FooterProps> = ({ lang: propLang, dict }) => {
               </li>
               <li>
                 <Link
-                  href={getLocalizedHref("/enroll")}
+                  href={getLocalizedHref("/admissions")}
                   className="hover:text-[#C5A059] transition-colors"
                 >
                   Enroll Now

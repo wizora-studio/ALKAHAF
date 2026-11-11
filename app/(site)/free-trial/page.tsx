@@ -9,7 +9,7 @@ import Newsletter from "@/components/sections/newsletter";
 import { getDictionary } from "@/lib/dictionary";
 import { Breadcrumbs, ENTITY_STATEMENT, FAQPageJsonLd } from "@/components/seo/JsonLd";
 import { buildPageMetadata } from "@/lib/seo-metadata";
-import { Sparkles, Check, Calendar, ShieldCheck, Users } from "lucide-react";
+import { Sparkles, Check, Calendar, ShieldCheck, Users, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = buildPageMetadata({
   title: "Book a 3-Day Free Online Quran Trial — No Credit Card Required",
@@ -151,6 +151,76 @@ export default async function FreeTrialPage() {
                 <span>{item}</span>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Who is the trial for? — audience entry points */}
+      <section className="py-16 md:py-20 bg-[#FAF7F2] border-b border-[#EAE3D6]">
+        <div className="max-w-7xl mx-auto px-5 sm:px-10 space-y-10">
+          <div className="text-center max-w-3xl mx-auto space-y-3">
+            <span className="text-xs font-bold uppercase tracking-wider text-[#9F7A38]">
+              Who Is the Trial For?
+            </span>
+            <h2 className="text-3xl sm:text-4xl font-serif font-bold text-[#2D1C13]">
+              A Free Trial Made for Every Learner
+            </h2>
+            <p className="text-sm sm:text-base text-[#5C4A3E]">
+              The 3-day free trial works the same for everyone — one
+              dedicated teacher, a level assessment, and a plan built around
+              you. Choose the page made for your learner first:
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-6">
+            <Link
+              href="/quran-classes-for-kids"
+              className="p-7 rounded-3xl bg-white border border-[#EAE3D6] hover:border-[#C5A059] transition-all group space-y-3"
+            >
+              <h3 className="text-xl font-serif font-bold text-[#2D1C13] group-hover:text-[#9F7A38] transition-colors">
+                For Kids (Ages 5–15)
+              </h3>
+              <p className="text-sm text-[#5C4A3E] leading-relaxed">
+                Patient teachers, 30-minute lessons after school, female
+                teachers for girls, and monthly progress reports for parents.
+              </p>
+              <span className="inline-flex items-center gap-1.5 text-sm font-bold text-[#9F7A38]">
+                Kids classes
+                <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+              </span>
+            </Link>
+            <Link
+              href="/quran-classes-for-sisters"
+              className="p-7 rounded-3xl bg-white border border-[#EAE3D6] hover:border-[#C5A059] transition-all group space-y-3"
+            >
+              <h3 className="text-xl font-serif font-bold text-[#2D1C13] group-hover:text-[#9F7A38] transition-colors">
+                For Sisters &amp; Girls
+              </h3>
+              <p className="text-sm text-[#5C4A3E] leading-relaxed">
+                Certified female teachers (Qariah &amp; Hafiza), private
+                1-on-1 classes, and flexible timings in your time zone.
+              </p>
+              <span className="inline-flex items-center gap-1.5 text-sm font-bold text-[#9F7A38]">
+                Sisters classes
+                <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+              </span>
+            </Link>
+            <Link
+              href="/quran-classes-for-adults"
+              className="p-7 rounded-3xl bg-white border border-[#EAE3D6] hover:border-[#C5A059] transition-all group space-y-3"
+            >
+              <h3 className="text-xl font-serif font-bold text-[#2D1C13] group-hover:text-[#9F7A38] transition-colors">
+                For Adults
+              </h3>
+              <p className="text-sm text-[#5C4A3E] leading-relaxed">
+                Start from the Arabic alphabet even if you never learned to
+                read — new Muslims welcome, with evening and weekend slots.
+              </p>
+              <span className="inline-flex items-center gap-1.5 text-sm font-bold text-[#9F7A38]">
+                Adult classes
+                <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+              </span>
+            </Link>
           </div>
         </div>
       </section>

@@ -126,6 +126,15 @@ const Footer: React.FC<FooterProps> = ({ lang: propLang, dict }) => {
               </li>
               <li>
                 <Link
+                  href={getLocalizedHref("/online-hifz-classes")}
+                  className="hover:text-[#C5A059] transition-colors flex items-center gap-2"
+                >
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#C5A059]"></span>
+                  Online Hifz Classes — Memorization
+                </Link>
+              </li>
+              <li>
+                <Link
                   href={getLocalizedHref("/courses/arabic")}
                   className="hover:text-[#C5A059] transition-colors flex items-center gap-2"
                 >
@@ -203,6 +212,42 @@ const Footer: React.FC<FooterProps> = ({ lang: propLang, dict }) => {
                 >
                   <span className="w-1.5 h-1.5 rounded-full bg-[#C5A059]"></span>
                   Online Quran Classes France
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={getLocalizedHref("/online-quran-classes-netherlands")}
+                  className="hover:text-[#C5A059] transition-colors flex items-center gap-2"
+                >
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#C5A059]"></span>
+                  Online Quran Classes Netherlands
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={getLocalizedHref("/online-quran-classes-ireland")}
+                  className="hover:text-[#C5A059] transition-colors flex items-center gap-2"
+                >
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#C5A059]"></span>
+                  Online Quran Classes Ireland
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={getLocalizedHref("/online-quran-classes-spain")}
+                  className="hover:text-[#C5A059] transition-colors flex items-center gap-2"
+                >
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#C5A059]"></span>
+                  Online Quran Classes Spain
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={getLocalizedHref("/online-quran-classes-italy")}
+                  className="hover:text-[#C5A059] transition-colors flex items-center gap-2"
+                >
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#C5A059]"></span>
+                  Online Quran Classes Italy
                 </Link>
               </li>
             </ul>

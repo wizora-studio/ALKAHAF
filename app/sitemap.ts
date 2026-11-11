@@ -25,7 +25,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/blog", priority: 0.8, changeFrequency: "weekly" },
     { path: "/about", priority: 0.75, changeFrequency: "monthly" },
     { path: "/schedule", priority: 0.75, changeFrequency: "weekly" },
-    { path: "/enroll", priority: 0.8, changeFrequency: "weekly" },
+    { path: "/online-quran-classes-uk", priority: 0.85, changeFrequency: "weekly" },
     { path: "/contact", priority: 0.7, changeFrequency: "monthly" },
     { path: "/privacy-policy", priority: 0.3, changeFrequency: "yearly" },
     { path: "/terms-conditions", priority: 0.3, changeFrequency: "yearly" },

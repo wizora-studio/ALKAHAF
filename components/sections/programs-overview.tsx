@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { BookOpen, Sparkles, Users, GraduationCap, ArrowRight, Check } from "lucide-react";
+import { BookOpen, Sparkles, GraduationCap, Languages, ArrowRight, Check } from "lucide-react";
 
 interface ProgramsOverviewProps {
   dict: any;
@@ -27,18 +27,18 @@ export default function ProgramsOverview({ dict }: ProgramsOverviewProps) {
       link: "/courses/tajweed",
     },
     {
-      ...(dict?.online || dict?.programs?.[2]),
-      icon: <Users className="w-7 h-7" />,
-      badge: "Group Interactive",
+      ...(dict?.hifz || dict?.programs?.[2]),
+      icon: <GraduationCap className="w-7 h-7" />,
+      badge: "Memorization",
       popular: false,
-      link: "/online-classes",
+      link: "/courses/hifz",
     },
     {
-      ...(dict?.private || dict?.programs?.[3]),
-      icon: <GraduationCap className="w-7 h-7" />,
-      badge: "1-on-1 Flexible",
+      ...(dict?.arabic || dict?.programs?.[3]),
+      icon: <Languages className="w-7 h-7" />,
+      badge: "Language",
       popular: false,
-      link: "/online-classes",
+      link: "/courses/arabic",
     },
   ].filter((p) => p && p.title);
 

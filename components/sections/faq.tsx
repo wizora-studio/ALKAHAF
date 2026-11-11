@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import { Plus, Minus, HelpCircle, MessageCircle } from "lucide-react";
 import Link from "next/link";
 import { FaWhatsapp } from "react-icons/fa";
@@ -61,6 +61,7 @@ export default function FAQSection({ dict }: { dict: any }) {
                 >
                   <button
                     onClick={() => toggleItem(actualIdx)}
+                    aria-expanded={isOpen}
                     className="w-full flex items-center justify-between p-5 sm:p-6 text-left focus:outline-none cursor-pointer"
                   >
                     <div className="flex items-start gap-3.5 pr-3">
@@ -92,23 +93,25 @@ export default function FAQSection({ dict }: { dict: any }) {
                     </div>
                   </button>
 
-                  <AnimatePresence>
-                    {isOpen && (
-                      <motion.div
-                        initial={{ height: 0, opacity: 0 }}
-                        animate={{ height: "auto", opacity: 1 }}
-                        exit={{ height: 0, opacity: 0 }}
-                        transition={{ duration: 0.25, ease: "easeInOut" }}
-                      >
-                        <div className="px-5 sm:px-6 pb-6 pt-1">
-                          <div className="h-px w-full bg-[#FAF5EC] mb-4"></div>
-                          <p className="text-[#5C4A3E] text-sm sm:text-base leading-relaxed font-sans font-normal">
-                            {item.a}
-                          </p>
-                        </div>
-                      </motion.div>
-                    )}
-                  </AnimatePresence>
+                  {/* Answer is always rendered in the DOM so search engines
+                      can read it; when closed it is hidden with CSS
+                      (height 0 + overflow hidden) instead of being removed. */}
+                  <motion.div
+                    initial={false}
+                    animate={{
+                      height: isOpen ? "auto" : 0,
+                      opacity: isOpen ? 1 : 0,
+                    }}
+                    transition={{ duration: 0.25, ease: "easeInOut" }}
+                    className="overflow-hidden"
+                  >
+                    <div className="px-5 sm:px-6 pb-6 pt-1">
+                      <div className="h-px w-full bg-[#FAF5EC] mb-4"></div>
+                      <p className="text-[#5C4A3E] text-sm sm:text-base leading-relaxed font-sans font-normal">
+                        {item.a}
+                      </p>
+                    </div>
+                  </motion.div>
                 </div>
               );
             })}
@@ -131,6 +134,7 @@ export default function FAQSection({ dict }: { dict: any }) {
                 >
                   <button
                     onClick={() => toggleItem(actualIdx)}
+                    aria-expanded={isOpen}
                     className="w-full flex items-center justify-between p-5 sm:p-6 text-left focus:outline-none cursor-pointer"
                   >
                     <div className="flex items-start gap-3.5 pr-3">
@@ -162,23 +166,25 @@ export default function FAQSection({ dict }: { dict: any }) {
                     </div>
                   </button>
 
-                  <AnimatePresence>
-                    {isOpen && (
-                      <motion.div
-                        initial={{ height: 0, opacity: 0 }}
-                        animate={{ height: "auto", opacity: 1 }}
-                        exit={{ height: 0, opacity: 0 }}
-                        transition={{ duration: 0.25, ease: "easeInOut" }}
-                      >
-                        <div className="px-5 sm:px-6 pb-6 pt-1">
-                          <div className="h-px w-full bg-[#FAF5EC] mb-4"></div>
-                          <p className="text-[#5C4A3E] text-sm sm:text-base leading-relaxed font-sans font-normal">
-                            {item.a}
-                          </p>
-                        </div>
-                      </motion.div>
-                    )}
-                  </AnimatePresence>
+                  {/* Answer is always rendered in the DOM so search engines
+                      can read it; when closed it is hidden with CSS
+                      (height 0 + overflow hidden) instead of being removed. */}
+                  <motion.div
+                    initial={false}
+                    animate={{
+                      height: isOpen ? "auto" : 0,
+                      opacity: isOpen ? 1 : 0,
+                    }}
+                    transition={{ duration: 0.25, ease: "easeInOut" }}
+                    className="overflow-hidden"
+                  >
+                    <div className="px-5 sm:px-6 pb-6 pt-1">
+                      <div className="h-px w-full bg-[#FAF5EC] mb-4"></div>
+                      <p className="text-[#5C4A3E] text-sm sm:text-base leading-relaxed font-sans font-normal">
+                        {item.a}
+                      </p>
+                    </div>
+                  </motion.div>
                 </div>
               );
             })}

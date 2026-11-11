@@ -45,7 +45,7 @@
       "error": "Failed to subscribe. Please try again."
     },
     "subtitle": "Flexible, affordable online classes for every age",
-    "mainTitle": "Online Quran classes specially designed for all ages",
+    "mainTitle": "Online Quran Classes for Kids & Adults, Live 1-on-1 with Certified Teachers",
     "trialCta": "START YOUR FREE 3 DAYS TRIAL",
     "features": [
       "Live online lessons",
@@ -65,13 +65,22 @@
     "subtitle": "Designed for students of all ages and levels, accessible online from anywhere with live qualified teachers.",
     "offerings": "Our Offerings",
     "learnMore": "Learn more",
-    "online": {
-      "title": "Online Group Classes",
-      "description": "Live interactive group sessions from home.",
+    "hifz": {
+      "title": "Hifz Quran Program",
+      "description": "Structured memorization with daily revision (Sabaq, Sabaqi, Manzil).",
       "features": [
-        "Flexible Timings",
-        "Mon-Fri Batches",
-        "Certified Teachers"
+        "Personalized Pace",
+        "Daily Revision",
+        "Certified Huffaz"
+      ]
+    },
+    "arabic": {
+      "title": "Quranic Arabic Language",
+      "description": "Learn the language of the Quran — grammar, vocabulary and meaning.",
+      "features": [
+        "Quranic Vocabulary",
+        "Basic Grammar",
+        "Word-by-Word Meaning"
       ]
     },
     "private": {
@@ -264,6 +273,14 @@
       {
         "q": "Do I need a physical copy of The Quran?",
         "a": "No. We provide all the course materials such as Digital Quran, Noorani Qaida, and Tajweed exercises. The tutor highlights the passage/line being recited live on the screen so you can follow along seamlessly."
+      },
+      {
+        "q": "Is it safe for my daughter to learn Quran online?",
+        "a": "Yes. All classes are live 1-on-1 with a dedicated teacher, and parents are welcome to observe every session at any time. Girls and sisters can choose a certified female teacher (Qariah or Hafiza), and lessons take place in a private online classroom with no group strangers present."
+      },
+      {
+        "q": "How long does it take to learn to read the Quran?",
+        "a": "It depends on the student's starting level and how many classes they take each week. Most complete beginners finish Noorani Qaida in 3 to 6 months with 3 to 5 classes per week, and then move on to reading the Quran itself. Your teacher sets a realistic pace after the free trial class and reviews progress with you every month."
       }
     ]
   },

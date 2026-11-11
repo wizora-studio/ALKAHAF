@@ -96,13 +96,18 @@ export const StatCounter: React.FC<{
             delay={0.1}
             suffix="+"
           />
-          <StatItem
-            icon={<BookOpen className="h-8 w-8" />}
-            value={counts?.students || 50}
-            label={dict.studentsEnrolled}
-            delay={0.2}
-            suffix="+"
-          />
+          {/* Students tile is only shown when a real enrollment count is
+              available. When the count query fails (0), the tile is hidden
+              rather than showing a made-up floor number. */}
+          {counts && counts.students > 0 && (
+            <StatItem
+              icon={<BookOpen className="h-8 w-8" />}
+              value={counts.students}
+              label={dict.studentsEnrolled}
+              delay={0.2}
+              suffix="+"
+            />
+          )}
           <StatItem
             icon={<Award className="h-8 w-8" />}
             value={counts?.experience || 10}

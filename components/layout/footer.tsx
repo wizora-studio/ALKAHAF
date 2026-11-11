@@ -232,7 +232,7 @@ const Footer: React.FC<FooterProps> = ({ lang: propLang, dict }) => {
               </li>
               <li>
                 <Link
-                  href={getLocalizedHref("/enroll")}
+                  href={getLocalizedHref("/admissions")}
                   className="hover:text-[#C5A059] transition-colors"
                 >
                   Enroll Now

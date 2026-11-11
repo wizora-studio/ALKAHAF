@@ -15,7 +15,8 @@ export default function HeroSection({ dict, lang = "en" }: HeroSectionProps) {
   const isEn = lang === "en";
 
   const hero = dict || {
-    mainTitle: "Online Quran classes specially designed for all ages",
+    mainTitle:
+      "Online Quran Classes for Kids & Adults, Live 1-on-1 with Certified Teachers",
     subtitle: "Flexible, affordable online classes for every age",
     trialCta: "START YOUR FREE 3 DAYS TRIAL",
     contactUs: "Contact Us",
@@ -96,9 +97,9 @@ export default function HeroSection({ dict, lang = "en" }: HeroSectionProps) {
               transition={{ duration: 0.65, delay: 0.1 }}
               className="text-3xl sm:text-4xl md:text-[42px] lg:text-[46px] xl:text-[50px] font-serif font-bold text-[#2D1C13] leading-[1.14] tracking-tight mb-3 sm:mb-4 max-w-2xl"
             >
-              Online Quran classes specially{" "}
+              Online Quran Classes for Kids & Adults,{" "}
               <br className="hidden sm:inline" />
-              designed for all ages
+              Live 1-on-1 with Certified Teachers
             </motion.h1>
 
             {/* Subtitle */}

@@ -25,7 +25,19 @@ const securityHeaders = [
 
 const nextConfig: NextConfig = {
   images: {
+    formats: ["image/avif", "image/webp"],
     qualities: [75, 85, 95, 100],
+  },
+  async redirects() {
+    return [
+      {
+        // /enroll duplicated /admissions (same form, same goal). Keep one
+        // canonical admissions page and permanently redirect the duplicate.
+        source: "/enroll",
+        destination: "/admissions",
+        permanent: true,
+      },
+    ];
   },
   async headers() {
     return [

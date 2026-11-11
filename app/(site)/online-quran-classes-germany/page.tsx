@@ -349,6 +349,25 @@ export default async function OnlineQuranClassesGermanyPage() {
         </div>
       </section>
 
+      {/* Learning for kids, sisters or adults? */}
+      <section className="py-12 bg-white border-b border-[#EAE3D6]">
+        <div className="max-w-4xl mx-auto px-5 sm:px-10 text-center space-y-3">
+          <h2 className="text-2xl font-serif font-bold text-[#2D1C13]">
+            Learning for Kids, Sisters or Adults?
+          </h2>
+          <p className="text-sm sm:text-base text-[#5C4A3E]">
+            Every class is live and 1-on-1 — choose the page made for your
+            learner:{" "}
+            <Link href="/quran-classes-for-kids" className="text-[#9F7A38] font-bold hover:underline">Quran Classes for Kids</Link>
+            {", "}
+            <Link href="/quran-classes-for-sisters" className="text-[#9F7A38] font-bold hover:underline">Quran Classes for Sisters</Link>
+            {" or "}
+            <Link href="/quran-classes-for-adults" className="text-[#9F7A38] font-bold hover:underline">Quran Classes for Adults</Link>
+            .
+          </p>
+        </div>
+      </section>
+
       <ContactForm dict={dict.contact} />
       <Newsletter dict={dict} lang="en" />
       <Footer dict={dict} />

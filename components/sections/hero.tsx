@@ -133,6 +133,36 @@ export default function HeroSection({ dict, lang = "en" }: HeroSectionProps) {
               </Link>
             </motion.div>
 
+            {/* Audience links — kids, sisters, adults */}
+            <motion.p
+              initial={{ opacity: 0, y: 15 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.65, delay: 0.35 }}
+              className="text-xs sm:text-sm font-semibold text-[#5C4A3E] mb-8"
+            >
+              Classes for{" "}
+              <Link
+                href="/quran-classes-for-kids"
+                className="text-[#9F7A38] underline underline-offset-2 hover:text-[#C5A059]"
+              >
+                Kids
+              </Link>
+              {" · "}
+              <Link
+                href="/quran-classes-for-sisters"
+                className="text-[#9F7A38] underline underline-offset-2 hover:text-[#C5A059]"
+              >
+                Sisters
+              </Link>
+              {" · "}
+              <Link
+                href="/quran-classes-for-adults"
+                className="text-[#9F7A38] underline underline-offset-2 hover:text-[#C5A059]"
+              >
+                Adults
+              </Link>
+            </motion.p>
+
             {/* Trust Badges Row with Dividers */}
             <motion.div
               initial={{ opacity: 0 }}

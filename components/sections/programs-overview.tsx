@@ -165,6 +165,35 @@ export default function ProgramsOverview({ dict }: ProgramsOverviewProps) {
             </motion.div>
           ))}
         </div>
+
+        {/* Who is learning? — audience pages */}
+        <div className="text-center mt-12 space-y-2">
+          <p className="text-[#5C4A3E] font-sans text-sm sm:text-base">
+            Learning for a child, a sister or an adult? Choose the class made
+            for you:{" "}
+            <Link
+              href="/quran-classes-for-kids"
+              className="text-[#9F7A38] font-bold hover:underline"
+            >
+              Quran Classes for Kids
+            </Link>
+            {", "}
+            <Link
+              href="/quran-classes-for-sisters"
+              className="text-[#9F7A38] font-bold hover:underline"
+            >
+              Quran Classes for Sisters
+            </Link>
+            {" or "}
+            <Link
+              href="/quran-classes-for-adults"
+              className="text-[#9F7A38] font-bold hover:underline"
+            >
+              Quran Classes for Adults
+            </Link>
+            .
+          </p>
+        </div>
       </div>
     </section>
   );

@@ -51,7 +51,7 @@ const EU_FAQS = [
   {
     question: "Which European countries do you teach in?",
     answer:
-      "We teach students right across Europe — including Germany, France, the Netherlands, Spain, Italy, Sweden, Norway, Denmark, Belgium, Switzerland and Austria. Dedicated pages with local timings are available for Germany and France, and for the UK. If your country is not listed, your classes are still scheduled in your local time — just tell us your city when you book the free trial.",
+      "We teach students right across Europe — including Germany, France, the Netherlands, Spain, Italy, Sweden, Norway, Denmark, Belgium, Switzerland and Austria. Dedicated pages with local timings are available for Germany, France, the Netherlands, Ireland, Spain and Italy, and for the UK. If your country is not listed, your classes are still scheduled in your local time — just tell us your city when you book the free trial.",
   },
   {
     question: "Can my daughter learn with a female Quran teacher in Europe?",
@@ -115,6 +115,26 @@ const EU_COUNTRY_PAGES = [
     name: "France",
     href: "/online-quran-classes-france",
     desc: "Classes on French time (CET/CEST) for families in Paris, Lyon, Marseille, Lille and across France.",
+  },
+  {
+    name: "Netherlands",
+    href: "/online-quran-classes-netherlands",
+    desc: "Classes on Dutch time (CET/CEST) for families in Amsterdam, Rotterdam, Utrecht, The Hague and across the Netherlands.",
+  },
+  {
+    name: "Ireland",
+    href: "/online-quran-classes-ireland",
+    desc: "Classes on Irish time (GMT/IST) for families in Dublin, Cork, Galway, Limerick and across Ireland.",
+  },
+  {
+    name: "Spain",
+    href: "/online-quran-classes-spain",
+    desc: "Classes on Spanish time (CET/CEST) for families in Madrid, Barcelona, Valencia, Seville and across Spain.",
+  },
+  {
+    name: "Italy",
+    href: "/online-quran-classes-italy",
+    desc: "Classes on Italian time (CET/CEST) for families in Rome, Milan, Naples, Turin and across Italy.",
   },
 ];
 

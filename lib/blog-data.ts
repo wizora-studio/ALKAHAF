@@ -527,6 +527,220 @@ export const BLOG_POSTS: BlogPostData[] = [
       },
     ],
   },
+  {
+    slug: "how-to-choose-online-quran-academy",
+    title: "How to Choose an Online Quran Academy: 7 Checks Before You Enrol",
+    seoTitle: "How to Choose an Online Quran Academy — 7 Checks Before You Enrol",
+    metaDescription:
+      "Choosing an online Quran academy? Use this honest 7-point checklist — teacher credentials, live 1-on-1 classes, trial class, progress reports and pricing transparency — before you enrol.",
+    excerpt:
+      "Dozens of academies promise the best Quran classes online. These seven checks — from teacher credentials to a real trial class — separate a serious academy from a sales page.",
+    category: "Choosing an Academy",
+    readTime: "8 min read",
+    datePublished: "2026-11-11",
+    dateModified: "2026-11-11",
+    authorName: "Al Kahaf Academic Council",
+    authorRole: "Admissions & Academic Standards",
+    reviewerName: "Senior Curriculum Coordinator, Al Kahaf Academy",
+    image: "/images/online-quran-students.jpg",
+    relatedCourseSlug: "tajweed",
+    relatedCourseTitle: "Online Quran Recitation with Tajweed Course",
+    keyTakeaways: [
+      "Ask who will actually teach your child — credentials, experience and a trial class matter more than any homepage claim.",
+      "Live 1-on-1 teaching with the same teacher every week is the core of real progress; pre-recorded videos alone cannot correct recitation.",
+      "A genuine academy offers a free trial class, clear monthly pricing and regular progress reports — and is happy to be checked on all three.",
+    ],
+    sections: [
+      {
+        heading: "1. Start With the Teacher, Not the Website",
+        paragraphs: [
+          "Every academy website looks polished. What matters is the person who will sit with your child three times a week: are they a certified Hafiz or Qari, have they taught children online before, and can you meet them in a trial class before paying anything? Ask for the teacher's qualifications and, where the academy offers it, a female teacher for daughters. An academy that cannot tell you who teaches is asking you to trust a logo instead of a person.",
+          "Also ask whether your child keeps the same teacher every week. A rotating roster of tutors means every lesson starts with re-learning your child's level — and slow, invisible progress.",
+        ],
+      },
+      {
+        heading: "2. Live 1-on-1 Classes Beat Recorded Videos",
+        paragraphs: [
+          "Quran recitation is corrected by ear, in the moment. A teacher listening live hears a mispronounced throat letter or a stretched vowel and fixes it in the same breath. A recorded video cannot hear your child at all. If an academy sells mostly pre-recorded lessons, it is selling a video library, not a teacher.",
+          "That does not mean recordings are useless — recordings of your own live classes are excellent for revision. But the teaching itself should be live, 1-on-1, with the teacher's full attention on one student.",
+        ],
+      },
+      {
+        heading: "3. Insist on a Free Trial Class and Clear Pricing",
+        paragraphs: [
+          "A serious academy offers a free trial class with no card required, because it is confident in its teaching. In that class, watch for three things: does the teacher assess your child's level first, does your child feel comfortable, and do you leave with a clear plan and schedule?",
+          "Then check the pricing. Monthly fees should be stated plainly — how many days a week, how long each class is, and what is included. Be cautious of academies that hide prices behind a sales call, demand long-term contracts upfront, or charge extra for basic progress reports.",
+        ],
+        bullets: [
+          "Teacher credentials: certified Hafiz/Qari or Qariah, with online teaching experience.",
+          "Same teacher every week, live 1-on-1 — not rotating tutors or recorded videos.",
+          "Free trial class with a level assessment and a written plan.",
+          "Monthly progress reports you can actually read — not just a feeling that things are going well.",
+          "Clear monthly pricing with no long-term contract and no hidden fees.",
+        ],
+      },
+      {
+        heading: "4. Red Flags to Walk Away From",
+        paragraphs: [
+          "Walk away if an academy cannot name your child's teacher, refuses a trial class, or pressures you into paying for months upfront. Be equally cautious of guarantees that sound too good — no honest teacher can promise your child will finish Hifz in six months, or that fluency comes without daily practice. Real progress is steady, measurable and reported honestly.",
+          "Finally, look for signs of a real institution: a proper website with named programs, real contact details, visible reviews from families, and structured curricula for Noorani Qaida, Tajweed, Hifz and Arabic. If the only evidence of quality is the academy's own advertising, keep looking.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "What is the most important thing to check before enrolling?",
+        answer:
+          "The teacher. Ask who will teach your child, what their qualifications are, and whether you can meet them in a free trial class first. Everything else — platform, pricing, schedule — matters less than a qualified teacher who stays with your child week after week.",
+      },
+      {
+        question: "Is a free trial class really free?",
+        answer:
+          "At a genuine academy, yes — a trial class costs nothing and requires no card details. It should include a level assessment and a clear plan for your child. If an academy asks for payment before any teaching happens, treat that as a warning sign.",
+      },
+    ],
+  },
+  {
+    slug: "how-long-to-learn-to-read-quran",
+    title: "How Long Does It Take to Learn to Read the Quran? Realistic Timelines",
+    seoTitle: "How Long Does It Take to Learn to Read the Quran? (Realistic Guide)",
+    metaDescription:
+      "How long does it take to learn to read the Quran? Realistic timelines for children, adults and new Muslims — from Noorani Qaida to fluent Mushaf reading with Tajweed.",
+    excerpt:
+      "From the Arabic alphabet to fluent Mushaf reading: how long it really takes children, adults and new Muslims to learn to read the Quran — and what speeds it up.",
+    category: "Beginner Foundations",
+    readTime: "7 min read",
+    datePublished: "2026-11-11",
+    dateModified: "2026-11-11",
+    authorName: "Al Kahaf Academic Council",
+    authorRole: "Foundational Qaida & Early Learners Division",
+    reviewerName: "Senior Curriculum Coordinator, Al Kahaf Academy",
+    image: "/images/quran-rehal-still-life.jpg",
+    relatedCourseSlug: "noorani-qaida",
+    relatedCourseTitle: "Foundational Noorani Qaida Online Course",
+    keyTakeaways: [
+      "Most children complete Noorani Qaida in 3 to 6 months, then move into Juz Amma reading; adults often finish the Qaida in 8 to 12 weeks.",
+      "Fluent Mushaf reading with basic Tajweed typically takes 9 to 18 months from a standing start, depending on class frequency and daily practice.",
+      "Short daily practice — 10 to 15 minutes — matters far more than long occasional sessions.",
+    ],
+    sections: [
+      {
+        heading: "1. What “Learning to Read” Actually Means",
+        paragraphs: [
+          "Learning to read the Quran happens in stages, and each stage has its own timeline. First comes letter recognition — the 29 Arabic letters in their joined forms. Then comes joining letters into words with short vowels, then smooth reading of short Surahs, and finally fluent Mushaf reading with Tajweed rules applied naturally.",
+          "Parents sometimes expect fluency in weeks because a child can recite a memorized Surah. But reciting from memory is not reading: a child who can read independently can open any page of the Quran and decode it. That is the goal — and it takes longer than memorization, but it lasts a lifetime.",
+        ],
+      },
+      {
+        heading: "2. Realistic Timelines by Starting Point",
+        paragraphs: [
+          "Timelines assume 3 to 5 live classes a week plus 10 to 15 minutes of daily home practice:",
+        ],
+        bullets: [
+          "Children ages 4–7: Noorani Qaida in 3 to 6 months, then Juz Amma reading over the following 6 to 12 months — fluent Mushaf reading in roughly 12 to 18 months.",
+          "Children ages 8–12: Noorani Qaida in 2 to 4 months, then steady Nazra reading — fluent Mushaf reading in roughly 9 to 15 months.",
+          "Adults starting from zero: Noorani Qaida in 8 to 12 weeks at an analytical pace, then Nazra reading — fluent reading with basic Tajweed in roughly 9 to 12 months.",
+          "New Muslims who already know the Arabic alphabet: often reading short Surahs within 2 to 3 months, then building fluency and Tajweed over the following year.",
+        ],
+      },
+      {
+        heading: "3. What Speeds It Up — and What Slows It Down",
+        paragraphs: [
+          "Three things speed learning up: a qualified teacher correcting pronunciation live, short daily practice at home, and a fixed class schedule that never slips. Three things slow it down: long gaps between classes, jumping ahead to the Mushaf before the Qaida foundations are firm, and practising mistakes without correction — which then have to be unlearned.",
+          "If your child stalls, the answer is almost never more hours in one sitting. It is usually a smaller step: going back to joined letter forms, slowing the vowels down, or adding one extra short class per week until fluency returns.",
+        ],
+      },
+      {
+        heading: "4. From Reading to Tajweed",
+        paragraphs: [
+          "Once a student reads words smoothly, the Tajweed course begins — Makharij (articulation points), Noon Sakinah and Madd rules, and Waqf (stopping and starting). Most students need 3 to 6 months of Tajweed study after basic fluency before their recitation sounds polished. That is normal: Tajweed is a refinement of reading, not a separate subject, and it is best learned while reading real Surahs with a teacher listening.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Can an adult learn to read the Quran from zero?",
+        answer:
+          "Yes. Adults usually learn faster than children because they understand the phonetic rules analytically. With 3 to 5 classes a week, most adult beginners finish Noorani Qaida in 8 to 12 weeks and are reading short Surahs within a few months.",
+      },
+      {
+        question: "How much should my child practise at home each day?",
+        answer:
+          "Ten to fifteen minutes of focused daily revision is enough for young children — short and daily beats one long weekly session. Your child's teacher will set a small daily target, usually revising the last lesson and previewing the next one.",
+      },
+    ],
+  },
+  {
+    slug: "best-age-to-start-hifz",
+    title: "Best Age to Start Hifz: When Should Your Child Begin Memorizing the Quran?",
+    seoTitle: "Best Age to Start Hifz — When Should a Child Begin Memorizing?",
+    metaDescription:
+      "What is the best age to start Hifz? Readiness signs for children ages 5 to 12, realistic expectations for teens and adults, and why consistency matters more than age.",
+    excerpt:
+      "There is no single perfect age for Hifz — but there are readiness signs. How to tell if your child is ready, what to expect at each age, and why daily revision matters more than starting early.",
+    category: "Hifz & Memorization",
+    readTime: "7 min read",
+    datePublished: "2026-11-11",
+    dateModified: "2026-11-11",
+    authorName: "Al Kahaf Academic Council",
+    authorRole: "Hifz-ul-Quran Department",
+    reviewerName: "Senior Hafiz Supervisor, Al Kahaf Academy",
+    image: "/images/online-quran-students.jpg",
+    relatedCourseSlug: "hifz",
+    relatedCourseTitle: "Online Hifz-ul-Quran Memorization Program",
+    keyTakeaways: [
+      "Most children are ready to begin Hifz between ages 5 and 7, once they can read the Quran fluently — starting with Juz Amma.",
+      "Ages 7 to 12 are often the strongest memorization years, but adults can complete Hifz too — there is no upper age limit.",
+      "Readiness matters more than age: fluent reading, daily practice time, and the child's own willingness are the real signs.",
+    ],
+    sections: [
+      {
+        heading: "1. The Best Ages to Start Hifz",
+        paragraphs: [
+          "There is no single perfect age for Hifz, but there are ages when memorization comes most naturally. Most children are ready to begin between ages 5 and 7, once they can read the Quran fluently with basic Tajweed. At this age, memory is fresh and flexible, and short Surahs of Juz Amma feel like an achievement rather than a chore.",
+          "Ages 7 to 12 are often the strongest memorization years: children can handle longer daily targets, understand the revision system, and build stamina for multi-Juz memorization. Teenagers can also succeed, though school pressure means the balanced track — half a page a day — usually works better than an intensive one. And adults? There is no upper age limit. Adults memorize more slowly but understand more deeply, and many complete Juz Amma and selected Surahs, or even full Hifz, at their own pace.",
+        ],
+      },
+      {
+        heading: "2. Readiness Signs — Is Your Child Ready?",
+        paragraphs: [
+          "Age alone does not make a child ready. Look for these four signs before starting Hifz:",
+        ],
+        bullets: [
+          "Fluent reading: your child can read Quranic words smoothly with vowels, without stopping at every letter — usually after completing Noorani Qaida and some Nazra reading.",
+          "Daily practice time: the family can protect 20 to 30 minutes a day for Sabaq and revision, most days of the week.",
+          "Willingness: your child wants to memorize, or at least is happy to try. Forced memorization rarely sticks — a reluctant child needs encouragement and a gentle start, not pressure.",
+          "A steady routine: Hifz needs a fixed class schedule and a teacher who tracks revision. If the family schedule changes every week, wait until it settles.",
+        ],
+      },
+      {
+        heading: "3. Realistic Expectations by Age",
+        paragraphs: [
+          "A child starting at age 5 or 6 on the Juz Amma track typically completes the 30th Juz in 5 to 8 months, then moves into Juz Tabarak. A child starting at 8 or 9 on the balanced track — half a page a day, 5 days a week — memorizes about 5 to 6 Juz a year and can complete the full Quran in 3.5 to 4.5 years alongside school. An adult on the same balanced track follows a similar timeline, while an intensive student memorizing a full page a day can finish in 2.5 to 3 years.",
+          "Whatever the age, the rule is the same: revision is most of the work. A student who memorizes quickly but revises rarely will forget faster than a slower student with a strict Sabaq, Sabqi and Manzil routine. Progress reports should show revision strength, not just new pages.",
+        ],
+      },
+      {
+        heading: "4. What Matters More Than Age",
+        paragraphs: [
+          "Parents often ask whether starting at 5 is better than starting at 9. In our experience, the starting age matters far less than three other things: a qualified Hafiz teacher who corrects Tajweed from day one, a daily revision habit that never slips, and a child who feels proud of each Juz rather than pressured by it. A 10-year-old who starts with a good teacher and a steady routine will overtake a 6-year-old who started early but practises irregularly.",
+          "If your child is ready, the best time to start is now — with a free trial class to check reading fluency, agree a realistic target, and let your child meet the teacher first.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Can my child start Hifz at age 5?",
+        answer:
+          "Yes, if your child can already read the Quran fluently — usually after finishing Noorani Qaida. At age 5 or 6, start gently with Juz Amma at 3 to 5 lines a day, 3 days a week, with short classes and plenty of encouragement.",
+      },
+      {
+        question: "Is it too late for a teenager or adult to start Hifz?",
+        answer:
+          "No. Teenagers and adults can complete Hifz successfully — many do. The balanced track of half a page a day works well around school or work, and adults often retain better because they understand what they are memorizing. There is no age limit for Hifz.",
+      },
+    ],
+  },
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPostData | undefined {

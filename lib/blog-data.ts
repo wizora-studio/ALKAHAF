@@ -905,6 +905,155 @@ export const BLOG_POSTS: BlogPostData[] = [
       },
     ],
   },
+  {
+    slug: "learn-noorani-qaida-online-for-beginners",
+    title:
+      "Learn Noorani Qaida Online for Beginners: Step-by-Step Lesson Breakdown",
+    seoTitle:
+      "Learn Noorani Qaida Online for Beginners | Al Kahaf Academy",
+    metaDescription:
+      "Learn Noorani Qaida online for beginners with a clear step-by-step lesson breakdown — alphabet, Makharij, Harakat, joining letters and daily practice for kids and adults.",
+    excerpt:
+      "Noorani Qaida is the first book every beginner reads before the Holy Quran. Here is exactly how online lessons work, lesson by lesson, so you or your child can start with confidence.",
+    category: "Noorani Qaida",
+    readTime: "8 min read",
+    datePublished: "2026-11-13",
+    dateModified: "2026-11-13",
+    authorName: "Al Kahaf Academic Council",
+    authorRole: "Foundational Qaida & Early Learners Division",
+    reviewerName: "Senior Curriculum Coordinator, Al Kahaf Academy",
+    image: "/images/online-quran-students.jpg",
+    relatedCourseSlug: "noorani-qaida",
+    relatedCourseTitle: "Foundational Noorani Qaida Online Course",
+    keyTakeaways: [
+      "Noorani Qaida teaches reading in order: letter sounds, joined forms, short vowels, then words — skipping a step is the main reason beginners get stuck.",
+      "Online lessons follow a simple pattern in every class: listen, repeat, read alone, then revise yesterday's page — 30 minutes is enough for most beginners.",
+      "Most children complete Noorani Qaida in 3 to 6 months with regular classes, after which they begin reading Juz Amma directly from the Mushaf.",
+    ],
+    sections: [
+      {
+        heading: "1. What It Means to Learn Noorani Qaida Online for Beginners",
+        paragraphs: [
+          "To learn Noorani Qaida online for beginners is to learn the Arabic script from the very first letter, with a live teacher guiding you on screen — no prior knowledge of Arabic is needed. Noorani Qaida is a short primer, compiled by Sheikh Noor Muhammad Haqqani, that teaches non-Arab beginners how to read Quranic script one sound at a time, using words and patterns taken from the Holy Quran itself.",
+          "Before the Qaida existed, beginners were often asked to read full Quranic verses straight away, where many rules appear at once. The Qaida fixes that problem by isolating one idea per lesson: first the letters, then their joined shapes, then vowels, then words. Each lesson prepares the next one, so a student never has to guess.",
+          "Online learning suits this method well. In a live 1-on-1 class, the teacher shares the Qaida page on screen, points at each letter, reads it aloud, and listens while the student repeats it. The student reads from the same page at home, so there is no confusion about which line or lesson comes next.",
+        ],
+      },
+      {
+        heading: "2. How Online Noorani Qaida Lessons Work, Step by Step",
+        paragraphs: [
+          "A typical online Noorani Qaida lesson follows the same simple pattern every time, so the student always knows what to expect. Understanding this pattern removes most of the nervousness beginners feel before their first class:",
+          "Classes are usually 30 minutes long, 3 to 5 times a week. Short, regular sessions work far better than one long weekly class, because reading is a muscle skill — it improves with frequent, gentle repetition rather than occasional effort.",
+        ],
+        bullets: [
+          "Warm-up revision (5 minutes): The teacher revises the previous lesson first. Nothing new is taught until yesterday's page is read correctly.",
+          "New lesson (10 minutes): The teacher introduces one new concept — a few letters, a vowel, or a joining rule — and reads each example slowly while the student listens.",
+          "Guided reading (10 minutes): The student reads the new page aloud while the teacher listens and corrects pronunciation immediately, especially the throat and heavy letters.",
+          "Independent reading (5 minutes): The student reads a short passage alone, building the confidence to read without the teacher's voice as a crutch.",
+        ],
+      },
+      {
+        heading: "3. Step 1 — The Arabic Alphabet and Makharij for Beginners",
+        paragraphs: [
+          "Noorani Qaida lessons step by step always begin with the 29 Arabic letters and their sounds — not their names, but the sounds they make. The teacher reads each letter aloud, and the student repeats it until the sound is clear. Letters that look similar, such as ب, ت and ث, are practised side by side so the student learns to tell them apart by sound, not just by dots.",
+          "From the very first lessons, the teacher also introduces Arabic alphabet Makharij for beginners — the places in the mouth and throat where each letter is formed. The letters come from five places: the throat (ح, ع, خ, غ, ء, ه), the tongue, the lips (ب, م, و, ف), the nasal cavity, and the empty space of the mouth for the long vowels. A beginner does not need to memorise all 17 articulation points at once; the teacher simply shows, for each new letter, where it comes from.",
+          "This is the step most self-learners skip, and it is the step that matters most. A letter read from the wrong place becomes a different letter — س (Seen) read instead of ص (Saad) changes the word entirely. Correcting it in week one takes a minute; correcting it a year later takes months.",
+        ],
+      },
+      {
+        heading: "4. Step 2 — Joined Letter Forms",
+        paragraphs: [
+          "Arabic letters change shape depending on where they sit in a word: at the beginning, in the middle, at the end, or on their own. The Qaida teaches these joined forms as its second stage, and this is where many beginners first feel real progress — suddenly the letters they know start joining into recognisable words.",
+          "The teacher practises each form slowly: the same letter in all four positions, then short combinations of two letters, then three. Students are never asked to read a whole word until they can read its letters in joined form. A few letters, such as ا, د, ذ, ر, ز and و, never join to the letter after them — the Qaida highlights these early so the student is not confused when a word seems to break apart.",
+          "For children, this stage is usually the most enjoyable, because joining letters feels like solving a small puzzle. For adults, it is the stage where reading stops feeling like memorising symbols and starts feeling like reading.",
+        ],
+      },
+      {
+        heading: "5. Step 3 — Harakat: Short Vowels and Sukoon",
+        paragraphs: [
+          "Once letters join, the Qaida adds Harakat — the short vowel marks: Fatha (a short 'a' sound above the letter), Kasra (a short 'i' sound below it), and Damma (a short 'u' sound). The rule is simple and strict: a short vowel stays short. Stretching Fatha into a long 'aa' is one of the most common beginner mistakes, and the teacher corrects it every time it appears.",
+          "Next comes Sukoon, the small circle that means 'this letter has no vowel — stop on it.' Sukoon is where reading becomes real reading: the student must now join a vowelled letter to a still letter smoothly, without adding an extra vowel in between. The Qaida gives plenty of two-letter and three-letter words to practise this, such as مِنْ (min) and قُلْ (qul).",
+          "At this stage the teacher also checks the student's pace. Reading slowly is correct; reading fast with mistakes is not progress. A beginner who reads one line perfectly is further ahead than one who rushes through a whole page with errors.",
+        ],
+      },
+      {
+        heading: "6. Step 4 — Tanween, Shaddah and Madd Basics",
+        paragraphs: [
+          "The next lessons add the remaining marks a reader meets on every page of the Quran. Tanween — the doubled vowel mark — adds an 'n' sound to the end of a word (an, in, un). Shaddah doubles a letter, so it is read twice: once still, once with its vowel. The Qaida practises Shaddah with simple words first, because doubling is a new mouth movement for most beginners.",
+          "Madd, or elongation, is introduced gently at this stage: the three long vowels (ا, و, ی) stretch a sound for two counts. The student learns the difference between a short vowel (one count) and a long vowel (two counts) by hearing the teacher model both, side by side. Full Madd rules come later in the Tajweed course; the Qaida only needs the student to stretch correctly and consistently.",
+          "By the end of this stage, the student can read most of the words in the Qaida's later pages. The letters, vowels, doubling and stretching are all in place — what remains is joining them into fluent reading.",
+        ],
+      },
+      {
+        heading: "7. Step 5 — Reading Whole Words, Then Short Phrases",
+        paragraphs: [
+          "The final lessons of Noorani Qaida move from single words to short phrases and the first lines of Quranic text. This is the bridge to the Mushaf: the student reads short verses from Juz Amma with the teacher, applying everything learned so far — joined forms, vowels, Sukoon, Tanween, Shaddah and Madd — in real Quranic words.",
+          "The teacher's job in this stage is mostly listening. Corrections become fewer and smaller: a vowel held a fraction too long, a heavy letter read a little light. When the student can read a page of Juz Amma slowly and correctly, the Qaida is complete, and the next step is Nazra — reading the Holy Quran from the Mushaf with a teacher, beginning with Juz Amma.",
+          "Noorani Qaida for kids online usually ends with a small celebration in class: the child reads a full Surah, such as Surah Al-Ikhlas or Surah Al-Fatiha, from start to finish. It is a short Surah, but for a child who started with single letters a few months earlier, it is a genuine achievement — and a good moment for parents to see how far their child has come.",
+        ],
+      },
+      {
+        heading: "8. A Simple Daily Practice Plan for Kids and Adults",
+        paragraphs: [
+          "Lessons alone do not finish the Qaida — short daily practice between classes does. The plan below takes 10 to 15 minutes a day and works for children and adults alike:",
+        ],
+        bullets: [
+          "Revise yesterday's page first (5 minutes): Read it aloud once. If a letter or word still causes trouble, repeat just that line three times.",
+          "Read today's new page (5 minutes): Read slowly, pointing at each word. Do not move on until the page is read without help.",
+          "Listen and repeat (5 minutes): Listen to a correct recitation of the same page and read along with it, matching the teacher's pace and pronunciation.",
+          "For parents: sit nearby during practice, not to teach, but to keep the routine steady. Praise correct reading immediately; correct mistakes gently by reading the word correctly yourself, then asking your child to repeat it.",
+        ],
+      },
+      {
+        heading: "9. Common Mistakes Beginners Make (and How to Fix Them)",
+        paragraphs: [
+          "Every beginner makes the same few mistakes. Knowing them in advance makes them easy to avoid:",
+        ],
+        bullets: [
+          "Rushing through pages: Reading fast feels like progress, but it hides mistakes. Fix: read one line at a time, and only move on when the line is correct.",
+          "Stretching short vowels: Turning Fatha into a long 'aa' changes the word. Fix: count 'one' for a short vowel, 'one-two' for a long vowel, out loud at first.",
+          "Skipping revision: New lessons pile up while old ones fade. Fix: every class and every practice session starts with yesterday's page, not today's.",
+          "Guessing letters from memory: Students who memorise the sound of a page stop reading the letters. Fix: cover the line and read it cold, or read the page backwards line by line.",
+          "Practising alone without correction: A mistake repeated daily becomes a habit. Fix: even one live class a week with a teacher who listens catches errors before they settle.",
+        ],
+      },
+      {
+        heading: "10. What Happens After You Finish Noorani Qaida?",
+        paragraphs: [
+          "Finishing Noorani Qaida is not the end of learning — it is the beginning of reading the Holy Quran. The next step is Nazra, reading Juz Amma and then the full Mushaf with a teacher, where fluency and confidence grow page by page. After that, students usually move into Tajweed, where the rules of beautiful and correct recitation are taught in depth.",
+          "Children who finish the Qaida typically start Hifz or continue with daily Nazra, depending on the family's goal. Adults often go straight into Tajweed so their daily Salah recitation improves. Either way, the Qaida has done its job: the student can now open any page of the Quran and read it, independently and correctly.",
+          "If you or your child are starting from zero, the best first step is a free trial class. A teacher will listen to your reading, find your exact starting point in the Qaida, and show you the lesson plan for the weeks ahead — before you commit to anything.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "How can I learn Noorani Qaida online for beginners if I know no Arabic at all?",
+        answer:
+          "You need no Arabic at all to start. Noorani Qaida was written for non-Arab beginners: it teaches the Arabic letters, their sounds and their joined forms from zero, in English, with a live teacher. Your first lessons cover single letters only, so you are never asked to read something you have not been taught.",
+      },
+      {
+        question: "How long does it take to finish Noorani Qaida online?",
+        answer:
+          "With 3 to 5 classes of 30 minutes per week plus short daily practice, most children complete Noorani Qaida in 3 to 6 months. Adults often finish faster, in 8 to 12 weeks, because they cover the same lessons at a quicker pace. The exact time depends on age, attendance and practice consistency.",
+      },
+      {
+        question: "Is Noorani Qaida for kids online different from adult lessons?",
+        answer:
+          "The content is the same — the same letters, vowels and rules in the same order — but the pace and style differ. Children's lessons use more repetition, visual cues and encouragement, while adult lessons move faster and explain the rules analytically. Both are taught 1-on-1, so the teacher adjusts to the individual student.",
+      },
+      {
+        question: "What do I need for online Noorani Qaida lessons?",
+        answer:
+          "A device with a camera and microphone (laptop, tablet or phone), a quiet corner, and a stable internet connection. Lessons run on Zoom or Google Meet, and the teacher shares the Qaida page on screen, so you do not need to buy a book before your first class — a printed copy can be arranged later if you prefer one.",
+      },
+      {
+        question: "What comes after Noorani Qaida?",
+        answer:
+          "After the Qaida, students begin Nazra — reading the Holy Quran from the Mushaf, starting with Juz Amma — and then move into Tajweed to perfect their recitation. Children often continue into Hifz (memorisation) if the family wishes, while adults usually focus on Tajweed to improve their daily Salah recitation.",
+      },
+    ],
+  },
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPostData | undefined {

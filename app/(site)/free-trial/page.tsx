@@ -55,7 +55,7 @@ export default async function FreeTrialPage() {
       <PagesHero
         title="Start Your 3-Day Free Online Quran Trial"
         description="Experience three live 1-on-1 sessions with a certified male or female Quran tutor—including a personalized Tajweed and level evaluation—before choosing any monthly plan."
-        imageSrc="/images/quran-rehal-still-life.jpg"
+        imageSrc="/images/online-quran-students.jpg"
         imageAlt="3-Day Free Online Quran Trial at Al Kahaf Academy"
         badge={{
           text: "No Credit Card Required • 1-on-1 Live Classes",

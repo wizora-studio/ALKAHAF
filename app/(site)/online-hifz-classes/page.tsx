@@ -145,7 +145,7 @@ export default async function OnlineHifzClassesPage() {
       <PagesHero
         title="Online Hifz Classes — Memorize the Quran, Verse by Verse"
         description="Live 1-on-1 Hifz classes with certified Hafiz & Hafiza teachers — the traditional Sabaq, Sabqi & Manzil method, from Juz Amma to the full 30 Juz, at a pace that fits your life."
-        imageSrc="/images/quran-rehal-still-life.jpg"
+        imageSrc="/images/online-quran-students.jpg"
         imageAlt="Online Hifz Classes — Memorize the Quran Online, Al Kahaf Academy"
         badge={{
           text: "Juz Amma to Full 30 Juz",

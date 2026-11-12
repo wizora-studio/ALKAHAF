@@ -36,7 +36,7 @@ export default async function BlogIndexPage() {
       <PagesHero
         title="Quran, Tajweed & Hifz Learning Guides"
         description="Practical, scholar-reviewed educational articles for parents, adult beginners, and students learning the Holy Quran online."
-        imageSrc="/images/quran-rehal-still-life.jpg"
+        imageSrc="/images/online-quran-students.jpg"
         imageAlt="Al Kahaf Academy Educational Guides & Blog"
         badge={{
           text: "Reviewed by Our Academic Council",

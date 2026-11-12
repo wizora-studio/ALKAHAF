@@ -41,7 +41,7 @@ export const BLOG_POSTS: BlogPostData[] = [
     authorName: "Al Kahaf Academic Council",
     authorRole: "Senior Tajweed & Qira'at Department",
     reviewerName: "Head of Tajweed Studies, Al Kahaf Academy",
-    image: "/images/quran-rehal-still-life.jpg",
+    image: "/images/online-quran-students.jpg",
     relatedCourseSlug: "tajweed",
     relatedCourseTitle: "Online Quran Recitation with Tajweed Course",
     keyTakeaways: [
@@ -170,7 +170,7 @@ export const BLOG_POSTS: BlogPostData[] = [
     authorName: "Al Kahaf Academic Council",
     authorRole: "Hifz-ul-Quran Department",
     reviewerName: "Senior Hafiz Supervisor, Al Kahaf Academy",
-    image: "/images/quran-rehal-still-life.jpg",
+    image: "/images/online-quran-students.jpg",
     relatedCourseSlug: "hifz",
     relatedCourseTitle: "Online Hifz-ul-Quran Memorization Program",
     keyTakeaways: [
@@ -351,7 +351,7 @@ export const BLOG_POSTS: BlogPostData[] = [
     authorName: "Al Kahaf Academic Council",
     authorRole: "Senior Tajweed & Qira'at Department",
     reviewerName: "Head of Tajweed Studies, Al Kahaf Academy",
-    image: "/images/quran-rehal-still-life.jpg",
+    image: "/images/online-quran-students.jpg",
     relatedCourseSlug: "tajweed",
     relatedCourseTitle: "Online Quran Recitation with Tajweed Course",
     keyTakeaways: [
@@ -478,7 +478,7 @@ export const BLOG_POSTS: BlogPostData[] = [
     authorName: "Al Kahaf Academic Council",
     authorRole: "Foundational Qaida & Early Learners Division",
     reviewerName: "Senior Curriculum Coordinator, Al Kahaf Academy",
-    image: "/images/quran-rehal-still-life.jpg",
+    image: "/images/online-quran-students.jpg",
     relatedCourseSlug: "noorani-qaida",
     relatedCourseTitle: "Foundational Noorani Qaida Online Course",
     keyTakeaways: [
@@ -615,7 +615,7 @@ export const BLOG_POSTS: BlogPostData[] = [
     authorName: "Al Kahaf Academic Council",
     authorRole: "Foundational Qaida & Early Learners Division",
     reviewerName: "Senior Curriculum Coordinator, Al Kahaf Academy",
-    image: "/images/quran-rehal-still-life.jpg",
+    image: "/images/online-quran-students.jpg",
     relatedCourseSlug: "noorani-qaida",
     relatedCourseTitle: "Foundational Noorani Qaida Online Course",
     keyTakeaways: [
@@ -758,7 +758,7 @@ export const BLOG_POSTS: BlogPostData[] = [
     authorName: "Al Kahaf Academic Council",
     authorRole: "Senior Tajweed & Qira'at Department",
     reviewerName: "Head of Tajweed Studies, Al Kahaf Academy",
-    image: "/images/quran-rehal-still-life.jpg",
+    image: "/images/online-quran-students.jpg",
     relatedCourseSlug: "tajweed",
     relatedCourseTitle: "Online Quran Recitation with Tajweed Course",
     keyTakeaways: [

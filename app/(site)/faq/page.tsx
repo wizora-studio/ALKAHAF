@@ -160,7 +160,7 @@ export default async function FaqHubPage() {
       <PagesHero
         title="Frequently Asked Questions"
         description="Complete answers about our 1-on-1 online Quran courses, 3-day free trial, certified male & female teachers, flexible time zones, and affordable monthly plans."
-        imageSrc="/images/quran-rehal-still-life.jpg"
+        imageSrc="/images/online-quran-students.jpg"
         imageAlt="Frequently Asked Questions — Al Kahaf Academy"
         badge={{
           text: "Parent & Student Help Center",

@@ -1362,6 +1362,191 @@ export const BLOG_POSTS: BlogPostData[] = [
       },
     ],
   },
+  {
+    slug: "makharij-al-huroof-for-beginners",
+    title:
+      "Makharij al-Huroof for Beginners: Simple Guide to Arabic Letter Pronunciation",
+    seoTitle:
+      "Makharij al-Huroof for Beginners | Al Kahaf Academy",
+    metaDescription:
+      "Makharij al-huroof for beginners — learn the 5 articulation areas and 17 points of every Arabic letter, with simple examples and a 7-day practice plan.",
+    excerpt:
+      "Every Arabic letter comes from a precise place in your mouth, throat, lips or nose. Learn the five areas of Makharij al-Huroof — and why one wrong exit point can change the meaning of a word.",
+    category: "Tajweed & Recitation",
+    readTime: "9 min read",
+    datePublished: "2026-11-14",
+    dateModified: "2026-11-14",
+    authorName: "Al Kahaf Academic Council",
+    authorRole: "Senior Tajweed & Qira'at Department",
+    reviewerName: "Head of Tajweed Studies, Al Kahaf Academy",
+    image: "/images/online-quran-students.jpg",
+    relatedCourseSlug: "tajweed",
+    relatedCourseTitle: "Online Quran Recitation with Tajweed Course",
+    keyTakeaways: [
+      "Makharij al-Huroof are the 17 articulation points of the Arabic letters, grouped into five areas: the empty space of the mouth, the throat, the tongue, the lips and the nose.",
+      "The throat has three points and six letters, the tongue has ten points and eighteen letters, the lips have two points and four letters, and the nose carries only the Ghunnah sound.",
+      "Most beginner mistakes come from seven similar letter pairs — ح and ه, ع and ء, ق and ك, ص and س, ض and د, ط and ت, and ث, ذ and ظ — and each pair can be fixed by feeling where the sound is made.",
+    ],
+    sections: [
+      {
+        heading: "1. What Are Makharij al-Huroof for Beginners?",
+        paragraphs: [
+          "Makharij al-Huroof for beginners starts with one simple idea: every Arabic letter comes out of a precise place in your mouth, throat, lips or nose. The word Makhraj (مَخْرَج) means an exit point, and Makharij al-Huroof (مَخَارِجُ الْحُرُوفِ) are the exit points of the letters — the exact spot where each letter's sound is made.",
+          "In the system taught by Imam Ibn al-Jazari, which most Quran teachers follow today, there are 17 detailed articulation points grouped into five main areas. The empty space of the mouth gives you the three long vowel letters. The throat gives you six letters. The tongue gives you eighteen letters. The lips give you four letters. And the nasal passage gives you one sound, Ghunnah, the nasal hum that belongs to Noon and Meem.",
+          "This is the first building block of Tajweed, and it comes before every other rule. The rules of Noon Sakinah, Meem Sakinah, Qalqalah and Madd all assume that you already pronounce each letter from its correct place. If the letters themselves are wrong, no amount of rule-learning will fix the recitation.",
+        ],
+      },
+      {
+        heading: "2. Why Makharij Matter: One Wrong Sound Can Change the Meaning",
+        paragraphs: [
+          "Arabic has several letters that sound almost the same to an English-speaking ear, but they are different letters with different meanings. Pronouncing one in place of the other does not just sound wrong — it can turn one word into a completely different word.",
+          "The classic example is قَلْب (qalb), which means heart, and كَلْب (kalb), which means dog. The only difference between the two words is the first letter: Qaaf comes from the back of the tongue near the soft palate, while Kaaf comes from the same area but slightly further forward. Another pair is عِلْم (ilm), which means knowledge, and أَلَم (alam), which means pain — Ain comes from the middle of the throat, Hamza from the deepest part. And طَابَ (taaba, it became good) and تَابَ (taaba, he repented) are written with different letters, Taa and Taa, even though they look identical in transliteration.",
+          "This is why Makharij are not a detail for advanced students. They are the difference between reading the words Allah revealed and reading different words by accident. The good news is that the system is learnable: there are only five areas to remember, and once you can feel where each letter is made, your ear starts to hear the difference.",
+        ],
+      },
+      {
+        heading: "3. The 5 Main Areas of Makharij al-Huroof at a Glance",
+        paragraphs: [
+          "Before the detail, learn the map. All 17 points sit inside five areas, and you can find each one by asking where the sound is made — in the open space, the throat, the tongue, the lips or the nose:",
+        ],
+        bullets: [
+          "Al-Jawf (الجَوْف) — the empty space of the mouth and throat: 1 point, 3 letters (the long vowels ا, و, ي).",
+          "Al-Halq (الحَلْق) — the throat: 3 points, 6 letters (ء, ه, ع, ح, غ, خ).",
+          "Al-Lisan (اللِّسَان) — the tongue: 10 points, 18 letters (ق, ك, ج, ش, ي, ض, ل, ن, ر, ط, د, ت, ص, ز, س, ظ, ذ, ث).",
+          "Ash-Shafatan (الشَّفَتَان) — the two lips: 2 points, 4 letters (ف, ب, م, و).",
+          "Al-Khayshum (الخَيْشُوم) — the nasal passage: 1 point, the Ghunnah sound of ن and م.",
+        ],
+      },
+      {
+        heading: "4. Area 1 — Al-Jawf: The Empty Space of the Mouth",
+        paragraphs: [
+          "Al-Jawf is the open space inside the mouth and throat, and it is the home of the three Madd letters: Alif (ا), Waw (و) and Yaa (ي) when they are stretched as long vowels. These letters do not come from one fixed point — the sound is made in the empty space itself, which is why this Makhraj is called an estimated one rather than a fixed one.",
+          "Say قَالَ (qaala) and stretch the Alif: the sound fills the mouth without the tongue or lips touching anything. Say يَقُولُ (yaqoolu) and stretch the Waw: the lips round, but the sound still comes from the open space. Say قِيلَ (qeela) and stretch the Yaa: the middle of the tongue rises, but nothing is pressed together.",
+          "Beginners rarely struggle with Al-Jawf itself, because the long vowels feel natural. What matters is knowing that these three letters belong here, so that later, when you learn the Madd rules, you understand why they stretch: their sound has room to stretch because it is made in open space.",
+        ],
+      },
+      {
+        heading: "5. Area 2 — Al-Halq: The Throat and Its 6 Letters",
+        paragraphs: [
+          "The throat has three articulation points, each with two letters, running from the deepest part of the throat outwards towards the mouth. These are the letters English speakers find hardest, because English has no throat letters at all.",
+          "The deepest point, nearest the chest, produces Hamza (ء) and Haa (ه). Hamza is a stop — the sound you make between the two parts of 'uh-oh' — and Haa is a soft breath, like a sigh. The middle of the throat produces Ain (ع) and Haa (ح): Ain is a tight, squeezed sound, and Haa is a strong breath, like fogging a mirror with warm air. The upper part of the throat, nearest the mouth, produces Ghain (غ) and Khaa (خ): Ghain is a deep, vibrating sound like a French 'r', and Khaa is the harsh 'kh' of the Scottish word 'loch'.",
+          "Practise the throat letters in pairs, back to back, so your ear learns the contrast: ء then ه, ع then ح, غ then خ. Say أَحْمَد (Ahmad) slowly and feel the Hamza stop at the bottom of the throat, then the Haa breathe from the middle. If two throat letters still sound the same, place a hand lightly on your throat — the vibration moves to a different place for each pair.",
+        ],
+      },
+      {
+        heading: "6. Area 3 — Al-Lisan: The Back and Middle of the Tongue",
+        paragraphs: [
+          "The tongue is the busiest area: ten points producing eighteen letters, more than half the alphabet. Work through it from the back of the tongue to the front, and it becomes a journey with clear stops along the way.",
+          "At the very back, the tongue meets the soft palate. Qaaf (ق) is made when the back of the tongue presses against the soft palate near the uvula, and Kaaf (ك) is made at almost the same place but slightly further forward, nearer the mouth. This small shift is the whole difference between قَلْب (heart) and كَلْب (dog), so practise the two together: say ق, then ك, then ق again, and feel the tongue move forward by a finger's width.",
+          "Moving forward, the middle of the tongue rises to the hard palate for three letters: Jeem (ج), Sheen (ش) and Yaa (ي) as a consonant. Jeem is a firm sound, like the 'j' in 'judge' but made further back; Sheen is the 'sh' of 'ship'; and Yaa is the 'y' of 'yes'. Then comes the hardest letter in the alphabet for most learners: Daad (ض), made by pressing the side edge of the tongue against the upper molars on one side. Daad is the letter Arabic is named after — the language of Daad — and it is worth taking extra time on.",
+        ],
+      },
+      {
+        heading: "7. The Tip of the Tongue: Where Most Letters Live",
+        paragraphs: [
+          "The remaining tongue letters all come from the tip of the tongue, and they are told apart by exactly what the tip touches — six of the ten tongue points live here.",
+          "Laam (ل) is made with the tip and side of the tongue touching the gums of the upper front teeth. Noon (ن) is made with the tip of the tongue on the gums of the upper incisors, plus a nasal sound from the nose. Raa (ر) is made just behind the Noon point, with the tip of the tongue slightly further back — a light tap, not a rolled 'r'. Then Taa (ط), Daal (د) and Taa (ت) are made with the tip of the tongue on the roots of the upper central incisors: Taa is heavy, Daal is a firm 'd', and Taa is a light 't'.",
+          "The last two tip points are the finest of all. Dhaa (ظ), Dhaal (ذ) and Thaa (ث) are made with the tip of the tongue touching the edges of the upper incisors — the tongue just peeks between the teeth. And Zaa (ز), Seen (س) and Saad (ص) are made with the tip of the tongue near the lower incisors, with a light whistling sound: Zaa hums, Seen is a clear 's', and Saad is a heavy, full 's'. If ص and س sound the same in your reading, say them side by side: Saad fills the mouth, while Seen stays thin and light.",
+        ],
+      },
+      {
+        heading: "8. Area 4 — Ash-Shafatan: The Lips and Their 4 Letters",
+        paragraphs: [
+          "The lips are the easiest area, and they are a good place to build confidence. There are two points here and four letters, and you can see them all in a mirror.",
+          "Faa (ف) is made when the inner part of the lower lip touches the edges of the upper teeth — the same position as the English 'f'. Baa (ب), Meem (م) and Waw (و) are all made with the two lips together, but in different ways: for Baa the lips meet and pop apart, for Meem the lips close while some air escapes through the nose, and for Waw the lips round without fully closing, like the 'w' in 'water'.",
+          "The only lip letter beginners usually misread is Waw as a consonant rather than a long vowel: the consonant Waw is a quick rounding of the lips, while the Madd Waw stretches from the empty space of the mouth.",
+        ],
+      },
+      {
+        heading: "9. Area 5 — Al-Khayshum: The Nose and the Sound of Ghunnah",
+        paragraphs: [
+          "Al-Khayshum is the nasal passage at the back of the nose, and it produces only one thing: Ghunnah, the nasal hum that belongs to Noon (ن) and Meem (م). Ghunnah is the only letter quality with its own articulation point, which shows how important it is in Tajweed.",
+          "You can feel Ghunnah by holding the sound of Noon and pinching your nose gently — the sound changes, because part of it travels through the nose. The same test works for Meem. Ghunnah lasts for two counts in the rules where it applies: Idgham with Ghunnah, Iqlab and Ikhfa, the Noon Sakinah and Tanween rules. If your Ghunnah is too short, those rules lose their sound; if it is too long, the recitation drags.",
+          "Practise Ghunnah on its own before you practise it inside the rules. Say 'nnn' and 'mmm' slowly, count one-two out loud, and stop the sound cleanly at two. That two-count hum is the length you will use every time a rule asks for Ghunnah.",
+        ],
+      },
+      {
+        heading: "10. The 7 Tricky Letter Pairs Beginners Mix Up",
+        paragraphs: [
+          "Almost every beginner confuses the same small set of letters. They are confusing because they are near-neighbours on the map — same area, a slightly different point. Learning them as pairs, with the fix for each, is faster than learning all 28 letters one by one:",
+        ],
+        bullets: [
+          "ح and ه — Haa (middle throat, strong breath) vs Haa (deepest throat, soft sigh). Fix: fog a mirror for ح, sigh gently for ه.",
+          "ع and ء — Ain (middle throat, squeezed) vs Hamza (deepest throat, stop). Fix: say 'uh-oh' for ء, then squeeze the throat for ع.",
+          "ق and ك — Qaaf (back tongue, deep) vs Kaaf (back tongue, forward). Fix: feel the tongue move forward by a finger's width from ق to ك.",
+          "ص and س — Saad (heavy 's') vs Seen (light 's'). Fix: say صَبْر (patience) then س, and notice Saad fills the mouth.",
+          "ض and د — Daad (side of tongue on molars) vs Daal (tip on incisor roots). Fix: press the tongue's edge to the molars for ض.",
+          "ط and ت — Taa (heavy 't') vs Taa (light 't'). Fix: say طَابَ then تَابَ and keep the heavy one full and deep.",
+          "ث, ذ and ظ — Thaa (light, 'th' in 'think'), Dhaal (voiced, 'th' in 'this') and Dhaa (heavy). Fix: the tongue tip touches the edge of the upper teeth for all three — only the heaviness changes.",
+        ],
+      },
+      {
+        heading: "11. A Simple 7-Day Practice Plan for Makharij al-Huroof",
+        paragraphs: [
+          "Makharij are learned by the mouth, not by the eyes, so say the letters out loud for 10 to 15 minutes a day — one area a day, and the whole map on the last day:",
+        ],
+        bullets: [
+          "Day 1 — The throat: Practise the six throat letters in pairs (ء/ه, ع/ح, غ/خ), then read Surah Al-Fatihah slowly and mark every throat letter.",
+          "Day 2 — The back and middle of the tongue: Practise ق/ك, ج/ش/ي and ض, saying قَلْب and كَلْب back to back until the difference is clear.",
+          "Day 3 — The tip of the tongue: Practise ل, ن, ر, ط, د, ت, ظ, ذ, ث, ز, س and ص in order, from the gums to the teeth, saying each letter three times.",
+          "Day 4 — The lips and the nose: Practise ف, ب, م, و, then hold 'nnn' and 'mmm' for two counts to feel Ghunnah.",
+          "Day 5 — The tricky pairs: Work through the seven pairs above, one pair at a time, saying each pair five times before moving on.",
+          "Day 6 — Mixed practice: Read Juz Amma from Surah An-Naba, stopping at every hard letter and saying it three times before continuing.",
+          "Day 7 — Fluency: Read the same passages at normal pace with a teacher, or with a correct recitation playing alongside, and let the teacher correct any letter that still slips.",
+        ],
+      },
+      {
+        heading: "12. Common Mistakes Beginners Make (and How to Fix Them)",
+        paragraphs: [
+          "Most Makharij mistakes come from using the nearest English sound instead of the Arabic one. The fixes are small, and a teacher who listens will catch them in one class:",
+        ],
+        bullets: [
+          "Reading ح as ه: ح is a strong breath from the middle of the throat. Fix: fog a mirror — if no warm air appears, you said ه.",
+          "Reading ع as ء: Ain is not a glottal stop. Fix: squeeze the middle of the throat gently and let the sound come from the squeeze, not from a stop.",
+          "Reading ق as ك: The most common mistake of all. Fix: pull the back of the tongue further back and up, towards the soft palate, for ق.",
+          "Reading ص as س and ط as ت: The heavy letters need the mouth to stay full. Fix: keep the tongue raised and the sound deep for ص and ط.",
+          "Reading ض as ز or د: Daad is made with the side of the tongue, not the tip. Fix: press the tongue's edge against the upper molars.",
+          "Swallowing Ghunnah: Cutting the nasal hum short so Noon and Meem sound flat. Fix: count one-two out loud on every Ghunnah until two counts become your habit.",
+          "Practising silently: Makharij cannot be learned by reading alone. Fix: every practice session must be out loud, even if you are reading to yourself.",
+        ],
+      },
+      {
+        heading: "13. Where Makharij Fit in Your Tajweed Journey",
+        paragraphs: [
+          "Makharij al-Huroof are the foundation everything else stands on. Once each letter comes from its correct place, the next steps fall into place naturally: the Noon Sakinah and Tanween rules, which depend on hearing the letter that follows; the Meem Sakinah rules, which follow the same pattern; and then Qalqalah and Madd, which build on the same ideas of holding and releasing sounds.",
+          "Students who spend two or three weeks on Makharij before moving on find the rest of Tajweed much easier, because they have already trained the two skills every later rule needs: feeling where a sound is made, and hearing the difference between two similar letters. Rushing past Makharij to reach the rules is the most common reason beginners get stuck later.",
+          "If you would like to learn Makharij with a live teacher, the Tajweed course at Al Kahaf Academy teaches them 1-on-1, with the teacher listening to your recitation and correcting each letter as you read. You can start with a free 3-day trial — the teacher will listen to your reading, find your exact level, and build your lesson plan around the letters you need most.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "What are Makharij al-Huroof for beginners?",
+        answer:
+          "Makharij al-Huroof are the articulation points of the Arabic letters — the exact places in the mouth, throat, lips or nose where each letter's sound is made. For beginners, the key fact is that there are 17 points grouped into five areas: the empty space of the mouth, the throat, the tongue, the lips and the nose.",
+      },
+      {
+        question: "How many Makharij are there in Tajweed?",
+        answer:
+          "In the system of Imam Ibn al-Jazari, which most Quran teachers follow today, there are 17 detailed articulation points grouped into five main areas. Some earlier scholars counted 16 or 14, because they grouped the long-vowel letters or Laam, Noon and Raa differently, but 17 is the standard count taught today.",
+      },
+      {
+        question: "Which letters come from the throat?",
+        answer:
+          "Six letters come from the throat: Hamza (ء) and Haa (ه) from the deepest part, Ain (ع) and Haa (ح) from the middle, and Ghain (غ) and Khaa (خ) from the upper part. They are the hardest letters for English speakers, because English has no throat letters at all.",
+      },
+      {
+        question: "What is the hardest Makhraj for English speakers to learn?",
+        answer:
+          "Most English speakers find Ain (ع), Haa (ح), Qaaf (ق) and Daad (ض) the hardest, because none of them exists in English. They become manageable with pair practice — saying the hard letter next to its easy neighbour, like ق next to ك — and with a teacher listening and correcting the sound.",
+      },
+      {
+        question: "How long does it take to learn Makharij al-Huroof?",
+        answer:
+          "With 10 to 15 minutes of out-loud practice a day and a teacher listening, most beginners can pronounce all 28 letters from their correct places within a few weeks. The letters become automatic with daily reading, and the 7-day plan in this post is a good way to start.",
+      },
+    ],
+  },
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPostData | undefined {

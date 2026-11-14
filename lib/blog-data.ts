@@ -82,7 +82,7 @@ export const BLOG_POSTS: BlogPostData[] = [
       {
         question: "Can I learn Tajweed if I do not speak Arabic?",
         answer:
-          "Yes. Over 85% of our students live in English-speaking countries (USA, UK, Canada, Australia) and do not speak conversational Arabic. Our tutors explain every Tajweed rule in clear English.",
+          "Yes. Most of our students live in English-speaking countries (USA, UK, Canada, Australia) and do not speak conversational Arabic. Our tutors explain every Tajweed rule in clear English.",
       },
       {
         question: "Should I take Noorani Qaida before the Tajweed course?",

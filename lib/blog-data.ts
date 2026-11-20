@@ -2009,6 +2009,152 @@ export const BLOG_POSTS: BlogPostData[] = [
       },
     ],
   },
+  {
+    slug: "madd-rules-in-tajweed-for-beginners",
+    title: "Madd Rules in Tajweed for Beginners: When to Stretch 2, 4, or 6 Beats",
+    seoTitle: "Madd Rules in Tajweed for Beginners | Al Kahaf Academy",
+    metaDescription:
+      "Madd rules in Tajweed for beginners: the three Madd letters, natural Madd at 2 counts, and when Hamzah or Sukoon stretches the sound to 4, 5 or 6 counts — with examples and a daily practice plan.",
+    excerpt:
+      "Madd is the rule that tells you how long to hold a vowel sound in the Quran. Once you know the three Madd letters and the two things that stretch them — Hamzah and Sukoon — the 2, 4 and 6 count rules fall into place.",
+    category: "Tajweed & Recitation",
+    readTime: "8 min read",
+    datePublished: "2026-11-20",
+    dateModified: "2026-11-20",
+    authorName: "Al Kahaf Academic Council",
+    authorRole: "Senior Tajweed & Qira'at Department",
+    reviewerName: "Head of Tajweed Studies, Al Kahaf Academy",
+    image: "/images/online-quran-students.jpg",
+    relatedCourseSlug: "tajweed",
+    relatedCourseTitle: "Online Quran Recitation with Tajweed Course",
+    keyTakeaways: [
+      "Only three letters stretch in Madd — Alif after Fathah, silent Waw after Dammah, and silent Yaa after Kasrah — and the natural length is always two counts.",
+      "A Madd only grows past two counts when a Hamzah or a Sukoon follows the Madd letter, which gives you Muttasil, Munfasil, Lazim, Aarid and Leen.",
+      "In the Mushaf, the wavy sign above a Madd letter is your shortcut: it always means stretch longer than the natural two counts.",
+    ],
+    sections: [
+      {
+        heading: "1. What Is Madd in Tajweed?",
+        paragraphs: [
+          "Madd (مَدّ) means lengthening or stretching a sound. In Tajweed, it is the rule that tells you how long to hold a vowel sound when you recite the Quran. Some vowels you hold for two beats, some for four or five, and some for six — and the difference is not a matter of style. Stretching a sound too short or too long changes the recitation, so learning Madd is one of the first steps from reading the words correctly to reciting them beautifully.",
+          "The good news is that Madd rules in Tajweed for beginners are simpler than they first look. Every type of Madd comes back to the same three letters and the same two causes. Once you can spot the three Madd letters and check what comes after them, you can work out the length of almost every Madd you meet in the Mushaf.",
+          "This guide follows the counts used in the recitation of Hafs from Asim, which is the reading most students learn first. If your teacher follows a different reading, the names of the rules stay the same and only some counts differ slightly — always follow your teacher's counts in practice.",
+        ],
+      },
+      {
+        heading: "2. The Three Madd Letters — and the One Condition Each Needs",
+        paragraphs: [
+          "Only three letters can ever be Madd letters: Alif (ا), Waw (و) and Yaa (ي). But they only act as Madd letters when they are silent and the letter before them carries the matching short vowel. If any part of the condition is missing, the letter is just an ordinary consonant, and there is no stretching at all.",
+          "Learn the three conditions as pairs, because the vowel before the letter is what makes the sound long. A Waw with a Fathah before it is not a Madd letter at all — it is a different sound, and it belongs to the rule of Madd Leen, which we cover below.",
+        ],
+        bullets: [
+          "Alif (ا) after a Fathah — as in قَالَ (qaala, he said). The Alif has no vowel of its own, and the letter before it carries a Fathah.",
+          "Waw (و) after a Dammah — as in يَقُولُ (yaqoolu, he says). The Waw is silent, and the letter before it carries a Dammah.",
+          "Yaa (ي) after a Kasrah — as in قِيلَ (qeela, it was said). The Yaa is silent, and the letter before it carries a Kasrah.",
+        ],
+      },
+      {
+        heading: "3. What Is a Harakah? How the Counts Work",
+        paragraphs: [
+          "Madd is measured in counts called harakat (singular: harakah). One harakah is the time it takes to say a single short vowel — about the time it takes to open and close your fingers once at a steady, moderate pace. It is a measure of relative time, not seconds on a clock, so two counts at a slow recitation pace take longer in clock time than two counts at a fast pace, and both are still two counts.",
+          "That is why teachers warn against counting in seconds. The counts keep their relationship to each other — a four-count Madd is twice as long as a two-count Madd — whatever speed you recite at. Practise with a steady rhythm, and let the counts follow your tempo instead of forcing a fixed speed.",
+          "The natural length is two counts. Every longer Madd in this guide is the natural two counts stretched further for a specific reason. There are only two reasons, and they divide all of Madd into two families.",
+        ],
+      },
+      {
+        heading: "4. Madd Asli: The Natural Two-Count Madd",
+        paragraphs: [
+          "Madd Asli (المد الأصلي), also called Madd Tabi'i (المد الطبيعي), is the natural Madd. It happens whenever one of the three Madd letters meets its condition and nothing follows it — no Hamzah and no Sukoon. It is called natural because it needs no other cause to exist: the long vowel is simply part of how the letter sounds.",
+          "Its length is always fixed at exactly two counts. The examples in the last section — قَالَ, يَقُولُ and قِيلَ — are all Madd Asli, and each one is held for two counts. If you stretch any of them to four or six, the recitation is wrong, not more beautiful.",
+          "Three small two-count forms sit beside natural Madd, and beginners meet them often. Madd Badal happens when a Hamzah comes before the Madd letter instead of after it, as in آمَنُوا (aamanoo, they believed) — two counts. Madd Iwad happens when you stop on a word ending in Tanween with Fathah, so the Tanween turns into an Alif, as in عَلِيمًا read as عَلِيمَا when stopping — two counts. Silah Sughra is the small joining of a pronoun Haa, also two counts. Learn these three by name, hold each for two counts, and move on — they are the easiest Madd rules you will meet.",
+        ],
+      },
+      {
+        heading: "5. Madd Far'i Caused by Hamzah: Muttasil, Munfasil and Badal",
+        paragraphs: [
+          "Madd Far'i (المد الفرعي) is the secondary Madd. It is the natural Madd stretched further because something follows the Madd letter — either a Hamzah (ء) or a Sukoon (ْ). The first family is caused by Hamzah, and it has three members. The question that separates the first two is simple: is the Hamzah in the same word as the Madd letter, or in the next word?",
+          "Madd Wajib Muttasil (the connected Madd) happens when the Madd letter and the Hamzah that follows it are in the same word, as in جَاءَ (jaa'a, he came) or السَّمَاء (as-samaa', the sky). It is held for four or five counts. The wavy sign above the Madd letter in the Mushaf marks it for you, so you can spot a Muttasil before you even read the word.",
+          "Madd Jaiz Munfasil (the separated Madd) happens when the Madd letter ends one word and the Hamzah begins the next word, as in بِمَا أُنزِلَ (bimaa unzila, in what was sent down). It is also held for four or five counts. The name tells you the rule: munfasil means separated, because the Madd letter and the Hamzah are separated by a word boundary.",
+          "The counts of four or five for Muttasil and Munfasil are the range used in the recitation of Hafs from Asim, and your teacher will settle on one count for you — most teachers teach four. Pick one count, use it every time, and do not mix counts from different readings.",
+        ],
+      },
+      {
+        heading: "6. Madd Far'i Caused by Sukoon: Lazim, Aarid and Leen",
+        paragraphs: [
+          "The second family is caused by Sukoon. It has three members as well, and the question that separates them is whether the Sukoon is permanent or only appears because you stopped.",
+          "Madd Lazim (the necessary Madd) happens when a permanent Sukoon follows the Madd letter — a Sukoon that is part of the word and stays there whether you stop or continue. It is held for six counts, the longest Madd in Tajweed. The best-known example is in the opening chapter, in الضَّالِّينَ (ad-daalleen, those who have gone astray) in Surah Al-Fatihah, where the Alif is stretched for six counts before the doubled Laam. Six counts is a long stretch, so practise it slowly: count it out on your fingers until the length feels natural.",
+          "Madd Aarid lis-Sukoon (the temporary Madd) happens when a Sukoon appears only because you stopped on a word. While you keep reading, the last letter carries a vowel, so there is no Madd at all — but when you stop, the vowel drops away, a Sukoon appears, and the Madd letter before it can stretch for two, four or six counts. For example, stopping on الْعَالَمِينَ (al-aalameen) at the end of an ayah lets you hold the Yaa for two, four or six counts. Choose one length and keep it the same every time you stop in that recitation.",
+          "Madd Leen (the soft Madd) is the cousin of Aarid. It uses the two soft letters — a silent Waw or Yaa that comes after a Fathah, as in قُرَيْشٍ (Quraysh) or خَوْفٍ (khawf, fear). Like Aarid, it only stretches when you stop on the word, and then it is held for two, four or six counts. The key difference is the letter before it: a Fathah, not the matching vowel, so it is a soft stretch rather than a full Madd letter.",
+        ],
+      },
+      {
+        heading: "7. The Wavy Sign in Your Mushaf: How to Spot a Long Madd",
+        paragraphs: [
+          "In the modern printed Mushaf, extra length is marked for you. Whenever a Madd must be held for more than the natural two counts, a small wavy line (ـٓـ) is printed above the Madd letter. That one sign removes most of the guesswork: if you see the wavy sign, stretch past two counts; if you do not see it, hold the natural two.",
+          "Use the sign as a check, not a replacement for the rules. The sign tells you that a longer Madd is needed, but the rules tell you how long — four or five for Muttasil and Munfasil, six for Lazim — and why. A student who only follows the sign can recite correctly, but a student who knows the rule behind the sign can correct themselves when the sign is not there, for example in an older Mushaf or a handwritten copy.",
+        ],
+      },
+      {
+        heading: "8. A 10-Minute Daily Madd Practice Plan",
+        paragraphs: [
+          "Madd is a listening skill as much as a reading skill, so the daily practice is mostly done out loud. Ten minutes a day is enough if you do it every day — the counts become automatic far faster through short daily repetition than through one long weekly session.",
+          "Pick one surah you already know well, such as Surah Al-Fatihah or one of the short surahs from Juz Amma, and use it as your practice text for a whole week. Knowing the words already means all your attention goes to the lengths, which is exactly what you are training.",
+        ],
+        bullets: [
+          "Listen (3 minutes): Play one or two ayat from your chosen reciter and listen only for the long sounds. Tap your fingers on each Madd and count it silently — two, four or six — and notice how the reciter holds each one.",
+          "Read aloud slowly (4 minutes): Read the same ayat yourself, counting each Madd on your fingers as you go. Say the count in your head before the Madd arrives, so you are deciding the length in advance instead of guessing mid-word.",
+          "Mark and repeat (3 minutes): Take a pencil and mark every Madd in the ayat you just read with its count — 2, 4 or 6. Then read the ayat again, following only your marks. Repeat any Madd you held wrongly three times correctly before moving on.",
+        ],
+      },
+      {
+        heading: "9. Five Mistakes Beginners Make With Madd",
+        paragraphs: [
+          "Most Madd mistakes come from the same few habits. Fixing them early matters, because a wrong length practised a hundred times takes a hundred corrections to undo — and a teacher checking your recitation will spot these five before anything else.",
+        ],
+        bullets: [
+          "Stretching every long vowel to six counts: Not every long sound is a six-count Madd. Six counts belong only to Madd Lazim. A natural Madd is two counts, and stretching it to six changes the recitation.",
+          "Holding a natural Madd for one count: Rushing through قَالَ as if it were a short vowel drops the Madd entirely. Give every Madd letter its full two counts, even when you are reading quickly.",
+          "Mixing counts in one recitation: Holding Muttasil for four counts in one ayah and five in the next is inconsistent. Choose one count for each rule and keep it the same throughout your recitation.",
+          "Forgetting Madd when stopping: A word you stop on can gain a Madd — Aarid and Leen only appear at a stop. Read the end of each ayah as carefully as the middle, and decide the length before you stop.",
+          "Guessing instead of checking the letter after: Before you stretch a sound, ask what follows the Madd letter — nothing, a Hamzah, or a Sukoon. That one question identifies almost every Madd rule there is.",
+        ],
+      },
+      {
+        heading: "10. When to Learn Madd With a Teacher",
+        paragraphs: [
+          "You can learn the names and counts of Madd from a guide like this one, but the lengths themselves can only be learned by ear. A teacher hears what you cannot hear in your own recitation — a four-count Madd held for three, a natural Madd stretched to five, a stop that should have had a Madd and did not. That hearing is what turns the rules on a page into correct recitation.",
+          "At Al Kahaf Academy, Tajweed classes are 1-on-1 and online, so the teacher listens to your recitation alone and corrects each Madd as you read it, at a pace matched to your level. You can start with a free 3-day trial: the teacher will listen to your reading, find which Madd rules need work, and build your Tajweed lessons around them. The Prophet Muhammad ﷺ said, \"The best of you are those who learn the Quran and teach it.\" Learning to hold each vowel for its right length is part of learning the Quran well, and it is a skill that stays with you in every salah for the rest of your life.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "How many counts is Madd Asli in Tajweed?",
+        answer:
+          "Madd Asli, the natural Madd, is always exactly two counts. It happens when a Madd letter — Alif after Fathah, silent Waw after Dammah, or silent Yaa after Kasrah — is not followed by a Hamzah or a Sukoon. If a Hamzah or Sukoon follows, the Madd becomes Madd Far'i and stretches to four, five or six counts.",
+      },
+      {
+        question: "What is the difference between Madd Muttasil and Madd Munfasil?",
+        answer:
+          "Both are caused by a Hamzah after a Madd letter and both are held for four or five counts. The difference is the word boundary: in Muttasil the Madd letter and the Hamzah are in the same word, as in جَاءَ, while in Munfasil the Madd letter ends one word and the Hamzah begins the next, as in بِمَا أُنزِلَ.",
+      },
+      {
+        question: "Which Madd is held for six counts?",
+        answer:
+          "Madd Lazim is held for six counts. It happens when a permanent Sukoon follows a Madd letter, as in الضَّالِّينَ in Surah Al-Fatihah. Madd Aarid and Madd Leen can also be held for six counts when you stop on the word, but six is optional for them — for Madd Lazim it is fixed.",
+      },
+      {
+        question: "How do I know when to stretch a Madd in the Quran?",
+        answer:
+          "First check for a Madd letter — Alif after Fathah, silent Waw after Dammah, or silent Yaa after Kasrah. Then check what follows it: nothing means two counts, a Hamzah means four or five, and a Sukoon means six for Lazim or two, four or six when stopping. The wavy sign above the letter in the Mushaf also marks any Madd longer than two counts.",
+      },
+      {
+        question: "Can I learn Madd rules in Tajweed for beginners on my own?",
+        answer:
+          "You can learn the names, counts and rules on your own, but the lengths need to be heard and corrected by a teacher. A qualified teacher listens to your recitation, corrects each Madd as you read, and makes sure the counts stay consistent. A free trial lesson is a good way to have your Madd checked before the habits settle.",
+      },
+    ],
+  },
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPostData | undefined {

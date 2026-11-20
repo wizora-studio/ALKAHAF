@@ -241,7 +241,7 @@ export const COURSES_DATA: CourseDetail[] = [
       "Join Al Kahaf Academy's structured Online Hifz Program for kids and adults. Daily Sabaq, Sabaqi, and Manzil revision with certified Hafiz and Hafiza tutors.",
     heroBadge: "Structured Memorization • Male & Female Huffaz",
     heroSubtitle:
-      "Aproven three-tier memorization methodology, Sabaq (new lesson), Sabaqi (recent revision), and Manzil (long-term retention), tailored to your personal pace.",
+      "A proven three-tier memorization methodology, Sabaq (new lesson), Sabaqi (recent revision), and Manzil (long-term retention), tailored to your personal pace.",
     overview:
       "The Online Hifz Quran Program at Al Kahaf Academy provides a disciplined, encouraging pathway to memorizing the Holy Quran, whether your goal is Juz Amma, selected Surahs, or complete 30-Juz Hifz. Guided 1-on-1 by experienced Hafiz and Hafiza instructors, students follow a structured daily system that ensures new verses are memorized with flawless Tajweed while previously memorized portions remain strong.",
     whoIsItFor: [

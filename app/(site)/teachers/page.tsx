@@ -23,7 +23,7 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "Our Quran Teachers — Certified Male & Female Tutors & Safeguarding",
+  title: "Our Quran Teachers, Certified Male & Female Tutors & Safeguarding",
   description:
     "Learn about Al Kahaf Academy's certified male and female Quran teachers (Qaris, Qariahs, Huffaz). Discover our 5-step teacher selection process, teaching methodology, and child safeguarding standards.",
   path: "/teachers",
@@ -50,7 +50,7 @@ const TEACHER_FAQS = [
   {
     question: "Can I request a change of tutor if needed?",
     answer:
-      "Yes. During your 3-day free trial—or at any point during your enrollment—you may request a different male or female tutor through our academic coordinator at no additional cost.",
+      "Yes. During your 3-day free trial, or at any point during your enrollment, you may request a different male or female tutor through our academic coordinator at no additional cost.",
   },
   {
     question: "Are parents allowed to observe online Quran classes?",
@@ -268,7 +268,7 @@ export default async function TeachersPage() {
                 </li>
                 <li className="flex items-start gap-2.5">
                   <Check className="w-4 h-4 text-[#C5A059] shrink-0 mt-0.5 stroke-[3]" />
-                  <span>Screen-shared digital Mushaf &amp; Qaida materials—no external unverified links</span>
+                  <span>Screen-shared digital Mushaf &amp; Qaida materials, no external unverified links</span>
                 </li>
                 <li className="flex items-start gap-2.5">
                   <Check className="w-4 h-4 text-[#C5A059] shrink-0 mt-0.5 stroke-[3]" />

@@ -12,7 +12,7 @@ import { buildPageMetadata } from "@/lib/seo-metadata";
 import { BookOpen, ArrowRight, Clock, Calendar, UserCheck } from "lucide-react";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "Quran & Tajweed Learning Guides — Al Kahaf Academy Educational Blog",
+  title: "Quran & Tajweed Learning Guides, Al Kahaf Academy Educational Blog",
   description:
     "Read scholar-reviewed guides on learning Quran with Tajweed, Noorani Qaida for beginners, realistic Hifz memorization timelines, and choosing a qualified online Quran tutor.",
   path: "/blog",

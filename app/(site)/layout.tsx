@@ -81,7 +81,7 @@ export async function generateMetadata(): Promise<Metadata> {
       template: "%s | Al Kahaf Academy",
     },
     description:
-      "Al Kahaf Academy — live 1-on-1 online Quran classes (Tajweed, Hifz, Noorani Qaida, Arabic & Islamic Studies) for kids & adults worldwide. Official website: www.alkahafacademy.com.",
+      "Al Kahaf Academy, live 1-on-1 online Quran classes (Tajweed, Hifz, Noorani Qaida, Arabic & Islamic Studies) for kids & adults worldwide. Official website: www.alkahafacademy.com.",
     keywords: [
       "Al Kahaf Academy",
       "alkahafacademy",
@@ -103,7 +103,7 @@ export async function generateMetadata(): Promise<Metadata> {
       url: "https://www.alkahafacademy.com",
       title: "Al Kahaf Academy | Online Quran & Islamic Education Worldwide",
       description:
-        "Al Kahaf Academy — online Quran and Islamic education for children and adults — official website: www.alkahafacademy.com. Start with a 3-Day Free Trial!",
+        "Al Kahaf Academy, online Quran and Islamic education for children and adults, official website: www.alkahafacademy.com. Start with a 3-Day Free Trial!",
       siteName: "Al Kahaf Academy",
       images: [
         {
@@ -112,7 +112,7 @@ export async function generateMetadata(): Promise<Metadata> {
           width: 1200,
           height: 630,
           type: "image/jpeg",
-          alt: "Al Kahaf Academy — Online Quran & Islamic Education Worldwide",
+          alt: "Al Kahaf Academy, Online Quran & Islamic Education Worldwide",
         },
       ],
     },
@@ -120,7 +120,7 @@ export async function generateMetadata(): Promise<Metadata> {
       card: "summary_large_image",
       title: "Al Kahaf Academy | Online Quran & Islamic Education Worldwide",
       description:
-        "Al Kahaf Academy — online Quran and Islamic education for children and adults — official website: www.alkahafacademy.com. Start with a 3-Day Free Trial!",
+        "Al Kahaf Academy, online Quran and Islamic education for children and adults, official website: www.alkahafacademy.com. Start with a 3-Day Free Trial!",
       images: ["https://www.alkahafacademy.com/images/og-preview.jpg"],
     },
     robots: {

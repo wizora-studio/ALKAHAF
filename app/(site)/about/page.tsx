@@ -24,7 +24,7 @@ import { Breadcrumbs, ENTITY_STATEMENT } from "@/components/seo/JsonLd";
 import { buildPageMetadata } from "@/lib/seo-metadata";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "About Al Kahaf Academy — Mission, Vision & Official Identity",
+  title: "About Al Kahaf Academy, Mission, Vision & Official Identity",
   description:
     "Established since 2015, Al Kahaf Academy delivers live 1-on-1 online Quran & Islamic education worldwide. Learn about our mission, certified tutors & teaching methodology.",
   path: "/about",

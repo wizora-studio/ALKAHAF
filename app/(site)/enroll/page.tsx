@@ -12,7 +12,7 @@ import { Breadcrumbs } from "@/components/seo/JsonLd";
 import { buildPageMetadata } from "@/lib/seo-metadata";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "Enroll Now — Start Your Online Quran Learning Journey",
+  title: "Enroll Now, Start Your Online Quran Learning Journey",
   description:
     "Register online at Al Kahaf Academy for personalized 1-on-1 Quran classes. Choose Noorani Qaida, Tajweed, Hifz, Islamic Studies, or Arabic. Start with a 3-day free trial.",
   path: "/enroll",

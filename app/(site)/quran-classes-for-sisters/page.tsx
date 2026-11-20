@@ -27,7 +27,7 @@ import {
 export const metadata: Metadata = buildPageMetadata({
   title: "Quran Classes for Sisters | Female Quran Teacher Online",
   description:
-    "Live 1-on-1 Quran classes for sisters and girls with certified female Quran teachers (Qariah & Hafiza) — Tajweed, Hifz & Noorani Qaida, private and safe, flexible timings in your time zone. Free 3-day trial.",
+    "Live 1-on-1 Quran classes for sisters and girls with certified female Quran teachers (Qariah & Hafiza), Tajweed, Hifz & Noorani Qaida, private and safe, flexible timings in your time zone. Free 3-day trial.",
   path: "/quran-classes-for-sisters",
   keywords: [
     "female Quran teacher online",
@@ -45,20 +45,20 @@ const SISTERS_FAQS = [
   {
     question: "Can my daughter learn with a female Quran teacher?",
     answer:
-      "Yes. Girls of any age can request a certified female teacher (Qariah or Hafiza) for every class — just mention it on the registration form or by WhatsApp. All lessons stay private and 1-on-1, and parents are welcome to observe any session.",
+      "Yes. Girls of any age can request a certified female teacher (Qariah or Hafiza) for every class. Just mention it on the registration form or by WhatsApp. All lessons stay private and 1-on-1, and parents are welcome to observe any session.",
   },
   {
     question: "Is it safe for my daughter to learn Quran online?",
     answer:
-      "Yes. Every class is a private 1-on-1 session with one teacher — no group strangers, no public chat. Parents can sit in on any lesson, and you receive monthly progress updates on Tajweed, fluency and memorisation, so you always know how your daughter is doing.",
+      "Yes. Every class is a private 1-on-1 session with one teacher, no group strangers, no public chat. Parents can sit in on any lesson, and you receive monthly progress updates on Tajweed, fluency and memorisation, so you always know how your daughter is doing.",
   },
   {
     question: "Are these classes only for girls, or can adult sisters join too?",
     answer:
-      "Both. Sisters of every age learn with us — young girls after school, teenagers working on Tajweed and Hifz, and adult sisters and mothers, including those learning alongside their children. Each student gets her own teacher and her own pace, whatever her age or level.",
+      "Both. Sisters of every age learn with us, young girls after school, teenagers working on Tajweed and Hifz, and adult sisters and mothers, including those learning alongside their children. Each student gets her own teacher and her own pace, whatever her age or level.",
   },
   {
-    question: "What can sisters study — Tajweed, Hifz, Arabic?",
+    question: "What can sisters study, Tajweed, Hifz, Arabic?",
     answer:
       "All four tracks are open to sisters: Noorani Qaida for complete beginners, Quran reading with Tajweed, Hifz memorisation with a structured revision plan, and Quranic Arabic. Your teacher sets the path after the free trial class, based on your level and your goal.",
   },
@@ -75,7 +75,7 @@ const SISTERS_TIMINGS = [
   {
     title: "After School",
     timing: "3:30 PM – 7:00 PM (your local time)",
-    desc: "The most popular slots for school-age girls — straight after school, before dinner and homework.",
+    desc: "The most popular slots for school-age girls, straight after school, before dinner and homework.",
   },
   {
     title: "Mornings",
@@ -106,7 +106,7 @@ export default async function QuranClassesForSistersPage() {
         course={{
           name: "Quran Classes for Sisters",
           description:
-            "Live 1-on-1 Quran classes for sisters and girls with certified female Quran teachers (Qariah & Hafiza) — Tajweed, Hifz & Noorani Qaida, private and safe, flexible timings in your time zone.",
+            "Live 1-on-1 Quran classes for sisters and girls with certified female Quran teachers (Qariah & Hafiza), Tajweed, Hifz & Noorani Qaida, private and safe, flexible timings in your time zone.",
           url: "/quran-classes-for-sisters",
           price: "25",
         }}
@@ -119,9 +119,9 @@ export default async function QuranClassesForSistersPage() {
 
       <PagesHero
         title="Quran Classes for Sisters"
-        description="Live 1-on-1 Quran lessons for sisters and girls with certified female teachers — Tajweed, Hifz and Noorani Qaida, in private classes at times that fit your day."
+        description="Live 1-on-1 Quran lessons for sisters and girls with certified female teachers, Tajweed, Hifz and Noorani Qaida, in private classes at times that fit your day."
         imageSrc="/images/online-quran-students-fair.jpg"
-        imageAlt="Quran Classes for Sisters — Al Kahaf Academy"
+        imageAlt="Quran Classes for Sisters, Al Kahaf Academy"
         badge={{
           text: "Certified Female Teachers Available",
           icon: Globe,
@@ -151,16 +151,16 @@ export default async function QuranClassesForSistersPage() {
                 Every sister at Al Kahaf Academy learns in a live 1-on-1
                 class with one dedicated teacher. Girls and women can request
                 a certified female teacher (Qariah or Hafiza) for every
-                lesson — so a daughter learns with a teacher her parents are
+                lesson, so a daughter learns with a teacher her parents are
                 comfortable with, and an adult sister learns with a teacher
                 she is comfortable with.
               </p>
               <p className="text-base sm:text-lg text-[#5C4A3E] leading-relaxed">
                 Lessons are 30 minutes, at the same time every week, in clear
                 English (and Urdu or Arabic where the student prefers). Your
-                teacher starts exactly where you are — from the Arabic
+                teacher starts exactly where you are (from the Arabic
                 alphabet for a complete beginner, or from Tajweed and
-                memorisation for a student who already reads — and moves at
+                memorisation for a student who already reads) and moves at
                 your pace.
               </p>
             </div>
@@ -171,11 +171,11 @@ export default async function QuranClassesForSistersPage() {
               </h3>
               <ul className="space-y-3">
                 {[
-                  "Certified female teachers — Qariahs and Hafizas — available on request",
+                  "Certified female teachers, Qariahs and Hafizas, available on request",
                   "Private 1-on-1 classes, never a group, with timings in your local time zone",
                   "A free 30-minute trial class before you enrol, with no payment taken",
                   "Monthly progress reports on Tajweed, fluency and memorisation",
-                  "A safe class parents can observe — for daughters of any age",
+                  "A safe class parents can observe, for daughters of any age",
                 ].map((point, idx) => (
                   <li
                     key={idx}
@@ -196,7 +196,7 @@ export default async function QuranClassesForSistersPage() {
             <div className="bg-[#FAF7F2] rounded-3xl p-8 border border-[#EAE3D6] shadow-sm space-y-6 sticky top-28">
               <div>
                 <span className="text-xs font-bold uppercase tracking-wider text-[#7A685B]">
-                  Class Timings — Your Local Time
+                  Class Timings, Your Local Time
                 </span>
                 <div className="text-3xl font-serif font-bold text-[#2D1C13] mt-1">
                   From $25/month
@@ -243,7 +243,7 @@ export default async function QuranClassesForSistersPage() {
             </h2>
             <p className="text-[#5C4A3E] text-base">
               Whether you are starting with the Arabic alphabet, reading the
-              Quran with Tajweed, or memorising Surahs — there is a structured
+              Quran with Tajweed, or memorising Surahs. There is a structured
               path, all taught live 1-on-1 by a teacher you choose.
             </p>
           </div>
@@ -284,10 +284,10 @@ export default async function QuranClassesForSistersPage() {
               Private, Safe and Comfortable
             </h3>
             <p className="text-sm sm:text-base text-[#5C4A3E] leading-relaxed">
-              Every class is a private 1-on-1 session — no group strangers,
+              Every class is a private 1-on-1 session, no group strangers,
               no public chat. Parents can sit in on any lesson for their
               daughter, and monthly progress updates keep the family in the
-              loop. Sisters choose a male or a female teacher — the choice is
+              loop. Sisters choose a male or a female teacher. The choice is
               yours, every time.
             </p>
           </div>
@@ -299,8 +299,8 @@ export default async function QuranClassesForSistersPage() {
             <p className="text-sm sm:text-base text-[#5C4A3E] leading-relaxed">
               Our female tutors are certified scholars (Hafiza &amp;
               Qariah) with years of teaching experience. Lessons follow a
-              structured curriculum — Noorani Qaida, Tajweed, Hifz and
-              Quranic Arabic — with regular assessments so progress is
+              structured curriculum (Noorani Qaida, Tajweed, Hifz and
+              Quranic Arabic) with regular assessments so progress is
               visible, not guessed.
             </p>
             <div className="pt-2">
@@ -325,7 +325,7 @@ export default async function QuranClassesForSistersPage() {
               Sisters Ask
             </span>
             <h2 className="text-3xl font-serif font-bold text-[#2D1C13]">
-              Frequently Asked Questions — Sisters Classes
+              Frequently Asked Questions, Sisters Classes
             </h2>
           </div>
 
@@ -354,7 +354,7 @@ export default async function QuranClassesForSistersPage() {
             Learning in Your Country?
           </h2>
           <p className="text-sm sm:text-base text-[#5C4A3E]">
-            Sisters classes run in every time zone — see the page for your
+            Sisters classes run in every time zone. See the page for your
             country:{" "}
             <Link href="/online-quran-classes-uk" className="text-[#9F7A38] font-bold hover:underline">UK</Link>
             {", "}

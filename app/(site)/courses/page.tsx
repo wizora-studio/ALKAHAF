@@ -23,7 +23,7 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "Online Quran & Islamic Courses — Noorani Qaida, Tajweed, Hifz & Arabic",
+  title: "Online Quran & Islamic Courses, Noorani Qaida, Tajweed, Hifz & Arabic",
   description:
     "Explore online Quran and Arabic courses at Al Kahaf Academy: Noorani Qaida for beginners, Quran with Tajweed, Hifz memorization, and Quranic Arabic.",
   path: "/courses",

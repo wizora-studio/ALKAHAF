@@ -23,7 +23,7 @@ export async function updateEnrollmentStatus(
       await resend.emails.send({
         from: "Al Kahaf Academy <admissions@alkahafacademy.com>",
         to: studentEmail,
-        subject: "🎉 Your Enrollment is Confirmed — Al Kahaf Academy",
+        subject: "🎉 Your Enrollment is Confirmed, Al Kahaf Academy",
         html: `
           <div style="font-family: 'Segoe UI', sans-serif; max-width: 560px; margin: 0 auto; background: #fff; border-radius: 12px; overflow: hidden; border: 1px solid #e2e8f0;">
             <div style="background: #7c2d12; padding: 30px; text-align: center;">

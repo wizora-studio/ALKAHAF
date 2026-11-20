@@ -11,7 +11,7 @@ import { Breadcrumbs } from "@/components/seo/JsonLd";
 import { buildPageMetadata } from "@/lib/seo-metadata";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "Class Schedule — Flexible 24/7 Online Quran Class Timings",
+  title: "Class Schedule, Flexible 24/7 Online Quran Class Timings",
   description:
     "View Al Kahaf Academy's 24/7 global online class schedule. Flexible morning, afternoon, evening, and weekend slots across UK, USA, Canada, Australia & Europe time zones.",
   path: "/schedule",

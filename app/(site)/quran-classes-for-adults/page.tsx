@@ -27,7 +27,7 @@ import {
 export const metadata: Metadata = buildPageMetadata({
   title: "Online Quran Classes for Adults",
   description:
-    "Live 1-on-1 online Quran classes for adults — start from the Arabic alphabet even if you never learned to read, or perfect Tajweed and memorise with Hifz. New Muslims welcome. Flexible evening & weekend timings. Free 3-day trial.",
+    "Live 1-on-1 online Quran classes for adults, start from the Arabic alphabet even if you never learned to read, or perfect Tajweed and memorise with Hifz. New Muslims welcome. Flexible evening & weekend timings. Free 3-day trial.",
   path: "/quran-classes-for-adults",
   keywords: [
     "online Quran classes for adults",
@@ -43,19 +43,19 @@ export const metadata: Metadata = buildPageMetadata({
 
 const ADULTS_FAQS = [
   {
-    question: "I never learned to read Arabic — can I really start as an adult?",
+    question: "I never learned to read Arabic, can I really start as an adult?",
     answer:
-      "Yes, absolutely. Many of our adult students start from zero. Your teacher begins with Noorani Qaida and the Arabic alphabet, one letter at a time, and moves at your pace — no classroom, no embarrassment, no rushing. Most complete beginners finish Noorani Qaida in 3 to 6 months with 3 to 5 classes a week, and then move on to reading the Quran itself.",
+      "Yes, absolutely. Many of our adult students start from zero. Your teacher begins with Noorani Qaida and the Arabic alphabet, one letter at a time, and moves at your pace, no classroom, no embarrassment, no rushing. Most complete beginners finish Noorani Qaida in 3 to 6 months with 3 to 5 classes a week, and then move on to reading the Quran itself.",
   },
   {
-    question: "I am a new Muslim (revert) — where do I start?",
+    question: "I am a new Muslim (revert), where do I start?",
     answer:
-      "Welcome — you start with the basics, and your teacher guides you step by step. The free trial class assesses your level, then your plan begins with the Arabic alphabet and the short Surahs and Duas you need for daily prayers, before moving on to full Quran reading and Tajweed. You learn privately, 1-on-1, at a pace that suits you.",
+      "Welcome. You start with the basics, and your teacher guides you step by step. The free trial class assesses your level, then your plan begins with the Arabic alphabet and the short Surahs and Duas you need for daily prayers, before moving on to full Quran reading and Tajweed. You learn privately, 1-on-1, at a pace that suits you.",
   },
   {
-    question: "I work full time — when can I take classes?",
+    question: "I work full time, when can I take classes?",
     answer:
-      "Classes run 7 days a week, and you choose the time — early mornings before work, evenings after work, or weekends. Most working adults take 2 or 3 thirty-minute classes a week in the evening. If your shift pattern changes, you can move your slot with your coordinator.",
+      "Classes run 7 days a week, and you choose the time, early mornings before work, evenings after work, or weekends. Most working adults take 2 or 3 thirty-minute classes a week in the evening. If your shift pattern changes, you can move your slot with your coordinator.",
   },
   {
     question: "How long does it take an adult to learn to read the Quran?",
@@ -65,7 +65,7 @@ const ADULTS_FAQS = [
   {
     question: "Can I memorise the Quran as an adult (Hifz)?",
     answer:
-      "Yes. Adults follow the same Hifz track as younger students, with a structured revision plan that fits around work and family life. Your teacher sets a realistic daily portion and reviews it with you regularly — many adult students memorise Juz Amma and then keep going, one Surah at a time.",
+      "Yes. Adults follow the same Hifz track as younger students, with a structured revision plan that fits around work and family life. Your teacher sets a realistic daily portion and reviews it with you regularly. Many adult students memorise Juz Amma and then keep going, one Surah at a time.",
   },
 ];
 
@@ -75,7 +75,7 @@ const ADULTS_TIMINGS = [
   {
     title: "Evenings",
     timing: "7:00 PM – 9:30 PM (your local time)",
-    desc: "The most popular slots for working adults — after work, before bed, at the same time every week.",
+    desc: "The most popular slots for working adults, after work, before bed, at the same time every week.",
   },
   {
     title: "Early Mornings",
@@ -90,7 +90,7 @@ const ADULTS_TIMINGS = [
   {
     title: "Flexible Daytime",
     timing: "Any time, 7 days a week",
-    desc: "For shift workers, parents at home during the day, and students — pick the hours that fit your life.",
+    desc: "For shift workers, parents at home during the day, and students. Pick the hours that fit your life.",
   },
 ];
 
@@ -106,7 +106,7 @@ export default async function QuranClassesForAdultsPage() {
         course={{
           name: "Online Quran Classes for Adults",
           description:
-            "Live 1-on-1 online Quran classes for adults — start from the Arabic alphabet even if you never learned to read, or perfect Tajweed and memorise with Hifz. New Muslims welcome. Flexible evening & weekend timings.",
+            "Live 1-on-1 online Quran classes for adults, start from the Arabic alphabet even if you never learned to read, or perfect Tajweed and memorise with Hifz. New Muslims welcome. Flexible evening & weekend timings.",
           url: "/quran-classes-for-adults",
           price: "25",
         }}
@@ -119,9 +119,9 @@ export default async function QuranClassesForAdultsPage() {
 
       <PagesHero
         title="Online Quran Classes for Adults"
-        description="Live 1-on-1 Quran lessons for adults — start from the Arabic alphabet, perfect your Tajweed, or memorise the Quran, at your own pace and at times that fit your work and family life."
+        description="Live 1-on-1 Quran lessons for adults, start from the Arabic alphabet, perfect your Tajweed, or memorise the Quran, at your own pace and at times that fit your work and family life."
         imageSrc="/images/program-hero-man.png"
-        imageAlt="Online Quran Classes for Adults — Al Kahaf Academy"
+        imageAlt="Online Quran Classes for Adults, Al Kahaf Academy"
         badge={{
           text: "For Adults of Every Level",
           icon: Globe,
@@ -149,7 +149,7 @@ export default async function QuranClassesForAdultsPage() {
               </h2>
               <p className="text-base sm:text-lg text-[#5C4A3E] leading-relaxed">
                 Many adults never had the chance to learn the Quran as
-                children — or they learned years ago and want to return to
+                children, or they learned years ago and want to return to
                 it properly. At Al Kahaf Academy you learn in a live 1-on-1
                 class with one dedicated teacher, privately, with no
                 classroom and no pressure. Your teacher starts exactly where
@@ -160,7 +160,7 @@ export default async function QuranClassesForAdultsPage() {
                 New Muslims are welcome, and so are adults returning after a
                 long gap. Lessons are 30 minutes, at the same time every
                 week, in clear English (and Urdu or Arabic where you
-                prefer), and your plan is built around your goal — reading
+                prefer), and your plan is built around your goal, reading
                 fluently, perfecting Tajweed, memorising, or understanding
                 Quranic Arabic.
               </p>
@@ -197,7 +197,7 @@ export default async function QuranClassesForAdultsPage() {
             <div className="bg-[#FAF7F2] rounded-3xl p-8 border border-[#EAE3D6] shadow-sm space-y-6 sticky top-28">
               <div>
                 <span className="text-xs font-bold uppercase tracking-wider text-[#7A685B]">
-                  Class Timings — Your Local Time
+                  Class Timings, Your Local Time
                 </span>
                 <div className="text-3xl font-serif font-bold text-[#2D1C13] mt-1">
                   From $25/month
@@ -244,7 +244,7 @@ export default async function QuranClassesForAdultsPage() {
             </h2>
             <p className="text-[#5C4A3E] text-base">
               Whether you are starting from the alphabet, returning to the
-              Quran after years away, or aiming to memorise — there is a
+              Quran after years away, or aiming to memorise. There is a
               structured path, all taught live 1-on-1.
             </p>
           </div>
@@ -286,7 +286,7 @@ export default async function QuranClassesForAdultsPage() {
             </h3>
             <p className="text-sm sm:text-base text-[#5C4A3E] leading-relaxed">
               There is no classroom to keep up with and nobody judging your
-              level — just you and your teacher, in a private 1-on-1 class.
+              level, just you and your teacher, in a private 1-on-1 class.
               Your teacher starts from the very basics if that is where you
               are, and builds your reading step by step until you are reading
               the Quran fluently, with Tajweed.
@@ -300,8 +300,8 @@ export default async function QuranClassesForAdultsPage() {
             <p className="text-sm sm:text-base text-[#5C4A3E] leading-relaxed">
               Our male and female tutors are certified scholars (Hafiz &amp;
               Qari) with years of teaching adults. Lessons follow a
-              structured curriculum — Noorani Qaida, Tajweed, Hifz and
-              Quranic Arabic — with regular assessments so progress is
+              structured curriculum (Noorani Qaida, Tajweed, Hifz and
+              Quranic Arabic) with regular assessments so progress is
               visible, not guessed.
             </p>
             <div className="pt-2">
@@ -326,7 +326,7 @@ export default async function QuranClassesForAdultsPage() {
               Adults Ask
             </span>
             <h2 className="text-3xl font-serif font-bold text-[#2D1C13]">
-              Frequently Asked Questions — Adult Classes
+              Frequently Asked Questions, Adult Classes
             </h2>
           </div>
 
@@ -355,7 +355,7 @@ export default async function QuranClassesForAdultsPage() {
             Learning in Your Country?
           </h2>
           <p className="text-sm sm:text-base text-[#5C4A3E]">
-            Adult classes run in every time zone — see the page for your
+            Adult classes run in every time zone. See the page for your
             country:{" "}
             <Link href="/online-quran-classes-uk" className="text-[#9F7A38] font-bold hover:underline">UK</Link>
             {", "}

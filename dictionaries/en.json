@@ -22,7 +22,7 @@
   },
   "hero": {
     "title": "Sacred Quran Education for All Ages",
-    "description": "Trusted online Quran education for all ages — kids, teens, and adults worldwide. Interactive live classes with qualified teachers.",
+    "description": "Trusted online Quran education for all ages, kids, teens, and adults worldwide. Interactive live classes with qualified teachers.",
     "enrollNow": "Enroll Now",
     "contactUs": "Contact Us",
     "admissionsOpen": "Admissions Open – 2026",
@@ -76,7 +76,7 @@
     },
     "arabic": {
       "title": "Quranic Arabic Language",
-      "description": "Learn the language of the Quran — grammar, vocabulary and meaning.",
+      "description": "Learn the language of the Quran, grammar, vocabulary and meaning.",
       "features": [
         "Quranic Vocabulary",
         "Basic Grammar",
@@ -284,15 +284,15 @@
       },
       {
         "q": "What age should my child start learning the Quran?",
-        "a": "Most children start between the ages of 4 and 7, once they can sit and focus for a 30-minute lesson. There is no strict minimum age — the free trial class assesses your child's level, and the teacher starts exactly where your child is, usually with Noorani Qaida. See our Quran Classes for Kids page for the full learning path by age."
+        "a": "Most children start between the ages of 4 and 7, once they can sit and focus for a 30-minute lesson. There is no strict minimum age. The free trial class assesses your child's level, and the teacher starts exactly where your child is, usually with Noorani Qaida. See our Quran Classes for Kids page for the full learning path by age."
       },
       {
         "q": "Do you teach new Muslims / reverts?",
-        "a": "Yes, new Muslims are very welcome. You start with the basics — the Arabic alphabet and the short Surahs and Duas needed for daily prayers — and your teacher guides you step by step in a private 1-on-1 class at your own pace. See our Quran Classes for Adults page for where new Muslims start."
+        "a": "Yes, new Muslims are very welcome. You start with the basics, the Arabic alphabet and the short Surahs and Duas needed for daily prayers, and your teacher guides you step by step in a private 1-on-1 class at your own pace. See our Quran Classes for Adults page for where new Muslims start."
       },
       {
         "q": "Can my daughter learn with a female teacher?",
-        "a": "Yes. Girls of any age can request a certified female teacher (Qariah or Hafiza) for every class — just mention it on the registration form or by WhatsApp. All lessons stay private and 1-on-1, and parents are welcome to observe any session. See our Quran Classes for Sisters page for details."
+        "a": "Yes. Girls of any age can request a certified female teacher (Qariah or Hafiza) for every class. Just mention it on the registration form or by WhatsApp. All lessons stay private and 1-on-1, and parents are welcome to observe any session. See our Quran Classes for Sisters page for details."
       }
     ]
   },
@@ -311,7 +311,7 @@
     },
     "history": {
       "title": "Our Journey",
-      "p1": "Al Kahaf Academy — online Quran and Islamic education for children and adults — official website: www.alkahafacademy.com. Founded in 2015 to meet the global need for high-quality, structured Quranic education, we serve students across the UK, USA, Canada, Australia, Europe, and worldwide through live 1-on-1 and interactive online classes.",
+      "p1": "Al Kahaf Academy, online Quran and Islamic education for children and adults, official website: www.alkahafacademy.com. Founded in 2015 to meet the global need for high-quality, structured Quranic education, we serve students across the UK, USA, Canada, Australia, Europe, and worldwide through live 1-on-1 and interactive online classes.",
       "p2": "Inspired by the light of the Quran and the Sunnah, Al Kahaf Academy is an independent global online Quran academy striving to embody a legacy of authentic Tajweed scholarship, compassion, and Islamic Tarbiyah.",
       "stat": "Years of Excellence (Since 2015)"
     },
@@ -460,7 +460,7 @@
     }
   },
   "footer": {
-    "mission": "Al Kahaf Academy — online Quran and Islamic education for children and adults — official website: www.alkahafacademy.com. Shaping hearts and minds in the light of the Qur'an since 2015.",
+    "mission": "Al Kahaf Academy, online Quran and Islamic education for children and adults, official website: www.alkahafacademy.com. Shaping hearts and minds in the light of the Qur'an since 2015.",
     "programsTitle": "Our Programs",
     "quickLinksTitle": "Quick Links",
     "stayConnectedTitle": "Stay Connected",

@@ -13,7 +13,7 @@ import { Breadcrumbs } from "@/components/seo/JsonLd";
 import { buildPageMetadata } from "@/lib/seo-metadata";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "Online Quran Classes — Live 1-on-1 Sessions Worldwide",
+  title: "Online Quran Classes, Live 1-on-1 Sessions Worldwide",
   description:
     "Join live 1-on-1 online Quran classes with certified male and female teachers via Zoom and Google Meet. Flexible 24/7 scheduling for kids and adults worldwide.",
   path: "/online-classes",

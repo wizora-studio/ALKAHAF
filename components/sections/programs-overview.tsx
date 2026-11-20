@@ -166,7 +166,7 @@ export default function ProgramsOverview({ dict }: ProgramsOverviewProps) {
           ))}
         </div>
 
-        {/* Who is learning? — audience pages */}
+        {/* Who is learning?, audience pages */}
         <div className="text-center mt-12 space-y-2">
           <p className="text-[#5C4A3E] font-sans text-sm sm:text-base">
             Learning for a child, a sister or an adult? Choose the class made

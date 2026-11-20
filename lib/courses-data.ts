@@ -137,7 +137,7 @@ export const COURSES_DATA: CourseDetail[] = [
   },
   {
     slug: "tajweed",
-    title: "Online Quran with Tajweed Course — Recitation & Makharij Mastery",
+    title: "Online Quran with Tajweed Course, Recitation & Makharij Mastery",
     shortTitle: "Quran with Tajweed",
     metaTitle: "Online Quran with Tajweed Classes for Kids & Adults",
     metaDescription:
@@ -234,16 +234,16 @@ export const COURSES_DATA: CourseDetail[] = [
   },
   {
     slug: "hifz",
-    title: "Online Hifz Quran Program — Structured Memorization for Kids & Adults",
+    title: "Online Hifz Quran Program, Structured Memorization for Kids & Adults",
     shortTitle: "Hifz Quran Program",
-    metaTitle: "Online Hifz Classes — Memorize Quran with Certified Hafiz Tutors",
+    metaTitle: "Online Hifz Classes, Memorize Quran with Certified Hafiz Tutors",
     metaDescription:
       "Join Al Kahaf Academy's structured Online Hifz Program for kids and adults. Daily Sabaq, Sabaqi, and Manzil revision with certified Hafiz and Hafiza tutors.",
     heroBadge: "Structured Memorization • Male & Female Huffaz",
     heroSubtitle:
-      "Aproven three-tier memorization methodology—Sabaq (new lesson), Sabaqi (recent revision), and Manzil (long-term retention)—tailored to your personal pace.",
+      "Aproven three-tier memorization methodology, Sabaq (new lesson), Sabaqi (recent revision), and Manzil (long-term retention), tailored to your personal pace.",
     overview:
-      "The Online Hifz Quran Program at Al Kahaf Academy provides a disciplined, encouraging pathway to memorizing the Holy Quran—whether your goal is Juz Amma, selected Surahs, or complete 30-Juz Hifz. Guided 1-on-1 by experienced Hafiz and Hafiza instructors, students follow a structured daily system that ensures new verses are memorized with flawless Tajweed while previously memorized portions remain strong.",
+      "The Online Hifz Quran Program at Al Kahaf Academy provides a disciplined, encouraging pathway to memorizing the Holy Quran, whether your goal is Juz Amma, selected Surahs, or complete 30-Juz Hifz. Guided 1-on-1 by experienced Hafiz and Hafiza instructors, students follow a structured daily system that ensures new verses are memorized with flawless Tajweed while previously memorized portions remain strong.",
     whoIsItFor: [
       "Children and teens aspiring to memorize Juz Amma or the complete Holy Quran alongside school",
       "Adults seeking a flexible part-time Hifz track (e.g., Juz Amma, Juz Tabarak, or key Surahs)",
@@ -322,9 +322,9 @@ export const COURSES_DATA: CourseDetail[] = [
   },
   {
     slug: "arabic",
-    title: "Online Quranic Arabic Course — Understand the Language of the Quran",
+    title: "Online Quranic Arabic Course, Understand the Language of the Quran",
     shortTitle: "Quranic Arabic Language",
-    metaTitle: "Online Quranic Arabic Course — Vocabulary & Grammar for All Ages",
+    metaTitle: "Online Quranic Arabic Course, Vocabulary & Grammar for All Ages",
     metaDescription:
       "Learn Quranic Arabic online at Al Kahaf Academy. Understand high-frequency Quranic words, root letters, Nahu & Sarf basics, and verse meanings in live 1-on-1 classes.",
     heroBadge: "Quranic Understanding • Kids & Adults",

@@ -12,7 +12,7 @@ import { buildPageMetadata } from "@/lib/seo-metadata";
 import { Sparkles, Check, Calendar, ShieldCheck, Users, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "Book a 3-Day Free Online Quran Trial — No Credit Card Required",
+  title: "Book a 3-Day Free Online Quran Trial, No Credit Card Required",
   description:
     "Try 3 free live 1-on-1 online Quran classes at Al Kahaf Academy with certified male or female teachers. Includes level assessment, Tajweed evaluation, and custom study plan.",
   path: "/free-trial",
@@ -54,7 +54,7 @@ export default async function FreeTrialPage() {
 
       <PagesHero
         title="Start Your 3-Day Free Online Quran Trial"
-        description="Experience three live 1-on-1 sessions with a certified male or female Quran tutor—including a personalized Tajweed and level evaluation—before choosing any monthly plan."
+        description="Experience three live 1-on-1 sessions with a certified male or female Quran tutor, including a personalized Tajweed and level evaluation, before choosing any monthly plan."
         imageSrc="/images/online-quran-students.jpg"
         imageAlt="3-Day Free Online Quran Trial at Al Kahaf Academy"
         badge={{
@@ -109,7 +109,7 @@ export default async function FreeTrialPage() {
                 Interactive Screen-Shared Lesson
               </h3>
               <p className="text-sm text-[#5C4A3E] leading-relaxed">
-                Experience a full 1-on-1 lesson in your chosen course—whether{" "}
+                Experience a full 1-on-1 lesson in your chosen course, whether{" "}
                 <Link href="/courses/noorani-qaida" className="text-[#9F7A38] font-bold hover:underline">
                   Noorani Qaida
                 </Link>
@@ -120,8 +120,7 @@ export default async function FreeTrialPage() {
                 , or{" "}
                 <Link href="/courses/hifz" className="text-[#9F7A38] font-bold hover:underline">
                   Hifz Memorization
-                </Link>
-                —plus daily Duas and Tarbiyah.
+                </Link>, plus daily Duas and Tarbiyah.
               </p>
             </div>
 
@@ -155,7 +154,7 @@ export default async function FreeTrialPage() {
         </div>
       </section>
 
-      {/* Who is the trial for? — audience entry points */}
+      {/* Who is the trial for?, audience entry points */}
       <section className="py-16 md:py-20 bg-[#FAF7F2] border-b border-[#EAE3D6]">
         <div className="max-w-7xl mx-auto px-5 sm:px-10 space-y-10">
           <div className="text-center max-w-3xl mx-auto space-y-3">
@@ -166,7 +165,7 @@ export default async function FreeTrialPage() {
               A Free Trial Made for Every Learner
             </h2>
             <p className="text-sm sm:text-base text-[#5C4A3E]">
-              The 3-day free trial works the same for everyone — one
+              The 3-day free trial works the same for everyone, one
               dedicated teacher, a level assessment, and a plan built around
               you. Choose the page made for your learner first:
             </p>
@@ -214,7 +213,7 @@ export default async function FreeTrialPage() {
               </h3>
               <p className="text-sm text-[#5C4A3E] leading-relaxed">
                 Start from the Arabic alphabet even if you never learned to
-                read — new Muslims welcome, with evening and weekend slots.
+                read, new Muslims welcome, with evening and weekend slots.
               </p>
               <span className="inline-flex items-center gap-1.5 text-sm font-bold text-[#9F7A38]">
                 Adult classes

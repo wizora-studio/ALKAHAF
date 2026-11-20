@@ -17,7 +17,7 @@ const Footer: React.FC<FooterProps> = ({ lang: propLang, dict }) => {
 
   const footerDict = dict?.footer || {
     mission:
-      "Al Kahaf Academy — online Quran and Islamic education for children and adults — official website: www.alkahafacademy.com. Shaping hearts and minds in the light of the Qur'an since 2015.",
+      "Al Kahaf Academy, online Quran and Islamic education for children and adults, official website: www.alkahafacademy.com. Shaping hearts and minds in the light of the Qur'an since 2015.",
     programsTitle: "Our Programs",
     quickLinksTitle: "Quick Links",
     stayConnectedTitle: "Stay Connected",
@@ -54,7 +54,7 @@ const Footer: React.FC<FooterProps> = ({ lang: propLang, dict }) => {
               <span className="absolute -inset-2 rounded-full bg-[#C5A059]/15 blur-xl"></span>
               <Image
                 src="/images/alkahaf-logo.png"
-                alt="Al Kahaf Academy — Online Quran & Islamic Education"
+                alt="Al Kahaf Academy, Online Quran & Islamic Education"
                 width={200}
                 height={200}
                 className="relative h-24 w-auto object-contain"
@@ -130,7 +130,7 @@ const Footer: React.FC<FooterProps> = ({ lang: propLang, dict }) => {
                   className="hover:text-[#C5A059] transition-colors flex items-center gap-2"
                 >
                   <span className="w-1.5 h-1.5 rounded-full bg-[#C5A059]"></span>
-                  Online Hifz Classes — Memorization
+                  Online Hifz Classes, Memorization
                 </Link>
               </li>
               <li>

@@ -4,7 +4,7 @@ import AdminDashboardShell from "./components/AdminDashboardShell";
 import { Toaster } from "sonner";
 
 export const metadata = {
-  title: "Admin Panel — Al Kahaf Academy",
+  title: "Admin Panel, Al Kahaf Academy",
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "any" },
@@ -32,7 +32,7 @@ export default async function AdminLayout({
     user = null;
   }
 
-  // Login page — no sidebar, full screen
+  // Login page, no sidebar, full screen
   if (!user) {
     return (
       <html lang="en">

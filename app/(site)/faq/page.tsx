@@ -12,7 +12,7 @@ import { buildPageMetadata } from "@/lib/seo-metadata";
 import { HelpCircle, ArrowRight, BookOpen, Clock, CreditCard, Users } from "lucide-react";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "Frequently Asked Questions — Online Quran Classes, Tuition & Free Trial",
+  title: "Frequently Asked Questions, Online Quran Classes, Tuition & Free Trial",
   description:
     "Find answers to common questions about Al Kahaf Academy's live 1-on-1 online Quran classes, 3-day free trial, certified male & female teachers, pricing plans, and flexible scheduling.",
   path: "/faq",
@@ -126,7 +126,7 @@ const FAQ_CATEGORIES: FaqCategory[] = [
       {
         question: "Do you offer family or sibling discounts?",
         answer:
-          "Yes. Families enrolling two or more siblings—or students taking multiple weekly tracks—receive custom family tuition discounts.",
+          "Yes. Families enrolling two or more siblings, or students taking multiple weekly tracks, receive custom family tuition discounts.",
       },
       {
         question: "What is the duration of each class?",
@@ -161,7 +161,7 @@ export default async function FaqHubPage() {
         title="Frequently Asked Questions"
         description="Complete answers about our 1-on-1 online Quran courses, 3-day free trial, certified male & female teachers, flexible time zones, and affordable monthly plans."
         imageSrc="/images/online-quran-students.jpg"
-        imageAlt="Frequently Asked Questions — Al Kahaf Academy"
+        imageAlt="Frequently Asked Questions, Al Kahaf Academy"
         badge={{
           text: "Parent & Student Help Center",
           icon: HelpCircle,

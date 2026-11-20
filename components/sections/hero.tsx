@@ -16,7 +16,7 @@ export default function HeroSection({ dict, lang = "en" }: HeroSectionProps) {
 
   const hero = dict || {
     mainTitle:
-      "Online Quran Classes for Kids & Adults, Live 1-on-1 with Certified Teachers",
+      "Al Kahaf Academy: Online Quran Classes for Kids & Adults, Live 1-on-1 with Certified Teachers",
     subtitle: "Flexible, affordable online classes for every age",
     trialCta: "START YOUR FREE 3 DAYS TRIAL",
     contactUs: "Contact Us",
@@ -71,6 +71,15 @@ export default function HeroSection({ dict, lang = "en" }: HeroSectionProps) {
 
           {/* Right Content Column, centered text */}
           <div className="md:col-span-7 lg:col-span-7 text-center flex flex-col items-center justify-center">
+            {/* Brand eyebrow, so the brand name is visible above the headline */}
+            <motion.p
+              initial={{ opacity: 0, y: -8 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+              className="text-xs sm:text-sm font-bold tracking-[0.25em] uppercase text-[#9F7A38] mb-4"
+            >
+              Al Kahaf Academy, Online Quran Academy
+            </motion.p>
             {/* Bismillah Calligraphy, GOLD & PROMINENT */}
             <motion.div
               initial={{ opacity: 0, y: -12 }}

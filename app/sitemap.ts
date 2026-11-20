@@ -16,7 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // file (git log -1 --format=%cI), so Google sees real freshness per URL
   // instead of one shared hardcoded date.
   const staticRoutes: RouteConfig[] = [
-    { path: "", priority: 1.0, changeFrequency: "daily", lastModified: "2026-11-11T16:34:42+05:00" },
+    { path: "", priority: 1.0, changeFrequency: "daily", lastModified: "2026-11-20T18:45:00+05:00" },
     { path: "/courses", priority: 0.95, changeFrequency: "weekly", lastModified: "2026-10-15T16:27:11+05:00" },
     { path: "/programs", priority: 0.9, changeFrequency: "weekly", lastModified: "2026-10-15T16:27:11+05:00" },
     { path: "/online-classes", priority: 0.9, changeFrequency: "weekly", lastModified: "2026-10-15T16:27:11+05:00" },
@@ -26,7 +26,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/teachers", priority: 0.85, changeFrequency: "monthly", lastModified: "2026-10-15T16:27:11+05:00" },
     { path: "/faq", priority: 0.8, changeFrequency: "monthly", lastModified: "2026-11-12T19:34:58+05:00" },
     { path: "/blog", priority: 0.8, changeFrequency: "weekly", lastModified: "2026-11-12T19:34:58+05:00" },
-    { path: "/about", priority: 0.75, changeFrequency: "monthly", lastModified: "2026-10-15T16:27:11+05:00" },
+    { path: "/about", priority: 0.75, changeFrequency: "monthly", lastModified: "2026-11-20T18:45:00+05:00" },
     { path: "/schedule", priority: 0.75, changeFrequency: "weekly", lastModified: "2026-10-15T16:27:11+05:00" },
     { path: "/online-quran-classes-uk", priority: 0.85, changeFrequency: "weekly", lastModified: "2026-11-11T17:46:21+05:00" },
     { path: "/online-quran-classes-usa", priority: 0.85, changeFrequency: "weekly", lastModified: "2026-11-11T17:46:21+05:00" },

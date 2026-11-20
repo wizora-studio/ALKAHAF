@@ -6,6 +6,8 @@ import Footer from "@/components/layout/footer";
 import PagesHero from "@/components/sections/pageshero";
 import ContactForm from "@/components/sections/contact-form";
 import Newsletter from "@/components/sections/newsletter";
+import { TrustStrip, ProgramCards, GoldDivider } from "@/components/sections/landing-page-sections";
+import { FaqAccordion } from "@/components/sections/landing-faq";
 import { getDictionary } from "@/lib/dictionary";
 import { getCourseBySlug } from "@/lib/courses-data";
 import {
@@ -15,7 +17,6 @@ import {
 } from "@/components/seo/JsonLd";
 import { buildPageMetadata } from "@/lib/seo-metadata";
 import {
-  BookOpen,
   Check,
   Clock,
   GraduationCap,
@@ -153,6 +154,7 @@ export default async function QuranClassesForKidsPage() {
           href: "/pricing",
         }}
       />
+      <TrustStrip />
 
       {/* Why parents choose Al Kahaf for their kids */}
       <section className="py-16 md:py-20 bg-white border-b border-[#EAE3D6]">
@@ -165,6 +167,7 @@ export default async function QuranClassesForKidsPage() {
               <h2 className="text-3xl font-serif font-bold text-[#2D1C13]">
                 One Teacher, One Child, Full Attention
               </h2>
+              <GoldDivider align="left" />
               <p className="text-base sm:text-lg text-[#5C4A3E] leading-relaxed">
                 Every child at Al Kahaf Academy learns in a live 1-on-1
                 class with one dedicated teacher, never a group where your
@@ -210,7 +213,7 @@ export default async function QuranClassesForKidsPage() {
 
           {/* Kids timings card */}
           <aside className="lg:col-span-1">
-            <div className="bg-[#FAF7F2] rounded-3xl p-8 border border-[#EAE3D6] shadow-sm space-y-6 sticky top-28">
+            <div className="bg-[#FAF7F2] rounded-3xl p-8 border border-[#EAE3D6] shadow-[0_8px_30px_rgba(197,160,89,0.12)] ring-1 ring-[#C5A059]/15 space-y-6 sticky top-28">
               <div>
                 <span className="text-xs font-bold uppercase tracking-wider text-[#7A685B]">
                   Class Timings, Your Local Time
@@ -268,7 +271,7 @@ export default async function QuranClassesForKidsPage() {
             {KIDS_AGE_PATH.map((step) => (
               <div
                 key={step.age}
-                className="p-7 rounded-3xl bg-white border border-[#EAE3D6] space-y-3"
+                className="p-7 rounded-3xl bg-white border border-[#EAE3D6] space-y-3 hover:border-[#C5A059]/60 hover:shadow-[0_16px_35px_rgba(197,160,89,0.15)] hover:-translate-y-1 transition-all duration-300"
               >
                 <span className="text-xs font-bold text-[#9F7A38]">
                   {step.age}
@@ -286,54 +289,20 @@ export default async function QuranClassesForKidsPage() {
       </section>
 
       {/* Programs suited to kids */}
-      <section className="py-16 md:py-24 bg-white border-b border-[#EAE3D6]">
-        <div className="max-w-7xl mx-auto px-5 sm:px-10">
-          <div className="max-w-3xl mb-12 space-y-3">
-            <span className="text-xs font-bold uppercase tracking-wider text-[#9F7A38]">
-              Programmes for Kids
-            </span>
-            <h2 className="text-3xl sm:text-4xl font-serif font-bold text-[#2D1C13]">
-              The Right Programme for Every Child
-            </h2>
-            <p className="text-[#5C4A3E] text-base">
-              Whether your child is starting with the Arabic alphabet, reading
-              the Quran with Tajweed, or memorising Surahs. There is a
-              structured path, all taught live 1-on-1.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-6">
-            {kidsCourses.map((course: any) => (
-              <Link
-                key={course.slug}
-                href={`/courses/${course.slug}`}
-                className="p-7 rounded-3xl bg-[#FAF7F2] border border-[#EAE3D6] hover:border-[#C5A059] transition-all group space-y-3"
-              >
-                <span className="text-xs font-bold text-[#9F7A38]">
-                  {course.durationAndFormat.startingPrice} •{" "}
-                  {course.durationAndFormat.frequency}
-                </span>
-                <h3 className="text-xl font-serif font-bold text-[#2D1C13] group-hover:text-[#9F7A38] transition-colors">
-                  {course.shortTitle}
-                </h3>
-                <p className="text-sm text-[#5C4A3E] leading-relaxed">
-                  {course.heroSubtitle}
-                </p>
-                <span className="inline-flex items-center gap-1.5 text-sm font-bold text-[#9F7A38]">
-                  Explore this course
-                  <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-                </span>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
+      <ProgramCards
+        courses={kidsCourses}
+        eyebrow="Programmes for Kids"
+        title="The Right Programme for Every Child"
+        subtitle="Whether your child is starting with the Arabic alphabet, reading the Quran with Tajweed, or memorising Surahs. There is a structured path, all taught live 1-on-1."
+      />
 
       {/* Safety and teachers for kids */}
       <section className="py-16 bg-[#FAF7F2] border-b border-[#EAE3D6]">
         <div className="max-w-7xl mx-auto px-5 sm:px-10 grid md:grid-cols-2 gap-8">
-          <div className="p-8 rounded-3xl bg-white border border-[#EAE3D6] space-y-3">
-            <ShieldCheck className="w-8 h-8 text-[#C5A059]" />
+          <div className="p-8 rounded-3xl bg-white border border-[#EAE3D6] space-y-3 hover:border-[#C5A059]/50 hover:shadow-[0_16px_35px_rgba(197,160,89,0.15)] hover:-translate-y-1 transition-all duration-300">
+            <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#FAF5EC] to-[#F5EEDD] border border-[#C5A059]/30 flex items-center justify-center text-[#C5A059]">
+              <ShieldCheck className="w-7 h-7" />
+            </div>
             <h3 className="text-2xl font-serif font-bold text-[#2D1C13]">
               Safe Learning for Your Child
             </h3>
@@ -344,8 +313,10 @@ export default async function QuranClassesForKidsPage() {
               certified female teachers whenever the family prefers.
             </p>
           </div>
-          <div className="p-8 rounded-3xl bg-white border border-[#EAE3D6] space-y-3">
-            <GraduationCap className="w-8 h-8 text-[#C5A059]" />
+          <div className="p-8 rounded-3xl bg-white border border-[#EAE3D6] space-y-3 hover:border-[#C5A059]/50 hover:shadow-[0_16px_35px_rgba(197,160,89,0.15)] hover:-translate-y-1 transition-all duration-300">
+            <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#FAF5EC] to-[#F5EEDD] border border-[#C5A059]/30 flex items-center justify-center text-[#C5A059]">
+              <GraduationCap className="w-7 h-7" />
+            </div>
             <h3 className="text-2xl font-serif font-bold text-[#2D1C13]">
               Patient Teachers, Real Progress
             </h3>
@@ -370,60 +341,74 @@ export default async function QuranClassesForKidsPage() {
       </section>
 
       {/* Kids FAQs (visible HTML matching FAQPage schema) */}
-      <section className="py-16 md:py-20 bg-white border-b border-[#EAE3D6]">
-        <div className="max-w-4xl mx-auto px-5 sm:px-10 space-y-8">
-          <div className="text-center space-y-3">
-            <span className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-[#FAF5EC] border border-[#C5A059]/30 text-xs font-bold text-[#9F7A38]">
-              <BookOpen className="w-3.5 h-3.5" />
-              Parents Ask
-            </span>
-            <h2 className="text-3xl font-serif font-bold text-[#2D1C13]">
-              Frequently Asked Questions, Kids Classes
-            </h2>
-          </div>
-
-          <div className="space-y-4">
-            {KIDS_FAQS.map((faq, idx) => (
-              <div
-                key={idx}
-                className="bg-[#FAF7F2] rounded-2xl p-6 border border-[#EAE3D6] space-y-2"
-              >
-                <h3 className="text-lg font-serif font-bold text-[#2D1C13]">
-                  {faq.question}
-                </h3>
-                <p className="text-sm sm:text-base text-[#5C4A3E] leading-relaxed">
-                  {faq.answer}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      <FaqAccordion faqs={KIDS_FAQS} eyebrow="Parents Ask" title="Frequently Asked Questions, Kids Classes" />
 
       {/* Learning in your country? */}
-      <section className="py-12 bg-[#FAF7F2] border-b border-[#EAE3D6]">
-        <div className="max-w-4xl mx-auto px-5 sm:px-10 text-center space-y-3">
+      <section className="py-12 bg-white border-b border-[#EAE3D6]">
+        <div className="max-w-4xl mx-auto px-5 sm:px-10 text-center space-y-5">
           <h2 className="text-2xl font-serif font-bold text-[#2D1C13]">
             Learning in Your Country?
           </h2>
-          <p className="text-sm sm:text-base text-[#5C4A3E]">
-            Kids classes run in every time zone. See the page for your
-            country:{" "}
-            <Link href="/online-quran-classes-uk" className="text-[#9F7A38] font-bold hover:underline">UK</Link>
-            {", "}
-            <Link href="/online-quran-classes-usa" className="text-[#9F7A38] font-bold hover:underline">USA</Link>
-            {", "}
-            <Link href="/online-quran-classes-canada" className="text-[#9F7A38] font-bold hover:underline">Canada</Link>
-            {", "}
-            <Link href="/online-quran-classes-australia" className="text-[#9F7A38] font-bold hover:underline">Australia</Link>
-            {", "}
-            <Link href="/online-quran-classes-europe" className="text-[#9F7A38] font-bold hover:underline">Europe</Link>
-            {", "}
-            <Link href="/online-quran-classes-germany" className="text-[#9F7A38] font-bold hover:underline">Germany</Link>
-            {" or "}
-            <Link href="/online-quran-classes-france" className="text-[#9F7A38] font-bold hover:underline">France</Link>
-            .
-          </p>
+          <GoldDivider align="center" />
+          <p className="text-sm sm:text-base text-[#5C4A3E]">Kids classes run in every time zone. See the page for your country:</p>
+          <div className="flex flex-wrap items-center justify-center gap-3 pt-1">
+                <Link
+                  key="/online-quran-classes-uk"
+                  href="/online-quran-classes-uk"
+                  className="inline-flex items-center gap-1.5 px-5 py-2.5 rounded-full bg-[#FAF5EC] border border-[#C5A059]/30 text-sm font-bold text-[#9F7A38] hover:bg-[#C5A059] hover:text-white hover:border-[#C5A059] transition-all"
+                >
+                  UK
+                  <ArrowRight className="w-4 h-4" />
+                </Link>
+                <Link
+                  key="/online-quran-classes-usa"
+                  href="/online-quran-classes-usa"
+                  className="inline-flex items-center gap-1.5 px-5 py-2.5 rounded-full bg-[#FAF5EC] border border-[#C5A059]/30 text-sm font-bold text-[#9F7A38] hover:bg-[#C5A059] hover:text-white hover:border-[#C5A059] transition-all"
+                >
+                  USA
+                  <ArrowRight className="w-4 h-4" />
+                </Link>
+                <Link
+                  key="/online-quran-classes-canada"
+                  href="/online-quran-classes-canada"
+                  className="inline-flex items-center gap-1.5 px-5 py-2.5 rounded-full bg-[#FAF5EC] border border-[#C5A059]/30 text-sm font-bold text-[#9F7A38] hover:bg-[#C5A059] hover:text-white hover:border-[#C5A059] transition-all"
+                >
+                  Canada
+                  <ArrowRight className="w-4 h-4" />
+                </Link>
+                <Link
+                  key="/online-quran-classes-australia"
+                  href="/online-quran-classes-australia"
+                  className="inline-flex items-center gap-1.5 px-5 py-2.5 rounded-full bg-[#FAF5EC] border border-[#C5A059]/30 text-sm font-bold text-[#9F7A38] hover:bg-[#C5A059] hover:text-white hover:border-[#C5A059] transition-all"
+                >
+                  Australia
+                  <ArrowRight className="w-4 h-4" />
+                </Link>
+                <Link
+                  key="/online-quran-classes-europe"
+                  href="/online-quran-classes-europe"
+                  className="inline-flex items-center gap-1.5 px-5 py-2.5 rounded-full bg-[#FAF5EC] border border-[#C5A059]/30 text-sm font-bold text-[#9F7A38] hover:bg-[#C5A059] hover:text-white hover:border-[#C5A059] transition-all"
+                >
+                  Europe
+                  <ArrowRight className="w-4 h-4" />
+                </Link>
+                <Link
+                  key="/online-quran-classes-germany"
+                  href="/online-quran-classes-germany"
+                  className="inline-flex items-center gap-1.5 px-5 py-2.5 rounded-full bg-[#FAF5EC] border border-[#C5A059]/30 text-sm font-bold text-[#9F7A38] hover:bg-[#C5A059] hover:text-white hover:border-[#C5A059] transition-all"
+                >
+                  Germany
+                  <ArrowRight className="w-4 h-4" />
+                </Link>
+                <Link
+                  key="/online-quran-classes-france"
+                  href="/online-quran-classes-france"
+                  className="inline-flex items-center gap-1.5 px-5 py-2.5 rounded-full bg-[#FAF5EC] border border-[#C5A059]/30 text-sm font-bold text-[#9F7A38] hover:bg-[#C5A059] hover:text-white hover:border-[#C5A059] transition-all"
+                >
+                  France
+                  <ArrowRight className="w-4 h-4" />
+                </Link>
+          </div>
         </div>
       </section>
 

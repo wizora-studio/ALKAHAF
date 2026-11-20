@@ -6,6 +6,8 @@ import Footer from "@/components/layout/footer";
 import PagesHero from "@/components/sections/pageshero";
 import ContactForm from "@/components/sections/contact-form";
 import Newsletter from "@/components/sections/newsletter";
+import { TrustStrip, GoldDivider } from "@/components/sections/landing-page-sections";
+import { FaqAccordion } from "@/components/sections/landing-faq";
 import { getDictionary } from "@/lib/dictionary";
 import { getCourseBySlug } from "@/lib/courses-data";
 import {
@@ -15,7 +17,6 @@ import {
 } from "@/components/seo/JsonLd";
 import { buildPageMetadata } from "@/lib/seo-metadata";
 import {
-  BookOpen,
   Check,
   Clock,
   GraduationCap,
@@ -160,6 +161,7 @@ export default async function OnlineHifzClassesPage() {
           href: "/courses/hifz",
         }}
       />
+      <TrustStrip />
 
       {/* The method */}
       <section className="py-16 md:py-20 bg-white border-b border-[#EAE3D6]">
@@ -172,6 +174,7 @@ export default async function OnlineHifzClassesPage() {
               <h2 className="text-3xl font-serif font-bold text-[#2D1C13]">
                 Sabaq, Sabqi &amp; Manzil, Revision Is the Method
               </h2>
+              <GoldDivider align="left" />
               <p className="text-base sm:text-lg text-[#5C4A3E] leading-relaxed">
                 Memorizing new verses is the easy part. Keeping them is the
                 hard part, and it is where most self-taught Hifz fails.
@@ -201,7 +204,7 @@ export default async function OnlineHifzClassesPage() {
               ].map((step) => (
                 <div
                   key={step.title}
-                  className="p-6 rounded-3xl bg-[#FAF7F2] border border-[#EAE3D6] space-y-3"
+                  className="p-6 rounded-3xl bg-[#FAF7F2] border border-[#EAE3D6] space-y-3 hover:border-[#C5A059]/50 hover:shadow-[0_16px_35px_rgba(197,160,89,0.15)] hover:-translate-y-1 transition-all duration-300"
                 >
                   <step.icon className="w-7 h-7 text-[#C5A059]" />
                   <h3 className="text-lg font-serif font-bold text-[#2D1C13]">
@@ -242,7 +245,7 @@ export default async function OnlineHifzClassesPage() {
 
           {/* Hifz timings card */}
           <aside className="lg:col-span-1">
-            <div className="bg-[#FAF7F2] rounded-3xl p-8 border border-[#EAE3D6] shadow-sm space-y-6 sticky top-28">
+            <div className="bg-[#FAF7F2] rounded-3xl p-8 border border-[#EAE3D6] shadow-[0_8px_30px_rgba(197,160,89,0.12)] ring-1 ring-[#C5A059]/15 space-y-6 sticky top-28">
               <div>
                 <span className="text-xs font-bold uppercase tracking-wider text-[#7A685B]">
                   Class Timings, Your Local Time
@@ -302,7 +305,7 @@ export default async function OnlineHifzClassesPage() {
             {HIFZ_TRACKS.map((track) => (
               <div
                 key={track.name}
-                className="p-7 rounded-3xl bg-white border border-[#EAE3D6] space-y-3"
+                className="p-7 rounded-3xl bg-white border border-[#EAE3D6] space-y-3 hover:border-[#C5A059]/60 hover:shadow-[0_16px_35px_rgba(197,160,89,0.15)] hover:-translate-y-1 transition-all duration-300"
               >
                 <h3 className="text-xl font-serif font-bold text-[#2D1C13]">
                   {track.name}
@@ -339,8 +342,10 @@ export default async function OnlineHifzClassesPage() {
       {/* Who Hifz is for */}
       <section className="py-16 bg-white border-b border-[#EAE3D6]">
         <div className="max-w-7xl mx-auto px-5 sm:px-10 grid md:grid-cols-2 gap-8">
-          <div className="p-8 rounded-3xl bg-[#FAF7F2] border border-[#EAE3D6] space-y-3">
-            <GraduationCap className="w-8 h-8 text-[#C5A059]" />
+          <div className="p-8 rounded-3xl bg-[#FAF7F2] border border-[#EAE3D6] space-y-3 hover:border-[#C5A059]/50 hover:shadow-[0_16px_35px_rgba(197,160,89,0.15)] hover:-translate-y-1 transition-all duration-300">
+            <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#FAF5EC] to-[#F5EEDD] border border-[#C5A059]/30 flex items-center justify-center text-[#C5A059]">
+              <GraduationCap className="w-7 h-7" />
+            </div>
             <h3 className="text-2xl font-serif font-bold text-[#2D1C13]">
               Hifz for Kids &amp; Teens
             </h3>
@@ -361,8 +366,10 @@ export default async function OnlineHifzClassesPage() {
               </Link>
             </div>
           </div>
-          <div className="p-8 rounded-3xl bg-[#FAF7F2] border border-[#EAE3D6] space-y-3">
-            <ShieldCheck className="w-8 h-8 text-[#C5A059]" />
+          <div className="p-8 rounded-3xl bg-[#FAF7F2] border border-[#EAE3D6] space-y-3 hover:border-[#C5A059]/50 hover:shadow-[0_16px_35px_rgba(197,160,89,0.15)] hover:-translate-y-1 transition-all duration-300">
+            <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#FAF5EC] to-[#F5EEDD] border border-[#C5A059]/30 flex items-center justify-center text-[#C5A059]">
+              <ShieldCheck className="w-7 h-7" />
+            </div>
             <h3 className="text-2xl font-serif font-bold text-[#2D1C13]">
               Hifz for Adults &amp; Sisters
             </h3>
@@ -398,7 +405,7 @@ export default async function OnlineHifzClassesPage() {
           <div className="max-w-4xl mx-auto px-5 sm:px-10">
             <Link
               href="/courses/hifz"
-              className="block p-8 rounded-3xl bg-white border border-[#EAE3D6] hover:border-[#C5A059] transition-all group space-y-3"
+              className="block p-8 rounded-3xl bg-white border border-[#EAE3D6] hover:border-[#C5A059] transition-all group space-y-3 hover:shadow-[0_16px_35px_rgba(197,160,89,0.15)]"
             >
               <span className="text-xs font-bold text-[#9F7A38]">
                 {hifzCourse.durationAndFormat.startingPrice} •{" "}
@@ -420,52 +427,42 @@ export default async function OnlineHifzClassesPage() {
       )}
 
       {/* Hifz FAQs (visible HTML matching FAQPage schema) */}
-      <section className="py-16 md:py-20 bg-white border-b border-[#EAE3D6]">
-        <div className="max-w-4xl mx-auto px-5 sm:px-10 space-y-8">
-          <div className="text-center space-y-3">
-            <span className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-[#FAF5EC] border border-[#C5A059]/30 text-xs font-bold text-[#9F7A38]">
-              <BookOpen className="w-3.5 h-3.5" />
-              Hifz Students Ask
-            </span>
-            <h2 className="text-3xl font-serif font-bold text-[#2D1C13]">
-              Frequently Asked Questions, Hifz Classes
-            </h2>
-          </div>
-
-          <div className="space-y-4">
-            {HIFZ_FAQS.map((faq, idx) => (
-              <div
-                key={idx}
-                className="bg-[#FAF7F2] rounded-2xl p-6 border border-[#EAE3D6] space-y-2"
-              >
-                <h3 className="text-lg font-serif font-bold text-[#2D1C13]">
-                  {faq.question}
-                </h3>
-                <p className="text-sm sm:text-base text-[#5C4A3E] leading-relaxed">
-                  {faq.answer}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      <FaqAccordion faqs={HIFZ_FAQS} eyebrow="Hifz Students Ask" title="Frequently Asked Questions, Hifz Classes" />
 
       {/* Learning for kids, sisters or adults? */}
       <section className="py-12 bg-white border-b border-[#EAE3D6]">
-        <div className="max-w-4xl mx-auto px-5 sm:px-10 text-center space-y-3">
+        <div className="max-w-4xl mx-auto px-5 sm:px-10 text-center space-y-5">
           <h2 className="text-2xl font-serif font-bold text-[#2D1C13]">
             Learning for Kids, Sisters or Adults?
           </h2>
-          <p className="text-sm sm:text-base text-[#5C4A3E]">
-            Every class is live and 1-on-1. Choose the page made for your
-            learner:{" "}
-            <Link href="/quran-classes-for-kids" className="text-[#9F7A38] font-bold hover:underline">Quran Classes for Kids</Link>
-            {", "}
-            <Link href="/quran-classes-for-sisters" className="text-[#9F7A38] font-bold hover:underline">Quran Classes for Sisters</Link>
-            {" or "}
-            <Link href="/quran-classes-for-adults" className="text-[#9F7A38] font-bold hover:underline">Quran Classes for Adults</Link>
-            .
-          </p>
+          <GoldDivider align="center" />
+          <p className="text-sm sm:text-base text-[#5C4A3E]">Every class is live and 1-on-1. Choose the page made for your learner:</p>
+          <div className="flex flex-wrap items-center justify-center gap-3 pt-1">
+                <Link
+                  key="/quran-classes-for-kids"
+                  href="/quran-classes-for-kids"
+                  className="inline-flex items-center gap-1.5 px-5 py-2.5 rounded-full bg-[#FAF5EC] border border-[#C5A059]/30 text-sm font-bold text-[#9F7A38] hover:bg-[#C5A059] hover:text-white hover:border-[#C5A059] transition-all"
+                >
+                  Quran Classes for Kids
+                  <ArrowRight className="w-4 h-4" />
+                </Link>
+                <Link
+                  key="/quran-classes-for-sisters"
+                  href="/quran-classes-for-sisters"
+                  className="inline-flex items-center gap-1.5 px-5 py-2.5 rounded-full bg-[#FAF5EC] border border-[#C5A059]/30 text-sm font-bold text-[#9F7A38] hover:bg-[#C5A059] hover:text-white hover:border-[#C5A059] transition-all"
+                >
+                  Quran Classes for Sisters
+                  <ArrowRight className="w-4 h-4" />
+                </Link>
+                <Link
+                  key="/quran-classes-for-adults"
+                  href="/quran-classes-for-adults"
+                  className="inline-flex items-center gap-1.5 px-5 py-2.5 rounded-full bg-[#FAF5EC] border border-[#C5A059]/30 text-sm font-bold text-[#9F7A38] hover:bg-[#C5A059] hover:text-white hover:border-[#C5A059] transition-all"
+                >
+                  Quran Classes for Adults
+                  <ArrowRight className="w-4 h-4" />
+                </Link>
+          </div>
         </div>
       </section>
 

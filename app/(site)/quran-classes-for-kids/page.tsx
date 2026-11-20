@@ -27,7 +27,7 @@ import {
 export const metadata: Metadata = buildPageMetadata({
   title: "Online Quran Classes for Kids",
   description:
-    "Live 1-on-1 online Quran classes for kids ages 5–15 — Noorani Qaida, Tajweed & Hifz with patient certified teachers, female teachers for girls, after-school timings and monthly progress reports for parents. Free 3-day trial.",
+    "Live 1-on-1 online Quran classes for kids ages 5–15, Noorani Qaida, Tajweed & Hifz with patient certified teachers, female teachers for girls, after-school timings and monthly progress reports for parents. Free 3-day trial.",
   path: "/quran-classes-for-kids",
   keywords: [
     "online Quran classes for kids",
@@ -45,22 +45,22 @@ const KIDS_FAQS = [
   {
     question: "What age should my child start learning the Quran?",
     answer:
-      "Most children start between the ages of 4 and 7, once they can sit and focus for a 30-minute lesson. There is no strict minimum age — the free trial class assesses your child's level and attention span, and the teacher starts exactly where your child is, usually with Noorani Qaida and the Arabic alphabet. Older children and teenagers can start at any age too.",
+      "Most children start between the ages of 4 and 7, once they can sit and focus for a 30-minute lesson. There is no strict minimum age. The free trial class assesses your child's level and attention span, and the teacher starts exactly where your child is, usually with Noorani Qaida and the Arabic alphabet. Older children and teenagers can start at any age too.",
   },
   {
     question: "Are online Quran classes safe for my child?",
     answer:
-      "Yes. Every class is a private 1-on-1 session — no group strangers, no public chat, no camera sharing with anyone else. Parents can sit in on any lesson, and you receive monthly progress updates on Tajweed, fluency and memorisation, so you always know how your child is doing.",
+      "Yes. Every class is a private 1-on-1 session, no group strangers, no public chat, no camera sharing with anyone else. Parents can sit in on any lesson, and you receive monthly progress updates on Tajweed, fluency and memorisation, so you always know how your child is doing.",
   },
   {
     question: "Can my daughter learn with a female Quran teacher?",
     answer:
-      "Yes. Girls can request a certified female teacher (Qariah or Hafiza) for every class — just mention it on the registration form or by WhatsApp. All lessons stay private and 1-on-1, and parents are welcome to observe any session.",
+      "Yes. Girls can request a certified female teacher (Qariah or Hafiza) for every class. Just mention it on the registration form or by WhatsApp. All lessons stay private and 1-on-1, and parents are welcome to observe any session.",
   },
   {
     question: "How long is each class, and how often should my child attend?",
     answer:
-      "Each class is 30 minutes, and families choose 2, 3 or 5 days a week. Most parents start with 3 days a week after school — enough for steady progress without tiring a young child. You can change the frequency any time as your child grows.",
+      "Each class is 30 minutes, and families choose 2, 3 or 5 days a week. Most parents start with 3 days a week after school, enough for steady progress without tiring a young child. You can change the frequency any time as your child grows.",
   },
   {
     question: "How will I know how my child is progressing?",
@@ -75,7 +75,7 @@ const KIDS_TIMINGS = [
   {
     title: "After School",
     timing: "3:30 PM – 7:00 PM (your local time)",
-    desc: "The most popular slots for school-age children — straight after school, before dinner and homework.",
+    desc: "The most popular slots for school-age children, straight after school, before dinner and homework.",
   },
   {
     title: "Evenings",
@@ -98,12 +98,12 @@ const KIDS_AGE_PATH = [
   {
     age: "Ages 5–7",
     title: "Starting Out",
-    desc: "Noorani Qaida and the Arabic alphabet, taught slowly and patiently — letter recognition, sounds and joining letters, with plenty of encouragement.",
+    desc: "Noorani Qaida and the Arabic alphabet, taught slowly and patiently, letter recognition, sounds and joining letters, with plenty of encouragement.",
   },
   {
     age: "Ages 8–12",
     title: "Reading with Tajweed",
-    desc: "Nazra reading of the Quran with correct Tajweed rules, short Surahs, and daily Duas — the stage where fluent reading is built.",
+    desc: "Nazra reading of the Quran with correct Tajweed rules, short Surahs, and daily Duas, the stage where fluent reading is built.",
   },
   {
     age: "Ages 13–15",
@@ -124,7 +124,7 @@ export default async function QuranClassesForKidsPage() {
         course={{
           name: "Online Quran Classes for Kids",
           description:
-            "Live 1-on-1 online Quran classes for kids ages 5–15 — Noorani Qaida, Tajweed & Hifz with patient certified teachers, female teachers for girls, after-school timings and monthly progress reports for parents.",
+            "Live 1-on-1 online Quran classes for kids ages 5–15, Noorani Qaida, Tajweed & Hifz with patient certified teachers, female teachers for girls, after-school timings and monthly progress reports for parents.",
           url: "/quran-classes-for-kids",
           price: "25",
         }}
@@ -137,9 +137,9 @@ export default async function QuranClassesForKidsPage() {
 
       <PagesHero
         title="Online Quran Classes for Kids"
-        description="Live 1-on-1 Quran lessons for children ages 5–15 — Noorani Qaida, Tajweed and Hifz with patient certified teachers, at after-school times that fit your family."
+        description="Live 1-on-1 Quran lessons for children ages 5–15, Noorani Qaida, Tajweed and Hifz with patient certified teachers, at after-school times that fit your family."
         imageSrc="/images/online-quran-students.jpg"
-        imageAlt="Online Quran Classes for Kids — Al Kahaf Academy"
+        imageAlt="Online Quran Classes for Kids, Al Kahaf Academy"
         badge={{
           text: "For Children Ages 5–15",
           icon: Globe,
@@ -167,7 +167,7 @@ export default async function QuranClassesForKidsPage() {
               </h2>
               <p className="text-base sm:text-lg text-[#5C4A3E] leading-relaxed">
                 Every child at Al Kahaf Academy learns in a live 1-on-1
-                class with one dedicated teacher — never a group where your
+                class with one dedicated teacher, never a group where your
                 child waits for their turn. Lessons are 30 minutes, at the
                 same time every week, in clear English (and Urdu or Arabic
                 where the family prefers), so learning becomes a habit your
@@ -175,9 +175,9 @@ export default async function QuranClassesForKidsPage() {
               </p>
               <p className="text-base sm:text-lg text-[#5C4A3E] leading-relaxed">
                 Teachers are patient and experienced with children. They
-                start exactly where your child is — from the Arabic alphabet
+                start exactly where your child is (from the Arabic alphabet
                 for a complete beginner, or from Tajweed and memorisation for
-                a child who already reads — and they move at your child&apos;s
+                a child who already reads) and they move at your child&apos;s
                 pace, never rushing and never holding back a fast learner.
               </p>
             </div>
@@ -189,7 +189,7 @@ export default async function QuranClassesForKidsPage() {
               <ul className="space-y-3">
                 {[
                   "After-school and weekend slots in your local time zone, 7 days a week",
-                  "Certified male & female teachers — female Qariahs and Hafizas for girls",
+                  "Certified male & female teachers, female Qariahs and Hafizas for girls",
                   "A free 30-minute trial class before you enrol, with no payment taken",
                   "Monthly progress reports on Tajweed, fluency and memorisation",
                   "A safe, private 1-on-1 class you can observe any time",
@@ -213,7 +213,7 @@ export default async function QuranClassesForKidsPage() {
             <div className="bg-[#FAF7F2] rounded-3xl p-8 border border-[#EAE3D6] shadow-sm space-y-6 sticky top-28">
               <div>
                 <span className="text-xs font-bold uppercase tracking-wider text-[#7A685B]">
-                  Class Timings — Your Local Time
+                  Class Timings, Your Local Time
                 </span>
                 <div className="text-3xl font-serif font-bold text-[#2D1C13] mt-1">
                   From $25/month
@@ -260,7 +260,7 @@ export default async function QuranClassesForKidsPage() {
             </h2>
             <p className="text-[#5C4A3E] text-base">
               The free trial class places your child on the right step of the
-              path — and the teacher adjusts the pace as your child grows.
+              path, and the teacher adjusts the pace as your child grows.
             </p>
           </div>
 
@@ -297,7 +297,7 @@ export default async function QuranClassesForKidsPage() {
             </h2>
             <p className="text-[#5C4A3E] text-base">
               Whether your child is starting with the Arabic alphabet, reading
-              the Quran with Tajweed, or memorising Surahs — there is a
+              the Quran with Tajweed, or memorising Surahs. There is a
               structured path, all taught live 1-on-1.
             </p>
           </div>
@@ -338,7 +338,7 @@ export default async function QuranClassesForKidsPage() {
               Safe Learning for Your Child
             </h3>
             <p className="text-sm sm:text-base text-[#5C4A3E] leading-relaxed">
-              Every class is a private 1-on-1 session — no group strangers,
+              Every class is a private 1-on-1 session, no group strangers,
               no public chat. Parents can sit in on any lesson, and monthly
               progress updates keep you in the loop. Girls learn with
               certified female teachers whenever the family prefers.
@@ -352,8 +352,8 @@ export default async function QuranClassesForKidsPage() {
             <p className="text-sm sm:text-base text-[#5C4A3E] leading-relaxed">
               Our male and female tutors are certified scholars (Hafiz &amp;
               Qari) with years of teaching children. Lessons follow a
-              structured curriculum — Noorani Qaida, Tajweed, Hifz and
-              Quranic Arabic — with regular assessments so progress is
+              structured curriculum (Noorani Qaida, Tajweed, Hifz and
+              Quranic Arabic) with regular assessments so progress is
               visible, not guessed.
             </p>
             <div className="pt-2">
@@ -378,7 +378,7 @@ export default async function QuranClassesForKidsPage() {
               Parents Ask
             </span>
             <h2 className="text-3xl font-serif font-bold text-[#2D1C13]">
-              Frequently Asked Questions — Kids Classes
+              Frequently Asked Questions, Kids Classes
             </h2>
           </div>
 
@@ -407,7 +407,7 @@ export default async function QuranClassesForKidsPage() {
             Learning in Your Country?
           </h2>
           <p className="text-sm sm:text-base text-[#5C4A3E]">
-            Kids classes run in every time zone — see the page for your
+            Kids classes run in every time zone. See the page for your
             country:{" "}
             <Link href="/online-quran-classes-uk" className="text-[#9F7A38] font-bold hover:underline">UK</Link>
             {", "}

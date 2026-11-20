@@ -43,7 +43,7 @@ export default function HeroSection({ dict, lang = "en" }: HeroSectionProps) {
 
       <div className="relative z-10 w-full max-w-[1400px] mx-auto px-5 sm:px-8 md:px-12 lg:px-16 py-10 lg:py-14">
         <div className="grid md:grid-cols-12 lg:grid-cols-12 items-center gap-6 lg:gap-0">
-          {/* Left panel — Majestic Holy Quran on Rehal inside the Royal Islamic Arch */}
+          {/* Left panel, Majestic Holy Quran on Rehal inside the Royal Islamic Arch */}
           <div className="hidden md:flex md:col-span-5 lg:col-span-5 items-center justify-center relative">
             <motion.div
               initial={{ opacity: 0, scale: 0.9, y: 15 }}
@@ -69,9 +69,9 @@ export default function HeroSection({ dict, lang = "en" }: HeroSectionProps) {
             </motion.div>
           </div>
 
-          {/* Right Content Column — centered text */}
+          {/* Right Content Column, centered text */}
           <div className="md:col-span-7 lg:col-span-7 text-center flex flex-col items-center justify-center">
-            {/* Bismillah Calligraphy — GOLD & PROMINENT */}
+            {/* Bismillah Calligraphy, GOLD & PROMINENT */}
             <motion.div
               initial={{ opacity: 0, y: -12 }}
               animate={{ opacity: 1, y: 0 }}
@@ -112,7 +112,7 @@ export default function HeroSection({ dict, lang = "en" }: HeroSectionProps) {
               Flexible, affordable online classes for every age
             </motion.p>
 
-            {/* Action Buttons — matching reference exactly */}
+            {/* Action Buttons, matching reference exactly */}
             <motion.div
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
@@ -133,7 +133,7 @@ export default function HeroSection({ dict, lang = "en" }: HeroSectionProps) {
               </Link>
             </motion.div>
 
-            {/* Audience links — kids, sisters, adults */}
+            {/* Audience links, kids, sisters, adults */}
             <motion.p
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}

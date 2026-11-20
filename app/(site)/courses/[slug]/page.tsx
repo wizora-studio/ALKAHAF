@@ -348,7 +348,7 @@ export default async function CourseDetailPage({
               Course FAQs
             </span>
             <h2 className="text-3xl font-serif font-bold text-[#2D1C13]">
-              Frequently Asked Questions — {course.shortTitle}
+              Frequently Asked Questions, {course.shortTitle}
             </h2>
           </div>
 

@@ -10,7 +10,7 @@ import { ChevronRight, Home } from "lucide-react";
 export const SITE_URL = "https://www.alkahafacademy.com";
 export const SITE_NAME = "Al Kahaf Academy";
 export const ENTITY_STATEMENT =
-  "Al Kahaf Academy — online Quran and Islamic education for children and adults — official website: www.alkahafacademy.com.";
+  "Al Kahaf Academy, online Quran and Islamic education for children and adults, official website: www.alkahafacademy.com.";
 const LOGO_URL = `${SITE_URL}/images/alkahaf-logo.png`;
 
 // ──────────────────────────────────────────────────────────

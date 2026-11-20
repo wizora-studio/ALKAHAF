@@ -28,7 +28,7 @@ import {
 export const metadata: Metadata = buildPageMetadata({
   title: "Online Quran Classes Europe",
   description:
-    "Live 1-on-1 online Quran classes for families across Europe — Tajweed, Hifz & Noorani Qaida with certified male & female teachers, after-school timings in CET/CEST. Start a free 3-day trial.",
+    "Live 1-on-1 online Quran classes for families across Europe, Tajweed, Hifz & Noorani Qaida with certified male & female teachers, after-school timings in CET/CEST. Start a free 3-day trial.",
   path: "/online-quran-classes-europe",
   keywords: [
     "online Quran classes Europe",
@@ -46,12 +46,12 @@ const EU_FAQS = [
   {
     question: "How do online Quran classes work across European time zones?",
     answer:
-      "Most of continental Europe runs on CET in winter and CEST in summer, so classes are scheduled in your local European time and your slot stays the same when the clocks change. Families in the UK and Ireland follow GMT/BST instead — see our dedicated UK page for those timings. Most European families choose after-school slots between 3:30pm and 7:00pm local time, with evening and weekend slots also available, 7 days a week.",
+      "Most of continental Europe runs on CET in winter and CEST in summer, so classes are scheduled in your local European time and your slot stays the same when the clocks change. Families in the UK and Ireland follow GMT/BST instead. See our dedicated UK page for those timings. Most European families choose after-school slots between 3:30pm and 7:00pm local time, with evening and weekend slots also available, 7 days a week.",
   },
   {
     question: "Which European countries do you teach in?",
     answer:
-      "We teach students right across Europe — including Germany, France, the Netherlands, Spain, Italy, Sweden, Norway, Denmark, Belgium, Switzerland and Austria. Dedicated pages with local timings are available for Germany, France, the Netherlands, Ireland, Spain and Italy, and for the UK. If your country is not listed, your classes are still scheduled in your local time — just tell us your city when you book the free trial.",
+      "We teach students right across Europe, including Germany, France, the Netherlands, Spain, Italy, Sweden, Norway, Denmark, Belgium, Switzerland and Austria. Dedicated pages with local timings are available for Germany, France, the Netherlands, Ireland, Spain and Italy, and for the UK. If your country is not listed, your classes are still scheduled in your local time. Just tell us your city when you book the free trial.",
   },
   {
     question: "Can my daughter learn with a female Quran teacher in Europe?",
@@ -66,12 +66,12 @@ const EU_FAQS = [
   {
     question: "Do classes run during European school holidays?",
     answer:
-      "Yes, classes run all year, and your schedule is flexible. School holiday dates differ across Europe — for example, summer holidays fall in different months in Germany and France — so families can pause, reschedule, or arrange extra revision classes around their local holidays and Ramadan. Just message your coordinator in advance.",
+      "Yes, classes run all year, and your schedule is flexible. School holiday dates differ across Europe (for example, summer holidays fall in different months in Germany and France) so families can pause, reschedule, or arrange extra revision classes around their local holidays and Ramadan. Just message your coordinator in advance.",
   },
   {
     question: "Is there a free trial class before we enrol?",
     answer:
-      "Yes. Every new European student starts with a free 30-minute live trial class with a qualified teacher. It checks the student's current level, lets your child meet the teacher, and agrees the best days and times — with no payment taken.",
+      "Yes. Every new European student starts with a free 30-minute live trial class with a qualified teacher. It checks the student's current level, lets your child meet the teacher, and agrees the best days and times, with no payment taken.",
   },
 ];
 
@@ -81,7 +81,7 @@ const EU_TIMINGS = [
   {
     title: "After School",
     timing: "3:30 PM – 7:00 PM (your local European time)",
-    desc: "The most popular slots for school-age children — straight after school, before dinner and homework.",
+    desc: "The most popular slots for school-age children, straight after school, before dinner and homework.",
   },
   {
     title: "Evenings",
@@ -150,7 +150,7 @@ export default async function OnlineQuranClassesEuropePage() {
         course={{
           name: "Online Quran Classes Europe",
           description:
-            "Live 1-on-1 online Quran classes for families across Europe — Tajweed, Hifz & Noorani Qaida with certified male & female teachers, after-school timings in CET/CEST.",
+            "Live 1-on-1 online Quran classes for families across Europe, Tajweed, Hifz & Noorani Qaida with certified male & female teachers, after-school timings in CET/CEST.",
           url: "/online-quran-classes-europe",
           price: "25",
         }}
@@ -163,9 +163,9 @@ export default async function OnlineQuranClassesEuropePage() {
 
       <PagesHero
         title="Online Quran Classes in Europe"
-        description="Live 1-on-1 Quran lessons for Muslim families across Europe — Tajweed, Hifz and Noorani Qaida with certified male & female teachers, at after-school times that fit European life."
+        description="Live 1-on-1 Quran lessons for Muslim families across Europe, Tajweed, Hifz and Noorani Qaida with certified male & female teachers, at after-school times that fit European life."
         imageSrc="/images/why-us-quran.jpg"
-        imageAlt="Online Quran Classes Europe — Al Kahaf Academy"
+        imageAlt="Online Quran Classes Europe, Al Kahaf Academy"
         badge={{
           text: "For Families Across Europe",
           icon: Globe,
@@ -192,20 +192,20 @@ export default async function OnlineQuranClassesEuropePage() {
                 One Academy for Families Across Europe
               </h2>
               <p className="text-base sm:text-lg text-[#5C4A3E] leading-relaxed">
-                Al Kahaf Academy teaches students across Europe — from
+                Al Kahaf Academy teaches students across Europe (from
                 Germany and France to the Netherlands, Spain, Italy, Sweden,
-                Norway, Denmark, Belgium, Switzerland and Austria — in live
+                Norway, Denmark, Belgium, Switzerland and Austria) in live
                 1-on-1 classes that fit around the European school day. Your
                 child learns with one dedicated teacher, at the same local
                 time every week, with lessons in clear English (and Urdu or
                 Arabic where the family prefers).
               </p>
               <p className="text-base sm:text-lg text-[#5C4A3E] leading-relaxed">
-                Most of continental Europe shares one time zone — CET in
-                winter, CEST in summer — so families moving between European
+                Most of continental Europe shares one time zone (CET in
+                winter, CEST in summer) so families moving between European
                 countries keep the same class rhythm. Parents receive monthly
                 progress updates, and every class is open for a parent to
-                observe — so you always know exactly how your child is
+                observe, so you always know exactly how your child is
                 progressing.
               </p>
             </div>
@@ -217,7 +217,7 @@ export default async function OnlineQuranClassesEuropePage() {
               <ul className="space-y-3">
                 {[
                   "After-school and weekend slots in your local European time (CET/CEST, or GMT/BST in the UK & Ireland), 7 days a week",
-                  "Certified male & female teachers — female Qariahs and Hafizas for girls and sisters",
+                  "Certified male & female teachers, female Qariahs and Hafizas for girls and sisters",
                   "A free 30-minute trial class before you enrol, with no payment taken",
                   "Monthly progress reports on Tajweed, fluency and memorisation",
                   "Pay in euros (€ EUR) by bank transfer or card, as well as in USD",
@@ -241,7 +241,7 @@ export default async function OnlineQuranClassesEuropePage() {
             <div className="bg-[#FAF7F2] rounded-3xl p-8 border border-[#EAE3D6] shadow-sm space-y-6 sticky top-28">
               <div>
                 <span className="text-xs font-bold uppercase tracking-wider text-[#7A685B]">
-                  Class Timings — European Time
+                  Class Timings, European Time
                 </span>
                 <div className="text-3xl font-serif font-bold text-[#2D1C13] mt-1">
                   From $25/month
@@ -330,7 +330,7 @@ export default async function OnlineQuranClassesEuropePage() {
             <p className="text-[#5C4A3E] text-base">
               Whether your child is starting with the Arabic alphabet after
               school, a teenager working towards Hifz, or an adult returning
-              to the Quran — there is a structured path, all taught live
+              to the Quran. There is a structured path, all taught live
               1-on-1.
             </p>
           </div>
@@ -371,7 +371,7 @@ export default async function OnlineQuranClassesEuropePage() {
               Safe Learning for Your Children
             </h3>
             <p className="text-sm sm:text-base text-[#5C4A3E] leading-relaxed">
-              Every class is a private 1-on-1 session — no group strangers,
+              Every class is a private 1-on-1 session, no group strangers,
               no public chat. Parents can sit in on any lesson, and monthly
               progress updates keep you in the loop. Girls learn with
               certified female teachers whenever the family prefers.
@@ -385,8 +385,8 @@ export default async function OnlineQuranClassesEuropePage() {
             <p className="text-sm sm:text-base text-[#5C4A3E] leading-relaxed">
               Our male and female tutors are certified scholars (Hafiz &amp;
               Qari) with years of teaching experience. Lessons follow a
-              structured curriculum — Noorani Qaida, Tajweed, Hifz and
-              Quranic Arabic — with regular assessments so progress is
+              structured curriculum (Noorani Qaida, Tajweed, Hifz and
+              Quranic Arabic) with regular assessments so progress is
               visible, not guessed.
             </p>
             <div className="pt-2">
@@ -411,7 +411,7 @@ export default async function OnlineQuranClassesEuropePage() {
               European Families Ask
             </span>
             <h2 className="text-3xl font-serif font-bold text-[#2D1C13]">
-              Frequently Asked Questions — Europe Classes
+              Frequently Asked Questions, Europe Classes
             </h2>
           </div>
 
@@ -440,7 +440,7 @@ export default async function OnlineQuranClassesEuropePage() {
             Learning for Kids, Sisters or Adults?
           </h2>
           <p className="text-sm sm:text-base text-[#5C4A3E]">
-            Every class is live and 1-on-1 — choose the page made for your
+            Every class is live and 1-on-1. Choose the page made for your
             learner:{" "}
             <Link href="/quran-classes-for-kids" className="text-[#9F7A38] font-bold hover:underline">Quran Classes for Kids</Link>
             {", "}

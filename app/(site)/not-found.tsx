@@ -15,7 +15,7 @@ export default async function NotFound() {
       <section className="pt-36 pb-24 px-5 sm:px-10">
         <div className="max-w-3xl mx-auto bg-white rounded-3xl p-8 sm:p-12 border border-[#EAE3D6] shadow-xs text-center space-y-6">
           <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#FAF5EC] border border-[#C5A059]/30 text-xs font-bold uppercase tracking-wider text-[#9F7A38]">
-            Error 404 — Page Not Found
+            Error 404, Page Not Found
           </span>
 
           <h1 className="text-3xl sm:text-5xl font-serif font-bold text-[#2D1C13]">

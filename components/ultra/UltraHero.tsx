@@ -43,7 +43,7 @@ export default function UltraHero({ dict, lang = "en" }: UltraHeroProps) {
       <div className="relative z-20 w-full max-w-[1440px] mx-auto px-5 sm:px-8 md:px-12 lg:px-16 py-12 lg:py-20">
         <div className="grid md:grid-cols-12 items-center gap-10 lg:gap-12">
           
-          {/* Left Column — 3D Floating Holy Quran with Celestial Noor Aura */}
+          {/* Left Column, 3D Floating Holy Quran with Celestial Noor Aura */}
           <div className="md:col-span-6 lg:col-span-5 flex flex-col items-center justify-center relative">
             <motion.div
               initial={{ opacity: 0, scale: 0.85, y: 30 }}
@@ -93,7 +93,7 @@ export default function UltraHero({ dict, lang = "en" }: UltraHeroProps) {
             </motion.div>
           </div>
 
-          {/* Right Column — Royal Content & Typography */}
+          {/* Right Column, Royal Content & Typography */}
           <div className="md:col-span-6 lg:col-span-7 flex flex-col items-center md:items-start text-center md:text-left">
             
             {/* Shimmering Bismillah Calligraphy */}

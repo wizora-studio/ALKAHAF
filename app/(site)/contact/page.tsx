@@ -13,7 +13,7 @@ import { Breadcrumbs } from "@/components/seo/JsonLd";
 import { buildPageMetadata } from "@/lib/seo-metadata";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "Contact Us — Get in Touch with Al Kahaf Academy (24/7 WhatsApp)",
+  title: "Contact Us, Get in Touch with Al Kahaf Academy (24/7 WhatsApp)",
   description:
     "Contact Al Kahaf Academy for inquiries about online Quran classes, free trial scheduling, fee plans, or course selection. Available 24/7 via WhatsApp (+92 322 2597066).",
   path: "/contact",

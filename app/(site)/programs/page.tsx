@@ -13,7 +13,7 @@ import { Breadcrumbs } from "@/components/seo/JsonLd";
 import { buildPageMetadata } from "@/lib/seo-metadata";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "Programs — Tajweed, Hifz, Noorani Qaida & Arabic",
+  title: "Programs, Tajweed, Hifz, Noorani Qaida & Arabic",
   description:
     "Explore Al Kahaf Academy's online Quran programs: Noorani Qaida, Quran with Tajweed, Hifz memorization, and Quranic Arabic for kids and adults worldwide.",
   path: "/programs",

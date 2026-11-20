@@ -27,7 +27,7 @@ import {
 export const metadata: Metadata = buildPageMetadata({
   title: "Online Quran Classes Netherlands",
   description:
-    "Live 1-on-1 online Quran classes for families in the Netherlands — Tajweed, Hifz & Noorani Qaida with certified male & female teachers, after-school timings in CET/CEST. Start a free 3-day trial.",
+    "Live 1-on-1 online Quran classes for families in the Netherlands, Tajweed, Hifz & Noorani Qaida with certified male & female teachers, after-school timings in CET/CEST. Start a free 3-day trial.",
   path: "/online-quran-classes-netherlands",
   keywords: [
     "online Quran classes Netherlands",
@@ -45,7 +45,7 @@ const NL_FAQS = [
   {
     question: "What time are online Quran classes in the Netherlands?",
     answer:
-      "Classes are scheduled in Dutch local time — CET in winter and CEST in summer — so your slot stays the same for your family all year round, including when the clocks change in March and October. Most Dutch families choose after-school slots between 3:30pm and 7:00pm, with evening and weekend slots also available, 7 days a week.",
+      "Classes are scheduled in Dutch local time, CET in winter and CEST in summer, so your slot stays the same for your family all year round, including when the clocks change in March and October. Most Dutch families choose after-school slots between 3:30pm and 7:00pm, with evening and weekend slots also available, 7 days a week.",
   },
   {
     question: "Can my daughter learn with a female Quran teacher in the Netherlands?",
@@ -60,12 +60,12 @@ const NL_FAQS = [
   {
     question: "Do classes run during Dutch school holidays?",
     answer:
-      "Yes, classes run all year, and your schedule is flexible. Dutch school holidays are staggered by region — North, Central and South — so the summer holiday falls in different weeks depending on where you live, and the autumn and spring breaks differ too. Families can pause, reschedule, or arrange extra revision classes around their region's holidays and Ramadan. Just message your coordinator in advance.",
+      "Yes, classes run all year, and your schedule is flexible. Dutch school holidays are staggered by region (North, Central and South) so the summer holiday falls in different weeks depending on where you live, and the autumn and spring breaks differ too. Families can pause, reschedule, or arrange extra revision classes around their region's holidays and Ramadan. Just message your coordinator in advance.",
   },
   {
     question: "Is there a free trial class before we enrol?",
     answer:
-      "Yes. Every new Dutch student starts with a free 30-minute live trial class with a qualified teacher. It checks the student's current level, lets your child meet the teacher, and agrees the best days and times — with no payment taken.",
+      "Yes. Every new Dutch student starts with a free 30-minute live trial class with a qualified teacher. It checks the student's current level, lets your child meet the teacher, and agrees the best days and times, with no payment taken.",
   },
 ];
 
@@ -75,7 +75,7 @@ const NL_TIMINGS = [
   {
     title: "After School",
     timing: "3:30 PM – 7:00 PM (Dutch time)",
-    desc: "The most popular slots for school-age children — straight after school, before dinner and homework.",
+    desc: "The most popular slots for school-age children, straight after school, before dinner and homework.",
   },
   {
     title: "Evenings",
@@ -106,7 +106,7 @@ export default async function OnlineQuranClassesNetherlandsPage() {
         course={{
           name: "Online Quran Classes Netherlands",
           description:
-            "Live 1-on-1 online Quran classes for families in the Netherlands — Tajweed, Hifz & Noorani Qaida with certified male & female teachers, after-school timings in CET/CEST.",
+            "Live 1-on-1 online Quran classes for families in the Netherlands, Tajweed, Hifz & Noorani Qaida with certified male & female teachers, after-school timings in CET/CEST.",
           url: "/online-quran-classes-netherlands",
           price: "25",
         }}
@@ -119,9 +119,9 @@ export default async function OnlineQuranClassesNetherlandsPage() {
 
       <PagesHero
         title="Online Quran Classes in the Netherlands"
-        description="Live 1-on-1 Quran lessons for Muslim families in the Netherlands — Tajweed, Hifz and Noorani Qaida with certified male & female teachers, at after-school times that fit Dutch family life."
+        description="Live 1-on-1 Quran lessons for Muslim families in the Netherlands, Tajweed, Hifz and Noorani Qaida with certified male & female teachers, at after-school times that fit Dutch family life."
         imageSrc="/images/online-quran-students-fair.jpg"
-        imageAlt="Online Quran Classes Netherlands — Al Kahaf Academy"
+        imageAlt="Online Quran Classes Netherlands, Al Kahaf Academy"
         badge={{
           text: "For Families Across the Netherlands",
           icon: Globe,
@@ -148,10 +148,10 @@ export default async function OnlineQuranClassesNetherlandsPage() {
                 Built Around Dutch Family Life
               </h2>
               <p className="text-base sm:text-lg text-[#5C4A3E] leading-relaxed">
-                Al Kahaf Academy teaches students across the Netherlands — from Amsterdam and Rotterdam to Utrecht, The Hague, Eindhoven and Groningen — in live 1-on-1 classes that fit around the Dutch school day. Your child learns with one dedicated teacher, at the same Dutch time every week, with lessons in clear English (and Urdu or Arabic where the family prefers).
+                Al Kahaf Academy teaches students across the Netherlands (from Amsterdam and Rotterdam to Utrecht, The Hague, Eindhoven and Groningen) in live 1-on-1 classes that fit around the Dutch school day. Your child learns with one dedicated teacher, at the same Dutch time every week, with lessons in clear English (and Urdu or Arabic where the family prefers).
               </p>
               <p className="text-base sm:text-lg text-[#5C4A3E] leading-relaxed">
-                Many Dutch families tell us the hardest part of Quran learning is finding a qualified teacher locally — especially outside the big cities, and especially a female teacher for daughters. Our live online classes solve that: the same certified teacher every week, at a time that fits around school, homework and family life. Parents receive monthly progress updates, and every class is open for a parent to observe.
+                Many Dutch families tell us the hardest part of Quran learning is finding a qualified teacher locally, especially outside the big cities, and especially a female teacher for daughters. Our live online classes solve that: the same certified teacher every week, at a time that fits around school, homework and family life. Parents receive monthly progress updates, and every class is open for a parent to observe.
               </p>
             </div>
 
@@ -162,7 +162,7 @@ export default async function OnlineQuranClassesNetherlandsPage() {
               <ul className="space-y-3">
                 {[
                   "After-school and weekend slots in Dutch time (CET/CEST), 7 days a week",
-                  "Certified male & female teachers — female Qariahs and Hafizas for girls and sisters",
+                  "Certified male & female teachers, female Qariahs and Hafizas for girls and sisters",
                   "A free 30-minute trial class before you enrol, with no payment taken",
                   "Monthly progress reports on Tajweed, fluency and memorisation",
                   "Pay in euros (€ EUR) by bank transfer or card, as well as in USD",
@@ -186,7 +186,7 @@ export default async function OnlineQuranClassesNetherlandsPage() {
             <div className="bg-[#FAF7F2] rounded-3xl p-8 border border-[#EAE3D6] shadow-sm space-y-6 sticky top-28">
               <div>
                 <span className="text-xs font-bold uppercase tracking-wider text-[#7A685B]">
-                  Class Timings — Dutch Time
+                  Class Timings, Dutch Time
                 </span>
                 <div className="text-3xl font-serif font-bold text-[#2D1C13] mt-1">
                   From $25/month
@@ -234,7 +234,7 @@ export default async function OnlineQuranClassesNetherlandsPage() {
             <p className="text-[#5C4A3E] text-base">
               Whether your child is starting with the Arabic alphabet after
               school, a teenager working towards Hifz, or an adult returning
-              to the Quran — there is a structured path, all taught live
+              to the Quran. There is a structured path, all taught live
               1-on-1.
             </p>
           </div>
@@ -275,7 +275,7 @@ export default async function OnlineQuranClassesNetherlandsPage() {
               Safe Learning for Your Children
             </h3>
             <p className="text-sm sm:text-base text-[#5C4A3E] leading-relaxed">
-              Every class is a private 1-on-1 session — no group strangers,
+              Every class is a private 1-on-1 session, no group strangers,
               no public chat. Parents can sit in on any lesson, and monthly
               progress updates keep you in the loop. Girls learn with
               certified female teachers whenever the family prefers.
@@ -289,8 +289,8 @@ export default async function OnlineQuranClassesNetherlandsPage() {
             <p className="text-sm sm:text-base text-[#5C4A3E] leading-relaxed">
               Our male and female tutors are certified scholars (Hafiz &amp;
               Qari) with years of teaching experience. Lessons follow a
-              structured curriculum — Noorani Qaida, Tajweed, Hifz and
-              Quranic Arabic — with regular assessments so progress is
+              structured curriculum (Noorani Qaida, Tajweed, Hifz and
+              Quranic Arabic) with regular assessments so progress is
               visible, not guessed.
             </p>
             <div className="pt-2">
@@ -315,7 +315,7 @@ export default async function OnlineQuranClassesNetherlandsPage() {
               Dutch Families Ask
             </span>
             <h2 className="text-3xl font-serif font-bold text-[#2D1C13]">
-              Frequently Asked Questions — Dutch Classes
+              Frequently Asked Questions, Dutch Classes
             </h2>
           </div>
 
@@ -344,7 +344,7 @@ export default async function OnlineQuranClassesNetherlandsPage() {
             Learning for Kids, Sisters or Adults?
           </h2>
           <p className="text-sm sm:text-base text-[#5C4A3E]">
-            Every class is live and 1-on-1 — choose the page made for your
+            Every class is live and 1-on-1. Choose the page made for your
             learner:{" "}
             <Link href="/quran-classes-for-kids" className="text-[#9F7A38] font-bold hover:underline">Quran Classes for Kids</Link>
             {", "}

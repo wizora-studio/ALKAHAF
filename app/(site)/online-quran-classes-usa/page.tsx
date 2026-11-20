@@ -27,7 +27,7 @@ import {
 export const metadata: Metadata = buildPageMetadata({
   title: "Online Quran Classes USA",
   description:
-    "Live 1-on-1 online Quran classes for families in the USA — Tajweed, Hifz & Noorani Qaida with certified male & female teachers, after-school timings across EST, CST, MST & PST. Start a free 3-day trial.",
+    "Live 1-on-1 online Quran classes for families in the USA, Tajweed, Hifz & Noorani Qaida with certified male & female teachers, after-school timings across EST, CST, MST & PST. Start a free 3-day trial.",
   path: "/online-quran-classes-usa",
   keywords: [
     "online Quran classes USA",
@@ -45,7 +45,7 @@ const USA_FAQS = [
   {
     question: "How do online Quran classes work across US time zones?",
     answer:
-      "Classes are scheduled in your local US time — Eastern, Central, Mountain or Pacific — so your slot stays the same for your family all year round. When the clocks change for daylight saving in March and November, your local class time does not move. Most American families choose after-school slots between 3:30pm and 7:00pm local time, with evening and weekend slots also available, 7 days a week.",
+      "Classes are scheduled in your local US time (Eastern, Central, Mountain or Pacific) so your slot stays the same for your family all year round. When the clocks change for daylight saving in March and November, your local class time does not move. Most American families choose after-school slots between 3:30pm and 7:00pm local time, with evening and weekend slots also available, 7 days a week.",
   },
   {
     question: "Can my daughter learn with a female Quran teacher in the USA?",
@@ -55,17 +55,17 @@ const USA_FAQS = [
   {
     question: "How much do online Quran classes cost in the USA?",
     answer:
-      "Plans are $25/month for 2 days a week, $35/month for 3 days, and $45/month for 5 days, with a free 3-day trial first. You pay in US dollars by card or bank transfer — there are no extra currency charges.",
+      "Plans are $25/month for 2 days a week, $35/month for 3 days, and $45/month for 5 days, with a free 3-day trial first. You pay in US dollars by card or bank transfer. There are no extra currency charges.",
   },
   {
     question: "Do classes run during US school holidays and summer break?",
     answer:
-      "Yes, classes run all year, and your schedule is flexible. Families can pause, reschedule, or arrange extra revision classes around the summer break, winter break, spring break and Ramadan — just message your coordinator in advance.",
+      "Yes, classes run all year, and your schedule is flexible. Families can pause, reschedule, or arrange extra revision classes around the summer break, winter break, spring break and Ramadan. Just message your coordinator in advance.",
   },
   {
     question: "Is there a free trial class before we enrol?",
     answer:
-      "Yes. Every new US student starts with a free 30-minute live trial class with a qualified teacher. It checks the student's current level, lets your child meet the teacher, and agrees the best days and times — with no payment taken.",
+      "Yes. Every new US student starts with a free 30-minute live trial class with a qualified teacher. It checks the student's current level, lets your child meet the teacher, and agrees the best days and times, with no payment taken.",
   },
 ];
 
@@ -75,7 +75,7 @@ const USA_TIMINGS = [
   {
     title: "After School",
     timing: "3:30 PM – 7:00 PM (your local US time)",
-    desc: "The most popular slots for school-age children — straight after school, before dinner and homework.",
+    desc: "The most popular slots for school-age children, straight after school, before dinner and homework.",
   },
   {
     title: "Evenings",
@@ -106,7 +106,7 @@ export default async function OnlineQuranClassesUsaPage() {
         course={{
           name: "Online Quran Classes USA",
           description:
-            "Live 1-on-1 online Quran classes for families in the USA — Tajweed, Hifz & Noorani Qaida with certified male & female teachers, after-school timings across EST, CST, MST & PST.",
+            "Live 1-on-1 online Quran classes for families in the USA, Tajweed, Hifz & Noorani Qaida with certified male & female teachers, after-school timings across EST, CST, MST & PST.",
           url: "/online-quran-classes-usa",
           price: "25",
         }}
@@ -119,9 +119,9 @@ export default async function OnlineQuranClassesUsaPage() {
 
       <PagesHero
         title="Online Quran Classes in the USA"
-        description="Live 1-on-1 Quran lessons for American Muslim families — Tajweed, Hifz and Noorani Qaida with certified male & female teachers, at after-school times that fit life in the United States."
+        description="Live 1-on-1 Quran lessons for American Muslim families, Tajweed, Hifz and Noorani Qaida with certified male & female teachers, at after-school times that fit life in the United States."
         imageSrc="/images/online-quran-students.jpg"
-        imageAlt="Online Quran Classes USA — Al Kahaf Academy"
+        imageAlt="Online Quran Classes USA, Al Kahaf Academy"
         badge={{
           text: "For Families Across the USA",
           icon: Globe,
@@ -148,9 +148,8 @@ export default async function OnlineQuranClassesUsaPage() {
                 Built Around American Family Life
               </h2>
               <p className="text-base sm:text-lg text-[#5C4A3E] leading-relaxed">
-                Al Kahaf Academy teaches students across the United States —
-                from New York and New Jersey to Houston, Chicago, Dearborn,
-                Los Angeles, Atlanta and Dallas — in live 1-on-1 classes that
+                Al Kahaf Academy teaches students across the United States (from New York and New Jersey to Houston, Chicago, Dearborn,
+                Los Angeles, Atlanta and Dallas) in live 1-on-1 classes that
                 fit around the American school day. Your child learns with one
                 dedicated teacher, at the same local time every week, with
                 lessons in clear English (and Urdu or Arabic where the family
@@ -160,7 +159,7 @@ export default async function OnlineQuranClassesUsaPage() {
                 Because classes are scheduled in your local time zone, the
                 switch between standard time and daylight saving never moves
                 your slot. Weekend classes also pair well with weekend Islamic
-                school — many families use our 1-on-1 lessons for the
+                school. Many families use our 1-on-1 lessons for the
                 personal attention their child cannot get in a group class.
                 Parents receive monthly progress updates, and every class is
                 open for a parent to observe.
@@ -174,10 +173,10 @@ export default async function OnlineQuranClassesUsaPage() {
               <ul className="space-y-3">
                 {[
                   "After-school and weekend slots in your local US time zone (EST, CST, MST or PST), 7 days a week",
-                  "Certified male & female teachers — female Qariahs and Hafizas for girls and sisters",
+                  "Certified male & female teachers, female Qariahs and Hafizas for girls and sisters",
                   "A free 30-minute trial class before you enrol, with no payment taken",
                   "Monthly progress reports on Tajweed, fluency and memorisation",
-                  "Simple USD pricing — $25, $35 or $45 a month, no long-term contract",
+                  "Simple USD pricing, $25, $35 or $45 a month, no long-term contract",
                 ].map((point, idx) => (
                   <li
                     key={idx}
@@ -198,7 +197,7 @@ export default async function OnlineQuranClassesUsaPage() {
             <div className="bg-[#FAF7F2] rounded-3xl p-8 border border-[#EAE3D6] shadow-sm space-y-6 sticky top-28">
               <div>
                 <span className="text-xs font-bold uppercase tracking-wider text-[#7A685B]">
-                  Class Timings — US Time
+                  Class Timings, US Time
                 </span>
                 <div className="text-3xl font-serif font-bold text-[#2D1C13] mt-1">
                   From $25/month
@@ -246,7 +245,7 @@ export default async function OnlineQuranClassesUsaPage() {
             <p className="text-[#5C4A3E] text-base">
               Whether your child is starting with the Arabic alphabet after
               school, a teenager balancing Hifz with high school, or an adult
-              returning to the Quran after years away — there is a structured
+              returning to the Quran after years away. There is a structured
               path, all taught live 1-on-1.
             </p>
           </div>
@@ -287,7 +286,7 @@ export default async function OnlineQuranClassesUsaPage() {
               Safe Learning for Your Children
             </h3>
             <p className="text-sm sm:text-base text-[#5C4A3E] leading-relaxed">
-              Every class is a private 1-on-1 session — no group strangers,
+              Every class is a private 1-on-1 session, no group strangers,
               no public chat. Parents can sit in on any lesson, and monthly
               progress updates keep you in the loop. Girls learn with
               certified female teachers whenever the family prefers.
@@ -301,8 +300,8 @@ export default async function OnlineQuranClassesUsaPage() {
             <p className="text-sm sm:text-base text-[#5C4A3E] leading-relaxed">
               Our male and female tutors are certified scholars (Hafiz &amp;
               Qari) with years of teaching experience. Lessons follow a
-              structured curriculum — Noorani Qaida, Tajweed, Hifz and
-              Quranic Arabic — with regular assessments so progress is
+              structured curriculum (Noorani Qaida, Tajweed, Hifz and
+              Quranic Arabic) with regular assessments so progress is
               visible, not guessed.
             </p>
             <div className="pt-2">
@@ -327,7 +326,7 @@ export default async function OnlineQuranClassesUsaPage() {
               US Families Ask
             </span>
             <h2 className="text-3xl font-serif font-bold text-[#2D1C13]">
-              Frequently Asked Questions — US Classes
+              Frequently Asked Questions, US Classes
             </h2>
           </div>
 
@@ -356,7 +355,7 @@ export default async function OnlineQuranClassesUsaPage() {
             Learning for Kids, Sisters or Adults?
           </h2>
           <p className="text-sm sm:text-base text-[#5C4A3E]">
-            Every class is live and 1-on-1 — choose the page made for your
+            Every class is live and 1-on-1. Choose the page made for your
             learner:{" "}
             <Link href="/quran-classes-for-kids" className="text-[#9F7A38] font-bold hover:underline">Quran Classes for Kids</Link>
             {", "}

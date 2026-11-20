@@ -11,7 +11,7 @@ import { Breadcrumbs } from "@/components/seo/JsonLd";
 import { buildPageMetadata } from "@/lib/seo-metadata";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "Pricing & Plans — Affordable Online Quran Classes ($25–$45/mo)",
+  title: "Pricing & Plans, Affordable Online Quran Classes ($25–$45/mo)",
   description:
     "Transparent, affordable online Quran and Islamic studies fee plans starting from $25/month. Choose 2, 3, or 5 days/week with sibling discounts and a 3-day free trial.",
   path: "/pricing",

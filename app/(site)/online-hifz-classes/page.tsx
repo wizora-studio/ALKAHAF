@@ -28,9 +28,9 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "Online Hifz Classes — Memorize the Quran Online",
+  title: "Online Hifz Classes, Memorize the Quran Online",
   description:
-    "Live 1-on-1 online Hifz classes with certified Hafiz & Hafiza teachers — Sabaq, Sabqi & Manzil method, Juz Amma to full 30 Juz, for kids & adults. Start a free 3-day trial.",
+    "Live 1-on-1 online Hifz classes with certified Hafiz & Hafiza teachers, Sabaq, Sabqi & Manzil method, Juz Amma to full 30 Juz, for kids & adults. Start a free 3-day trial.",
   path: "/online-hifz-classes",
   keywords: [
     "online hifz classes",
@@ -48,12 +48,12 @@ const HIFZ_FAQS = [
   {
     question: "How long does it take to memorize the whole Quran online?",
     answer:
-      "It depends on your daily pace. A balanced school-friendly track of half a page a day, 5 days a week, completes all 30 Juz in about 3.5 to 4.5 years. An intensive track of one full page a day, 5 to 6 days a week, finishes in about 2.5 to 3 years. Starting with Juz Amma alone takes about 5 to 8 months at a gentle pace. Your teacher sets a realistic target with you in the free trial class — we never promise overnight results.",
+      "It depends on your daily pace. A balanced school-friendly track of half a page a day, 5 days a week, completes all 30 Juz in about 3.5 to 4.5 years. An intensive track of one full page a day, 5 to 6 days a week, finishes in about 2.5 to 3 years. Starting with Juz Amma alone takes about 5 to 8 months at a gentle pace. Your teacher sets a realistic target with you in the free trial class. We never promise overnight results.",
   },
   {
     question: "What is the Sabaq, Sabqi and Manzil method?",
     answer:
-      "It is the traditional three-part revision system used in Hifz schools for centuries. Sabaq is the new lesson — the verses you memorize today. Sabqi is the recent revision — the last 7 to 10 pages you go over again so they stay fresh. Manzil is the long-term rotation — older Juz you recite regularly so nothing is ever forgotten. Every Al Kahaf Hifz class is divided into these three parts, and a student does not move to new verses if their revision needs strengthening.",
+      "It is the traditional three-part revision system used in Hifz schools for centuries. Sabaq is the new lesson, the verses you memorize today. Sabqi is the recent revision, the last 7 to 10 pages you go over again so they stay fresh. Manzil is the long-term rotation, older Juz you recite regularly so nothing is ever forgotten. Every Al Kahaf Hifz class is divided into these three parts, and a student does not move to new verses if their revision needs strengthening.",
   },
   {
     question: "Can my child do Hifz online while attending full-time school?",
@@ -68,12 +68,12 @@ const HIFZ_FAQS = [
   {
     question: "How do you stop students forgetting what they memorized?",
     answer:
-      "Forgetting happens when new memorization runs ahead of revision — so revision is built into every class, not left to chance. Each lesson covers the new Sabaq, the recent Sabqi and a Manzil portion of older Juz, and no student advances to a new Juz until the current one passes an error-free oral test. Monthly progress reports show parents exactly which Juz are strong and which need more revision.",
+      "Forgetting happens when new memorization runs ahead of revision, so revision is built into every class, not left to chance. Each lesson covers the new Sabaq, the recent Sabqi and a Manzil portion of older Juz, and no student advances to a new Juz until the current one passes an error-free oral test. Monthly progress reports show parents exactly which Juz are strong and which need more revision.",
   },
   {
     question: "Is there a free trial Hifz class?",
     answer:
-      "Yes. Every new Hifz student starts with a free 30-minute live trial class with a qualified Hafiz or Hafiza teacher. It checks your current reading fluency and memory pace, lets you meet the teacher, and agrees a realistic Hifz target and schedule — with no payment taken.",
+      "Yes. Every new Hifz student starts with a free 30-minute live trial class with a qualified Hafiz or Hafiza teacher. It checks your current reading fluency and memory pace, lets you meet the teacher, and agrees a realistic Hifz target and schedule, with no payment taken.",
   },
 ];
 
@@ -81,12 +81,12 @@ const HIFZ_TIMINGS = [
   {
     title: "Before School",
     timing: "After Fajr / early morning",
-    desc: "Many Hifz students revise and learn new Sabaq in the early morning, when the mind is freshest — before school or work.",
+    desc: "Many Hifz students revise and learn new Sabaq in the early morning, when the mind is freshest, before school or work.",
   },
   {
     title: "After School",
     timing: "3:30 PM – 7:00 PM (your local time)",
-    desc: "The most popular slots for school-age children — a focused Hifz session after school, before dinner and homework.",
+    desc: "The most popular slots for school-age children, a focused Hifz session after school, before dinner and homework.",
   },
   {
     title: "Evenings",
@@ -105,18 +105,18 @@ const HIFZ_TRACKS = [
     name: "Juz Amma Track",
     pace: "3–5 lines a day, 3 days a week",
     time: "Juz Amma in about 5–8 months",
-    desc: "The gentle start — short Surahs of the 30th Juz, ideal for young children, working adults, and anyone beginning memorization for the first time.",
+    desc: "The gentle start, short Surahs of the 30th Juz, ideal for young children, working adults, and anyone beginning memorization for the first time.",
   },
   {
     name: "Balanced School-Friendly Track",
     pace: "Half a page a day, 5 days a week",
-    time: "About 5–6 Juz a year — full Quran in 3.5–4.5 years",
+    time: "About 5–6 Juz a year, full Quran in 3.5–4.5 years",
     desc: "The most popular track. Steady memorization alongside full-time school or work, with Sabaqi and Manzil revision keeping every Juz strong.",
   },
   {
     name: "Intensive Hifz Track",
     pace: "1 full page a day, 5–6 days a week",
-    time: "About 10–12 Juz a year — full Quran in 2.5–3 years",
+    time: "About 10–12 Juz a year, full Quran in 2.5–3 years",
     desc: "For dedicated students who can commit daily. A full-time-style Hifz schedule with strict revision cycles and regular Juz testing.",
   },
 ];
@@ -131,7 +131,7 @@ export default async function OnlineHifzClassesPage() {
         course={{
           name: "Online Hifz Classes",
           description:
-            "Live 1-on-1 online Hifz classes with certified Hafiz & Hafiza teachers — Sabaq, Sabqi & Manzil method, Juz Amma to full 30 Juz, for kids & adults.",
+            "Live 1-on-1 online Hifz classes with certified Hafiz & Hafiza teachers, Sabaq, Sabqi & Manzil method, Juz Amma to full 30 Juz, for kids & adults.",
           url: "/online-hifz-classes",
           price: "35",
         }}
@@ -143,10 +143,10 @@ export default async function OnlineHifzClassesPage() {
       />
 
       <PagesHero
-        title="Online Hifz Classes — Memorize the Quran, Verse by Verse"
-        description="Live 1-on-1 Hifz classes with certified Hafiz & Hafiza teachers — the traditional Sabaq, Sabqi & Manzil method, from Juz Amma to the full 30 Juz, at a pace that fits your life."
+        title="Online Hifz Classes, Memorize the Quran, Verse by Verse"
+        description="Live 1-on-1 Hifz classes with certified Hafiz & Hafiza teachers, the traditional Sabaq, Sabqi & Manzil method, from Juz Amma to the full 30 Juz, at a pace that fits your life."
         imageSrc="/images/online-quran-students.jpg"
-        imageAlt="Online Hifz Classes — Memorize the Quran Online, Al Kahaf Academy"
+        imageAlt="Online Hifz Classes, Memorize the Quran Online, Al Kahaf Academy"
         badge={{
           text: "Juz Amma to Full 30 Juz",
           icon: Globe,
@@ -170,11 +170,11 @@ export default async function OnlineHifzClassesPage() {
                 The Method That Makes Hifz Stick
               </span>
               <h2 className="text-3xl font-serif font-bold text-[#2D1C13]">
-                Sabaq, Sabqi &amp; Manzil — Revision Is the Method
+                Sabaq, Sabqi &amp; Manzil, Revision Is the Method
               </h2>
               <p className="text-base sm:text-lg text-[#5C4A3E] leading-relaxed">
                 Memorizing new verses is the easy part. Keeping them is the
-                hard part — and it is where most self-taught Hifz fails.
+                hard part, and it is where most self-taught Hifz fails.
                 Every Al Kahaf Hifz class is divided into three parts, so
                 revision is never left to chance and older Surahs never fade
                 away unnoticed.
@@ -185,17 +185,17 @@ export default async function OnlineHifzClassesPage() {
               {[
                 {
                   icon: Target,
-                  title: "Sabaq — New Lesson",
+                  title: "Sabaq, New Lesson",
                   desc: "The new verses you memorize today, recited to your teacher with Tajweed correction on every line.",
                 },
                 {
                   icon: Repeat,
-                  title: "Sabqi — Recent Revision",
+                  title: "Sabqi, Recent Revision",
                   desc: "The last 7 to 10 pages, recited again in every class so recent memorization becomes permanent.",
                 },
                 {
                   icon: Layers,
-                  title: "Manzil — Long-Term Rotation",
+                  title: "Manzil, Long-Term Rotation",
                   desc: "Older Juz recited on a rotating cycle, so what you memorized months ago stays as strong as yesterday.",
                 },
               ].map((step) => (
@@ -220,9 +220,9 @@ export default async function OnlineHifzClassesPage() {
               </h3>
               <ul className="space-y-3">
                 {[
-                  "A dedicated Hafiz or Hafiza teacher for every class — female Hafizas for girls and sisters",
+                  "A dedicated Hafiz or Hafiza teacher for every class, female Hafizas for girls and sisters",
                   "A free 30-minute trial class to check reading fluency and agree a realistic Hifz target",
-                  "Daily Sabaq targets matched to school or work — never more than the student can retain",
+                  "Daily Sabaq targets matched to school or work, never more than the student can retain",
                   "No advance to a new Juz until the current one passes an error-free oral test",
                   "Monthly progress reports on new memorization, revision strength and Tajweed",
                 ].map((point, idx) => (
@@ -245,7 +245,7 @@ export default async function OnlineHifzClassesPage() {
             <div className="bg-[#FAF7F2] rounded-3xl p-8 border border-[#EAE3D6] shadow-sm space-y-6 sticky top-28">
               <div>
                 <span className="text-xs font-bold uppercase tracking-wider text-[#7A685B]">
-                  Class Timings — Your Local Time
+                  Class Timings, Your Local Time
                 </span>
                 <div className="text-3xl font-serif font-bold text-[#2D1C13] mt-1">
                   From $35/month
@@ -288,12 +288,12 @@ export default async function OnlineHifzClassesPage() {
               Realistic Timelines, Honest Targets
             </span>
             <h2 className="text-3xl sm:text-4xl font-serif font-bold text-[#2D1C13]">
-              Three Hifz Tracks — Pick the Pace That Fits Your Life
+              Three Hifz Tracks, Pick the Pace That Fits Your Life
             </h2>
             <p className="text-[#5C4A3E] text-base">
               How long Hifz takes depends entirely on how many lines you can
               memorize and retain each day. These are the timelines our
-              teachers plan around — no overnight promises, just steady
+              teachers plan around, no overnight promises, just steady
               progress.
             </p>
           </div>
@@ -323,7 +323,7 @@ export default async function OnlineHifzClassesPage() {
           <p className="text-sm text-[#5C4A3E] mt-8 max-w-3xl">
             Timelines assume consistent attendance and daily home revision of
             about 20 to 30 minutes. Your teacher reviews your pace every
-            month and adjusts the target with you — speeding up when revision
+            month and adjusts the target with you, speeding up when revision
             is strong, slowing down when it needs strengthening. Read the
             full guide:{" "}
             <Link
@@ -347,7 +347,7 @@ export default async function OnlineHifzClassesPage() {
             <p className="text-sm sm:text-base text-[#5C4A3E] leading-relaxed">
               Children usually begin with Juz Amma, building memorization
               stamina with short Surahs before moving to longer ones. Classes
-              are patient and encouraging — we never pressure children with
+              are patient and encouraging. We never pressure children with
               unrealistic targets, and pacing is agreed with parents. Most
               school-age Hifz students take the balanced track alongside
               full-time school.
@@ -367,8 +367,8 @@ export default async function OnlineHifzClassesPage() {
               Hifz for Adults &amp; Sisters
             </h3>
             <p className="text-sm sm:text-base text-[#5C4A3E] leading-relaxed">
-              Adults can memorize Juz Amma and selected Surahs — Al-Mulk,
-              Yaseen, Al-Kahf, Ar-Rahman — or work towards full Hifz at their
+              Adults can memorize Juz Amma and selected Surahs (Al-Mulk,
+              Yaseen, Al-Kahf, Ar-Rahman) or work towards full Hifz at their
               own pace. Sisters learn with qualified female Hafiza teachers
               in private 1-on-1 classes. If your reading fluency needs work
               first, your teacher begins with Tajweed and moves you into
@@ -428,7 +428,7 @@ export default async function OnlineHifzClassesPage() {
               Hifz Students Ask
             </span>
             <h2 className="text-3xl font-serif font-bold text-[#2D1C13]">
-              Frequently Asked Questions — Hifz Classes
+              Frequently Asked Questions, Hifz Classes
             </h2>
           </div>
 
@@ -457,7 +457,7 @@ export default async function OnlineHifzClassesPage() {
             Learning for Kids, Sisters or Adults?
           </h2>
           <p className="text-sm sm:text-base text-[#5C4A3E]">
-            Every class is live and 1-on-1 — choose the page made for your
+            Every class is live and 1-on-1. Choose the page made for your
             learner:{" "}
             <Link href="/quran-classes-for-kids" className="text-[#9F7A38] font-bold hover:underline">Quran Classes for Kids</Link>
             {", "}

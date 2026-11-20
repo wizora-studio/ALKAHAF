@@ -109,6 +109,7 @@ export default function UltraHero({ dict, lang = "en" }: UltraHeroProps) {
                   alt="Bismillah ir-Rahman ir-Rahim"
                   fill
                   priority
+                  sizes="(max-width: 640px) 280px, (max-width: 1024px) 350px, 420px"
                   className="object-contain object-center md:object-left filter drop-shadow-[0_0_15px_rgba(245,216,140,0.5)]"
                 />
               </div>

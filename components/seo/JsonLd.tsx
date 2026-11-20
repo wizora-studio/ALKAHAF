@@ -25,7 +25,7 @@ export function OrganizationJsonLd() {
         "@type": "EducationalOrganization",
         "@id": `${SITE_URL}/#organization`,
         name: SITE_NAME,
-        alternateName: ["Al-Kahaf Academy", "Alkahaf Academy"],
+        alternateName: ["Alkahaf Academy", "alkahafacademy"],
         url: SITE_URL,
         foundingDate: "2015",
         logo: {

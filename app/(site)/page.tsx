@@ -12,13 +12,14 @@ export const revalidate = 3600;
 
 export const metadata: Metadata = {
   ...buildPageMetadata({
-    title: "Online Quran Classes for Kids & Adults | Al Kahaf Academy",
+    title: "Al Kahaf Academy | Online Quran Classes for Kids & Adults",
     description:
-      "Live 1-on-1 online Quran classes with Tajweed, Hifz & Noorani Qaida. Certified male & female teachers, flexible 24/7 timings. Start a free 3-day trial.",
+      "Al Kahaf Academy offers live 1-on-1 online Quran classes with Tajweed, Hifz and Noorani Qaida. Certified male and female teachers, flexible 24/7 timings. Start a free 3-day trial.",
     path: "/",
     keywords: [
       "Al Kahaf Academy",
       "alkahafacademy",
+      "alkahafacademy.com",
       "online Quran classes",
       "online Quran academy",
       "learn Quran online",
@@ -32,7 +33,7 @@ export const metadata: Metadata = {
   // would otherwise append the brand a second time. This renders exactly
   // the title above, with no duplication.
   title: {
-    absolute: "Online Quran Classes for Kids & Adults | Al Kahaf Academy",
+    absolute: "Al Kahaf Academy | Online Quran Classes for Kids & Adults",
   },
 };
 

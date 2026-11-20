@@ -96,7 +96,7 @@ export default async function AboutPage() {
                   Official Identity &amp; Service Scope
                 </p>
                 <p className="font-medium leading-relaxed">
-                  {ENTITY_STATEMENT} We operate as a 100% online global academy serving families across the UK, USA, Canada, Australia, Europe, and worldwide with live 1-on-1 classes via Zoom and Google Meet.
+                  {ENTITY_STATEMENT} We operate as a 100% online global academy serving families across the UK, USA, Canada, Australia, Europe, and worldwide with live 1-on-1 classes via Zoom and Google Meet. We have no physical campus, and we are not affiliated with any physical school of a similar name.
                 </p>
               </div>
               <div className="pt-2 flex flex-wrap gap-6">

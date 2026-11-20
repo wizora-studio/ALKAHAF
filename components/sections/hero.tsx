@@ -32,7 +32,7 @@ export default function HeroSection({ dict, lang = "en" }: HeroSectionProps) {
           fill
           priority
           quality={85}
-          sizes="100vw"
+          sizes="(max-width: 768px) 100vw, 1376px"
           className="object-cover object-left"
         />
         {/* Soft atmospheric gradient blend towards right content */}

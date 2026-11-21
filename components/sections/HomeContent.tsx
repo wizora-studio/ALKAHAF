@@ -9,7 +9,6 @@ import ProgramsOverview from "@/components/sections/programs-overview";
 import WhyUs from "@/components/sections/why-us";
 import ThreeStepsAway from "@/components/sections/ThreeStepsAway";
 import PricingPlans from "@/components/sections/PricingPlans";
-import Testimonials from "@/components/sections/testimonials";
 import CtaBanner from "@/components/sections/cta-banner";
 import FAQSection from "@/components/sections/faq";
 import ContactForm from "@/components/sections/contact-form";
@@ -62,7 +61,6 @@ export default function HomeContent({ dict, lang, totalStudents }: HomeContentPr
       <WhyUs dict={dict?.whyUs} />
       <ThreeStepsAway lang={lang} dict={dict} />
       <PricingPlans dict={dict?.pricing} />
-      <Testimonials />
       <CtaBanner dict={dict?.cta} />
       <FAQSection dict={dict?.faq} />
       <ContactForm dict={dict?.contact} />

@@ -160,4 +160,9 @@
     mix-blend-mode: overlay;
     filter: invert(1);
   }
+
+  /* Hide SociableKit Google Reviews business profile card (shows "Aisha Academy") */
+  .sk-ww-google-reviews .sk-badge.sk-badge--social-proof {
+    display: none !important;
+  }
 }

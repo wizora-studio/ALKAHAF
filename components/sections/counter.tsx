@@ -45,7 +45,7 @@ const StatItem: React.FC<StatItemProps> = ({
       initial={{ opacity: 0, y: 40 }}
       animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 40 }}
       transition={{ duration: 0.8, delay }}
-      className="flex flex-col items-center justify-center text-center p-6 bg-white/90 backdrop-blur-md rounded-2xl shadow-[0_4px_20px_rgba(45,28,19,0.05)] border border-[#EAE3D6] hover:shadow-[0_8px_30px_rgba(197,160,89,0.15)] hover:border-[#C5A059]/40 hover:scale-105 transition-all"
+      className="flex flex-col items-center justify-center text-center p-6 bg-white/90 backdrop-blur-md rounded-2xl shadow-[0_4px_20px_rgba(45,28,19,0.05)] border border-[#EAE3D6] hover:shadow-[0_8px_30px_rgba(197,160,89,0.15)] hover:border-[#C5A059]/40 hover:scale-105 transition-all w-full"
     >
       <div className="p-4 rounded-full bg-[#FAF5EC] border border-[#C5A059]/20 mb-4 text-[#C5A059]">
         {icon}
@@ -69,6 +69,8 @@ export const StatCounter: React.FC<{
     experience?: number;
   };
 }> = ({ dict, counts }) => {
+  const hasStudents = Boolean(counts && counts.students > 0);
+
   return (
     <section className="py-24 bg-[#FAF7F2] relative overflow-hidden border-y border-[#EAE3D6]">
       {/* Decorative subtle background glow */}
@@ -88,7 +90,13 @@ export const StatCounter: React.FC<{
           </span>
         </motion.h2>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-10">
+        <div
+          className={
+            hasStudents
+              ? "grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-10"
+              : "grid grid-cols-1 sm:grid-cols-3 gap-6 md:gap-8 lg:gap-10 max-w-5xl mx-auto"
+          }
+        >
           <StatItem
             icon={<Users className="h-8 w-8" />}
             value={counts?.teachers || 15}
@@ -99,10 +107,10 @@ export const StatCounter: React.FC<{
           {/* Students tile is only shown when a real enrollment count is
               available. When the count query fails (0), the tile is hidden
               rather than showing a made-up floor number. */}
-          {counts && counts.students > 0 && (
+          {hasStudents && (
             <StatItem
               icon={<BookOpen className="h-8 w-8" />}
-              value={counts.students}
+              value={counts!.students}
               label={dict.studentsEnrolled}
               delay={0.2}
               suffix="+"

@@ -2771,6 +2771,145 @@ export const BLOG_POSTS: BlogPostData[] = [
       },
     ],
   },
+  {
+    slug: "what-to-expect-in-your-first-online-quran-class",
+    title: "What to Expect in Your Child's First Online Quran Class: A Free Trial Guide for Parents",
+    seoTitle: "What to Expect in Your First Online Quran Class | Al Kahaf Academy",
+    metaDescription:
+      "What to expect in your first online Quran class: how to book the free trial, what the teacher checks, what your child does in 30 minutes, and what happens next.",
+    excerpt:
+      "Booking a first Quran class for your child feels like a big step, but the class itself is small and calm. Here is exactly what happens before, during and after it.",
+    category: "Parent & Student Advice",
+    readTime: "7 min read",
+    datePublished: "2026-11-23",
+    dateModified: "2026-11-23",
+    authorName: "Al Kahaf Academic Council",
+    authorRole: "Foundational Qaida & Early Learners Division",
+    reviewerName: "Senior Curriculum Coordinator, Al Kahaf Academy",
+    image: "/images/online-quran-students.jpg",
+    relatedCourseSlug: "noorani-qaida",
+    relatedCourseTitle: "Foundational Noorani Qaida Online Course",
+    keyTakeaways: [
+      "A first online Quran class is a relaxed working lesson, not a test. The teacher finds your child's level, teaches one small thing, and recommends where to start.",
+      "All you need is a device with a camera and microphone, a stable internet connection, and a quiet corner. Nothing to buy, nothing to print, nothing to prepare.",
+      "At Al Kahaf Academy, the free trial runs for 3 days, so your child can try three real classes before you decide anything.",
+    ],
+    sections: [
+      {
+        heading: "1. What to Expect in Your First Online Quran Class: The Short Answer",
+        paragraphs: [
+          "If you are wondering what to expect in your first online Quran class, the short answer is this: a calm, friendly 30-minute lesson in which a teacher meets your child, listens to them read, teaches them one small thing, and then tells you where they should start. There is nothing to pass and nothing to fail. The first class exists to find the right starting point, not to judge your child.",
+          "Most parents worry about the same three things before the first class. Will my child be tested? Will the teacher expect them to already know something? What if my child is shy, or cannot sit still? The answer to all three is that good teachers expect exactly that. A first class is built around beginners, shy children and short attention spans, and the teacher adjusts to your child, not the other way round.",
+          "This guide walks you through the whole first class, step by step: how to book it, how to prepare, what happens minute by minute, what the teacher is listening for, what you should do as a parent, and what happens after the class ends.",
+        ],
+      },
+      {
+        heading: "2. Before the Class: How to Book and Prepare",
+        paragraphs: [
+          "Booking a first class at Al Kahaf Academy takes a few minutes. You share your child's name and age, your country, the course you are interested in, and the time that suits your family in your own timezone. You can also say whether you would prefer a male or female teacher. The team then matches your child with a teacher and confirms the class times with you.",
+          "At Al Kahaf Academy, every new student starts with a free 3-day trial: three real classes, with no payment details collected and nothing owed if you decide not to continue. The trial lasts three days on purpose, because one class tells you whether your child likes the teacher, but three classes tell you whether the routine will actually work for your family.",
+          "Preparation is simpler than most parents expect. You do not need to buy anything, print anything, or teach your child anything beforehand. The teacher shares the lesson material on screen, so you and your child look at the same page together. What does help is a short technical check the day before, and a quiet place to sit.",
+        ],
+        bullets: [
+          "A device that can join a video call. A laptop or tablet is best, because the lesson page is larger and easier to follow. A phone works, but the letters are small.",
+          "A camera and microphone that work. Test them the day before, and keep the device charged or plugged in.",
+          "A stable internet connection. Ordinary home broadband is enough. If the connection drops, the teacher will reconnect and carry on.",
+          "A quiet corner with good light. The teacher needs to hear every letter clearly, so a room where nobody walks past during the lesson helps a lot. Headphones with a microphone help in a busy household.",
+          "Your child, rested and not hungry. A first class goes far better after a snack and a short break than straight after school or a long journey.",
+        ],
+      },
+      {
+        heading: "3. The First 30 Minutes: What Happens Minute by Minute",
+        paragraphs: [
+          "A first online Quran class usually lasts 30 minutes, and it follows a simple shape. Knowing the shape in advance removes most of the worry, for you and for your child.",
+          "The class opens with introductions. The teacher greets your child by name, introduces themselves, and asks a few gentle questions: how old they are, whether they have learned any Quran before, and what they would like to learn. This is also the teacher listening to how confident your child sounds, and how comfortable they are talking to a new person on a screen.",
+          "Then comes the level check, which is the most important part of the class. If your child is a complete beginner, the teacher shows them the first letters of the Qaida, asks them to repeat a few sounds, and watches how they listen and how long they can focus. If your child can already read, the teacher asks them to read a few lines aloud, from the Qaida or from a page of the mushaf. Nobody is expected to be perfect. The teacher is listening for specific things: are the letters recognised without guessing, are the short vowels right, are long sounds held, and does the reading flow or stop at every word?",
+          "Next comes a short sample lesson. The teacher teaches one small thing at the right level, so your child experiences how real lessons work. For a beginner, that might be two or three letters, repeated and corrected gently. For a reader, it might be one rule, such as a long vowel or a stopping point, applied to the lines they just read. A first lesson that ends with your child able to do one thing they could not do before has done its job.",
+          "The class ends with questions and a plan. Your child can ask anything, and so can you. The teacher then says which course and which starting point they recommend, for example Noorani Qaida from the beginning, or Quran reading with Tajweed, and agrees the regular class times with you. If you are on the free trial, the next two trial classes are confirmed at the same time.",
+        ],
+      },
+      {
+        heading: "4. What the Teacher Checks in the First Class",
+        paragraphs: [
+          "Parents sometimes imagine the first class as a test with a score at the end. It is not. It is an assessment dressed up as a conversation, and its only purpose is to place your child correctly. Starting too high frustrates a child, and starting too low bores them, so the teacher spends most of the first class finding the exact right level.",
+          "For a child who cannot read yet, the teacher checks whether they know any letters, whether they can tell similar letters apart, and how they respond to listening and repeating. For a child who can read, the teacher checks letter recognition, vowel accuracy, the length of long sounds, and fluency. In both cases, the teacher also watches attention span, because a five-year-old and a ten-year-old need very different lesson rhythms.",
+          "One more thing the teacher checks is your child's attitude to learning. Some children are eager and talkative, some are quiet and careful, and some are nervous about making mistakes. None of these is a problem. A good teacher notes it and shapes the lessons around it, for example by giving a shy child more time to answer, or by changing the activity every few minutes for a restless one.",
+        ],
+      },
+      {
+        heading: "5. What Your Child Actually Does in the First Class",
+        paragraphs: [
+          "Your child does most of the talking and reading. If your child spent the lesson listening to an adult talk, that is worth noticing, because the child should be doing more of the reading than the teacher by the end of the first ten minutes. Reading aloud is how the teacher hears what needs correcting, and it is how your child learns.",
+          "Younger children find 30 minutes long, and that is normal. A good teacher of a five-year-old changes what is happening every few minutes: a letter, a short game, a repeat, a question. They do not expect stillness, and they do not punish fidgeting. If your child is quiet, looks away, or answers in one word, the teacher expects that too. A first lesson in which a shy child says six words is a normal first lesson, not a failed one.",
+          "Tell your child one thing before the class starts: the teacher is there to help you learn, and there are no wrong answers in a first lesson. Children who hear that relax, and relaxed children read far better than nervous ones.",
+        ],
+      },
+      {
+        heading: "6. What Parents Should Do During the Class",
+        paragraphs: [
+          "Sit nearby, especially for younger children. You are welcome to sit in on the lesson, and for a first class it helps your child to know you are there. Sit where your child can see you, but let your child answer for themselves, even if shyly. When a parent answers for the child, the teacher cannot hear what the child can actually do.",
+          "Listen, and take a short note of what the teacher says about your child's level. After the class, you will want to remember which book they should start with, which sounds need work, and what the teacher recommended. A few lines in your phone are enough.",
+          "Do not correct your child during the lesson, and do not worry if the teacher corrects them. Gentle correction is the lesson itself. If you jump in, your child stops listening to the teacher and starts watching you instead. Save your questions for the end of the class, when the teacher will ask if you have any.",
+          "One thing to watch as a parent is how the teacher speaks to your child. Do they use your child's name? Do they praise effort, not just correct answers? Do they explain in words your child understands? Those small things tell you more about the teaching than any brochure, and the free trial exists so you can judge them across three real classes, not one.",
+        ],
+      },
+      {
+        heading: "7. After the Class: What Happens Next",
+        paragraphs: [
+          "After the first class, the teacher talks with you about how it went and recommends a course and a starting point. For most children who cannot read yet, that is Noorani Qaida, the foundation course that teaches the letters and joining rules step by step. Children who can already read usually start with Quran reading, and Tajweed rules are added once the reading is steady. The recommendation is based on what the teacher heard in the lesson, not on your child's age alone.",
+          "At Al Kahaf Academy, the free trial runs for 3 days, so the first class is followed by two more real classes. Use all three before deciding anything. By the third class, you will know whether your child looks forward to the lesson, whether the teacher's pace suits them, and whether the time slot works for your family. If you decide to continue, regular classes are 1-on-1 and online, with plans at $25 for 2 days a week, $35 for 3 days a week, and $45 for 5 days a week. If you decide not to continue, nothing is owed and nothing is charged.",
+          "Once regular classes start, the rhythm is simple: the same teacher, the same time, the same link. Short, regular practice between classes matters more than long sessions. Ten minutes of reading a day, on the days between classes, moves a child forward faster than an hour once a week.",
+        ],
+      },
+      {
+        heading: "8. Five Mistakes Parents Make Before the First Class",
+        paragraphs: [
+          "Most first classes go well, and the few that do not usually go wrong for the same reasons. Avoiding these five mistakes makes the first class far smoother.",
+        ],
+        bullets: [
+          "Teaching your child the night before. A quick lesson from a parent the evening before the class usually creates a habit the teacher then has to undo. Let the teacher start from a clean page.",
+          "Telling your child it is a test. The word test makes children nervous, and nervous children read worse. Say it is a lesson with a new teacher who wants to meet them.",
+          "Booking a time when your child is tired. A class straight after school, late at night, or just before bed is a hard start. Pick a time when your child is alert and unhurried.",
+          "Sitting in a noisy room. Background television, siblings playing nearby, or a phone ringing every few minutes breaks the lesson and makes it hard for the teacher to hear the letters.",
+          "Judging everything on one class. One lesson shows you the teacher and the format, but three classes show you the routine. That is why the trial is three days long, and why you should use all three.",
+        ],
+      },
+      {
+        heading: "9. When to Start Regular Classes",
+        paragraphs: [
+          "There is no perfect age and no perfect month to start. Children usually start Noorani Qaida between the ages of four and seven, and adults start whenever they decide to. What matters is not the date, but whether your child has a teacher who knows their level, a time slot that fits your family, and a routine you can keep. A child who starts at five with three short classes a week will be reading confidently long before a child who waits for the perfect moment.",
+          "If you have read this far, the next step is simple: book the free trial. In the first class, the teacher will meet your child, find their level, teach them one small thing, and tell you exactly where to start. Three days later, you will know whether Al Kahaf Academy is the right place for your family. You can book your free 3-day trial through the free trial page, and the team will confirm your child's class times with you.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Is the first online Quran class free?",
+        answer:
+          "At Al Kahaf Academy, yes. Every new student starts with a free 3-day trial of three real classes. No payment details are collected for the trial, and nothing is owed if you decide not to continue. The trial is a real lesson with a real teacher, not a sales call.",
+      },
+      {
+        question: "Does my child need to know Arabic before the first online Quran class?",
+        answer:
+          "No. Complete beginners are welcome, and the teacher will not ask your child to read the Quran in the first class. Beginners start with the letters of Noorani Qaida, listening and repeating, while children who can already read are asked to read a few lines so the teacher can hear their level.",
+      },
+      {
+        question: "What do we need for the first online Quran class?",
+        answer:
+          "A device that can join a video call, a camera and microphone, a stable internet connection, and a quiet corner with good light. A laptop or tablet is best, because the lesson page is larger and easier to follow. Nothing needs to be bought or printed, because the teacher shares the lesson material on screen.",
+      },
+      {
+        question: "How long is the first online Quran class?",
+        answer:
+          "The first class usually lasts 30 minutes. That includes introductions, a gentle level check, a short sample lesson, and time for questions at the end. Younger children may find 30 minutes long, so the teacher changes the activity every few minutes to keep them engaged.",
+      },
+      {
+        question: "What happens after the first online Quran class?",
+        answer:
+          "The teacher tells you which course and starting point they recommend, and agrees the regular class times with you. At Al Kahaf Academy, the free trial runs for 3 days, so there are two more real classes after the first one. Use all three before deciding, then continue with 1-on-1 online classes if the trial suits your family.",
+      },
+    ],
+  },
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPostData | undefined {

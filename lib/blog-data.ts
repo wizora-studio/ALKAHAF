@@ -400,7 +400,7 @@ export const BLOG_POSTS: BlogPostData[] = [
     title:
       "Quran Classes for Sisters with a Female Teacher: A Complete Guide",
     seoTitle:
-      "Quran Classes for Sisters with a Female Teacher, Al Kahaf Academy",
+      "Quran Classes for Sisters with a Female Teacher",
     metaDescription:
       "Live 1-on-1 online Quran classes for sisters with certified female teachers (Qariahs & Hafizas). Private, comfortable learning for girls and women of all ages.",
     excerpt:
@@ -910,7 +910,7 @@ export const BLOG_POSTS: BlogPostData[] = [
     title:
       "Learn Noorani Qaida Online for Beginners: Step-by-Step Lesson Breakdown",
     seoTitle:
-      "Learn Noorani Qaida Online for Beginners | Al Kahaf Academy",
+      "Learn Noorani Qaida Online for Beginners",
     metaDescription:
       "Learn Noorani Qaida online for beginners with a clear step-by-step lesson breakdown, alphabet, Makharij, Harakat, joining letters and daily practice for kids and adults.",
     excerpt:
@@ -1059,7 +1059,7 @@ export const BLOG_POSTS: BlogPostData[] = [
     title:
       "How to Learn Quran as an Adult Beginner (Without Feeling Shy or Overwhelmed)",
     seoTitle:
-      "How to Learn Quran as an Adult Beginner | Al Kahaf Academy",
+      "How to Learn Quran as an Adult Beginner",
     metaDescription:
       "How to learn Quran as an adult beginner, step by step: start with the Arabic letters, read your first Surah in weeks, and learn 1-on-1 with a patient teacher.",
     excerpt:
@@ -1213,7 +1213,7 @@ export const BLOG_POSTS: BlogPostData[] = [
     title:
       "Noon Sakinah and Tanween Rules: Izhar, Idgham, Iqlab & Ikhfa With Examples",
     seoTitle:
-      "Noon Sakinah and Tanween Rules | Al Kahaf Academy",
+      "Noon Sakinah and Tanween Rules",
     metaDescription:
       "Noon Sakinah and Tanween rules explained simply, Izhar, Idgham, Iqlab and Ikhfa with Quranic examples, a 7-day practice plan and a 3-second rule check.",
     excerpt:
@@ -1367,7 +1367,7 @@ export const BLOG_POSTS: BlogPostData[] = [
     title:
       "Makharij al-Huroof for Beginners: Simple Guide to Arabic Letter Pronunciation",
     seoTitle:
-      "Makharij al-Huroof for Beginners | Al Kahaf Academy",
+      "Makharij al-Huroof for Beginners",
     metaDescription:
       "Makharij al-huroof for beginners, learn the 5 articulation areas and 17 points of every Arabic letter, with simple examples and a 7-day practice plan.",
     excerpt:
@@ -1714,7 +1714,7 @@ export const BLOG_POSTS: BlogPostData[] = [
     title:
       "Online Quran Classes for Sisters With a Female Tutor: How Private Learning Works",
     seoTitle:
-      "Online Quran Classes for Sisters With a Female Tutor | Al Kahaf Academy",
+      "Online Quran Classes for Sisters With a Female Tutor",
     metaDescription:
       "Online Quran classes for sisters with a female tutor, private 1-on-1 lessons from home, flexible timings across time zones and a free 3-day trial.",
     excerpt:
@@ -2012,7 +2012,7 @@ export const BLOG_POSTS: BlogPostData[] = [
   {
     slug: "sabaq-sabaqi-manzil-hifz-method",
     title: "Sabaq, Sabaqi, and Manzil Hifz Method: How to Memorize Quran Without Forgetting",
-    seoTitle: "Sabaq Sabaqi Manzil Hifz Method | Al Kahaf Academy",
+    seoTitle: "Sabaq Sabaqi Manzil Hifz Method",
     metaDescription:
       "The sabaq sabaqi manzil hifz method is the three-part daily system that keeps memorized Quran in memory. Learn what each part covers and how much to revise.",
     excerpt:
@@ -2313,7 +2313,7 @@ export const BLOG_POSTS: BlogPostData[] = [
   {
     slug: "madd-rules-in-tajweed-for-beginners",
     title: "Madd Rules in Tajweed for Beginners: When to Stretch 2, 4, or 6 Beats",
-    seoTitle: "Madd Rules in Tajweed for Beginners | Al Kahaf Academy",
+    seoTitle: "Madd Rules in Tajweed for Beginners",
     metaDescription:
       "Madd rules in Tajweed for beginners: the three Madd letters, natural Madd at 2 counts, and when Hamzah or Sukoon stretches the sound to 4, 5 or 6 counts, with examples and a daily practice plan.",
     excerpt:
@@ -2459,7 +2459,7 @@ export const BLOG_POSTS: BlogPostData[] = [
   {
     slug: "meem-sakinah-rules-in-tajweed",
     title: "Meem Sakinah Rules in Tajweed: Ikhfa Shafawi, Idgham Shafawi and Izhar Shafawi",
-    seoTitle: "Meem Sakinah Rules in Tajweed | Al Kahaf Academy",
+    seoTitle: "Meem Sakinah Rules in Tajweed",
     metaDescription:
       "Meem Sakinah rules in Tajweed: the three Shafawi rules, Ikhfa before Baa, Idgham before Meem, and Izhar before the other 26 letters, with Quranic examples and a daily practice plan.",
     excerpt:
@@ -2622,7 +2622,7 @@ export const BLOG_POSTS: BlogPostData[] = [
   {
     slug: "surah-al-fatihah-tajweed-mistakes",
     title: "Surah Al-Fatihah Tajweed Mistakes: How to Correct Your Recitation for Daily Salah",
-    seoTitle: "Surah Al-Fatihah Tajweed Mistakes | Al Kahaf Academy",
+    seoTitle: "Surah Al-Fatihah Tajweed Mistakes",
     metaDescription:
       "Surah Al-Fatihah tajweed mistakes, corrected ayah by ayah: the shaddah in Iyyaka, an'amta not an'amtu, heavy and light letters, plus a 7-day fix plan.",
     excerpt:
@@ -2774,7 +2774,7 @@ export const BLOG_POSTS: BlogPostData[] = [
   {
     slug: "what-to-expect-in-your-first-online-quran-class",
     title: "What to Expect in Your Child's First Online Quran Class: A Free Trial Guide for Parents",
-    seoTitle: "What to Expect in Your First Online Quran Class | Al Kahaf Academy",
+    seoTitle: "What to Expect in Your First Online Quran Class",
     metaDescription:
       "What to expect in your first online Quran class: how to book the free trial, what the teacher checks, what your child does in 30 minutes, and what happens next.",
     excerpt:
@@ -2913,7 +2913,7 @@ export const BLOG_POSTS: BlogPostData[] = [
   {
     slug: "most-common-words-in-the-quran-for-beginners",
     title: "Most Common Words in the Quran for Beginners: How to Understand 70% of Quranic Arabic",
-    seoTitle: "Most Common Words in the Quran for Beginners | Al Kahaf Academy",
+    seoTitle: "Most Common Words in the Quran for Beginners",
     metaDescription:
       "Learn the most common words in the Quran for beginners: the 10 words to learn first, the 300 words behind about 70% of the text, and a simple 4-week plan.",
     excerpt:
@@ -3050,7 +3050,7 @@ export const BLOG_POSTS: BlogPostData[] = [
   {
     slug: "daily-islamic-duas-and-salah-guide-for-kids",
     title: "Daily Islamic Duas and Salah Guide for Kids: Step-by-Step Prayer and an Age-by-Age Plan",
-    seoTitle: "Daily Islamic Duas and Salah Guide for Kids | Al Kahaf Academy",
+    seoTitle: "Daily Islamic Duas and Salah Guide for Kids",
     metaDescription:
       "Daily Islamic duas and salah guide for kids: the 8 first duas with words and meanings, a step-by-step prayer walkthrough, and an age-by-age plan for parents.",
     excerpt:
@@ -3191,6 +3191,146 @@ export const BLOG_POSTS: BlogPostData[] = [
         question: "My child refuses to pray. What should I do?",
         answer:
           "Stay calm and shrink the ask. A child refusing a full prayer will often agree to just stand next to you for this one, and that small, winnable step rebuilds cooperation faster than insisting on the full version. Check whether they are tired, hungry, embarrassed, or confused about a step, because those causes look identical to refusal from the outside. Never use prayer itself as a punishment, and keep praying yourself, where they can see it.",
+      },
+    ],
+  },
+  {
+    slug: "quran-classes-for-new-muslims",
+    title: "Quran Classes for New Muslims: Where to Start and What to Learn First",
+    seoTitle: "Quran Classes for New Muslims: Where to Start",
+    metaDescription:
+      "Quran classes for new Muslims: start with prayer, then the Arabic letters. A plain first-week plan, the surahs to learn first, and how to choose a teacher.",
+    excerpt:
+      "You do not need to learn everything at once. Prayer first, a handful of short surahs, then the Arabic letters, one at a time, at an adult pace, with a teacher who has done this before.",
+    category: "Beginner Foundations",
+    readTime: "8 min read",
+    datePublished: "2026-11-25",
+    dateModified: "2026-11-25",
+    authorName: "Al Kahaf Academic Council",
+    authorRole: "Adult Beginner & New Muslim Learning Division",
+    reviewerName: "Senior Curriculum Coordinator, Al Kahaf Academy",
+    image: "/images/online-quran-students.jpg",
+    relatedCourseSlug: "noorani-qaida",
+    relatedCourseTitle: "Foundational Noorani Qaida Online Course",
+    keyTakeaways: [
+      "Prayer comes first, because it cannot wait. Learn wudu, the positions, and Al-Fatiha by ear, and you can pray within a few weeks, long before you can read a page of Arabic.",
+      "You only need about fifteen short lines to cover every prayer: Al-Fatiha, a few short surahs, and the words said in bowing and prostration. That is the whole first stage.",
+      "Read the translation from day one and learn the letters alongside it. Understanding and reciting are two different skills, and you do not have to finish one before starting the other.",
+    ],
+    sections: [
+      {
+        heading: "1. Quran Classes for New Muslims: The Short Answer",
+        paragraphs: [
+          "If you took your shahada recently and you are wondering where to begin with the Quran, here is the honest answer in one paragraph. Start with prayer. Learn wudu, learn the positions of salah, and learn Surah Al-Fatiha by listening and repeating, one line at a time. That takes a few weeks, and it is the only part that cannot wait, because salah is five times a day from the day you accept Islam. Then learn the Arabic letters through the Noorani Qaida, a few at a time, while you keep reading the translation in English so you know what you are saying. That is the whole plan. Everything else, tajweed rules, long surahs, Arabic grammar, can wait until these two pieces are steady.",
+          "This guide follows that order, and it is written for someone starting from zero: no Arabic, no Muslim family nearby, maybe no mosque close by. That is also how good Quran classes for new Muslims are built: prayer first, letters second, meaning alongside. You will get a day-by-day first week, the exact surahs to learn first and in which order, what learning the letters actually takes, and how to pick a teacher without getting rushed or shamed. If you would rather learn with a teacher than alone, the free 3-day trial at the end is the simplest way to start, and the adults classes page explains how the classes run.",
+        ],
+      },
+      {
+        heading: "2. Four Different Skills, and Why You Should Not Learn Them All at Once",
+        paragraphs: [
+          "The first thing to get straight is that learning the Quran is not one job. It is four, and they run on different clocks. Reading means decoding the Arabic script out loud. Reciting well means applying the rules of pronunciation, tajweed, so each letter sounds as it should. Understanding means knowing what the words mean, which you can do in English from day one. Memorising means holding verses in your head, which needs fluent reading first. Nobody does all four at once, and nobody needs to. The mistake almost every new Muslim makes is trying to. Arabic letters in the morning, a tajweed video at lunch, a tafseer lecture at night, and a memorisation target on top, and within three weeks the whole thing stops, because it was never a plan. It was five plans.",
+          "So pick one track at a time, in this order. Prayer first, because it is daily and it cannot wait. Understanding alongside it, because knowing what Al-Fatiha means changes the prayer you are already saying. Reading next, through the Qaida, a few letters a week. Tajweed and memorisation come last, once reading is fluent. The Quran itself was revealed over 23 years, not handed over in one night. Your learning can afford to be gradual too.",
+        ],
+      },
+      {
+        heading: "3. Start With Prayer: The First Two Weeks",
+        paragraphs: [
+          "Before Arabic, before memorisation, before anything else, learn to pray. Salah is obligatory five times a day from the moment you accept Islam, so it is the one thing that cannot wait, and it is smaller than it looks. There are four pieces, in this order. Wudu, the washing before prayer, with its steps and what breaks it. The physical form of salah, the standing, bowing, prostrating and sitting, and the order they come in. Surah Al-Fatiha, seven short verses, recited in every unit of every prayer. And one or two short surahs to recite after it, usually Al-Ikhlas first. Then the few words said in bowing and prostration, which repeat in every prayer and are only a few words each.",
+          "Most new Muslims can pray correctly, if imperfectly, within two to four weeks. That is the normal pace, and it is worth saying plainly: praying imperfectly is far better than waiting until you feel ready, because ready never quite arrives. Learn Al-Fatiha by ear. Listen to a slow, clear recitation of one line, repeat it until it feels natural, then add the next line. Say it in your prayers as you learn it, because using it is part of learning it. A printed card with the words in transliteration, Arabic written in English letters, is fine while you learn. It is a bridge, not a home. The point is to cross it, not to live on it, and the moment to step off is once you can read the letters yourself.",
+          "If you are learning alone, keep the first two weeks tiny. One prayer learned properly beats five prayers half-learned. Start with Maghrib, when the day is done and the house is quiet, or Fajr, before the day starts. Learn the words for that one prayer, pray it every day for a week, and then add the next. The Prophet ﷺ said the most beloved deed to Allah is the most regular and constant, even if it were little (Sahih al-Bukhari 6464). Ten minutes a day, most days, will carry you further than a long session once a month.",
+        ],
+      },
+      {
+        heading: "4. The First Surahs to Learn, in This Order",
+        paragraphs: [
+          "Once Al-Fatiha is in your mouth, the next surahs come in a fixed order, and there is a reason for it. Each one is short, each one is used in prayer, and each one is a little longer than the last. Learn them by listening, one line at a time, and do not move on until a teacher has heard the one before it and said it is right. A surah you can recite correctly is worth more than three you can half-recite.",
+        ],
+        bullets: [
+          "Surah Al-Fatiha, chapter 1, seven verses. Recited in every unit of every prayer, which means you will say it seventeen times a day once all five prayers are in place. Learn it first, and learn what it means at the same time, because its meaning is the whole prayer in miniature: praise, then a request for guidance.",
+          "Surah Al-Ikhlas, chapter 112, four verses. The second most recited surah in prayer, and the whole of it is the oneness of Allah in four short lines. Most people learn it in a few days.",
+          "Surah Al-Kawthar, chapter 108, three verses. The shortest surah in the Quran, and a good second surah for prayer while the longer ones are still being learned.",
+          "Surah Al-Asr, chapter 103, three verses. Short, direct, and often taught right after Al-Kawthar.",
+          "Surah Al-Falaq, chapter 113, five verses, and Surah An-Nas, chapter 114, six verses. The two protection surahs, almost always learned together and recited together, morning and night.",
+        ],
+      },
+      {
+        heading: "5. Your First Week, Day by Day",
+        paragraphs: [
+          "A month-long plan is easy to admire and easy to postpone. A week is small enough to start tonight. Here is one, with a single job per day. If a day gets missed, move it to the next day. Nothing here depends on the day before it being perfect.",
+        ],
+        bullets: [
+          "Day 1: listen to Surah Al-Fatiha five times, with the English translation open in front of you. Do not try to memorise it. Just hear it, and know what each line means.",
+          "Day 2: learn the first line of Al-Ikhlas by listening and repeating. One line only. Say it ten times, then leave it alone.",
+          "Day 3: learn wudu, step by step, at the sink. Hands, mouth, nose, face, arms, head, ears, feet. Do it slowly, once, and write the steps on a card if it helps.",
+          "Day 4: learn the positions of one prayer. Stand, bow, prostrate, sit. No words yet, just the shape of it, with a video or a teacher showing you.",
+          "Day 5: read one page of translation from the short chapters at the end of the Quran, Juz Amma. These are the chapters you will be praying with, so start where you will live.",
+          "Day 6: learn your first three Arabic letters, alif, ba, ta. Say them out loud, write them once each, and notice how ba and ta differ by a single dot.",
+          "Day 7: pray one full prayer with the card in front of you. It does not have to be perfect. It has to be prayed. Then pick a fixed ten minutes each day for next week, the same time every day, so it becomes a habit and not a decision.",
+        ],
+      },
+      {
+        heading: "6. Learning the Arabic Letters: What It Actually Takes",
+        paragraphs: [
+          "The alphabet has 28 letters. English has 26. The script runs right to left, and each letter changes shape a little depending on where it sits in a word, which sounds harder than it is. Most adults can recognise and name all 28 letters within a few weeks of starting. The shape-changing rules are largely predictable once you have seen them a few times, and the genuinely hard part is not the script at all. It is making sounds that do not exist in English, especially the throat letters, ayn, ha, and hamza, which take physical practice and a teacher who can hear whether you are getting them right.",
+          "The usual path is the Noorani Qaida, a short primer that every mosque and teacher seems to use, and for good reason. Its 17 lessons take you from single letters to joined words, then to the vowel marks, the doubling mark, and the long vowels, and finally to short surah reading. Most adults finish it in three to six months at three classes a week, with ten to fifteen minutes of practice a day. It is slow at the start and quicker later, and that is normal, not a sign that you are bad at it. Reading Arabic script is a matter of months. Pronouncing it well is a matter of steady correction over longer than that, and everyone is somewhere on that road.",
+          "One warning about transliteration, because it catches almost everyone. Arabic written in English letters is a fine bridge while you learn your first chapters, but it cannot show every sound exactly, so it starts lying to you the moment the words get harder. The rule is simple. Use it for the words you are learning right now, and stop using it for new material the moment you can read the letters. If you are still reading Al-Fatiha from transliteration six months in, the bridge has become a wall. A teacher will tell you when it is time to cross.",
+        ],
+      },
+      {
+        heading: "7. Learning Privately, and the Feeling of Being Behind",
+        paragraphs: [
+          "Almost every new Muslim says some version of the same thing: everyone else seems to know this already. Two things are worth knowing. First, many people raised Muslim cannot read Arabic either, and a good number are less sure of their salah than they let on. Second, learning as an adult who chose this is different from absorbing it as a child. You will understand why you are doing things, and that understanding shows over years. The comparison with someone who has been learning since they were four is meaningless, and it is worth dropping on purpose, not just once but every time it comes back.",
+          "There is also the practical side, which nobody talks about enough. Some new Muslims have supportive families. Many have families ranging from puzzled to hostile, and some are keeping their Islam private for now. That shapes what is possible, and a good plan bends around it instead of pretending it is not there. One-to-one online classes are private in a way a mosque class is not, which for some students is the difference between studying and not studying at all. A camera can stay off. Headphones keep a lesson between you and your teacher. A late-night slot, after the house is asleep, is a normal request, and a tutor who knows your situation can build the plan around it rather than around an ideal day that does not exist. You are not obliged to explain yourself to anyone, including your tutor, beyond what is useful for arranging the lessons.",
+          "And if the Arabic feels hard, that is not a mark against you. The Prophet ﷺ said the one who recites the Quran skilfully will be with the noble angels, and the one who stumbles over it and finds it hard will have two rewards (Sahih al-Bukhari and Sahih Muslim). Two rewards for the one who finds it difficult. Your mistakes while you are sincerely learning are honoured in the tradition, not just tolerated. Learn with a teacher so the errors get fewer over time, and never let the fear of making them stop you from reciting at all.",
+        ],
+      },
+      {
+        heading: "8. Five Mistakes New Muslims Make, and What to Do Instead",
+        paragraphs: [
+          "Most new Muslims who stall are not lazy. They are doing the wrong things first, and doing too many of them.",
+        ],
+        bullets: [
+          "Trying to learn everything at once. Arabic, memorisation, tajweed, tafseer and group classes in the same week. Pick one track, prayer, and let the rest wait its turn.",
+          "Memorising long surahs too early. A long surah learned badly has to be unlearned later, which takes longer than learning it properly the first time. Short surahs first, and only move on when a teacher has checked the one before it.",
+          "Staying on transliteration. It is a bridge. If you are still crossing it after six months, ask your teacher to switch you to the Arabic script for everything new.",
+          "Comparing yourself with people who grew up with it. They had twenty years. You have twenty days. The comparison is not information, it is just noise, and it slows you down.",
+          "Waiting until you feel ready to pray. Ready does not arrive on its own. Pray with the card, pray imperfectly, and let the practice make you ready.",
+        ],
+      },
+      {
+        heading: "9. How to Choose a Teacher, and What to Ask in a Trial Class",
+        paragraphs: [
+          "You do not have to learn alone, and for most new Muslims a teacher is the difference between starting and stalling. The right teacher for a new Muslim is not just a good reciter. It is someone who has taught adults who started from zero before, and who knows that an adult beginner needs a different pace from a child who grew up hearing the Quran at home. In a trial class, ask three things. Have you taught new Muslims before, and how do you start them? Will you teach me the meaning of what I recite, or only the sounds? And how will you correct me when I get a letter wrong? The answers tell you almost everything. A good teacher answers plainly, corrects gently, and never makes a mistake feel shameful.",
+          "A few things to look for, and a few to walk away from. Look for one-to-one lessons, at a time that fits your week, with a teacher of the gender you are comfortable with, and a plan that starts from where you actually are rather than from the beginning of a syllabus. Walk away from anyone who rushes you, who assumes you already know things, who teaches only by repeating sounds with no meaning attached, or who has no plan at all and just opens the book at page one. A trial class is for finding out whether the teacher suits you, not for proving yourself. If the first lesson feels kind and clear, stay. If it feels rushed or cold, try someone else. That is what the trial is for.",
+          "At Al Kahaf Academy, the new Muslim track starts exactly where this guide starts: prayer first, then the letters, with the meaning alongside from day one. Classes are live and one-to-one, with male and female teachers, and you can try it with a free 3-day trial through the free trial page. Regular classes are 1-on-1 and online, with plans at $25 for 2 days a week, $35 for 3 days a week, and $45 for 5 days a week. Start tonight. Listen to Al-Fatiha once, with the translation open, and see how it feels. That is the whole first step.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Do I need to learn Arabic to be a Muslim?",
+        answer:
+          "No. You do not need to speak Arabic to be Muslim. You will learn the short Arabic you say in prayer a little at a time, and you can understand the Quran in your own language through a good translation. The Arabic recitation is required for salah, but it is a journey of weeks and months, and the translation is your meaning resource while you learn.",
+      },
+      {
+        question: "How long does it take a new Muslim to learn to read the Quran?",
+        answer:
+          "Most adults finish the Noorani Qaida in three to six months at three classes a week, with ten to fifteen minutes of daily practice, and then begin reading the Mushaf itself. It is slow at the start and quicker later. The prayer surahs come much faster, usually within the first few weeks, because they are learned by ear.",
+      },
+      {
+        question: "Can I pray if I do not know Surah Al-Fatiha yet?",
+        answer:
+          "Yes, start praying now and learn Al-Fatiha line by line at the same time. Listen to one line, repeat it until it feels natural, then add the next. Use a printed card with the words while you learn, and let the card go as the words settle in your memory. Praying imperfectly while you learn is far better than waiting until you feel ready.",
+      },
+      {
+        question: "What should a new Muslim learn first, the Quran or how to pray?",
+        answer:
+          "How to pray, because salah is five times a day and it cannot wait. Learn wudu, the positions, Al-Fatiha and one short surah first. The Arabic letters come next, through the Qaida, and the meaning comes alongside both, through a translation you read from day one.",
+      },
+      {
+        question: "Are online Quran classes for new Muslims private?",
+        answer:
+          "Yes, one-to-one online classes are private by design. Nobody hears you learn except your tutor, the camera can stay off, and lessons can be scheduled late at night with headphones if that is when your house is quiet. If your family does not know yet, say so in the trial class, and the plan will be built around your situation.",
       },
     ],
   },

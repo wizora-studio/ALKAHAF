@@ -3047,6 +3047,153 @@ export const BLOG_POSTS: BlogPostData[] = [
       },
     ],
   },
+  {
+    slug: "daily-islamic-duas-and-salah-guide-for-kids",
+    title: "Daily Islamic Duas and Salah Guide for Kids: Step-by-Step Prayer and an Age-by-Age Plan",
+    seoTitle: "Daily Islamic Duas and Salah Guide for Kids | Al Kahaf Academy",
+    metaDescription:
+      "Daily Islamic duas and salah guide for kids: the 8 first duas with words and meanings, a step-by-step prayer walkthrough, and an age-by-age plan for parents.",
+    excerpt:
+      "One plan, two habits. The eight short duas your child can learn first, and salah taught one small step at a time, from copying you at three to praying on their own at ten.",
+    category: "Parent & Student Advice",
+    readTime: "8 min read",
+    datePublished: "2026-11-25",
+    dateModified: "2026-11-25",
+    authorName: "Al Kahaf Academic Council",
+    authorRole: "Foundational Qaida & Early Learners Division",
+    reviewerName: "Senior Curriculum Coordinator, Al Kahaf Academy",
+    image: "/images/online-quran-students.jpg",
+    relatedCourseSlug: "noorani-qaida",
+    relatedCourseTitle: "Foundational Noorani Qaida Online Course",
+    keyTakeaways: [
+      "Teach duas and salah together, not as two separate subjects. The duas anchor the small moments of the day, and salah anchors the day itself.",
+      "Start with Bismillah and one short dua a week, and start salah with one prayer a day, usually Maghrib, before adding more.",
+      "Ages 2 to 4 are for copying, 5 to 6 for learning the movements and short words, 7 to 9 for regular practice, and 10 and up for consistency and meaning.",
+    ],
+    sections: [
+      {
+        heading: "1. Daily Islamic Duas and Salah Guide for Kids: The Short Answer",
+        paragraphs: [
+          "This daily Islamic duas and salah guide for kids puts two things into one plan, because at home they are one job. Your child learns a short dua for waking up, eating, leaving the house and going to sleep, and learns salah one small piece at a time, at the pace their age allows. The duas come first, because they are short and they happen all day long. Salah follows, one prayer at a time, starting with Maghrib, when the family is usually home together.",
+          "You do not need a perfect routine to start. Pick one dua this week. Pick one prayer to pray together each day. A child who says Bismillah before every meal and stands beside you for Maghrib every evening is already learning both habits. This guide gives you the eight first duas, with the Arabic, a simple transliteration and the meaning, then a step-by-step walkthrough of a two-rakah prayer, then an age-by-age plan from two to ten and up.",
+        ],
+      },
+      {
+        heading: "2. Why Duas and Salah Belong in the Same Plan",
+        paragraphs: [
+          "A dua is a short conversation with Allah, tied to something your child is already doing. They wake up, they eat, they leave the house, they go to sleep. Each of those moments already exists in their day, so each one can carry a few words of remembrance without adding a single lesson to the schedule. That is why duas are the easiest place to start, and why children remember them so fast. The words attach to moments, not to study time.",
+          "Salah is the same conversation, longer and at fixed times. A child who says Alhamdulillah after every meal does not find Subhana Rabbiyal-A'la strange in sujood. The habit of turning to Allah in small moments is what makes the five prayers feel normal instead of strange. The Quran puts the duty on parents in plain words: \"And enjoin prayer upon your family and be steadfast therein\" (Surah Ta-Ha, 20:132). Luqman tells his son the same thing: \"O my son, establish prayer\" (Surah Luqman, 31:17). Neither verse asks you to teach it all in a week.",
+        ],
+      },
+      {
+        heading: "3. The 8 First Duas: Easiest First, With the Words and Meanings",
+        paragraphs: [
+          "Teach these in order, one a week, and say each one with your child, out loud, at the moment it belongs to. Say the Arabic, then the meaning, in the same breath, every time. Keep the transliteration as a bridge, not the destination, and let your child hear the Arabic said correctly every day, from you, from a teacher, or from a good recording. Never correct a child's dua the way you would correct homework. If they say it wrong, just say it right yourself, warmly, and let them copy you.",
+        ],
+        bullets: [
+          "Before eating, Bismillah. Arabic: بِسْمِ اللَّهِ. Transliteration: Bismillah. Meaning: In the name of Allah. The first dua every child should learn. Two seconds, three times a day.",
+          "Before studying, Rabbi zidni ilma. Arabic: رَبِّ زِدْنِي عِلْمًا. Transliteration: Rabbi zidni ilma. Meaning: My Lord, increase me in knowledge. From the Quran (Surah Ta-Ha, 20:114). Say it when your child opens their school bag.",
+          "On waking up, Alhamdu lillahil-ladhi ahyana. Arabic: الْحَمْدُ لِلَّهِ الَّذِي أَحْيَانَا بَعْدَ مَا أَمَاتَنَا وَإِلَيْهِ النُّشُورُ. Transliteration: Alhamdu lillahil-ladhi ahyana ba'da ma amatana wa ilayhin-nushur. Meaning: All praise belongs to Allah, who gave us life after taking it from us, and to Him is the return. Say it the moment your child opens their eyes.",
+          "After eating, Alhamdu lillahil-ladhi at'amana. Arabic: الْحَمْدُ لِلَّهِ الَّذِي أَطْعَمَنَا وَسَقَانَا وَجَعَلَنَا مِنَ الْمُسْلِمِينَ. Transliteration: Alhamdu lillahil-ladhi at'amana wa saqana wa ja'alana minal-muslimin. Meaning: All praise belongs to Allah, who fed us, gave us drink, and made us Muslims. Right after the last bite.",
+          "Leaving the house, Bismillahi tawakkaltu alallah. Arabic: بِسْمِ اللَّهِ تَوَكَّلْتُ عَلَى اللَّهِ وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ. Transliteration: Bismillahi tawakkaltu alallah, wa la hawla wa la quwwata illa billah. Meaning: In the name of Allah, I place my trust in Allah. There is no power and no strength except with Allah. Hand on the doorknob, said together, every morning.",
+          "Entering the house, Bismillahi walajna. Arabic: بِسْمِ اللَّهِ وَلَجْنَا وَبِسْمِ اللَّهِ خَرَجْنَا وَعَلَى رَبِّنَا تَوَكَّلْنَا. Transliteration: Bismillahi walajna, wa bismillahi kharajna, wa ala rabbina tawakkalna. Meaning: In the name of Allah we enter, in the name of Allah we leave, and upon our Lord we rely. Said as soon as they walk back in.",
+          "Before sleeping, Bismika Allahumma amutu wa ahya. Arabic: بِاسْمِكَ اللَّهُمَّ أَمُوتُ وَأَحْيَا. Transliteration: Bismika Allahumma amutu wa ahya. Meaning: In Your name, O Allah, I die and I live. Said at bedtime, in a quiet voice. Short enough for a four-year-old to learn in a week.",
+          "For your parents, Rabbirhamhuma kama rabbayani saghira. Arabic: رَّبِّ ارْحَمْهُمَا كَمَا رَبَّيَانِي صَغِيرًا. Transliteration: Rabbirhamhuma kama rabbayani saghira. Meaning: My Lord, have mercy on them, as they raised me when I was small. From the Quran (Surah Al-Isra, 17:24). Teach it last, because it is the longest.",
+        ],
+      },
+      {
+        heading: "4. How to Pray Salah With Your Child, Step by Step",
+        paragraphs: [
+          "Before salah comes wudu, and wudu comes first for a reason. A child who cannot make wudu on their own cannot pray on their own. Teach wudu on its own, over several days, before you ever combine it with a prayer: say Bismillah, wash the hands, mouth and nose three times each, wash the face three times, wash the arms up to the elbows three times, right arm first, wipe the head once and the ears, then wash the feet up to the ankles three times, right foot first. Do it beside them at the same sink, and count out loud together. A wet bathroom for the first few weeks is normal.",
+          "Here is a two-rakah prayer, Fajr, in plain words. Stand facing the qiblah and make the intention in your heart. Raise both hands and say Allahu Akbar, then fold your hands and recite Surah Al-Fatihah, followed by a short surah such as Al-Ikhlas. Say Allahu Akbar and bow, hands on your knees, back flat, and say Subhana Rabbiyal-Adhim, glory be to my Lord, the Most Great, three times. Stand back up, saying Sami'allahu liman hamidah, then Rabbana wa lakal-hamd. Say Allahu Akbar and go into sujood, forehead, nose, both hands, both knees and toes on the ground, and say Subhana Rabbiyal-A'la, glory be to my Lord, the Most High, three times. Sit up, say Allahu Akbar, and go into a second sujood. Then stand up for the second rakah and do it all again. After the second rakah, sit for the tashahhud, then end by turning your head to the right and saying As-salamu alaykum wa rahmatullah, then to the left.",
+          "Teach the movements first, with no pressure on the words. Let your child mirror your body for a week or two before you worry about whether they can say Al-Fatihah correctly. Then add the words one phrase at a time, starting with Al-Fatihah, since it is recited in every single rakah, and then one short surah. Small details, such as where the hands rest while standing, differ a little between the four schools of thought, and all four are valid, so teach your child the way your family prays. The five prayers are: Fajr, 2 rakahs; Dhuhr, 4; Asr, 4; Maghrib, 3; and Isha, 4. Do not aim for all five at once. Aim for one, prayed together, every day, until it is as normal as brushing teeth.",
+        ],
+      },
+      {
+        heading: "5. The Age-by-Age Plan: What to Teach at 2 to 4, 5 to 6, 7 to 9, and 10 and Up",
+        paragraphs: [
+          "Ages 2 to 4: copying, nothing else. At this age your child's only job is to watch, stand beside you and copy. Give them their own small prayer mat next to yours, even if they never finish a single rakah. If they climb on your back during sujood, you are in good company. The Prophet Muhammad ﷺ once made a sujood so long that his Companions worried, and then explained that his grandson was riding on his back and he did not want to disturb him. Never correct a three-year-old's posture or words. Correcting at this age teaches them that prayer is a performance to get right, which is the opposite of what you want them to feel.",
+          "Ages 5 to 6: the parts, one at a time. This is the age for real teaching, in short bursts of ten to fifteen minutes. Teach the movements first, then the words. Teach wudu as its own lesson. Teach Al-Fatihah one verse at a time, then one short surah, then put it together into one full prayer. Let them lead one small piece, such as laying out the mats, because owning a small piece builds investment faster than being a passenger through the whole thing. Praise the effort every single time, even when the recitation is wrong.",
+          "Ages 7 to 9: regular practice. Seven is the age the Prophet ﷺ named in the hadith reported in Sunan Abi Dawud (495): \"Command your children to pray when they are seven years old, and discipline them for it when they are ten.\" Read it the way the scholars read it. Seven is when you start asking clearly and consistently, not a deadline by which your child must already pray perfectly on their own. Start with one or two prayers a day, often Maghrib and Isha when everyone is home, and add more over the following months. A simple prayer chart on the fridge, one sticker per prayer, helps a child see their own progress. Celebrate effort, not a perfect week.",
+          "Ages 10 and up: consistency and meaning. By ten, a child who moved through the earlier stages already knows how to pray. The remaining job is turning \"can pray\" into \"does pray, five times a day, without being asked every time.\" Shift your language from \"let's pray\" to \"it is time for Dhuhr.\" Hand over the chart and the reminders, and let them set their own prayer alarms. Talk about the meanings of what they say, one verse of Al-Fatihah at a time. Remember that salah only becomes obligatory at puberty, so the years from seven to puberty are training years.",
+        ],
+      },
+      {
+        heading: "6. A Day in the Life: Duas and Salah From Waking to Bedtime",
+        paragraphs: [
+          "A plan only works if you can see it inside a normal day, so here is one, from a school day, with every dua and every prayer in its place. Nothing here takes extra time.",
+        ],
+        bullets: [
+          "Waking up: the waking dua, said together before your child gets out of bed, then Fajr, prayed together on weekends.",
+          "Breakfast: Bismillah before the first bite, and the after-eating dua when the plate is empty.",
+          "Leaving for school: the leaving-home dua at the door, said together, then Rabbi zidni ilma when your child opens their school bag.",
+          "Coming home: the entering-home dua as soon as they walk in, then Asr, prayed as soon as they get home, before anything else.",
+          "Evening: Maghrib prayed together as a family. It is short, everyone is usually home, and it is the easiest prayer to make a daily habit.",
+          "Dinner: Bismillah and the after-eating dua again, the same habit, a second time in the day.",
+          "Bedtime: Isha before bed, then the dua for parents, then the sleeping dua, said quietly after the story.",
+        ],
+      },
+      {
+        heading: "7. A 4-Week Starter Plan You Can Begin This Week",
+        paragraphs: [
+          "Four weeks is enough to build the whole foundation, if you go one piece at a time and do not skip ahead. Each week adds one dua and one piece of salah. Keep every session under fifteen minutes.",
+        ],
+        bullets: [
+          "Week 1: Bismillah before every meal, and the waking dua each morning. Pray Maghrib together every evening, with your child copying your movements.",
+          "Week 2: add the after-eating dua and Rabbi zidni ilma before school and Quran practice. Add Isha to the evening routine.",
+          "Week 3: add the leaving-home and entering-home duas. Teach wudu as its own lesson, one step a day, at the sink, beside you.",
+          "Week 4: add the sleeping dua and the dua for parents at bedtime. Put it together: your child prays one full Maghrib with you, wudu and all, and you celebrate it properly.",
+        ],
+      },
+      {
+        heading: "8. Five Mistakes Parents Make, and What to Do Instead",
+        paragraphs: [
+          "Most parents who struggle with this are not doing too little. They are doing too much, too fast, in the wrong order.",
+        ],
+        bullets: [
+          "Teaching the whole prayer in one sitting. A six-year-old's attention for new material lasts about ten to fifteen focused minutes. Teach one piece, let it become automatic, then add the next.",
+          "Correcting in the middle of the prayer. A correction mid-sujud turns a small mistake into a big moment. Supply the next word quietly if they are stuck, and save the real correction for practice time, after the prayer.",
+          "Using prayer as a punishment or a bargaining chip. \"Go and pray because you were naughty\" teaches the wrong lesson. Tie consequences to the routine, never to the act of worship itself.",
+          "Comparing your child with a sibling or a friend's child. Nothing damages motivation faster, and it does not speed the slower child up by a single day.",
+          "Expecting five prayers a day from week one. Start with one prayer, prayed gladly, every day. The Prophet ﷺ said the most beloved deed to Allah is the most regular and constant, even if it were little.",
+        ],
+      },
+      {
+        heading: "9. When You Need a Teacher's Help",
+        paragraphs: [
+          "Teaching duas and salah at home covers the habit and the relationship. A teacher's role is different, and it fits alongside yours rather than replacing it. The parts that are genuinely hard to teach yourself are the ones a teacher does best: the exact pronunciation of Al-Fatihah and the short surahs, the tajweed that keeps the meaning of the words safe, and steady one-to-one practice on the days when a busy household cannot manage it.",
+          "That is what the kids classes at Al Kahaf Academy are built for. A qualified teacher works with your child live, one to one, listens to their recitation, corrects it gently in the moment, and keeps the pace steady week after week. Children usually start with Noorani Qaida, then move to the short surahs of Juz Amma, then to the duas and the steps of salah in the same lessons. You can try it with a free 3-day trial through the free trial page. Regular classes are 1-on-1 and online, with plans at $25 for 2 days a week, $35 for 3 days a week, and $45 for 5 days a week. Start tonight. Say Bismillah at dinner, say the sleeping dua at bedtime, and stand your child beside you for Maghrib tomorrow.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "What should a daily Islamic duas and salah guide for kids cover first?",
+        answer:
+          "Start with the duas, because they are short and they happen all day long: Bismillah before eating, the waking dua in the morning, and the sleeping dua at night. Start salah with one prayer a day, usually Maghrib, prayed together. Once those two anchors are steady, add one dua a week and one more prayer at a time.",
+      },
+      {
+        question: "At what age should my child start learning salah?",
+        answer:
+          "Let them copy you from age 2 or 3, standing beside you on their own small mat, with no correction and no pressure. Start teaching properly around age 5 or 6, one piece at a time. The Prophet ﷺ said to command children to pray at seven (Sunan Abi Dawud 495), and salah only becomes obligatory at puberty.",
+      },
+      {
+        question: "Which dua should my child learn first?",
+        answer:
+          "Bismillah, before eating. It takes two seconds, it happens three times a day, and it is the first word of nearly everything in Islam. After that, teach the waking dua and the sleeping dua, then Rabbi zidni ilma before studying, one a week.",
+      },
+      {
+        question: "How many duas should my child learn at once?",
+        answer:
+          "One a week, at most. Teach it at the moment it belongs to, say it together every day, and add the next one only when the first comes without thinking. A child who knows four duas properly is further ahead than a child who was shown twelve and remembers none.",
+      },
+      {
+        question: "My child refuses to pray. What should I do?",
+        answer:
+          "Stay calm and shrink the ask. A child refusing a full prayer will often agree to just stand next to you for this one, and that small, winnable step rebuilds cooperation faster than insisting on the full version. Check whether they are tired, hungry, embarrassed, or confused about a step, because those causes look identical to refusal from the outside. Never use prayer itself as a punishment, and keep praying yourself, where they can see it.",
+      },
+    ],
+  },
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPostData | undefined {

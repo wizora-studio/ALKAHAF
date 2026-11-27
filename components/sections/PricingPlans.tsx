@@ -8,6 +8,49 @@ import { getAutomaticCurrency, type Currency } from "@/lib/currency";
 const usdPrices = ["$25", "$35", "$45"];
 const eurPrices = ["€25", "€35", "€45"];
 
+function PlusAddOns({ dict }: { dict: any }) {
+  const [selected, setSelected] = useState<string[]>([]);
+  const toggle = (value: string) =>
+    setSelected((prev) =>
+      prev.includes(value) ? prev.filter((v) => v !== value) : [...prev, value]
+    );
+  const options = [
+    { value: "arabic", label: dict.plusArabic || "Arabic" },
+    { value: "urdu", label: dict.plusUrdu || "Urdu" },
+  ];
+  return (
+    <div className="mb-8 rounded-2xl border border-[#C5A059]/40 bg-[#FAF5EC] p-4">
+      <p className="text-sm font-bold text-[#2D1C13]">
+        {dict.plusTitle || "Plus: Add Arabic or Urdu"}
+      </p>
+      <p className="mt-1 text-xs text-[#5C4A3E] font-medium">
+        {dict.plusNote || "You can also select Arabic or Urdu with this plan."}
+      </p>
+      <div className="mt-3 flex flex-wrap gap-2">
+        {options.map((option) => {
+          const active = selected.includes(option.value);
+          return (
+            <button
+              key={option.value}
+              type="button"
+              aria-pressed={active}
+              onClick={() => toggle(option.value)}
+              className={`px-4 py-2 rounded-full text-sm font-bold border transition-all ${
+                active
+                  ? "bg-[#C5A059] text-white border-[#C5A059] shadow-md"
+                  : "bg-white text-[#2D1C13] border-[#EAE3D6] hover:border-[#C5A059]"
+              }`}
+            >
+              {active ? "✓ " : "+ "}
+              {option.label}
+            </button>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
 const PricingPlans = ({ dict }: { dict: any }) => {
   const [currency, setCurrency] = useState<Currency>("USD");
 
@@ -127,6 +170,8 @@ const PricingPlans = ({ dict }: { dict: any }) => {
                     </li>
                   ))}
                 </ul>
+
+                <PlusAddOns dict={dict} />
 
                 {/* Action */}
                 <Link

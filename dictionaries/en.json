@@ -185,6 +185,10 @@
     "period": "month",
     "perMonth": "/month",
     "popular": "Most Popular",
+    "plusTitle": "Plus: Add Arabic or Urdu",
+    "plusNote": "You can also select Arabic or Urdu with this plan.",
+    "plusArabic": "Arabic",
+    "plusUrdu": "Urdu",
     "badge": "Affordable & Flexible",
     "plans": {
       "days2": {

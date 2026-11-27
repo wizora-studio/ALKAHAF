@@ -2,13 +2,14 @@
 
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { Check, Clock, Calendar, Laptop, Users, Globe2 } from "lucide-react";
+import { Check, Clock, Calendar, Laptop, Users, Globe2, Plus } from "lucide-react";
 import Link from "next/link";
 import { getAutomaticCurrency, type Currency } from "@/lib/currency";
 const usdPrices = ["$25", "$35", "$45"];
 const eurPrices = ["€25", "€35", "€45"];
 
 function PlusAddOns({ dict }: { dict: any }) {
+  const [open, setOpen] = useState(false);
   const [selected, setSelected] = useState<string[]>([]);
   const toggle = (value: string) =>
     setSelected((prev) =>
@@ -19,34 +20,42 @@ function PlusAddOns({ dict }: { dict: any }) {
     { value: "urdu", label: dict.plusUrdu || "Urdu" },
   ];
   return (
-    <div className="mb-8 rounded-2xl border border-[#C5A059]/40 bg-[#FAF5EC] p-4">
-      <p className="text-sm font-bold text-[#2D1C13]">
-        {dict.plusTitle || "Plus: Add Arabic or Urdu"}
-      </p>
-      <p className="mt-1 text-xs text-[#5C4A3E] font-medium">
-        {dict.plusNote || "You can also select Arabic or Urdu with this plan."}
-      </p>
-      <div className="mt-3 flex flex-wrap gap-2">
-        {options.map((option) => {
-          const active = selected.includes(option.value);
-          return (
-            <button
-              key={option.value}
-              type="button"
-              aria-pressed={active}
-              onClick={() => toggle(option.value)}
-              className={`px-4 py-2 rounded-full text-sm font-bold border transition-all ${
-                active
-                  ? "bg-[#C5A059] text-white border-[#C5A059] shadow-md"
-                  : "bg-white text-[#2D1C13] border-[#EAE3D6] hover:border-[#C5A059]"
-              }`}
-            >
-              {active ? "✓ " : "+ "}
-              {option.label}
-            </button>
-          );
-        })}
-      </div>
+    <div className="mb-6">
+      <button
+        type="button"
+        onClick={() => setOpen((prev) => !prev)}
+        aria-expanded={open}
+        className="inline-flex items-center gap-1.5 py-1.5 px-3 rounded-full border border-[#C5A059]/50 bg-[#FAF5EC] text-[#9F7A38] text-xs font-bold hover:bg-[#C5A059] hover:text-white transition-colors"
+      >
+        <Plus
+          className={`w-3.5 h-3.5 transition-transform duration-300 ${
+            open ? "rotate-45" : ""
+          }`}
+        />
+        <span>Add Arabic or Urdu</span>
+      </button>
+      {open && (
+        <div className="mt-2 flex flex-wrap gap-2">
+          {options.map((option) => {
+            const active = selected.includes(option.value);
+            return (
+              <button
+                key={option.value}
+                type="button"
+                aria-pressed={active}
+                onClick={() => toggle(option.value)}
+                className={`px-3 py-1 rounded-full text-xs font-bold border transition-colors ${
+                  active
+                    ? "bg-[#C5A059] text-white border-[#C5A059]"
+                    : "bg-white text-[#9F7A38] border-[#C5A059]/50 hover:border-[#C5A059]"
+                }`}
+              >
+                + {option.label}
+              </button>
+            );
+          })}
+        </div>
+      )}
     </div>
   );
 }

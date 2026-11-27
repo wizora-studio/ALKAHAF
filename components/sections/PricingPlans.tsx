@@ -5,16 +5,19 @@ import { motion } from "framer-motion";
 import { Check, Clock, Calendar, Laptop, Users, Globe2, Plus } from "lucide-react";
 import Link from "next/link";
 import { getAutomaticCurrency, type Currency } from "@/lib/currency";
-const usdPrices = ["$25", "$35", "$45"];
-const eurPrices = ["€25", "€35", "€45"];
+const basePrices = [25, 35, 45];
+const plusPrice = 15;
 
-function PlusAddOns({ dict }: { dict: any }) {
+function PlusAddOns({
+  dict,
+  selected,
+  onToggle,
+}: {
+  dict: any;
+  selected: string[];
+  onToggle: (value: string) => void;
+}) {
   const [open, setOpen] = useState(false);
-  const [selected, setSelected] = useState<string[]>([]);
-  const toggle = (value: string) =>
-    setSelected((prev) =>
-      prev.includes(value) ? prev.filter((v) => v !== value) : [...prev, value]
-    );
   const options = [
     { value: "arabic", label: dict.plusArabic || "Arabic" },
     { value: "urdu", label: dict.plusUrdu || "Urdu" },
@@ -35,28 +38,135 @@ function PlusAddOns({ dict }: { dict: any }) {
         <span>Add Arabic or Urdu</span>
       </button>
       {open && (
-        <div className="mt-2 flex flex-wrap gap-2">
-          {options.map((option) => {
-            const active = selected.includes(option.value);
-            return (
-              <button
-                key={option.value}
-                type="button"
-                aria-pressed={active}
-                onClick={() => toggle(option.value)}
-                className={`px-3 py-1 rounded-full text-xs font-bold border transition-colors ${
-                  active
-                    ? "bg-[#C5A059] text-white border-[#C5A059]"
-                    : "bg-white text-[#9F7A38] border-[#C5A059]/50 hover:border-[#C5A059]"
-                }`}
-              >
-                + {option.label}
-              </button>
-            );
-          })}
-        </div>
+        <>
+          <div className="mt-2 flex flex-wrap gap-2">
+            {options.map((option) => {
+              const active = selected.includes(option.value);
+              return (
+                <button
+                  key={option.value}
+                  type="button"
+                  aria-pressed={active}
+                  onClick={() => onToggle(option.value)}
+                  className={`px-3 py-1 rounded-full text-xs font-bold border transition-colors ${
+                    active
+                      ? "bg-[#C5A059] text-white border-[#C5A059]"
+                      : "bg-white text-[#9F7A38] border-[#C5A059]/50 hover:border-[#C5A059]"
+                  }`}
+                >
+                  + {option.label}
+                </button>
+              );
+            })}
+          </div>
+          <p className="mt-2 text-[11px] text-[#7A685B] font-medium">
+            Adds ${plusPrice}/month per language.
+          </p>
+        </>
       )}
     </div>
+  );
+}
+
+function PlanCard({
+  plan,
+  index,
+  dict,
+  currency,
+}: {
+  plan: any;
+  index: number;
+  dict: any;
+  currency: Currency;
+}) {
+  const [selected, setSelected] = useState<string[]>([]);
+  const toggle = (value: string) =>
+    setSelected((prev) =>
+      prev.includes(value) ? prev.filter((v) => v !== value) : [...prev, value]
+    );
+  const symbol = currency === "EUR" ? "€" : "$";
+  const totalPrice = basePrices[plan.priceIndex] + plusPrice * selected.length;
+
+  return (
+    <motion.div
+      key={index}
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5, delay: index * 0.1 }}
+      whileHover={{ y: -10 }}
+      className={`
+        relative p-8 rounded-3xl border backdrop-blur-xl flex flex-col h-full
+        transition-all duration-300
+        ${
+          plan.popular
+            ? "bg-white border-[#C5A059] shadow-[0_10px_35px_rgba(197,160,89,0.2)] scale-105 z-10"
+            : "bg-white/90 border-[#EAE3D6] shadow-[0_4px_20px_rgba(45,28,19,0.05)] hover:border-[#C5A059]/50 hover:shadow-[0_8px_30px_rgba(197,160,89,0.12)]"
+        }
+      `}
+    >
+      {plan.popular && (
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[#C5A059] text-white font-bold px-4 py-1 rounded-full text-xs uppercase shadow-md tracking-wider">
+          {dict.popular}
+        </div>
+      )}
+
+      {/* Header */}
+      <div
+        className={`
+        w-12 h-12 rounded-2xl flex items-center justify-center mb-6
+        bg-[#FAF5EC] border border-[#C5A059]/30 text-[#C5A059] shadow-sm
+      `}
+      >
+        {plan.icon}
+      </div>
+
+      <h3 className="text-2xl font-bold text-[#2D1C13] mb-2 font-serif">
+        {plan.name}
+      </h3>
+      <p className="text-[#5C4A3E] text-sm mb-6 min-h-[40px]">
+        {plan.description}
+      </p>
+
+      <div className="flex items-baseline gap-1 mb-8">
+        <span className="text-4xl font-bold text-[#2D1C13]">
+          {symbol}
+          {totalPrice}
+        </span>
+        <span className="text-[#7A685B] font-medium">{plan.period}</span>
+      </div>
+
+      {/* Features */}
+      <ul className="space-y-4 mb-8 flex-grow">
+        {plan.features.map((feature: string, i: number) => (
+          <li key={i} className="flex items-start gap-3">
+            <div className="mt-1 w-5 h-5 rounded-full bg-[#FAF5EC] border border-[#C5A059]/30 flex items-center justify-center flex-shrink-0">
+              <Check className="w-3 h-3 text-[#C5A059]" />
+            </div>
+            <span className="text-[#5C4A3E] text-sm leading-snug font-medium">
+              {feature}
+            </span>
+          </li>
+        ))}
+      </ul>
+
+      <PlusAddOns dict={dict} selected={selected} onToggle={toggle} />
+
+      {/* Action */}
+      <Link
+        href="/admissions#admission-form"
+        className={`
+          w-full py-4 rounded-xl font-bold text-center transition-all duration-300 shadow-md active:scale-95
+          ${
+            plan.popular
+              ? "bg-[#C5A059] hover:bg-[#B38F46] text-white shadow-[0_4px_14px_rgba(197,160,89,0.35)]"
+              : "bg-[#FAF7F2] text-[#2D1C13] border border-[#EAE3D6] hover:bg-white hover:border-[#C5A059]"
+          }
+        `}
+        aria-label={`${dict.enrollNow || "Enroll Now"} in ${plan.name}`}
+      >
+        {dict.enrollNow || "Enroll Now"}
+      </Link>
+    </motion.div>
   );
 }
 
@@ -116,90 +226,15 @@ const PricingPlans = ({ dict }: { dict: any }) => {
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
-          {rawPlans.map((plan, index) => {
-            const currentPrice = (currency === "EUR" ? eurPrices : usdPrices)[plan.priceIndex];
-
-            return (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 50 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-                whileHover={{ y: -10 }}
-                className={`
-                  relative p-8 rounded-3xl border backdrop-blur-xl flex flex-col h-full
-                  transition-all duration-300
-                  ${
-                    plan.popular
-                      ? "bg-white border-[#C5A059] shadow-[0_10px_35px_rgba(197,160,89,0.2)] scale-105 z-10"
-                      : "bg-white/90 border-[#EAE3D6] shadow-[0_4px_20px_rgba(45,28,19,0.05)] hover:border-[#C5A059]/50 hover:shadow-[0_8px_30px_rgba(197,160,89,0.12)]"
-                  }
-                `}
-              >
-                {plan.popular && (
-                  <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[#C5A059] text-white font-bold px-4 py-1 rounded-full text-xs uppercase shadow-md tracking-wider">
-                    {dict.popular}
-                  </div>
-                )}
-
-                {/* Header */}
-                <div
-                  className={`
-                  w-12 h-12 rounded-2xl flex items-center justify-center mb-6
-                  bg-[#FAF5EC] border border-[#C5A059]/30 text-[#C5A059] shadow-sm
-                `}
-                >
-                  {plan.icon}
-                </div>
-
-                <h3 className="text-2xl font-bold text-[#2D1C13] mb-2 font-serif">
-                  {plan.name}
-                </h3>
-                <p className="text-[#5C4A3E] text-sm mb-6 min-h-[40px]">
-                  {plan.description}
-                </p>
-
-                <div className="flex items-baseline gap-1 mb-8">
-                  <span className="text-4xl font-bold text-[#2D1C13]">
-                    {currentPrice}
-                  </span>
-                  <span className="text-[#7A685B] font-medium">{plan.period}</span>
-                </div>
-
-                {/* Features */}
-                <ul className="space-y-4 mb-8 flex-grow">
-                  {plan.features.map((feature: string, i: number) => (
-                    <li key={i} className="flex items-start gap-3">
-                      <div className="mt-1 w-5 h-5 rounded-full bg-[#FAF5EC] border border-[#C5A059]/30 flex items-center justify-center flex-shrink-0">
-                        <Check className="w-3 h-3 text-[#C5A059]" />
-                      </div>
-                      <span className="text-[#5C4A3E] text-sm leading-snug font-medium">
-                        {feature}
-                      </span>
-                    </li>
-                  ))}
-                </ul>
-
-                <PlusAddOns dict={dict} />
-
-                {/* Action */}
-                <Link
-                  href="/admissions#admission-form"
-                  className={`
-                    w-full py-4 rounded-xl font-bold text-center transition-all duration-300 shadow-md active:scale-95
-                    ${
-                      plan.popular
-                        ? "bg-[#C5A059] hover:bg-[#B38F46] text-white shadow-[0_4px_14px_rgba(197,160,89,0.35)]"
-                        : "bg-[#FAF7F2] text-[#2D1C13] border border-[#EAE3D6] hover:bg-white hover:border-[#C5A059]"
-                    }
-                  `}
-                  aria-label={`${dict.enrollNow || "Enroll Now"} in ${plan.name}`}
-                >
-                  {dict.enrollNow || "Enroll Now"}
-                </Link>
-              </motion.div>
-            );
-          })}
+          {rawPlans.map((plan, index) => (
+            <PlanCard
+              key={index}
+              plan={plan}
+              index={index}
+              dict={dict}
+              currency={currency}
+            />
+          ))}
         </div>
 
         {/* Global Timezones Support Badge */}

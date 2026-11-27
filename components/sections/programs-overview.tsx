@@ -36,26 +36,31 @@ function LanguageAddOn() {
         <span>Add a language</span>
       </button>
       {open && (
-        <div className="mt-2 flex flex-wrap gap-2">
-          {["Arabic", "Urdu"].map((language) => {
-            const isSelected = selected.includes(language);
-            return (
-              <button
-                key={language}
-                type="button"
-                onClick={() => toggleLanguage(language)}
-                aria-pressed={isSelected}
-                className={`py-1 px-3 rounded-full text-xs font-bold border transition-colors ${
-                  isSelected
-                    ? "bg-[#C5A059] text-white border-[#C5A059]"
-                    : "bg-white text-[#9F7A38] border-[#C5A059]/50 hover:border-[#C5A059]"
-                }`}
-              >
-                + {language}
-              </button>
-            );
-          })}
-        </div>
+        <>
+          <div className="mt-2 flex flex-wrap gap-2">
+            {["Arabic", "Urdu"].map((language) => {
+              const isSelected = selected.includes(language);
+              return (
+                <button
+                  key={language}
+                  type="button"
+                  onClick={() => toggleLanguage(language)}
+                  aria-pressed={isSelected}
+                  className={`py-1 px-3 rounded-full text-xs font-bold border transition-colors ${
+                    isSelected
+                      ? "bg-[#C5A059] text-white border-[#C5A059]"
+                      : "bg-white text-[#9F7A38] border-[#C5A059]/50 hover:border-[#C5A059]"
+                  }`}
+                >
+                  + {language}
+                </button>
+              );
+            })}
+          </div>
+          <p className="mt-2 text-[11px] text-[#7A685B] font-medium">
+            Adds $15/month per language.
+          </p>
+        </>
       )}
     </div>
   );

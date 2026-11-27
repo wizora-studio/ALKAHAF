@@ -4,8 +4,8 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { Check, Globe2, Plus } from "lucide-react";
 import { getAutomaticCurrency, type Currency } from "@/lib/currency";
-const usdPrices = ["$25", "$35", "$45"];
-const eurPrices = ["€25", "€35", "€45"];
+const basePrices = [25, 35, 45];
+const plusPrice = 15;
 
 const PricingSection = ({ dict }: { dict: any }) => {
   const [currency, setCurrency] = useState<Currency>("USD");
@@ -59,7 +59,8 @@ const PricingSection = ({ dict }: { dict: any }) => {
               <PriceCard
                 key={index}
                 {...plan}
-                price={(currency === "EUR" ? eurPrices : usdPrices)[plan.priceIndex]}
+                basePrice={basePrices[plan.priceIndex]}
+                currencySymbol={currency === "EUR" ? "€" : "$"}
                 popularText={dict.popular}
                 enrollText="Enroll Now"
                 plusArabic={dict.plusArabic || "Arabic"}
@@ -86,16 +87,15 @@ const PricingSection = ({ dict }: { dict: any }) => {
 function PlusAddOns({
   plusArabic,
   plusUrdu,
+  selected,
+  onToggle,
 }: {
   plusArabic: string;
   plusUrdu: string;
+  selected: string[];
+  onToggle: (value: string) => void;
 }) {
   const [open, setOpen] = React.useState(false);
-  const [selected, setSelected] = React.useState<string[]>([]);
-  const toggle = (value: string) =>
-    setSelected((prev) =>
-      prev.includes(value) ? prev.filter((v) => v !== value) : [...prev, value]
-    );
   const options = [
     { value: "arabic", label: plusArabic },
     { value: "urdu", label: plusUrdu },
@@ -116,26 +116,31 @@ function PlusAddOns({
         <span>Add Arabic or Urdu</span>
       </button>
       {open && (
-        <div className="mt-2 flex flex-wrap gap-2">
-          {options.map((option) => {
-            const active = selected.includes(option.value);
-            return (
-              <button
-                key={option.value}
-                type="button"
-                aria-pressed={active}
-                onClick={() => toggle(option.value)}
-                className={`px-3 py-1 rounded-full text-xs font-bold border transition-colors ${
-                  active
-                    ? "bg-[#C5A059] text-white border-[#C5A059]"
-                    : "bg-white text-[#9F7A38] border-[#C5A059]/50 hover:border-[#C5A059]"
-                }`}
-              >
-                + {option.label}
-              </button>
-            );
-          })}
-        </div>
+        <>
+          <div className="mt-2 flex flex-wrap gap-2">
+            {options.map((option) => {
+              const active = selected.includes(option.value);
+              return (
+                <button
+                  key={option.value}
+                  type="button"
+                  aria-pressed={active}
+                  onClick={() => onToggle(option.value)}
+                  className={`px-3 py-1 rounded-full text-xs font-bold border transition-colors ${
+                    active
+                      ? "bg-[#C5A059] text-white border-[#C5A059]"
+                      : "bg-white text-[#9F7A38] border-[#C5A059]/50 hover:border-[#C5A059]"
+                  }`}
+                >
+                  + {option.label}
+                </button>
+              );
+            })}
+          </div>
+          <p className="mt-2 text-[11px] text-[#7A685B] font-medium">
+            Adds ${plusPrice}/month per language.
+          </p>
+        </>
       )}
     </div>
   );
@@ -143,7 +148,8 @@ function PlusAddOns({
 
 function PriceCard({
   name,
-  price,
+  basePrice,
+  currencySymbol,
   period,
   description,
   features,
@@ -154,7 +160,8 @@ function PriceCard({
   plusUrdu,
 }: {
   name: string;
-  price: string;
+  basePrice: number;
+  currencySymbol: string;
   period: string;
   description: string;
   features: string[];
@@ -164,6 +171,12 @@ function PriceCard({
   plusArabic: string;
   plusUrdu: string;
 }) {
+  const [selected, setSelected] = React.useState<string[]>([]);
+  const toggle = (value: string) =>
+    setSelected((prev) =>
+      prev.includes(value) ? prev.filter((v) => v !== value) : [...prev, value]
+    );
+  const totalPrice = basePrice + plusPrice * selected.length;
   return (
     <div
       className={`relative flex flex-col p-6 sm:p-8 rounded-3xl transition-all duration-300 h-full ${
@@ -186,7 +199,7 @@ function PriceCard({
       </p>
 
       <div className="flex items-baseline gap-1 mb-6">
-        <span className="text-4xl font-bold text-[#2D1C13]">{price}</span>
+        <span className="text-4xl font-bold text-[#2D1C13]">{currencySymbol}{totalPrice}</span>
         <span className="text-[#7A685B] font-medium">
           {period}
         </span>
@@ -209,6 +222,8 @@ function PriceCard({
       <PlusAddOns
         plusArabic={plusArabic}
         plusUrdu={plusUrdu}
+        selected={selected}
+        onToggle={toggle}
       />
 
       <Link

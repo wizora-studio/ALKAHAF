@@ -1,13 +1,72 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { BookOpen, Sparkles, GraduationCap, Languages, ArrowRight, Check } from "lucide-react";
+import { BookOpen, Sparkles, GraduationCap, ArrowRight, Check, Plus } from "lucide-react";
 
 interface ProgramsOverviewProps {
   dict: any;
   lang?: string;
+}
+
+function LanguageAddOn() {
+  const [open, setOpen] = useState(false);
+  const [selected, setSelected] = useState<string[]>([]);
+  const toggleLanguage = (language: string) =>
+    setSelected((prev) =>
+      prev.includes(language)
+        ? prev.filter((item) => item !== language)
+        : [...prev, language]
+    );
+
+  return (
+    <div className="mt-4 pt-4 border-t border-[#EAE3D6]/70">
+      <button
+        type="button"
+        onClick={() => setOpen((prev) => !prev)}
+        aria-expanded={open}
+        className="inline-flex items-center gap-2 py-1.5 px-3 rounded-full border border-[#C5A059]/50 bg-[#FAF5EC] text-[#9F7A38] text-xs font-bold hover:bg-[#C5A059] hover:text-white transition-colors"
+      >
+        <Plus
+          className={`w-3.5 h-3.5 transition-transform duration-300 ${
+            open ? "rotate-45" : ""
+          }`}
+        />
+        <span>Add a language</span>
+      </button>
+      {open && (
+        <div className="mt-3 rounded-2xl border border-[#C5A059]/50 bg-[#FAF5EC]/60 p-3.5">
+          <p className="text-xs font-bold text-[#2D1C13]">
+            Plus: Add Arabic or Urdu
+          </p>
+          <p className="text-xs text-[#5C4A3E] leading-relaxed mt-1">
+            You can also learn in Arabic or Urdu with this program.
+          </p>
+          <div className="flex flex-wrap gap-2 mt-3">
+            {["Arabic", "Urdu"].map((language) => {
+              const isSelected = selected.includes(language);
+              return (
+                <button
+                  key={language}
+                  type="button"
+                  onClick={() => toggleLanguage(language)}
+                  aria-pressed={isSelected}
+                  className={`py-1.5 px-3.5 rounded-full text-xs font-bold border transition-colors ${
+                    isSelected
+                      ? "bg-[#C5A059] text-white border-[#C5A059]"
+                      : "bg-white text-[#9F7A38] border-[#C5A059]/50 hover:border-[#C5A059]"
+                  }`}
+                >
+                  + {language}
+                </button>
+              );
+            })}
+          </div>
+        </div>
+      )}
+    </div>
+  );
 }
 
 export default function ProgramsOverview({ dict }: ProgramsOverviewProps) {
@@ -32,13 +91,6 @@ export default function ProgramsOverview({ dict }: ProgramsOverviewProps) {
       badge: "Memorization",
       popular: false,
       link: "/courses/hifz",
-    },
-    {
-      ...(dict?.arabic || dict?.programs?.[3]),
-      icon: <Languages className="w-7 h-7" />,
-      badge: "Language",
-      popular: false,
-      link: "/courses/arabic",
     },
   ].filter((p) => p && p.title);
 
@@ -89,8 +141,8 @@ export default function ProgramsOverview({ dict }: ProgramsOverviewProps) {
           </p>
         </motion.div>
 
-        {/* 4 Cards Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8 items-stretch">
+        {/* 3 Cards Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 items-stretch">
           {programs.map((program: any, idx: number) => (
             <motion.div
               key={idx}
@@ -151,6 +203,7 @@ export default function ProgramsOverview({ dict }: ProgramsOverviewProps) {
                     ))}
                   </ul>
                 )}
+                <LanguageAddOn />
               </div>
 
               {/* Bottom Interactive Link Pill */}

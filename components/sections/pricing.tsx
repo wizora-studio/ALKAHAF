@@ -2,10 +2,10 @@
 
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
-import { Check, Globe2 } from "lucide-react";
+import { Check, Globe2, Plus } from "lucide-react";
 import { getAutomaticCurrency, type Currency } from "@/lib/currency";
-const usdPrices = ["$25", "$35", "$45"];
-const eurPrices = ["€25", "€35", "€45"];
+const basePrices = [25, 35, 45];
+const plusPrice = 15;
 
 const PricingSection = ({ dict }: { dict: any }) => {
   const [currency, setCurrency] = useState<Currency>("USD");
@@ -59,9 +59,12 @@ const PricingSection = ({ dict }: { dict: any }) => {
               <PriceCard
                 key={index}
                 {...plan}
-                price={(currency === "EUR" ? eurPrices : usdPrices)[plan.priceIndex]}
+                basePrice={basePrices[plan.priceIndex]}
+                currencySymbol={currency === "EUR" ? "€" : "$"}
                 popularText={dict.popular}
                 enrollText="Enroll Now"
+                plusArabic={dict.plusArabic || "Arabic"}
+                plusUrdu={dict.plusUrdu || "Urdu"}
               />
             ))}
           </div>
@@ -81,25 +84,99 @@ const PricingSection = ({ dict }: { dict: any }) => {
   );
 };
 
+function PlusAddOns({
+  plusArabic,
+  plusUrdu,
+  selected,
+  onToggle,
+}: {
+  plusArabic: string;
+  plusUrdu: string;
+  selected: string[];
+  onToggle: (value: string) => void;
+}) {
+  const [open, setOpen] = React.useState(false);
+  const options = [
+    { value: "arabic", label: plusArabic },
+    { value: "urdu", label: plusUrdu },
+  ];
+  return (
+    <div className="mb-6">
+      <button
+        type="button"
+        onClick={() => setOpen((prev) => !prev)}
+        aria-expanded={open}
+        className="inline-flex items-center gap-1.5 py-1.5 px-3 rounded-full border border-[#C5A059]/50 bg-[#FAF5EC] text-[#9F7A38] text-xs font-bold hover:bg-[#C5A059] hover:text-white transition-colors"
+      >
+        <Plus
+          className={`w-3.5 h-3.5 transition-transform duration-300 ${
+            open ? "rotate-45" : ""
+          }`}
+        />
+        <span>Add Arabic or Urdu</span>
+      </button>
+      {open && (
+        <>
+          <div className="mt-2 flex flex-wrap gap-2">
+            {options.map((option) => {
+              const active = selected.includes(option.value);
+              return (
+                <button
+                  key={option.value}
+                  type="button"
+                  aria-pressed={active}
+                  onClick={() => onToggle(option.value)}
+                  className={`px-3 py-1 rounded-full text-xs font-bold border transition-colors ${
+                    active
+                      ? "bg-[#C5A059] text-white border-[#C5A059]"
+                      : "bg-white text-[#9F7A38] border-[#C5A059]/50 hover:border-[#C5A059]"
+                  }`}
+                >
+                  + {option.label}
+                </button>
+              );
+            })}
+          </div>
+          <p className="mt-2 text-[11px] text-[#7A685B] font-medium">
+            Adds ${plusPrice}/month per language.
+          </p>
+        </>
+      )}
+    </div>
+  );
+}
+
 function PriceCard({
   name,
-  price,
+  basePrice,
+  currencySymbol,
   period,
   description,
   features,
   highlight = false,
   popularText,
   enrollText,
+  plusArabic,
+  plusUrdu,
 }: {
   name: string;
-  price: string;
+  basePrice: number;
+  currencySymbol: string;
   period: string;
   description: string;
   features: string[];
   highlight?: boolean;
   popularText: string;
   enrollText: string;
+  plusArabic: string;
+  plusUrdu: string;
 }) {
+  const [selected, setSelected] = React.useState<string[]>([]);
+  const toggle = (value: string) =>
+    setSelected((prev) =>
+      prev.includes(value) ? prev.filter((v) => v !== value) : [...prev, value]
+    );
+  const totalPrice = basePrice + plusPrice * selected.length;
   return (
     <div
       className={`relative flex flex-col p-6 sm:p-8 rounded-3xl transition-all duration-300 h-full ${
@@ -122,7 +199,7 @@ function PriceCard({
       </p>
 
       <div className="flex items-baseline gap-1 mb-6">
-        <span className="text-4xl font-bold text-[#2D1C13]">{price}</span>
+        <span className="text-4xl font-bold text-[#2D1C13]">{currencySymbol}{totalPrice}</span>
         <span className="text-[#7A685B] font-medium">
           {period}
         </span>
@@ -141,6 +218,13 @@ function PriceCard({
           </li>
         ))}
       </ul>
+
+      <PlusAddOns
+        plusArabic={plusArabic}
+        plusUrdu={plusUrdu}
+        selected={selected}
+        onToggle={toggle}
+      />
 
       <Link
         href="/admissions"
